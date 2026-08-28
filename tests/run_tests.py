@@ -45,4 +45,13 @@ ok("split_blocks protection rules", kinds == ["text", "prot", "prot"], kinds)
 got = P.parse_numbered("[[1]]\nsatu\n\n[[3]]\ntiga", 3)
 ok("parse_numbered gaps", got == ["satu", None, "tiga"], got)
 
+# echoed trailing notes must not overwrite real translations (ch02 live bug)
+echo = "[[1]]\nterjemahan satu\n\n[[2]]\nterjemahan dua\n\nIDIOM NOTES\nblock [[1]]: some note text"
+got2 = P.parse_numbered(echo, 2)
+ok("parse_numbered echo-immune", got2 == ["terjemahan satu", "terjemahan dua"], got2)
+
+# translated-note leak: signature lines are scrubbed from block content
+dirty = "Ayat terjemahan sebenar.\n(blok 2) \"trade currency\" ialah idiom (nota). Jangan calque ini."
+ok("scrub_notes strips translated notes", P.scrub_notes(dirty) == "Ayat terjemahan sebenar.", repr(P.scrub_notes(dirty)))
+
 print(f"\nall {N[0]} regression checks pass")

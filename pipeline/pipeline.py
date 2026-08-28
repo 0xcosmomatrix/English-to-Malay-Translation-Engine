@@ -148,13 +148,21 @@ def numbered(chunks):
     return "\n\n".join(f"[[{i+1}]]\n{c}" for i, c in enumerate(chunks))
 
 def parse_numbered(raw, n):
+    # A model may echo the IDIOM NOTES section despite instructions (live bug,
+    # ch02). Cut the response at the notes heading so echoed guidance can neither
+    # spawn duplicate [[n]] markers nor be absorbed into the last block's text.
+    raw = re.split(r"\n\s*IDIOM NOTES\b", raw)[0]
     parts = re.split(r"\[\[(\d+)\]\]", raw)
     got = {}
     for i in range(1, len(parts) - 1, 2):
         try:
-            got[int(parts[i])] = parts[i + 1].strip()
+            k = int(parts[i])
         except ValueError:
-            pass
+            continue
+        # FIRST occurrence wins: a model that echoes trailing notes containing
+        # [[n]] markers must not overwrite the real translation (live bug, ch02).
+        if k not in got:
+            got[k] = parts[i + 1].strip()
     return [got.get(i + 1) for i in range(n)]
 
 # ---------------- prompts ----------------
@@ -248,6 +256,14 @@ def meaning_gate(model, en_b, rw_b):
     return False, "unparseable gate response (2 tries)"
 
 # ---------------- stages (parallel within each stage) ----------------
+NOTE_SIG = re.compile(r"^\s*\(blo\w*\s+\d+\)|ialah idiom|is an idiom|IDIOM NOTES|Jangan calque", re.I)
+
+def scrub_notes(text):
+    """Models sometimes translate the idiom guidance into Malay and emit it as
+    content (live bug, ch02 — twice, two different leak paths). The note text is
+    ours, so its signature is scrubbable deterministically."""
+    return "\n".join(l for l in text.split("\n") if not NOTE_SIG.search(l)).strip()
+
 def idiom_notes(chunk):
     """Per-batch calque prevention: name each English idiom present and how to
     render its MEANING. Fires only where an idiom actually occurs."""
@@ -256,7 +272,7 @@ def idiom_notes(chunk):
         low = c.lower()
         for it in IDIOMS:
             if it["phrase"] in low:
-                notes.append(f'block [[{j+1}]]: "{it["phrase"]}" is an idiom ({it["gloss"]}). {it["ms_guidance"]}')
+                notes.append(f'(block {j+1}) "{it["phrase"]}" is an idiom ({it["gloss"]}). {it["ms_guidance"]}')
     if not notes:
         return ""
     return ("\n\nIDIOM NOTES — render the meaning, never the words; do not echo these notes:\n"
@@ -271,7 +287,7 @@ def do_draft(model, blocks, log):
 
     def one_batch(arg):
         i, chunk = arg
-        got = parse_numbered(call(model, draft_prompt() + "\n\n" + numbered(chunk) + idiom_notes(chunk),
+        got = parse_numbered(call(model, draft_prompt() + idiom_notes(chunk) + "\n\n" + numbered(chunk),
                                   temp=0.3, stage="draft"), len(chunk))
         out = []
         for j, g in enumerate(got):
@@ -283,7 +299,7 @@ def do_draft(model, blocks, log):
             if not (g and g.strip()):
                 # Falling back to English is how 799 words once shipped untranslated.
                 raise RuntimeError(f"draft failed for block {i + j} after retries; refusing to emit English")
-            out.append(g)
+            out.append(scrub_notes(g))
         log(f"draft batch {i // B + 1}/{len(batches)} done")
         return i, out
 
