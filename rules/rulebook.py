@@ -57,10 +57,21 @@ def cmd_propose(args):
     known|={q["en"].lower() for q in d["open_questions"]}
     raw=json.loads(pathlib.Path(args.corrections).read_text(encoding="utf8"))
     cands=raw if isinstance(raw,list) else raw.get("corrections",[])
+    # AUTHORITY GUARD: a candidate that proposes moving AWAY from an enforced
+    # canonical, or re-introducing a ruled-out variant, re-litigates a settled
+    # ruling — auto-rejected with the ruling cited. Reopening is a deliberate
+    # human act on the term entry, never a side effect of mining old verdicts.
+    canon={t["canonical"].lower(): t for t in d["terms"]}
+    ruled_out={v.lower(): t for t in d["terms"] for v in t.get("variants",[])}
     added=0
     for c in cands:
         orig,sug=c.get("orig",""),c.get("sug","")
         if not orig or not sug or sug.startswith("("): continue
+        hit=canon.get(orig.lower()) or ruled_out.get(sug.lower())
+        if hit:
+            print(f"  REJECTED (standing ruling): {orig!r} -> {sug!r} conflicts with "
+                  f"'{hit['canonical']}' [{hit.get('source','')}]")
+            continue
         if orig.lower() in known or sug.lower() in known: continue
         n=len(occurrences(orig,corpus))
         risk=("context-free candidate: appears once, so the correction is total"

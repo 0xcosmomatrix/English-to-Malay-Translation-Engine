@@ -408,6 +408,14 @@ def gate(cfg, en_blocks, dr_blocks, rw_blocks, log):
             entries[i] = entry
             repaired_n += rep
     log(f"gate: {len(need_llm)} meaning checks done")
+    try:
+        import verdictlog
+        recs = [{"label": x["gate"], "input": {"en": x["en"][:400], "draft": (x["draft"] or "")[:400],
+                 "rewrite": (x["rewrite"] or "")[:400]}, "meta": {"why": x.get("why", "")[:200], "block": x["i"]}}
+                for x in entries if x and x["gate"] != "unchanged"]
+        verdictlog.log_verdicts("gate-decisions", recs, source="pipeline")
+    except Exception:
+        pass
     final = [(x["kind"], x["final"]) for x in entries]
     return final, entries, repaired_n
 

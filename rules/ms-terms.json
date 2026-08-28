@@ -797,6 +797,104 @@
    "status": "UNRESOLVED",
    "why": "PRPM: no KD entry; recent tech coinage, common in MY edu-tech (x2 in v3)",
    "source": "corpus-audit-2026-08-28"
+  },
+  {
+   "en": "trades (vocational/skilled)",
+   "options": [
+    "vokasional / kemahiran (reviewer)",
+    "perdagangan (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 27,
+    "samples": [
+     "sional sedia ada. Dewan Perindustrian dan Perdagangan (IHKs) di Baden-Württemberg k",
+     "ar TVET yang mampu menjembatani kepakaran perdagangan dengan literasi AI sedang mem",
+     "juga telah mendigitalkan sembilan kursus perdagangan perintis dengan sokongan stud"
+    ],
+    "risk": "CONTEXT-DEPENDENT: appears 27x — reviewer corrected one site, not the word"
+   },
+   "why": "Recurring mistranslation of TVET 'trades' as commercial 'perdagangan' instead of vocational skills.",
+   "source": "checkpoint"
+  },
+  {
+   "en": "practical (training/assessment)",
+   "options": [
+    "amali (reviewer)",
+    "praktikal (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 36,
+    "samples": [
+     "asi ketiga-tiga kolej ITE melalui latihan praktikal dalam bidang visi komputer, s",
+     "han — direka khusus untuk memenuhi budaya praktikal dan hands-on sektor VET. Mikr",
+     "enaga pengajar ditawarkan latihan AI yang praktikal dan mudah diakses berbanding"
+    ],
+    "risk": "CONTEXT-DEPENDENT: appears 36x — reviewer corrected one site, not the word"
+   },
+   "why": "Panel repeatedly favors 'amali' as the accurate formal register for TVET practicals over 'praktikal'.",
+   "source": "checkpoint"
+  },
+  {
+   "en": "across",
+   "options": [
+    "merentasi (reviewer)",
+    "bawah / melalui (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Panel consistently prefers the natural 'merentasi' and rejects awkward calques for 'across'.",
+   "source": "checkpoint"
+  },
+  {
+   "en": "dual (added concept)",
+   "options": [
+    "[omit] (reviewer)",
+    "dwi- (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Translator repeatedly adds 'dwi' (dual) where absent in source; must be omitted for fidelity.",
+   "source": "checkpoint"
+  },
+  {
+   "en": "patisserie",
+   "options": [
+    "patiseri (reviewer)",
+    "kuih-muih / pastri (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Panel consistently selects 'patiseri' as the precise Malaysian formal term over generic equivalents.",
+   "source": "checkpoint"
+  },
+  {
+   "en": "added explanatory phrases",
+   "options": [
+    "[omit] (reviewer)",
+    "Melalui kaedah ini / sedia ada / utlak (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Recurring pattern of adding unsource explanatory modifiers/phrases; must be stripped for fidelity.",
+   "source": "checkpoint"
   }
  ]
 }

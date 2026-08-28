@@ -87,4 +87,13 @@ ok("autofix from termbase", P.apply_autofix("teks prompt ini dan instruktur itu"
    P.apply_autofix("teks prompt ini dan instruktur itu"))
 ok("autofix skips comments", P.apply_autofix("<!-- INDEX: prompt -->\nteks prompt") == "<!-- INDEX: prompt -->\nteks prom")
 
+# verdict log roundtrip
+import tempfile
+os.environ["VERDICT_DATA_DIR"]=tempfile.mkdtemp()
+_vs=_iu.spec_from_file_location("vl", os.path.join(HERE,"..","pipeline","verdictlog.py"))
+VL=_iu.module_from_spec(_vs); _vs.loader.exec_module(VL)
+VL.log_verdicts("t",[{"label":"PASS","input":{"x":1}}],"test")
+got=VL.read_verdicts("t")
+ok("verdictlog roundtrip", len(got)==1 and got[0]["label"]=="PASS")
+
 print(f"\nall {N[0]} regression checks pass")

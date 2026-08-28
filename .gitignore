@@ -5,3 +5,4 @@ corpus/private/
 __pycache__/
 probe-*.html
 .env
+finetune-data/
