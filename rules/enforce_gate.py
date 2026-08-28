@@ -12,14 +12,15 @@ enforcement fails toward advisory, never the other way.
 Usage:  enforce_gate.py           apply (demote violators, stamp provenance)
         enforce_gate.py --check   validate only, exit 1 on violations (CI mode)
 """
-import json,re,sys,os,shutil,datetime,pathlib
+import json, sys, os as _os
+sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import msml,re,sys,os,shutil,datetime,pathlib
 HERE=pathlib.Path(__file__).resolve().parent
 BL=HERE/"ms-indonesian-blocklist.json"
 CAP=500   # throttle guardrail: the tier is meant to stay dozens-to-hundreds
 
 def body(p):
-    t=re.sub(r"<!--.*?-->","",pathlib.Path(p).read_text(encoding="utf8"),flags=re.S)
-    return re.sub(r"```.*?```","",t,flags=re.S)
+    return msml.mask_body(pathlib.Path(p).read_text(encoding="utf8"))
 def corpus_text(role,allow_missing=False):
     reg=json.load(open(HERE/"corpus-registry.json"))
     out=[]
@@ -36,7 +37,7 @@ def corpus_text(role,allow_missing=False):
         out+=[body(f) for f in files]
     return "\n".join(out)
 def hits(word,text):
-    return len(re.findall(rf"(?<![\w-]){re.escape(word)}(?![\w-])",text,re.I))
+    return msml.count_word(text,word)
 
 def main():
     check="--check" in sys.argv

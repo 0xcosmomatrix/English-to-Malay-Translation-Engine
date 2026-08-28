@@ -12,7 +12,9 @@ the ruling cheap; it does not make it unnecessary.
   rulebook.py propose <corrections.json> <corpus.md> [...]  # -> open_questions
   rulebook.py rule    <en> --accept|--reject   # apply a human ruling
 """
-import json,re,sys,shutil,pathlib,argparse,datetime
+import json, sys, os as _os
+sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import msml,re,sys,shutil,pathlib,argparse,datetime
 
 HERE=pathlib.Path(__file__).resolve().parent
 TERMS=HERE/"ms-terms.json"
@@ -23,13 +25,9 @@ def save(d):
     TERMS.write_text(json.dumps(d,ensure_ascii=False,indent=1)+"\n",encoding="utf8")
 
 def body(p):
-    t=re.sub(r"<!--.*?-->","",pathlib.Path(p).read_text(encoding="utf8"),flags=re.S)
-    return re.sub(r"```.*?```","",t,flags=re.S)     # prompts hold verbatim English
+    return msml.mask_body(pathlib.Path(p).read_text(encoding="utf8"))
 
-def word_pat(s):
-    # Boundaries apply to multi-word terms too: without them "rangka kerja"
-    # matches inside "Kerangka kerja" and the audit invents violations.
-    return rf"(?<![\w-]){re.escape(s)}(?![\w-])"
+word_pat = msml.word_pat
 
 def occurrences(term,text): return [m for m in re.finditer(word_pat(term),text,re.I)]
 def contexts(term,text,n=3):

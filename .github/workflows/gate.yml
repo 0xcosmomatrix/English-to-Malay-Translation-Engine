@@ -9,6 +9,8 @@ jobs:
         with: {python-version: "3.12"}
       # legs 1-2 + provenance completeness; leg 3 needs the private corpus and runs locally
       - run: python rules/enforce_gate.py --check --no-corpus
+      - name: regression suite
+        run: python tests/run_tests.py
       - name: all JSON parses
         run: |
           python - <<'PY'

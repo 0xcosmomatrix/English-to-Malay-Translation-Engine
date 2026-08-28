@@ -1,31 +1,35 @@
 #!/usr/bin/env python3
 """English -> Malay chapter pipeline: draft -> monolingual rewrite -> gated select.
 
-Single canonical module. The 2026-08-28 adversarial review found fixes stranded
-across sibling scripts (regate.py, gate_v3.py) while this entrypoint ran the old
-buggy gate; those siblings are gone and every fix lives here:
+Single canonical module; all review-verified fixes live here (comment
+conservation, in-memory alignment + blocks.json sidecar, bidirectional facts
+with time/% normalization, boundary matching everywhere, verified-rules gate).
 
-  1. restore_comments no longer drops comment lines when a translation has fewer
-     lines than its source (visits every comment index; conservation-asserted).
-  2. No re-splitting from disk for gating: blocks stay aligned in memory
-     end-to-end and are persisted to <name>-blocks.json. Re-gating reads the
-     sidecar; there is no count-mismatch zip to misalign silently.
-  3. Fact scoring is bidirectional: a candidate is penalized for numbers the
-     English never contained (hallucinated values), not only for missing ones.
-     Spelled-out English numbers ("three" -> "3"/"tiga") are excused.
-  4. All phrase matching is word-boundary based, multi-word included.
-  5. The deterministic gate uses the verified rules layer: the blocklist's
-     enforce tier (193 dictionary-verified entries) and termbase variants —
-     never the advisory flag tier, and never a hand-written word list.
+P0 workflow optimizations (2026-08-29):
+  - Intra-chapter parallelism: draft batches, rewrite batches, and meaning-gate
+    calls are mutually independent and now run concurrently under a semaphore
+    (PIPELINE_CONCURRENCY, default 6). Reassembly is by index, which the
+    numbered-block protocol guarantees.
+  - Usage telemetry: every call's token usage accumulates per stage and lands
+    in the chapter report with an estimated cost. The 23x reasoning-token
+    discovery was made by manual probing; telemetry makes that class of
+    anomaly visible on run one.
+  - Text mechanics (masking, numbers, boundaries) import from rules/msml.py —
+    the shared single source of truth.
 
 Usage:
   pipeline.py run <en-file.md> --out <dir> [--config budget|premium] [--name ch01]
-Env: OPENROUTER_API_KEY (required), MS_RULES_DIR, EXEMPLARS (default 43).
+Env: OPENROUTER_API_KEY (required), MS_RULES_DIR, EXEMPLARS (default 43),
+     PIPELINE_CONCURRENCY (default 6).
 """
-import argparse, json, os, re, sys, time, urllib.request, pathlib
+import argparse, collections, concurrent.futures, importlib.util, json, os, re
+import sys, threading, time, urllib.request, pathlib
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 RULES = os.environ.get("MS_RULES_DIR", os.path.join(_HERE, "..", "rules"))
+_spec = importlib.util.spec_from_file_location("msml", os.path.join(RULES, "msml.py"))
+M = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(M)
+
 TERMS = json.load(open(os.path.join(RULES, "ms-terms.json")))
 BLOCK = json.load(open(os.path.join(RULES, "ms-indonesian-blocklist.json")))
 TESTSET = json.load(open(os.path.join(_HERE, "..", "eval", "arbiter", "testset.json")))
@@ -42,15 +46,23 @@ CFG = {
     "budget":  {"draft": "qwen/qwen3.5-397b-a17b", "rewrite": "google/gemma-4-26b-a4b-it", "gate": "google/gemma-4-26b-a4b-it"},
     "premium": {"draft": "anthropic/claude-sonnet-5", "rewrite": "google/gemma-4-26b-a4b-it", "gate": "google/gemini-2.5-flash"},
 }
+# $/1M tokens (in, out) for the report's cost estimate; update when models change.
+PRICE = {"qwen/qwen3.5-397b-a17b": (0.39, 2.34), "anthropic/claude-sonnet-5": (2.00, 10.00),
+         "google/gemma-4-26b-a4b-it": (0.07, 0.34), "google/gemini-2.5-flash": (0.30, 2.50)}
 DNT = ["AI", "TVET", "PRISM", "TRUST", "BENCH", "HANDS", "GUARD", "ChatGPT", "Claude",
        "Copilot", "Intel", "UNESCO", "ILO", "ITE", "BIBB", "RTO"]
 ENFORCE = {e["avoid_id"].lower() for e in BLOCK.get("enforce", [])}
 VARIANTS = [(v, t["canonical"]) for t in TERMS["terms"] for v in t.get("variants", [])]
 VARIANTS += [(v, c["canonical"]) for c in _COLL if c.get("status") == "enforced" for v in c.get("variants", [])]
-CMT = re.compile(r"^\s*<!--.*?-->\s*$")
+CMT = M.CMT
+CONCURRENCY = int(os.environ.get("PIPELINE_CONCURRENCY", "6"))
 
-# ---------------- model I/O ----------------
-def call(model, text, temp=0.0, tries=4):
+# ---------------- model I/O with telemetry ----------------
+USAGE = collections.Counter()
+_ULOCK = threading.Lock()
+_SEM = threading.Semaphore(CONCURRENCY)
+
+def call(model, text, temp=0.0, tries=4, stage="misc", timeout=300):
     key = os.environ["OPENROUTER_API_KEY"]
     # reasoning off everywhere: 98% of Qwen3.5 output was billed reasoning tokens.
     body = json.dumps({"model": model, "messages": [{"role": "user", "content": text}],
@@ -58,10 +70,18 @@ def call(model, text, temp=0.0, tries=4):
     last = ""
     for a in range(tries):
         try:
-            r = urllib.request.Request("https://openrouter.ai/api/v1/chat/completions", data=body,
-                headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
-            with urllib.request.urlopen(r, timeout=300) as f:
-                d = json.load(f)
+            with _SEM:
+                r = urllib.request.Request("https://openrouter.ai/api/v1/chat/completions", data=body,
+                    headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
+                with urllib.request.urlopen(r, timeout=timeout) as f:
+                    d = json.load(f)
+            u = d.get("usage", {})
+            with _ULOCK:
+                USAGE[f"{stage}:in"] += u.get("prompt_tokens", 0)
+                USAGE[f"{stage}:out"] += u.get("completion_tokens", 0)
+                USAGE[f"{stage}:calls"] += 1
+                pin, pout = PRICE.get(model, (0, 0))
+                USAGE["est_cost_musd"] += int(u.get("prompt_tokens", 0) * pin + u.get("completion_tokens", 0) * pout)
             c = d["choices"][0]["message"]["content"]
             if c and c.strip():
                 return c
@@ -108,7 +128,7 @@ def strip_comments(block):
     return prose, keep
 
 def restore_comments(prose, keep):
-    """Reinsert comments at their original indices. Fix #1: the loop bound covers
+    """Reinsert comments at their original indices. The loop bound covers
     max(keep) even when the translation is shorter than the source, so a trailing
     comment can never be dropped; conservation is asserted."""
     if not keep:
@@ -167,30 +187,11 @@ RW = ("Anda ialah editor buku profesional dari Malaysia. Baiki setiap perenggan 
       "atau struktur markdown (#, **, senarai). Jika sesuatu perenggan sudah baik, kembalikannya tanpa perubahan. "
       "Kembalikan blok bernombor [[n]] yang sama sahaja.")
 
-# ---------------- deterministic checks ----------------
-NUM = re.compile(r"\d[\d.,%]*")
-MW = {"0": "sifar", "1": "satu", "2": "dua", "3": "tiga", "4": "empat", "5": "lima",
-      "6": "enam", "7": "tujuh", "8": "lapan", "9": "sembilan"}
-EN_NUM = {"zero": "0", "one": "1", "two": "2", "three": "3", "four": "4", "five": "5",
-          "six": "6", "seven": "7", "eight": "8", "nine": "9", "ten": "10", "eleven": "11",
-          "twelve": "12", "thirteen": "13", "fourteen": "14", "fifteen": "15", "sixteen": "16",
-          "seventeen": "17", "eighteen": "18", "nineteen": "19", "twenty": "20", "thirty": "30",
-          "forty": "40", "fifty": "50", "sixty": "60", "seventy": "70", "eighty": "80",
-          "ninety": "90", "hundred": "100", "thousand": "1000", "million": "1000000"}
-
-def nums(s):
-    # Times normalize across national conventions before extraction: EN "9:00" and
-    # Malaysian "9.00" are the same fact. Without this, every clock time in a
-    # chapter scores as one missing + one invented number (found live in ch02).
-    s = re.sub(r"\b(\d{1,2}):(\d{2})\b", r"\1.\2", s)
-    return sorted(re.sub(r"[.,]+$", "", m) for m in NUM.findall(s))
-
-def has_word(t, w):
-    return re.search(rf"(?<![\w-]){re.escape(w)}(?![\w-])", t, re.I) is not None
+# ---------------- deterministic checks (mechanics via msml) ----------------
+nums, has_word, MW, EN_NUM = M.nums, M.has_word, M.MW, M.EN_NUM
 
 def missing_facts(en_b, t):
-    """EN numbers absent from t, excusing 0-9 spelled out in Malay and % as 'peratus'."""
-    import collections
+    """EN numbers absent from t, excusing 0-9 spelled out, % as 'peratus', X.5 as 'setengah'."""
     miss = list((collections.Counter(nums(en_b)) - collections.Counter(nums(t))).elements())
     out = []
     for n in miss:
@@ -199,25 +200,22 @@ def missing_facts(en_b, t):
         if n.endswith("%") and re.search(rf"{re.escape(n[:-1])}\s*(%|peratus)", t, re.I):
             continue
         if re.fullmatch(r"\d+\.5", n) and has_word(t, "setengah"):
-            continue  # "2.5 hours" -> "dua setengah jam" is a correct rendering
+            continue
         out.append(n)
     return out
 
 def invented_facts(en_b, t):
-    """Fix #3: numbers in t whose VALUE the English never contained. Digits that
-    render a spelled-out English number are excused; duplicates of present values
-    are excused (restating '15,000' twice is not hallucination — inventing 90% is)."""
+    """Numbers in t whose VALUE the English never contained (bidirectional fact gate)."""
     en_vals = set(nums(en_b))
     for w, v in EN_NUM.items():
         if has_word(en_b, w):
             en_vals.add(v)
-    # normalize %: EN "28%" rendered as "28 peratus" is the same value, both ways
     en_vals |= {v.rstrip("%") for v in en_vals}
     return [n for n in set(nums(t)) if n not in en_vals and n.rstrip("%") not in en_vals]
 
 def det_reasons(en_b, cand):
     """Rule violations of one candidate measured against the ENGLISH + the verified
-    rules layer. Never measured against a sibling draft (the v2 lesson)."""
+    rules layer. Never measured against a sibling draft."""
     reasons = []
     m = missing_facts(en_b, cand)
     if m: reasons.append(f"facts missing: {m[:4]}")
@@ -238,7 +236,7 @@ def meaning_gate(model, en_b, rw_b):
          'and who-does-what relationship — with NOTHING added that the English does not say? '
          'Style differences are fine. Return STRICT JSON: {"verdict":"PASS"|"FAIL","reason":"<short>"}')
     for _ in range(2):
-        raw = call(model, p, temp=0.0)
+        raw = call(model, p, temp=0.0, stage="gate", timeout=90)
         m = re.search(r"\{.*\}", raw, re.S)
         if m:
             try:
@@ -249,82 +247,116 @@ def meaning_gate(model, en_b, rw_b):
         time.sleep(2)
     return False, "unparseable gate response (2 tries)"
 
-# ---------------- stages ----------------
+# ---------------- stages (parallel within each stage) ----------------
+def idiom_notes(chunk):
+    """Per-batch calque prevention: name each English idiom present and how to
+    render its MEANING. Fires only where an idiom actually occurs."""
+    notes = []
+    for j, c in enumerate(chunk):
+        low = c.lower()
+        for it in IDIOMS:
+            if it["phrase"] in low:
+                notes.append(f'block [[{j+1}]]: "{it["phrase"]}" is an idiom ({it["gloss"]}). {it["ms_guidance"]}')
+    if not notes:
+        return ""
+    return ("\n\nIDIOM NOTES — render the meaning, never the words; do not echo these notes:\n"
+            + "\n".join(notes[:12]))
+
 def do_draft(model, blocks, log):
     src = [b for k, b in blocks if k == "text"]
     stripped = [strip_comments(b) for b in src]
     texts = [pr for pr, _ in stripped]
-    out, B = [], 8
-    def idiom_notes(chunk):
-        """Per-batch calque prevention: name each English idiom present and how to
-        render its MEANING. Fires only where an idiom actually occurs — the whole
-        dictionary never rides along in the prompt."""
-        notes = []
-        for j, c in enumerate(chunk):
-            low = c.lower()
-            for it in IDIOMS:
-                if it["phrase"] in low:
-                    notes.append(f'block [[{j+1}]]: "{it["phrase"]}" is an idiom ({it["gloss"]}). {it["ms_guidance"]}')
-        if not notes:
-            return ""
-        return ("\n\nIDIOM NOTES — render the meaning, never the words; do not echo these notes:\n"
-                + "\n".join(notes[:12]))
-    for i in range(0, len(texts), B):
-        chunk = texts[i:i + B]
-        got = parse_numbered(call(model, draft_prompt() + "\n\n" + numbered(chunk) + idiom_notes(chunk), temp=0.3), len(chunk))
+    B = 8
+    batches = [(i, texts[i:i + B]) for i in range(0, len(texts), B)]
+
+    def one_batch(arg):
+        i, chunk = arg
+        got = parse_numbered(call(model, draft_prompt() + "\n\n" + numbered(chunk) + idiom_notes(chunk),
+                                  temp=0.3, stage="draft"), len(chunk))
+        out = []
         for j, g in enumerate(got):
             for _ in range(3):
                 if g is not None and g.strip():
                     break
-                g = (parse_numbered(call(model, draft_prompt() + "\n\n" + numbered([chunk[j]]), temp=0.3), 1) or [None])[0]
+                g = (parse_numbered(call(model, draft_prompt() + "\n\n" + numbered([chunk[j]]),
+                                         temp=0.3, stage="draft"), 1) or [None])[0]
             if not (g and g.strip()):
+                # Falling back to English is how 799 words once shipped untranslated.
                 raise RuntimeError(f"draft failed for block {i + j} after retries; refusing to emit English")
             out.append(g)
-        log(f"draft {min(i + B, len(texts))}/{len(texts)}")
-    out = [restore_comments(t, keep) for t, (_, keep) in zip(out, stripped)]
-    res, it = [], iter(out)
+        log(f"draft batch {i // B + 1}/{len(batches)} done")
+        return i, out
+
+    results = {}
+    with concurrent.futures.ThreadPoolExecutor(CONCURRENCY) as ex:
+        for i, out in ex.map(one_batch, batches):
+            results[i] = out
+    flat = [t for i in sorted(results) for t in results[i]]
+    flat = [restore_comments(t, keep) for t, (_, keep) in zip(flat, stripped)]
+    it = iter(flat)
     return [(k, b) if k == "prot" else ("text", next(it)) for k, b in blocks]
 
 def do_rewrite(model, blocks, log):
     texts = [(i, b) for i, (k, b) in enumerate(blocks) if k == "text"]
     meta = {i: strip_comments(b) for i, b in texts}
-    out, B = {}, 8
-    for s in range(0, len(texts), B):
-        chunk = texts[s:s + B]
-        got = parse_numbered(call(model, RW + "\n\n" + numbered([meta[i][0] for i, _ in chunk]), temp=0.0), len(chunk))
+    B = 8
+    batches = [texts[s:s + B] for s in range(0, len(texts), B)]
+
+    def one_batch(chunk):
+        got = parse_numbered(call(model, RW + "\n\n" + numbered([meta[i][0] for i, _ in chunk]),
+                                  temp=0.0, stage="rewrite"), len(chunk))
+        res = {}
         for (idx, orig), g in zip(chunk, got):
             if g and g.strip():
-                out[idx] = restore_comments(g, meta[idx][1])
+                # a failed rewrite falls back to the DRAFT (already Malay), never English
+                res[idx] = restore_comments(g, meta[idx][1])
             else:
-                out[idx] = orig
+                res[idx] = orig
                 log(f"rewrite fallback on block {idx} (parse failure) — draft kept")
-        log(f"rewrite {min(s + B, len(texts))}/{len(texts)}")
+        return res
+
+    out = {}
+    with concurrent.futures.ThreadPoolExecutor(CONCURRENCY) as ex:
+        for res in ex.map(one_batch, batches):
+            out.update(res)
+    log(f"rewrite {len(texts)}/{len(texts)}")
     return [(k, out.get(i, b) if k == "text" else b) for i, (k, b) in enumerate(blocks)]
 
 def gate(cfg, en_blocks, dr_blocks, rw_blocks, log):
     """Select the better of {draft, rewrite} per block, both scored against the
-    English; ties go to the rewrite (register-improved) via the meaning gate."""
-    final, entries, repaired = [], [], 0
+    English; deterministic decisions first, meaning-gate calls run in parallel."""
+    entries = [None] * len(en_blocks)
+    need_llm = []
     for i, ((k, e), (_, d), (_, r)) in enumerate(zip(en_blocks, dr_blocks, rw_blocks)):
         if k == "prot" or r.strip() == d.strip():
-            final.append((k, d))
-            entries.append({"i": i, "kind": k, "en": e, "draft": d, "rewrite": None,
-                            "final": d, "gate": "unchanged"})
+            entries[i] = {"i": i, "kind": k, "en": e, "draft": d, "rewrite": None,
+                          "final": d, "gate": "unchanged"}
             continue
         dd, rd = det_reasons(e, d), det_reasons(e, r)
         if len(rd) > len(dd):
-            final.append((k, d))
-            entries.append({"i": i, "kind": k, "en": e, "draft": d, "rewrite": r, "final": d,
-                            "gate": "revert-rules", "why": f"draft={dd or 'clean'} rewrite={rd}"})
+            entries[i] = {"i": i, "kind": k, "en": e, "draft": d, "rewrite": r, "final": d,
+                          "gate": "revert-rules", "why": f"draft={dd or 'clean'} rewrite={rd}"}
             continue
+        need_llm.append((i, e, d, r, dd, rd))
+
+    def one(arg):
+        i, e, d, r, dd, rd = arg
         ok, why = meaning_gate(cfg["gate"], e, r)
-        if ok and len(rd) < len(dd):
-            repaired += 1
+        repaired = ok and len(rd) < len(dd)
+        if repaired:
             why = f"REPAIRED draft {dd} -> {rd}"
-        final.append((k, r if ok else d))
-        entries.append({"i": i, "kind": k, "en": e, "draft": d, "rewrite": r,
-                        "final": r if ok else d, "gate": "kept" if ok else "revert-meaning", "why": why})
-    return final, entries, repaired
+        return i, {"i": i, "kind": "text", "en": e, "draft": d, "rewrite": r,
+                   "final": r if ok else d, "gate": "kept" if ok else "revert-meaning",
+                   "why": why}, repaired
+
+    repaired_n = 0
+    with concurrent.futures.ThreadPoolExecutor(CONCURRENCY) as ex:
+        for i, entry, rep in ex.map(one, need_llm):
+            entries[i] = entry
+            repaired_n += rep
+    log(f"gate: {len(need_llm)} meaning checks done")
+    final = [(x["kind"], x["final"]) for x in entries]
+    return final, entries, repaired_n
 
 def run(en_path, outdir, config, name):
     cfg = CFG[config]
@@ -332,27 +364,30 @@ def run(en_path, outdir, config, name):
     log = lambda m: print(f"    [{name}] {m}", flush=True)
     t0 = time.time()
     en_blocks = split_blocks(pathlib.Path(en_path).read_text(encoding="utf8"))
-    log(f"{len(en_blocks)} blocks ({sum(1 for k, _ in en_blocks if k == 'text')} translatable)")
+    log(f"{len(en_blocks)} blocks ({sum(1 for k, _ in en_blocks if k == 'text')} translatable), concurrency={CONCURRENCY}")
     dr = do_draft(cfg["draft"], en_blocks, log)
     (out / f"{name}-draft.md").write_text(join_blocks(dr), encoding="utf8")
     rw = do_rewrite(cfg["rewrite"], dr, log)
     (out / f"{name}-rewrite.md").write_text(join_blocks(rw), encoding="utf8")
     final, entries, repaired = gate(cfg, en_blocks, dr, rw, log)
     (out / f"{name}-final.md").write_text(join_blocks(final), encoding="utf8")
-    # Fix #2: alignment persisted; regating or judging later reads this, never re-splits.
+    # alignment persisted: regating/judging later reads this, never re-splits from disk
     json.dump(entries, open(out / f"{name}-blocks.json", "w"), ensure_ascii=False, indent=1)
     changed = [x for x in entries if x["gate"] != "unchanged"]
     kept = sum(1 for x in changed if x["gate"] == "kept")
     residual = [{"i": x["i"], "issues": det_reasons(x["en"], x["final"])}
                 for x in entries if x["kind"] == "text"]
     residual = [r for r in residual if r["issues"]]
+    usage = {k: v for k, v in USAGE.items() if k != "est_cost_musd"}
     rep = {"name": name, "config": config, "models": cfg,
            "blocks": len(en_blocks), "changed": len(changed), "kept": kept,
            "reverted": len(changed) - kept, "repaired": repaired,
-           "residual_rule_issues": residual, "seconds": round(time.time() - t0)}
+           "residual_rule_issues": residual, "seconds": round(time.time() - t0),
+           "usage": usage, "est_cost_usd": round(USAGE["est_cost_musd"] / 1e6, 4)}
     json.dump(rep, open(out / f"{name}-report.json", "w"), ensure_ascii=False, indent=1)
     log(f"done: changed={len(changed)} kept={kept} reverted={len(changed)-kept} "
-        f"repaired={repaired} residual={len(residual)} ({rep['seconds']}s)")
+        f"repaired={repaired} residual={len(residual)} "
+        f"(${rep['est_cost_usd']:.3f}, {rep['seconds']}s)")
     return rep
 
 def main():

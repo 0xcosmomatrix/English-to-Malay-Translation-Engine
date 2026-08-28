@@ -1,11 +1,13 @@
-import json,re,sys,pathlib,collections
+import json, sys, os as _os
+sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+import msml,re,sys,pathlib,collections
 HERE=pathlib.Path(__file__).resolve().parent
 bl=json.load(open(HERE/"ms-indonesian-blocklist.json")); tm=json.load(open(HERE/"ms-terms.json"))
 text=pathlib.Path(sys.argv[1]).read_text(encoding="utf8")
 # strip code fences and HTML comments — prompts hold verbatim English
-body=re.sub(r"```.*?```","",text,flags=re.S); body=re.sub(r"<!--.*?-->","",body,flags=re.S)
+body=msml.mask_body(text)
 def hits(term):
-    return len(re.findall(rf"(?<![\w-]){re.escape(term)}(?![\w-])", body, re.I))
+    return msml.count_word(body, term)
 print(f"  {pathlib.Path(sys.argv[1]).name}  ({len(body.split()):,} words)\n")
 # Tiers are whatever the blocklist actually declares. Hardcoding
 # ("enforce","flag","ruling") made this script die on KeyError against the
