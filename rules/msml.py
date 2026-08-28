@@ -27,6 +27,11 @@ def has_word(t, w):
 def count_word(t, w):
     return len(re.findall(word_pat(w), t, re.I))
 
+def count_word_cs(t, w):
+    """Case-SENSITIVE count. DNT tokens are proper names: 'TRUST' the framework
+    must not collide with 'trust' the verb (live false-positive, 11 blocks)."""
+    return len(re.findall(word_pat(w), t))
+
 NUM = re.compile(r"\d[\d.,%]*")
 
 def nums(s):

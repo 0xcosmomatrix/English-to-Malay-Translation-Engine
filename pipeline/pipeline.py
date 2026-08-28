@@ -235,7 +235,7 @@ def det_reasons(en_b, cand):
     if m: reasons.append(f"facts missing: {m[:4]}")
     inv = invented_facts(en_b, cand)
     if inv: reasons.append(f"facts invented: {inv[:4]}")
-    lost = [d for d in DNT if M.count_word(en_b, d) > M.count_word(cand, d)]
+    lost = [d for d in DNT if M.count_word_cs(en_b, d) > M.count_word_cs(cand, d)]
     if lost: reasons.append(f"DNT lost: {lost}")
     hard = sorted(w for w in ENFORCE if has_word(cand, w))
     if hard: reasons.append(f"enforce-tier violation: {hard[:4]}")

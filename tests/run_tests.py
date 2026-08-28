@@ -65,4 +65,8 @@ ok("variant-in-canonical guard", not any("dwi AI" in x for x in r5), r5)
 r6 = P.det_reasons("See AI+ Everyone (T1-01) for details.", "Rujuk AI+ Semua Orang (T1-01) untuk butiran.")
 ok("DNT phrase loss caught", any("AI+ Everyone" in x for x in r6), r6)
 
+# DNT is case-sensitive: 'trust' the verb is not 'TRUST' the framework
+r7 = P.det_reasons("You must trust the output and check hands-on work.", "Anda mesti percaya output dan semak kerja amali.")
+ok("DNT case-sensitivity", not any("DNT" in x for x in r7), r7)
+
 print(f"\nall {N[0]} regression checks pass")
