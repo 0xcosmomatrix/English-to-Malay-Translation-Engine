@@ -51,7 +51,7 @@ def main():
     for e in bl.get("enforce",[]):
         w=e["avoid_id"]; reasons=[]
         if e.get("panel")!="unanimous-3": reasons.append("no unanimous panel record")  # no default: absence of provenance is a failure, not a pass
-        o=led.get(w.lower(),{}).get("verdict")
+        o=led.get(w.lower(),{}).get("verdict","")
         if o not in ("VERIFIED_INDONESIAN","NO_ENTRY"): reasons.append(f"oracle leg fails: {o or 'not in ledger'}")
         h_ms,h_en=hits(w,ms),hits(w,en)
         if h_ms: reasons.append(f"fires {h_ms}x in approved Malay corpus")
@@ -63,7 +63,20 @@ def main():
     print(f"enforce: {len(keep)} clean, {len(demoted)} demoted")
     for d in demoted: print(f"  DEMOTE {d['avoid_id']:<16} {d['why']}")
     if len(keep)>CAP: print(f"  WARNING: enforce tier {len(keep)} > {CAP} — review growth")
-    if check: sys.exit(1 if demoted else 0)
+    if check:
+        # mirror-drift detection: verify the manifest stamped at last apply
+        mf=HERE/"rules-manifest.json"
+        if mf.exists():
+            import hashlib
+            man=json.load(open(mf)); drift=[]
+            for fn,h in man.items():
+                fp=HERE/fn
+                cur=hashlib.sha256(fp.read_bytes()).hexdigest() if fp.exists() else "MISSING"
+                if cur!=h: drift.append(fn)
+            if drift:
+                print(f"  MIRROR DRIFT: {drift} differ from the last gate-applied state — "
+                      f"a hand-copy has diverged; re-run apply or re-sync before trusting results")
+        sys.exit(1 if demoted else 0)
     if demoted or any("corpus_clean" not in e for e in bl.get("enforce",[])):
         shutil.copy(BL,str(BL)+".bak")
         bl["enforce"]=keep
@@ -72,7 +85,16 @@ def main():
             if d["avoid_id"].lower() not in have:
                 bl["flag"].append({"en":d.get("en",""),"ms":d.get("ms",""),"avoid_id":d["avoid_id"],
                                    "demoted_from_enforce":d["demoted"],"why":d["why"]})
+            else:
+                # audit trail must survive even when the flag entry already exists
+                for e in bl["flag"]:
+                    if e["avoid_id"].lower()==d["avoid_id"].lower():
+                        e["demoted_from_enforce"]=d["demoted"]; e["demotion_why"]=d["why"]
         bl["_counts"]={"enforce":len(keep),"flag":len(bl["flag"])}
         json.dump(bl,open(BL,"w"),ensure_ascii=False,indent=1)
-        print("written (backup: .bak)")
+        import hashlib
+        man={f.name:hashlib.sha256(f.read_bytes()).hexdigest()
+             for f in sorted(HERE.glob("ms-*.json")) if f.name!="rules-manifest.json"}
+        (HERE/"rules-manifest.json").write_text(json.dumps(man,indent=1))
+        print("written (backup: .bak; manifest stamped)")
 main()

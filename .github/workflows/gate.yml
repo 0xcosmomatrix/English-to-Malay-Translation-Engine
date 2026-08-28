@@ -1,5 +1,8 @@
 name: gate
 on: [push, pull_request]
+permissions:
+  contents: read
+
 jobs:
   rules-gate:
     runs-on: ubuntu-latest
@@ -20,4 +23,4 @@ jobs:
           print(f"{len(files)} JSON files parse")
           PY
       - name: pipeline + tools compile
-        run: python -m py_compile rules/msml.py rules/enforce_gate.py rules/rulebook.py rules/check_terms.py pipeline/pipeline.py pipeline/run_book.py
+        run: python -m py_compile rules/msml.py rules/enforce_gate.py rules/rulebook.py rules/check_terms.py rules/check_lexicon.py rules/checkpoint.py pipeline/pipeline.py pipeline/run_book.py pipeline/repair.py pipeline/trial.py pipeline/verdictlog.py pipeline/backfill_verdicts.py

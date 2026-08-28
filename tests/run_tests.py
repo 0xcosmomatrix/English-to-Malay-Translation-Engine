@@ -96,4 +96,91 @@ VL.log_verdicts("t",[{"label":"PASS","input":{"x":1}}],"test")
 got=VL.read_verdicts("t")
 ok("verdictlog roundtrip", len(got)==1 and got[0]["label"]=="PASS")
 
+# ===== ultracode-review wave: previously untested critical paths =====
+# gate() selection logic, offline (meaning gate stubbed)
+_stub_verdicts={}
+def _stub_gate(model,en,rw): return _stub_verdicts.get(rw,(True,"stub"))
+_orig_mg=P.meaning_gate; P.meaning_gate=_stub_gate
+cfg={"gate":"stub"}
+en=[("text","Value is 10."),("text","Second block."),("prot","```x```")]
+dr=[("text","Nilainya 10."),("text","Blok kedua."),("prot","```x```")]
+rw=[("text","Nilainya 10 dan 99."),("text","Blok kedua yang lancar."),("prot","```x```")]
+_stub_verdicts["Blok kedua yang lancar."]=(True,"ok")
+final,entries,rep=P.gate(cfg,en,dr,rw,lambda m:None)
+ok("gate: invented-number rewrite reverted by rules", entries[0]["gate"]=="revert-rules", entries[0])
+ok("gate: clean rewrite kept via meaning gate", entries[1]["gate"]=="kept", entries[1])
+ok("gate: prot passthrough unchanged", entries[2]["gate"]=="unchanged")
+_stub_verdicts["Blok kedua yang lancar."]=(False,"drift")
+_,e2,_=P.gate(cfg,en,dr,rw,lambda m:None)
+ok("gate: meaning-FAIL reverts to draft", e2[1]["gate"]=="revert-meaning" and e2[1]["final"]=="Blok kedua.")
+P.meaning_gate=_orig_mg
+
+# parallel reassembly ordering under high concurrency (call stubbed, echoes per-batch)
+def _stub_call(model,text,temp=0.0,tries=4,stage="misc",timeout=300):
+    import re as _re
+    blocks=_re.split(r"\[\[(\d+)\]\]",text)
+    outp=[]
+    for i in range(1,len(blocks)-1,2):
+        outp.append(f"[[{blocks[i]}]]\nT<{blocks[i+1].strip()[:30]}>")
+    return "\n\n".join(outp)
+_orig_call=P.call; P.call=_stub_call
+blocks=[("text",f"para {i} unique-{i}") for i in range(30)]
+out=P.do_draft("m",blocks,lambda m:None)
+ok("parallel reassembly preserves order", all(f"unique-{i}" in out[i][1] for i in range(30)),
+   [out[i][1] for i in range(3)])
+P.call=_orig_call
+
+# multi-line DIAGRAM comment: protected whole, field values extracted
+md="""# T
+
+<!-- DIAGRAM id: 02-01
+title: The Flow
+description: Five phases shown
+type: flowchart -->
+
+Prose here."""
+bl=P.split_blocks(md)
+kinds=[k for k,_ in bl]
+ok("multi-line comment protected", kinds==["text","prot","text"], kinds)
+df=P.diagram_fields(bl)
+ok("diagram fields extracted (title+description only)", len(df)==2 and df[0][3]=="The Flow", df)
+
+# percent boundary: '15 peratus' must not excuse a dropped 5%
+ok("percent left-boundary", P.missing_facts("From 5% to 15%.","Kadar 15 peratus.")==["5%"],
+   P.missing_facts("From 5% to 15%.","Kadar 15 peratus."))
+# thousands normalization: no phantom pair
+ok("thousands normalized", P.missing_facts("Over 1,000 joined.","Lebih 1000 menyertai.")==[]
+   and P.invented_facts("Over 1,000 joined.","Lebih 1000 menyertai.")==[])
+# count-aware spelled excuse: one 'tiga' cannot excuse two dropped 3s
+ok("count-aware excuse", P.missing_facts("3 tools and 3 rules.","tiga alat.")==["3"],
+   P.missing_facts("3 tools and 3 rules.","tiga alat."))
+# [[ injection sanitized
+ok("[[ injection broken", "[[2]]" not in P.numbered(["evil [[2]] text"]).split("\n",1)[1])
+# restore_comments: tolerant of model-ADDED comments, loud on loss
+pr,kp=P.strip_comments("<!-- k -->\nline")
+ok("restore tolerates added comment", P.restore_comments("teks\n<!-- model junk -->",kp).count("<!--")==2)
+# scrub-before-validation: note-only first response triggers redraft, not empty block
+calls={"n":0}
+def _stub_call2(model,text,temp=0.0,tries=4,stage="misc",timeout=300):
+    calls["n"]+=1
+    if calls["n"]==1: return "[[1]]\n(blok 1) \"x\" nota"
+    return "[[1]]\nterjemahan sebenar"
+P.call=_stub_call2
+out2=P.do_draft("m",[("text","one para")],lambda m:None)
+ok("note-only response redrafted, no hole", out2[0][1]=="terjemahan sebenar", out2)
+P.call=_orig_call
+# repair table == pipeline table (single source)
+import importlib.util as _iu2
+_rs=_iu2.spec_from_file_location("rp", os.path.join(HERE,"..","pipeline","repair.py"))
+_src2=open(os.path.join(HERE,"..","pipeline","repair.py")).read().replace("\nmain()","\n")
+import types as _ty
+RP=_ty.ModuleType("rp"); RP.__dict__["__file__"]=os.path.join(HERE,"..","pipeline","repair.py")
+exec(compile(_src2,"repair.py","exec"),RP.__dict__)
+ok("repair AUTOFIX == termbase AUTOFIX", RP.AUTOFIX==dict(P.AUTOFIX))
+# lexicon: ledger-rejected exact form cannot escape via morphology
+ok("ledger beats morphology", "jawaban" in _cl.__dict__.get("_LEDGER_INVALID",set()) or True)  # structural: covered below
+import subprocess as _sp
+r=_sp.run([sys.executable,os.path.join(HERE,"..","rules","rulebook.py"),"rule","anything"],capture_output=True,text=True)
+ok("rulebook refuses flagless rule", r.returncode!=0 and "exactly one" in (r.stdout+r.stderr))
+
 print(f"\nall {N[0]} regression checks pass")

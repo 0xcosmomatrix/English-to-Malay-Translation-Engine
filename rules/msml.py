@@ -35,8 +35,11 @@ def count_word_cs(t, w):
 NUM = re.compile(r"\d[\d.,%]*")
 
 def nums(s):
-    """Number multiset. Times normalize across national conventions first:
-    EN '9:00' and Malaysian '9.00' are the same fact."""
+    """Number multiset. Normalized before extraction: times across national
+    conventions (EN 9:00 = MS 9.00) and thousands separators (1,000 = 1000) —
+    without this, a correct translation earns BOTH a phantom missing fact and a
+    phantom invented one, and cosmetics can decide gate selection."""
+    s = re.sub(r"(?<=\d),(?=\d{3}(?:\D|$))", "", s)
     s = re.sub(r"\b(\d{1,2}):(\d{2})\b", r"\1.\2", s)
     return sorted(re.sub(r"[.,]+$", "", m) for m in NUM.findall(s))
 

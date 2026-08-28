@@ -8,7 +8,7 @@ the generating pipeline.
 
 Usage: trial.py <en-file.md> --configs budget,premium --out DIR [--judge]
 """
-import argparse, json, os, random, re, sys, pathlib, importlib.util
+import argparse, hashlib, json, os, random, re, sys, pathlib, importlib.util
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import verdictlog as V
@@ -23,7 +23,8 @@ def main():
     a = ap.parse_args()
     cfgs = a.configs.split(",")
     out = pathlib.Path(a.out); out.mkdir(parents=True, exist_ok=True)
-    rng = random.Random(hash(a.en_file) & 0xffff)          # stable blind labels per trial
+    seed = int(hashlib.md5(a.en_file.encode()).hexdigest()[:8], 16)  # stable across runs
+    rng = random.Random(seed)
     labels = dict(zip(cfgs, rng.sample([chr(65 + i) for i in range(len(cfgs))], len(cfgs))))
     json.dump(labels, open(out / "blind-key.json", "w"))    # sealed key
     name = pathlib.Path(a.en_file).stem

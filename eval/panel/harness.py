@@ -104,4 +104,5 @@ def main():
         json.dump(res,open(outf,"w"),ensure_ascii=False)
     print(f"DONE chunk{a.chunk} items={len(chunk)} failures={fails}")
 
-main()
+if __name__=="__main__":
+    main()

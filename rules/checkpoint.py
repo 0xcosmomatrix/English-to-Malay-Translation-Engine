@@ -8,7 +8,7 @@ evidence for a human ruling — the same gate every other intake passes.
 
 Usage: checkpoint.py <corpus.md ...>   (corpus = current book, for evidence counts)
 """
-import json, os, re, sys, collections, pathlib, urllib.request, subprocess
+import json, os, re, sys, collections, pathlib, tempfile, urllib.request, subprocess
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent / "pipeline"))
 import verdictlog as V
@@ -26,12 +26,19 @@ def bucket():
             if r["label"] == "revert-meaning" and len(b["meaning_fail_snippets"]) < 25:
                 b["meaning_fail_snippets"].append(why[:150])
     for r in V.read_verdicts("panel-votes"):
-        if r["label"] == "ship":
-            b["panel_loss_reasons"][r["meta"].get("reason", "")[:100]] += 1
+        meta = r.get("meta", {})
+        pair = meta.get("pair", "")   # trial records: label = winning config
+        lost = r["label"] == "ship" or (pair and r["label"] not in ("TIE", pair.split("-vs-")[0]))
+        if lost and meta.get("reason"):
+            b["panel_loss_reasons"][meta["reason"][:100]] += 1
+        elif r["label"] == "ship":
+            b["panel_loss_reasons"][meta.get("reason", "(no reason recorded)")[:100]] += 1
     return b
 
 def main():
-    corpus = sys.argv[1:]
+    corpus = [f for f in sys.argv[1:] if os.path.exists(f)]
+    if not corpus:
+        print("WARNING: no corpus files exist — occurrence evidence will be x0")
     b = bucket()
     top_reverts = "\n".join(f"- x{n} {k}" for k, n in b["revert_reasons"].most_common(15))
     losses = "\n".join(f"- {k}" for k, _ in b["panel_loss_reasons"].most_common(15))
@@ -63,8 +70,9 @@ Return STRICT JSON: {{"candidates":[...]}}"""
         print(f"  - {c.get('orig','?')} -> {c.get('sug','?')}  ({c.get('why','')[:70]})")
     if not cands:
         return
-    tmp = "/tmp/checkpoint-candidates.json"
-    json.dump(cands, open(tmp, "w"), ensure_ascii=False)
+    fd, tmp = tempfile.mkstemp(suffix=".json", prefix="checkpoint-")
+    with os.fdopen(fd, "w") as f:
+        json.dump(cands, f, ensure_ascii=False)
     # the same human-gated intake every correction passes — never straight to terms
     subprocess.run([sys.executable, str(HERE / "rulebook.py"), "propose", tmp,
                     *corpus, "--source", "checkpoint"], check=False)

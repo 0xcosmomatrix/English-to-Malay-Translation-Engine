@@ -93,8 +93,15 @@ def cmd_propose(args):
     print(f"  ruling sheet: {len([q for q in d['open_questions'] if q['status']=='UNRESOLVED'])} unresolved total.")
 
 def cmd_rule(args):
+    # CRITICAL review find: --accept was declared but never checked — a bare
+    # `rule "word"` silently ENFORCED. Exactly one explicit flag is required.
+    if not (bool(args.accept) ^ bool(args.reject)):
+        sys.exit("pass exactly one of --accept / --reject — enforcement is never a default")
     d=load(); q=next((x for x in d["open_questions"] if x["en"].lower()==args.en.lower()),None)
     if not q: sys.exit(f"no open question for {args.en!r}")
+    if not q["status"].startswith("UNRESOLVED"):
+        sys.exit(f"already ruled: {q['status']!r} — resolved stays resolved; reopen deliberately by "
+                 f"editing the question status, never by re-ruling")
     if args.reject:
         q["status"]=f"REJECTED {datetime.date.today()}"; save(d)
         print(f"  '{args.en}' marked rejected; stays out of the enforced layer."); return
@@ -107,6 +114,8 @@ def cmd_rule(args):
     if variant:
         led=json.loads((HERE/"ms-prpm-ledger.json").read_text(encoding="utf8")) if (HERE/"ms-prpm-ledger.json").exists() else {}
         o=led.get(variant.lower(),{}).get("verdict")
+        if o=="UNCLEAR" and not args.force:
+            sys.exit(f"  refusing: PRPM ruling for {variant!r} is UNCLEAR — resolve the lookup first")
         if o is None and not args.force:
             sys.exit(f"  refusing: no PRPM ledger ruling for {variant!r}. Look it up "
                      f"(https://prpm.dbp.gov.my/Cari1?keyword={variant}), record it in "
@@ -134,4 +143,5 @@ b.add_argument("--source",default=f"review-{datetime.date.today():%Y-%m}"); b.se
 c=sub.add_parser("rule");    c.add_argument("en"); c.add_argument("--accept",action="store_true")
 c.add_argument("--reject",action="store_true"); c.add_argument("--canonical"); c.add_argument("--force",action="store_true")
 c.set_defaults(f=cmd_rule)
-args=ap.parse_args(); args.f(args)
+if __name__=="__main__":
+    args=ap.parse_args(); args.f(args)

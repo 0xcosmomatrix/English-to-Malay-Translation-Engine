@@ -28,4 +28,12 @@ def read_verdicts(kind):
     p = DATA_DIR / f"{kind}.jsonl"
     if not p.exists():
         return []
-    return [json.loads(l) for l in open(p, encoding="utf8") if l.strip()]
+    out = []
+    for l in open(p, encoding="utf8"):
+        if not l.strip():
+            continue
+        try:
+            out.append(json.loads(l))
+        except json.JSONDecodeError:
+            continue   # one torn line (crash mid-append) must not kill the reader
+    return out

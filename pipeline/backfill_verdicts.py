@@ -29,7 +29,7 @@ if f.exists():
              "meta": {"votes": s.get("votes"), "ch": s["ch"]}} for s in json.load(open(f))]
     add("sense-audit", recs, "site-audit")
 # 3) per-block gate decisions from every book run's blocks.json
-for bj in glob.glob(str(LAB/"t2-133-v3-full"/"1*-blocks.json")) + glob.glob(str(LAB/"t2-133-v2-output"/"1*-blocks.json")):
+for bj in glob.glob(str(LAB/"t2-133-v3-full"/"*-blocks.json")) + glob.glob(str(LAB/"t2-133-v2-output"/"*-blocks.json")):
     recs = [{"label": e["gate"], "input": {"en": e["en"][:400], "draft": (e["draft"] or "")[:400],
              "rewrite": (e.get("rewrite") or "")[:400]}, "meta": {"why": e.get("why", "")[:200],
              "chapter": os.path.basename(bj)[:7], "block": e["i"]}}

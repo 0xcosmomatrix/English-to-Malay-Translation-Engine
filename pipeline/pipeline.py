@@ -23,7 +23,7 @@ Env: OPENROUTER_API_KEY (required), MS_RULES_DIR, EXEMPLARS (default 43),
      PIPELINE_CONCURRENCY (default 6).
 """
 import argparse, collections, concurrent.futures, importlib.util, json, os, re
-import sys, threading, time, urllib.request, pathlib
+import sys, threading, time, urllib.error, urllib.request, pathlib
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 RULES = os.environ.get("MS_RULES_DIR", os.path.join(_HERE, "..", "rules"))
@@ -37,10 +37,12 @@ try:
     IDIOMS = json.load(open(os.path.join(RULES, "en-idioms.json")))["idioms"]
 except FileNotFoundError:
     IDIOMS = []
+    print("WARNING: en-idioms.json missing — idiom notes disabled", file=sys.stderr)
 try:
     _COLL = json.load(open(os.path.join(RULES, "ms-collocations.json")))["collocations"]
 except FileNotFoundError:
     _COLL = []
+    print("WARNING: ms-collocations.json missing — collocation gate disabled", file=sys.stderr)
 
 CFG = {
     "budget":  {"draft": "qwen/qwen3.5-397b-a17b", "rewrite": "google/gemma-4-26b-a4b-it", "gate": "google/gemma-4-26b-a4b-it"},
@@ -72,6 +74,8 @@ def apply_autofix(text):
         for v, c in AUTOFIX:
             def rep(mm):
                 srcw = mm.group(0)
+                if srcw.isupper() and len(srcw) > 1:
+                    return c.upper()
                 return c[0].upper() + c[1:] if srcw[:1].isupper() and c[:1].islower() else c
             seg = re.sub(rf"(?<![\w-]){re.escape(v)}(?![\w-])", rep, seg, flags=re.I)
         return seg
@@ -106,6 +110,10 @@ def call(model, text, temp=0.0, tries=4, stage="misc", timeout=300):
             if c and c.strip():
                 return c
             last = "empty"
+        except urllib.error.HTTPError as e:
+            if e.code in (401, 403):
+                raise RuntimeError(f"{model}: auth error {e.code} — not retryable")
+            last = f"HTTP {e.code}"
         except Exception as e:
             last = str(e)[:120]
         time.sleep(4 * (a + 1))
@@ -116,8 +124,22 @@ def split_blocks(md):
     """Blank-line blocks; fenced code becomes single PROTECTED blocks; a block that
     is ONLY html comments is protected. A comment directly above prose is NOT —
     protecting those once shipped 799 words of English silently."""
-    out, buf, infence = [], [], False
+    out, buf, infence, incomment = [], [], False, False
     for line in md.splitlines():
+        # Multi-line html comments (DIAGRAM/SOURCE specs) are PROTECTED whole:
+        # the single-line CMT model classified them as text, sent machine-read
+        # id:/type: fields to the draft model, and — because det_reasons strips
+        # comments from both sides — no gate could see the damage (review find).
+        if not infence and not incomment and line.lstrip().startswith("<!--") and "-->" not in line:
+            if buf:
+                out.append(("text", "\n".join(buf))); buf = []
+            buf.append(line); incomment = True
+            continue
+        if incomment:
+            buf.append(line)
+            if "-->" in line:
+                out.append(("prot", "\n".join(buf))); buf = []; incomment = False
+            continue
         if line.startswith("```"):
             if buf and not infence:
                 out.append(("text", "\n".join(buf))); buf = []
@@ -134,7 +156,7 @@ def split_blocks(md):
         else:
             buf.append(line)
     if buf:
-        out.append(("prot" if infence else "text", "\n".join(buf)))
+        out.append(("prot" if (infence or incomment) else "text", "\n".join(buf)))
     return [("prot", b) if k == "text" and all(CMT.match(l) or not l.strip() for l in b.split("\n"))
             else (k, b) for k, b in out]
 
@@ -161,10 +183,14 @@ def restore_comments(prose, keep):
         elif pi < len(plines):
             out.append(plines[pi]); pi += 1
     out.extend(plines[pi:])
-    assert sum(1 for l in out if CMT.match(l)) == len(keep), "comment lost in restore"
+    if sum(1 for l in out if CMT.match(l)) < len(keep):   # not assert: survives -O,
+        raise RuntimeError("comment lost in restore")      # tolerates model-added comment lines
     return "\n".join(out)
 
 def numbered(chunks):
+    # source text containing literal [[n]] could displace another block's
+    # translation (prompt-injection surface) — break the pattern invisibly
+    chunks = [c.replace("[[", "[\u200b[") for c in chunks]
     return "\n\n".join(f"[[{i+1}]]\n{c}" for i, c in enumerate(chunks))
 
 def parse_numbered(raw, n):
@@ -223,10 +249,15 @@ def missing_facts(en_b, t):
     """EN numbers absent from t, excusing 0-9 spelled out, % as 'peratus', X.5 as 'setengah'."""
     miss = list((collections.Counter(nums(en_b)) - collections.Counter(nums(t))).elements())
     out = []
+    spelled_used = collections.Counter()
     for n in miss:
-        if n in MW and has_word(t, MW[n]):
-            continue
-        if n.endswith("%") and re.search(rf"{re.escape(n[:-1])}\s*(%|peratus)", t, re.I):
+        if n in MW:
+            # count-aware: one 'tiga' excuses one missing '3', not every one
+            if spelled_used[n] < M.count_word(t, MW[n]):
+                spelled_used[n] += 1
+                continue
+        if n.endswith("%") and re.search(rf"(?<![\d.,]){re.escape(n[:-1])}\s*(?:%|peratus\b)", t, re.I):
+            # left digit boundary: '15 peratus' must not excuse a dropped '5%'
             continue
         if re.fullmatch(r"\d+\.5", n) and has_word(t, "setengah"):
             continue
@@ -262,7 +293,7 @@ def det_reasons(en_b, cand):
     tv = []
     for v, c in VARIANTS:
         n = M.count_word(cand, v)
-        if n and v.lower() in c.lower():
+        if n and re.search(M.word_pat(v), c, re.I):
             # a variant that is a substring of its own canonical phrase must not
             # fire on the canonical ('dwi AI' inside 'kecekapan dwi AI')
             n -= M.count_word(cand, c)
@@ -289,7 +320,9 @@ def meaning_gate(model, en_b, rw_b):
     return False, "unparseable gate response (2 tries)"
 
 # ---------------- stages (parallel within each stage) ----------------
-NOTE_SIG = re.compile(r"^\s*\(blo\w*\s+\d+\)|ialah idiom|is an idiom|IDIOM NOTES|Jangan calque", re.I)
+# Shape-anchored: bare "ialah idiom" deleted legitimate prose sentences (review
+# find) — only OUR note formats match now: the (blok N) prefix or the heading.
+NOTE_SIG = re.compile(r"^\s*\(blo\w*\s+\d+\)|^\s*IDIOM NOTES\b|Jangan calque '", re.I)
 
 def scrub_notes(text):
     """Models sometimes translate the idiom guidance into Malay and emit it as
@@ -311,10 +344,29 @@ def idiom_notes(chunk):
     return ("\n\nIDIOM NOTES — render the meaning, never the words; do not echo these notes:\n"
             + "\n".join(notes[:12]))
 
+# Diagram-spec comments: the skeleton (id:/type:/field names) stays byte-exact,
+# but title:/description: VALUES are reader-facing — the renderer draws every
+# diagram label from them. Field-level extraction translates only the values.
+DIAG_FIELD = re.compile(r"^(\s*(?:title|description)\s*:\s*)(.+?)(\s*(?:-->)?\s*)$", re.I)
+
+def diagram_fields(blocks):
+    """[(block_idx, line_idx, prefix, value, suffix)] for protected diagram comments."""
+    out = []
+    for bi, (k, b) in enumerate(blocks):
+        if k != "prot" or not b.lstrip().startswith("<!--") or "```" in b:
+            continue
+        for li, line in enumerate(b.split("\n")):
+            m = DIAG_FIELD.match(line)
+            if m and m.group(2).strip():
+                out.append((bi, li, m.group(1), m.group(2), m.group(3)))
+    return out
+
 def do_draft(model, blocks, log):
     src = [b for k, b in blocks if k == "text"]
     stripped = [strip_comments(b) for b in src]
     texts = [pr for pr, _ in stripped]
+    dfields = diagram_fields(blocks)
+    texts = texts + [v for _, _, _, v, _ in dfields]   # field values ride the same protocol
     B = 8
     batches = [(i, texts[i:i + B]) for i in range(0, len(texts), B)]
 
@@ -324,15 +376,19 @@ def do_draft(model, blocks, log):
                                   temp=0.3, stage="draft"), len(chunk))
         out = []
         for j, g in enumerate(got):
+            # scrub BEFORE the emptiness check: a note-only response used to pass
+            # validation and then scrub to "", shipping a hole where a paragraph was
+            g = scrub_notes(g) if g else g
             for _ in range(3):
                 if g is not None and g.strip():
                     break
                 g = (parse_numbered(call(model, draft_prompt() + "\n\n" + numbered([chunk[j]]),
                                          temp=0.3, stage="draft"), 1) or [None])[0]
+                g = scrub_notes(g) if g else g
             if not (g and g.strip()):
                 # Falling back to English is how 799 words once shipped untranslated.
                 raise RuntimeError(f"draft failed for block {i + j} after retries; refusing to emit English")
-            out.append(scrub_notes(g))
+            out.append(g)
         log(f"draft batch {i // B + 1}/{len(batches)} done")
         return i, out
 
@@ -341,8 +397,15 @@ def do_draft(model, blocks, log):
         for i, out in ex.map(one_batch, batches):
             results[i] = out
     flat = [t for i in sorted(results) for t in results[i]]
-    flat = [restore_comments(t, keep) for t, (_, keep) in zip(flat, stripped)]
-    it = iter(flat)
+    nsrc = len(stripped)
+    body = [restore_comments(t, keep) for t, (_, keep) in zip(flat[:nsrc], stripped)]
+    # reinsert translated diagram field values into their protected skeletons
+    blocks = [list(x) for x in blocks]
+    for (bi, li, pre, _v, suf), tr in zip(dfields, flat[nsrc:]):
+        lines = blocks[bi][1].split("\n")
+        lines[li] = pre + tr.replace("\n", " ").strip() + suf
+        blocks[bi][1] = "\n".join(lines)
+    it = iter(body)
     return [(k, b) if k == "prot" else ("text", next(it)) for k, b in blocks]
 
 def do_rewrite(model, blocks, log):
@@ -419,21 +482,29 @@ def gate(cfg, en_blocks, dr_blocks, rw_blocks, log):
     final = [(x["kind"], x["final"]) for x in entries]
     return final, entries, repaired_n
 
+def atomic_write(path, text):
+    """Write-temp-then-rename: an exception mid-run must never leave a torn file."""
+    tmp = str(path) + ".tmp"
+    with open(tmp, "w", encoding="utf8") as f:
+        f.write(text)
+    os.replace(tmp, str(path))
+
 def run(en_path, outdir, config, name):
     cfg = CFG[config]
+    USAGE.clear()   # per-chapter accounting even when embedded in one process
     out = pathlib.Path(outdir); out.mkdir(parents=True, exist_ok=True)
     log = lambda m: print(f"    [{name}] {m}", flush=True)
     t0 = time.time()
     en_blocks = split_blocks(pathlib.Path(en_path).read_text(encoding="utf8"))
     log(f"{len(en_blocks)} blocks ({sum(1 for k, _ in en_blocks if k == 'text')} translatable), concurrency={CONCURRENCY}")
     dr = do_draft(cfg["draft"], en_blocks, log)
-    (out / f"{name}-draft.md").write_text(join_blocks(dr), encoding="utf8")
+    atomic_write(out / f"{name}-draft.md", join_blocks(dr))
     rw = do_rewrite(cfg["rewrite"], dr, log)
-    (out / f"{name}-rewrite.md").write_text(join_blocks(rw), encoding="utf8")
+    atomic_write(out / f"{name}-rewrite.md", join_blocks(rw))
     final, entries, repaired = gate(cfg, en_blocks, dr, rw, log)
-    (out / f"{name}-final.md").write_text(join_blocks(final), encoding="utf8")
+    atomic_write(out / f"{name}-final.md", join_blocks(final))
     # alignment persisted: regating/judging later reads this, never re-splits from disk
-    json.dump(entries, open(out / f"{name}-blocks.json", "w"), ensure_ascii=False, indent=1)
+    atomic_write(out / f"{name}-blocks.json", json.dumps(entries, ensure_ascii=False, indent=1))
     changed = [x for x in entries if x["gate"] != "unchanged"]
     kept = sum(1 for x in changed if x["gate"] == "kept")
     residual = [{"i": x["i"], "issues": det_reasons(x["en"], x["final"])}
@@ -445,7 +516,7 @@ def run(en_path, outdir, config, name):
            "reverted": len(changed) - kept, "repaired": repaired,
            "residual_rule_issues": residual, "seconds": round(time.time() - t0),
            "usage": usage, "est_cost_usd": round(USAGE["est_cost_musd"] / 1e6, 4)}
-    json.dump(rep, open(out / f"{name}-report.json", "w"), ensure_ascii=False, indent=1)
+    atomic_write(out / f"{name}-report.json", json.dumps(rep, ensure_ascii=False, indent=1))
     log(f"done: changed={len(changed)} kept={kept} reverted={len(changed)-kept} "
         f"repaired={repaired} residual={len(residual)} "
         f"(${rep['est_cost_usd']:.3f}, {rep['seconds']}s)")
@@ -459,7 +530,7 @@ def main():
     r.add_argument("--config", default="budget", choices=list(CFG))
     r.add_argument("--name")
     a = ap.parse_args()
-    name = a.name or pathlib.Path(a.en_file).stem
+    name = re.sub(r"[^A-Za-z0-9._-]", "_", a.name or pathlib.Path(a.en_file).stem)
     run(a.en_file, a.out, a.config, name)
 
 if __name__ == "__main__":
