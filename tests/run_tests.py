@@ -69,4 +69,13 @@ ok("DNT phrase loss caught", any("AI+ Everyone" in x for x in r6), r6)
 r7 = P.det_reasons("You must trust the output and check hands-on work.", "Anda mesti percaya output dan semak kerja amali.")
 ok("DNT case-sensitivity", not any("DNT" in x for x in r7), r7)
 
+# lexicon morphology: affixed forms resolve to roots
+import importlib.util as _iu
+_ls=_iu.spec_from_file_location("cl", os.path.join(HERE,"..","rules","check_lexicon.py"))
+# import module functions without running main
+import types
+_src=open(os.path.join(HERE,"..","rules","check_lexicon.py")).read().replace("\nmain()","\n")
+_cl=types.ModuleType("cl"); _cl.__dict__["__file__"]=os.path.join(HERE,"..","rules","check_lexicon.py"); exec(compile(_src,"check_lexicon.py","exec"),_cl.__dict__)
+ok("lexicon morphology roots", "bangun" in _cl.roots("membangunkan") and "langkah" in _cl.roots("langkah-langkah"))
+
 print(f"\nall {N[0]} regression checks pass")

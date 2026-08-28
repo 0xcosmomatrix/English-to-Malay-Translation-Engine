@@ -1744,5 +1744,1415 @@
   "evidence": "istilah: leverage (mechanical/financial) | Kejuruteraan",
   "date": "2026-08-28",
   "source": "prpm istilah database"
+ },
+ "mendiksyenkan": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; root 'diksyen' also absent — likely invented from English 'diction'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "mendikte": {
+  "verdict": "VALID_MALAY",
+  "evidence": "meminta orang menulis apa-apa yg dibaca",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menekankan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menekan dgn sesuatu; mementingkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "mengakui": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mengaku akan (kesalahan dll)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menganjurkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mengemukakan, mencadangkan; mengadakan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "mengarang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menulis (cerita, cerpen, novel)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "mengesyorkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mengemukakan cadangan, mencadangkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menggemari": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menyukai benar akan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menghiris": {
+  "verdict": "VALID_MALAY",
+  "evidence": "memotong nipis-nipis",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menghubungkaitkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mengadakan perhubungan dan perkaitan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "meniru": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mengikuti perbuatan, mencontoh",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menjalin": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menjadikan bertalian atau berkaitan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menjayakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menyebabkan jaya (berhasil, maju)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menyadur": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menyalut dgn logam; mengolah kembali cerita",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menyambung": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menjadikan lebih panjang dgn tambahan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menyekat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "memisahkan dgn sekat; menghalang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menyerap": {
+  "verdict": "VALID_MALAY",
+  "evidence": "masuk ke dlm melalui liang-liang kecil",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menyita": {
+  "verdict": "VALID_MALAY",
+  "evidence": "merampas dgn perintah mahkamah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "promosi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "usaha dan kegiatan utk menggalakkan jualan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pula": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sekali lagi, berulang lagi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pusingan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "gerakan berpusing; putaran",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "rancak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "cepat dan riang; giat; aktif",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "rangup": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mudah pecah; rapuh",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "rantaian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "untaian, deretan, rangkaian",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "rapi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bersih dan elok; teratur; kemas",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "rasional": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mengikut fikiran yg baik (sihat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "reaksi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tindak balas",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "relevansi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "(rélevansi) kerelevanan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "relevansinya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root relevansi (kerelevanan) + -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "rencam": {
+  "verdict": "VALID_MALAY",
+  "evidence": "campuran drpd pelbagai macam",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "rentan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mudah dihinggapi penyakit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "saing": {
+  "verdict": "VALID_MALAY",
+  "evidence": "banding, imbang, tanding",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "samping": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bahagian sebelah kiri atau kanan; sisi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "santai": {
+  "verdict": "VALID_MALAY",
+  "evidence": "dgn seenaknya; tidak bersusah-susah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "saran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "pendapat yg dikemukakan; usul; anjuran",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "sarat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "terlalu banyak berisi sehingga penuh",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "faktor": {
+  "verdict": "VALID_MALAY",
+  "evidence": "unsur atau sebab yg menyumbang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "foto": {
+  "verdict": "VALID_MALAY",
+  "evidence": "gambar yg diambil dgn kamera",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "ganti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "silih, penukar, pampasan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "gaya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sikap ... cara berkelakuan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "golongan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kumpulan, kelompok",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "gus": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sekali gus: semuanya pd waktu yg sama",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "hakikat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sesuatu yg tidak dapat dinafikan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "harapan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sesuatu atau seseorang yg diharapkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "hebat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "teramat sangat atau luar biasa",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "himpunan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kumpulan: sebuah himpunan puisi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "ilustrasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "gambar utk menerangkan atau menghiasi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "imbangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "keadaan yg seimbang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "implisit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tidak terang-terangan, tersirat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "instruktor": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; Indonesian-style loan, Malay: jurulatih",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "instruktur": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; Indonesian form, Malay: jurulatih/pengajar",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "instrukturlah": {
+  "verdict": "NO_ENTRY",
+  "evidence": "root instruktur itself has no entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "intelek": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kemampuan berfikir dan memahami",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "intelijen": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; Indonesian form, Malay: perisikan/risikan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "sejarah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "peristiwa yg benar-benar berlaku pd waktu lampau",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "semangat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "roh yg terdapat dlm segala makhluk",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "semberono": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tidak hati-hati, sembarangan sahaja (Bahasa Asal: Jawa)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "seolah-olah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "seakan-akan, selaku, seperti",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "serba": {
+  "verdict": "VALID_MALAY",
+  "evidence": "seluruhnya atau semuanya sekali; segala-galanya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "setimpal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sama taraf; sebanding; seimbang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "sifar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "(angka) kosong",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "solusi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "carian kata tiada; Indonesian for penyelesaian",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "syarat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tuntutan yg mesti dipenuhi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "tampak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tidak terlindung; kelihatan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "taruh": {
+  "verdict": "VALID_MALAY",
+  "evidence": "wang yg dipasang ketika bermain judi; cagaran",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "teknisi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; Indonesian for juruteknik",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "tekstur": {
+  "verdict": "VALID_MALAY",
+  "evidence": "jalinan bahagian-bahagian yg halus sesuatu benda",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "teoritis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "carian kata tiada; Indonesian for teoretis/teori",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "terabai": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tidak dipedulikan; disia-siakan; terbiar",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "terbimbing": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root bimbing (defined); regular ter- derivative",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "tercicir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tertinggal di belakang; jatuh di tengah jalan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "terjalin": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sudah dijalin; telah wujud (persahabatan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pengecoh": {
+  "verdict": "VALID_MALAY",
+  "evidence": "orang yg menipu; penipu (Kamus Pelajar)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pengembangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "perihal mengembang atau mengembangkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "penghantaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "perihal (perbuatan) menghantar (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pengisar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "alat utk mengisar (kopi, gandum)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "penuntut": {
+  "verdict": "VALID_MALAY",
+  "evidence": "orang yg menuntut; pelajar",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "perantisian": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; likely coinage from 'apprenticeship'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "peratus": {
+  "verdict": "VALID_MALAY",
+  "evidence": "drpd seratus: sepuluh ~ 10%",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pergantungan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "perihal bergantung",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "perisian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "program atau atur cara komputer",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "perkaitan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "keadaan berkaitan; perhubungan; pertalian",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "perkeranian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "urusan berkaitan dgn tugas kerani",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "persetujuan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "pernyataan bersetuju; pengesahan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pertemuan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "perihal bertemu; perjumpaan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pesat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "cepat sekali; laju; cepat berkembang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "portofolio": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; Indonesian spelling of 'portfolio'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pra-kontak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root kontak defined; pra- productive prefix",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "praktiknya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root praktik defined (KD4) + -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "progresi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; Indonesian form, Malay uses 'janjang/progres'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "intervensi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "campur tangan dlm urusan antara dua pihak",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "inti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bahagian yg terpenting drpd sesuatu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "ironik": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; root ironi valid, -k suffix irregular (English 'ironic' calque)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "jalinan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sesuatu yg dijalin (terjalin)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "jaya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kemenangan: menuju ke puncak",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "jemputan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "undangan; ajakan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kaku": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tidak dpt dilenturkan; kejang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "karya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "hasil kesenian dll; ciptaan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kegentaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "perasaan gentar; ketakutan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kejutan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sesuatu yg mengejutkan atau memeranjatkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kekangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "paksaan (sekatan, batasan); kendala",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kelabu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "warna spt warna abu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kelompangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "keadaan kosong, kekosongan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kem": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tempat askar, pengakap dll tinggal; perkhemahan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kemalangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bencana yg berlaku dgn tidak disangka; kecelakaan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kemudaratan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "segala yg tidak menguntungkan; kerugian",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kereta": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kenaikan beroda digerakkan oleh enjin",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kesuntukan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kehabisan atau kesempitan (wang, masa)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "ketajaman": {
+  "verdict": "VALID_MALAY",
+  "evidence": "hal atau sifat tajam (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "ketegangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "defined in Kamus Dewan (root tegang)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "keterkaitan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "keadaan terkait (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "klien": {
+  "verdict": "VALID_MALAY",
+  "evidence": "orang yg mendapatkan nasihat drpd profesional (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kolaborasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kerjasama dengan seseorang atau sesuatu pihak",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "konferensinya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root konferensi: pertemuan formal, persidangan (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kontak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kenalan; hubungan antara satu dgn lain (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "koordinasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "penyelarasan, jalinan pertalian (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "kraf": {
+  "verdict": "VALID_MALAY",
+  "evidence": "perusahaan yg memerlukan kemahiran tangan (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "lampau": {
+  "verdict": "VALID_MALAY",
+  "evidence": "defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "lancar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "laras": {
+  "verdict": "VALID_MALAY",
+  "evidence": "defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "lelaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tarikan, heretan (KD4); also istilah for iteration",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "lembut": {
+  "verdict": "VALID_MALAY",
+  "evidence": "defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "lupa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "mahupun": {
+  "verdict": "VALID_MALAY",
+  "evidence": "defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "majlis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "maju": {
+  "verdict": "VALID_MALAY",
+  "evidence": "defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "maka": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kata utk memulakan sesuatu ayat; setelah itu; lalu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "maksudnya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root maksud: tujuan, hajat, kehendak, niat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "malah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "= malahan; lebih drpd itu; bahkan juga",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "maut": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kematian (terutamanya bagi manusia)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "mekanisme": {
+  "verdict": "VALID_MALAY",
+  "evidence": "ist cara sesuatu bekerja",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "melabur": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menanam modal utk memperoleh keuntungan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "membekalkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menyediakan atau memberikan sesuatu utk bekal",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "memikirkannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root memikirkan: menggunakan akal, merenungkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "memikul": {
+  "verdict": "VALID_MALAY",
+  "evidence": "membawa barang di atas bahu; mengandar",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "memikulnya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root memikul: membawa barang di atas bahu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "meminggirkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mengesampingkan, mengetepikan (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "memperlekehkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root lekeh defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "memposisikan": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "root posisi labeled IB in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menampilkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "membawa ke hadapan; mengemukakan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "mencegahnya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root mencegah: menghalang, menegah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "mendadak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "(dgn) tiba-tiba, tidak disangka-sangka",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "mendasarinya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root mendasari: menjadi dasar atau asas kpd",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "mendefinisikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "memberikan takrif; mentakrifkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "bimbit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "membimbit membawa sesuatu dgn jari; menjinjing",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "buah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bahagian tumbuh-tumbuhan yg terjadi drpd bunga",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "calon": {
+  "verdict": "VALID_MALAY",
+  "evidence": "orang yg akan menjadi (pegawai dsb); bakal",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "capai": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mencapai: memegang atau mengambil sesuatu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "catatannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root catat (mencatat: menulis utk peringatan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "cenderung": {
+  "verdict": "VALID_MALAY",
+  "evidence": "ada minat pd sesuatu; suka akan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "cip": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mikrocip",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "daya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tenaga; kekuatan; kemampuan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "delegasikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root delegasi; mendelegasikan defined",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "deskripsi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "keterangan yg menyampaikan gambaran mental",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "dialihkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root alih: pindah, tukar, ubah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "dicakupi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root cakup; mencakupi ki merangkumi, meliputi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "dicurahkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root curah; mencurah: mengalir dgn deras",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "didorong": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root dorong; entry itself uses 'didorong ke tepi jalan'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "digeneralisasikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root generalisasi; menggeneralisasikan defined",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "digilap": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root gilap; entry gloss 'bergilap digilap'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "dijamin": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root jamin; menjamin defined",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "dikoordinasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root koordinasi; mengkoordinasi menyelaraskan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "agak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "pendapat yg berdasarkan tekanan semata-mata; sangka",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "air": {
+  "verdict": "VALID_MALAY",
+  "evidence": "listed in Kamus Dewan Perdana (35 hits); basic word",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "ajaib": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tidak spt biasa; aneh; ganjil",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "alam": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bumi dan segala yg terdapat di permukaannya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "alihkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root alih: pindah, tukar, ubah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "amankan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root aman; mengamankan defined",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "anonimkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root anonim: nama samaran (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "arkitektur": {
+  "verdict": "NO_ENTRY",
+  "evidence": "only Istilah MABBIM hit; Malay uses seni bina",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "bagaimanapun": {
+  "verdict": "VALID_MALAY",
+  "evidence": "biar apa pun yg terjadi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "bangunkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root bangun; membangunkan defined",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "batas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "garis atau tempat yg menjadi sempadan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "begitu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "spt itu; demikian itu; sangat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "belanjawan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "anggaran pendapatan dan perbelanjaan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "berbincang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bercakap-cakap ttg sesuatu hal; berunding",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "berjiwa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mempunyai jiwa; bernyawa; hidup",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "bermatlamat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bermatlamat mempunyai matlamat (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "bermitra": {
+  "verdict": "NO_ENTRY",
+  "evidence": "mitra not in Kamus; Indonesian for partner",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "berpijak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bertumpu dgn kaki; berdiri",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "menyuntik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "memasukkan ubat ke dlm badan dgn jarum",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "meskipun": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sungguhpun, walaupun, biarpun (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "momen": {
+  "verdict": "VALID_MALAY",
+  "evidence": "waktu yg sangat singkat, saat, detik",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "mutakhir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "terakhir, terbaharu, kemas kini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "mutlak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tidak terbatas, tidak bersyarat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "nadi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "denyutan tetap pd arteri",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "nanti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "waktu yg akan datang, kelak",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "near": {
+  "verdict": "NO_ENTRY",
+  "evidence": "only Kamus Inggeris-Melayu hit; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "notasnya": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no root 'notas'; likely typo of notanya/notasinya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "nyahnamakan": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; nyah- coinage for 'de-name', invented",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "nyaris": {
+  "verdict": "VALID_MALAY",
+  "evidence": "hampir (berlakunya sesuatu), cemas-cemas",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pascamenengah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "reviewer flag #2 mandates the joined form",
+  "date": "2026-08-28",
+  "source": "reviewer-ruling-2026-08"
+ },
+ "pati": {
+  "verdict": "VALID_MALAY",
+  "evidence": "isi yg terutama drpd sesuatu, sari, inti",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "patuhilah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root patuh (mematuhi defined) + -i -lah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pembentangannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root bentang (membentang defined)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pemecut": {
+  "verdict": "VALID_MALAY",
+  "evidence": "perkakasan yg mempercepat pemprosesan (Kamus Pelajar)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pemeliharaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "perbuatan memelihara, perawatan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "pengalih": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root alih (pindah, tukar, ubah) + peN-",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "dikuatkuasakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root kuat kuasa: \"perintah berkurung dikuatkuasakan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "dilangkaui": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root langkau; melangkaui \"melalui, melewati\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "dinahamakan": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no root; likely garble of dinamakan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "dinyahkenal": {
+  "verdict": "NO_ENTRY",
+  "evidence": "nyahkenal undefined; coined nyah- calque of de-identify",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "diperbaik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root baik; standard form is diperbaiki",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "diperoleh": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root oleh; peribahasa uses diperoleh",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "dipertikaikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root tikai; mempertikaikan \"mempersoalkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "diposisikan": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "root posisi labeled IB in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "dirahsiakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root rahsia; merahsiakan defined",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "dirumuskan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root rumus; merumuskan/perumusan defined",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "disember": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Disember \"bulan yg kedua belas\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "distinktif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "MABBIM istilah hit",
+  "date": "2026-08-28",
+  "source": "prpm istilah"
+ },
+ "doh": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"tepung yg telah dicampurkan air\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "domain": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"kawasan yg dimiliki atau dikuasai\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "drastik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"keterlaluan, terlalu keras\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "efektif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"ada kesannya, berkesan, mujarab\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "ehwal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"hal, kejadian: ehwal semasa\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "faedah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"sesuatu yg mendatangkan kebaikan; guna\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "terkejut": {
+  "verdict": "VALID_MALAY",
+  "evidence": "terjaga drpd tidur; terperanjat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "terlindung": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tertutup oleh sesuatu; tersembunyi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "terminologi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kajian tentang istilah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "terserlah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kelihatan nyata; menonjol",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "tertiari": {
+  "verdict": "VALID_MALAY",
+  "evidence": "MABBIM istilah hit (tertiary education)",
+  "date": "2026-08-28",
+  "source": "prpm istilah"
+ },
+ "tertunggak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "masih belum dijelaskan, dilunaskan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "tred": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no Kamus Dewan entry; English 'trade' loan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "trednya": {
+  "verdict": "NO_ENTRY",
+  "evidence": "root 'tred' also absent from Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "tuduhan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "apa-apa yg dikatakan utk menuduh; dakwaan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "tunjuk": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tunjuk ajar; menunjuk — defined headword",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "unggul": {
+  "verdict": "VALID_MALAY",
+  "evidence": "melebihi yg lain; ulung",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "unsur": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bahagian drpd sesuatu benda; zat asal",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "usang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "lama terpakai; kuno",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "visi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tanggapan dan pandangan yg jauh; wawasan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "wahana": {
+  "verdict": "VALID_MALAY",
+  "evidence": "alat utk membawa atau menyampaikan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "wajar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sebagaimana semestinya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "zero": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no Kamus Dewan entry; English, Malay uses 'sifar'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "zon": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kawasan atau daerah tertentu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (lexicon pass, v3 vocabulary)"
+ },
+ "perantis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "reviewer ruling: apprentice",
+  "date": "2026-08-28",
+  "source": "reviewer-ruling-2026-08"
  }
 }

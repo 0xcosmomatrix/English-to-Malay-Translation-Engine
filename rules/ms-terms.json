@@ -682,6 +682,66 @@
     "kukuh": "VALID_MALAY: kuat dan tegap binaannya; teguh pendirian, tidak berganjak",
     "istilah": "istilah: robust|teguh/lasak (Matematik) — but the EN heading word is 'Strong', not 'robust'; stays human"
    }
+  },
+  {
+   "en": "instructor (person)",
+   "options": [
+    "pengajar (reviewer)",
+    "instruktur (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "lexicon gate: no Kamus Dewan entry, Indonesian-style loan (x25 in v3); one panel judge praised it — high-frequency identity term, needs native ruling",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "trade (vocational)",
+   "options": [
+    "bidang / tred (JPK usage) (reviewer)",
+    "tred (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "lexicon gate: no KD entry (x26) but 'tred' is common in Malaysian TVET practice (JPK sijil tred); ruling needed",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "apprenticeship (system)",
+   "options": [
+    "perantisan (reviewer)",
+    "perantisian (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "lexicon gate: coined derivation from ruled 'perantis'; correct derived form needs native ruling",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "de-identified",
+   "options": [
+    "dinyahkenal pasti (nyah- istilah convention) (reviewer)",
+    "dinyahkenal (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "lexicon gate: nyah- is a productive DBP computing prefix (nyahpepijat); confirm coinage",
+   "source": "review-2026-08"
   }
  ]
 }
