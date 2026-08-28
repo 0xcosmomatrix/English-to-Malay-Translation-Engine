@@ -64,7 +64,13 @@ Return STRICT JSON: {{"candidates":[...]}}"""
     with urllib.request.urlopen(req, timeout=240) as f:
         raw = json.load(f)["choices"][0]["message"]["content"]
     m = re.search(r"\{.*\}", raw, re.S)
-    cands = json.loads(m.group(0)).get("candidates", []) if m else []
+    try:
+        parsed = json.loads(m.group(0)) if m else {}
+        cands = parsed.get("candidates", []) if isinstance(parsed, dict) else []
+        cands = [c for c in cands if isinstance(c, dict) and c.get("orig") and c.get("sug")]
+    except Exception:
+        print("checkpoint: model returned unparseable candidates — nothing proposed")
+        cands = []
     print(f"checkpoint: {len(cands)} candidate(s) proposed by {MODEL}")
     for c in cands:
         print(f"  - {c.get('orig','?')} -> {c.get('sug','?')}  ({c.get('why','')[:70]})")
@@ -74,8 +80,11 @@ Return STRICT JSON: {{"candidates":[...]}}"""
     with os.fdopen(fd, "w") as f:
         json.dump(cands, f, ensure_ascii=False)
     # the same human-gated intake every correction passes — never straight to terms
-    subprocess.run([sys.executable, str(HERE / "rulebook.py"), "propose", tmp,
-                    *corpus, "--source", "checkpoint"], check=False)
+    r = subprocess.run([sys.executable, str(HERE / "rulebook.py"), "propose", tmp,
+                        *corpus, "--source", "checkpoint"], capture_output=True, text=True)
+    print(r.stdout.strip() or r.stderr.strip())
+    if r.returncode != 0:
+        print(f"checkpoint: propose failed (rc={r.returncode}) — candidates preserved at {tmp}")
 
 if __name__ == "__main__":
     main()

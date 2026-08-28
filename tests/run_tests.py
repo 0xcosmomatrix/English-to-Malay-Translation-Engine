@@ -183,4 +183,64 @@ import subprocess as _sp
 r=_sp.run([sys.executable,os.path.join(HERE,"..","rules","rulebook.py"),"rule","anything"],capture_output=True,text=True)
 ok("rulebook refuses flagless rule", r.returncode!=0 and "exactly one" in (r.stdout+r.stderr))
 
+# ===== round-2 fixes =====
+# diagram-value gate: bad translation (DNT lost) keeps source and is reported
+def _dcall(model,text,temp=0.0,tries=4,stage="misc",timeout=300):
+    import re as _re
+    parts=_re.split(r"\[\[(\d+)\]\]",text); o=[]
+    for i in range(1,len(parts)-1,2):
+        src=parts[i+1].strip()
+        o.append(f"[[{parts[i]}]]\n"+("Rangka PENJAGA" if "GUARD" in src else f"T<{src[:20]}>"))
+    return "\n\n".join(o)
+_oc=P.call; P.call=_dcall
+md2="""Intro para.
+
+<!-- DIAGRAM id: 01-01
+title: The GUARD Framework
+type: x -->
+
+End para."""
+bl2=P.split_blocks(md2)
+out3=P.do_draft("m",bl2,lambda m:None)
+prot=[b for k,b in out3 if k=="prot"][0]
+ok("diagram gate keeps source on DNT loss", "The GUARD Framework" in prot and "PENJAGA" not in prot, prot)
+ok("diagram gate reports the rejection", len(P.LAST_DIAGRAM_ISSUES)==1 and "DNT" in str(P.LAST_DIAGRAM_ISSUES), P.LAST_DIAGRAM_ISSUES)
+P.call=_oc
+# wrapped field values absorb continuation lines; bare terminator never a value
+md3="""A.
+
+<!-- DIAGRAM id: 01-02
+description: Five steps to
+  safe AI use
+title:
+-->
+
+B."""
+df3=P.diagram_fields(P.split_blocks(md3))
+ok("wrapped diagram value absorbed", len(df3)==1 and df3[0][3]=="Five steps to safe AI use", df3)
+# meaning_gate: null verdict falls back instead of crashing
+def _mgcall(model,text,temp=0.0,tries=4,stage="misc",timeout=90): return '{"verdict": null, "reason": "x"}'
+P.call=_mgcall
+okv,why=P.meaning_gate("m","en","ms")
+ok("meaning_gate null-verdict fallback", okv is False and "unparseable" in why, (okv,why))
+P.call=_oc
+# idiom notes: word boundaries (no substring fire inside longer words)
+P.IDIOMS.append({"phrase":"read the room","gloss":"g","ms_guidance":"m"})
+ok("idiom boundary matching", P.idiom_notes(["He bread the roomy hall"])=="" and "read the room" in P.idiom_notes(["Please read the room now"]))
+P.IDIOMS.pop()
+# enforce_gate: drift fails the check (sandboxed rules copy)
+import tempfile,shutil,subprocess as _sp2
+sand=tempfile.mkdtemp()
+rsrc=os.path.join(HERE,"..","rules")
+for fn in os.listdir(rsrc):
+    if fn.endswith((".json",".py")): shutil.copy(os.path.join(rsrc,fn),sand)
+# registry with no required corpora so the gate runs corpus-free in the sandbox
+open(os.path.join(sand,"corpus-registry.json"),"w").write('{"corpora":[]}')
+r1=_sp2.run([sys.executable,os.path.join(sand,"enforce_gate.py")],capture_output=True,text=True,cwd=sand)
+ok("sandbox apply stamps", "manifest stamped" in r1.stdout, r1.stdout[-200:])
+with open(os.path.join(sand,"ms-terms.json"),"a") as f: f.write("\n")
+r2=_sp2.run([sys.executable,os.path.join(sand,"enforce_gate.py"),"--check"],capture_output=True,text=True,cwd=sand)
+ok("drift fails the check", r2.returncode!=0 and "DRIFT" in r2.stdout, (r2.returncode,r2.stdout[-150:]))
+shutil.rmtree(sand)
+
 print(f"\nall {N[0]} regression checks pass")

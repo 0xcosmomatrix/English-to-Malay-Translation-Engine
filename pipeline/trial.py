@@ -58,8 +58,13 @@ def main():
             votes = []
             for j in JUDGES:
                 def v(p):
-                    m = re.search(r'"choice"\s*:\s*"([ABT])', call(j, p))
-                    return m.group(1) if m else "T"
+                    for _ in range(3):
+                        try:
+                            m = re.search(r'"choice"\s*:\s*"(A|B|TIE)"', call(j, p))
+                            return {"A": "A", "B": "B", "TIE": "T"}[m.group(1)] if m else "T"
+                        except Exception:
+                            time.sleep(3)
+                    return "T"   # transient judge failure = tie, never an aborted trial
                 pr = lambda p1, p2: (f"Professional English->Malay (Malaysia) editor: which translation would you print? Note: 'prom' is the official DBP istilah for an AI prompt.\n\nENGLISH:\n{e['en']}\n\nA:\n{p1}\n\nB:\n{p2}\n\n" + 'STRICT JSON: {"choice":"A"|"B"|"TIE"}')
                 v1 = {"A": base, "B": other, "T": "TIE"}[v(pr(x, y))]
                 v2 = {"A": other, "B": base, "T": "TIE"}[v(pr(y, x))]

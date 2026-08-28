@@ -41,9 +41,12 @@ def lexicon(extra=None):
         if c["role"]!="approved-malay": continue
         p=pathlib.Path(os.path.expanduser(c["path"]))
         if not p.is_absolute(): p=(HERE/p).resolve()
-        for f in glob.glob(str(p/"*.md")): known|=vocab(open(f,encoding="utf8").read())
+        files=glob.glob(str(p/"*.md"))
+        if not files and c.get("required",True):
+            print(f"WARNING: approved-malay corpus missing at {c['path']} — lexicon runs weaker (advisory tool, continuing)")
+        for f in files: known|=vocab(open(f,encoding="utf8").read())
     led=json.load(open(HERE/"ms-prpm-ledger.json"))
-    known|={w for w,v in led.items() if v["verdict"]=="VALID_MALAY"}
+    known|={w for w,v in led.items() if v.get("verdict")=="VALID_MALAY"}
     dnt=json.load(open(HERE/"ms-dnt.json"))
     known|={t.lower() for t in dnt["tokens"]}
     for ph in dnt["phrases"]:                       # phrases tokenized: the lexicon is single-token

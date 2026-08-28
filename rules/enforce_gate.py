@@ -39,6 +39,32 @@ def corpus_text(role,allow_missing=False):
 def hits(word,text):
     return msml.count_word(text,word)
 
+# every rule-data file participates in drift detection, and file-set changes count
+MANIFEST_GLOBS=("ms-*.json","en-idioms.json","corpus-registry.json")
+
+def _manifest_files():
+    files=[]
+    for g in MANIFEST_GLOBS: files+=list(HERE.glob(g))
+    return sorted(f for f in set(files) if f.name!="rules-manifest.json")
+
+def stamp_manifest():
+    """The one sanctioned stamp. Every legitimate writer (this gate, rulebook)
+    calls it after writing, so honest edits never read as drift."""
+    import hashlib
+    man={f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in _manifest_files()}
+    tmp=str(HERE/"rules-manifest.json")+".tmp"
+    open(tmp,"w").write(json.dumps(man,indent=1)); os.replace(tmp,str(HERE/"rules-manifest.json"))
+
+def manifest_drift():
+    mf=HERE/"rules-manifest.json"
+    if not mf.exists(): return []
+    import hashlib
+    man=json.load(open(mf)); drift=[]
+    cur={f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in _manifest_files()}
+    for fn in set(man)|set(cur):
+        if man.get(fn)!=cur.get(fn): drift.append(fn)   # changed, missing, OR added
+    return sorted(drift)
+
 def main():
     check="--check" in sys.argv
     nocorpus="--no-corpus" in sys.argv
@@ -64,19 +90,11 @@ def main():
     for d in demoted: print(f"  DEMOTE {d['avoid_id']:<16} {d['why']}")
     if len(keep)>CAP: print(f"  WARNING: enforce tier {len(keep)} > {CAP} — review growth")
     if check:
-        # mirror-drift detection: verify the manifest stamped at last apply
-        mf=HERE/"rules-manifest.json"
-        if mf.exists():
-            import hashlib
-            man=json.load(open(mf)); drift=[]
-            for fn,h in man.items():
-                fp=HERE/fn
-                cur=hashlib.sha256(fp.read_bytes()).hexdigest() if fp.exists() else "MISSING"
-                if cur!=h: drift.append(fn)
-            if drift:
-                print(f"  MIRROR DRIFT: {drift} differ from the last gate-applied state — "
-                      f"a hand-copy has diverged; re-run apply or re-sync before trusting results")
-        sys.exit(1 if demoted else 0)
+        drift=manifest_drift()
+        if drift:
+            print(f"  MIRROR DRIFT: {drift} differ from the last stamped state — "
+                  f"a hand-copy or unstamped edit has diverged; restamp or re-sync")
+        sys.exit(1 if (demoted or drift) else 0)   # drift FAILS the check (review-2 find)
     if demoted or any("corpus_clean" not in e for e in bl.get("enforce",[])):
         shutil.copy(BL,str(BL)+".bak")
         bl["enforce"]=keep
@@ -84,7 +102,7 @@ def main():
         for d in demoted:
             if d["avoid_id"].lower() not in have:
                 bl["flag"].append({"en":d.get("en",""),"ms":d.get("ms",""),"avoid_id":d["avoid_id"],
-                                   "demoted_from_enforce":d["demoted"],"why":d["why"]})
+                                   "demoted_from_enforce":d["demoted"],"demotion_why":d["why"]})
             else:
                 # audit trail must survive even when the flag entry already exists
                 for e in bl["flag"]:
@@ -93,11 +111,7 @@ def main():
         bl["_counts"]={"enforce":len(keep),"flag":len(bl["flag"])}
         json.dump(bl,open(BL,"w"),ensure_ascii=False,indent=1)
         print("written (backup: .bak)")
-    # manifest stamps on EVERY apply, clean or not — a clean state is exactly
-    # what the drift detector must be able to prove later
-    import hashlib
-    man={f.name:hashlib.sha256(f.read_bytes()).hexdigest()
-         for f in sorted(HERE.glob("ms-*.json")) if f.name!="rules-manifest.json"}
-    (HERE/"rules-manifest.json").write_text(json.dumps(man,indent=1))
+    stamp_manifest()
     print("manifest stamped")
-main()
+if __name__=="__main__":
+    main()

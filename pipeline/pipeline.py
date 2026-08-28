@@ -156,6 +156,10 @@ def split_blocks(md):
         else:
             buf.append(line)
     if buf:
+        if infence or incomment:
+            print(f"WARNING: unterminated {'fence' if infence else 'comment'} — "
+                  f"{len(buf)} trailing line(s) protected UNTRANSLATED; fix the source",
+                  file=sys.stderr)
         out.append(("prot" if (infence or incomment) else "text", "\n".join(buf)))
     return [("prot", b) if k == "text" and all(CMT.match(l) or not l.strip() for l in b.split("\n"))
             else (k, b) for k, b in out]
@@ -313,9 +317,11 @@ def meaning_gate(model, en_b, rw_b):
         if m:
             try:
                 d = json.loads(m.group(0))
-                return d.get("verdict", "FAIL").upper() == "PASS", d.get("reason", "")
-            except json.JSONDecodeError:
-                pass
+                verdict = d.get("verdict") if isinstance(d, dict) else None
+                if isinstance(verdict, str):
+                    return verdict.upper() == "PASS", str(d.get("reason", ""))
+            except Exception:
+                pass   # any malformed shape (null verdict, list, bad JSON) -> retry/fallback
         time.sleep(2)
     return False, "unparseable gate response (2 tries)"
 
@@ -337,7 +343,7 @@ def idiom_notes(chunk):
     for j, c in enumerate(chunk):
         low = c.lower()
         for it in IDIOMS:
-            if it["phrase"] in low:
+            if re.search(M.word_pat(it["phrase"]), low):
                 notes.append(f'(block {j+1}) "{it["phrase"]}" is an idiom ({it["gloss"]}). {it["ms_guidance"]}')
     if not notes:
         return ""
@@ -348,18 +354,33 @@ def idiom_notes(chunk):
 # but title:/description: VALUES are reader-facing — the renderer draws every
 # diagram label from them. Field-level extraction translates only the values.
 DIAG_FIELD = re.compile(r"^(\s*(?:title|description)\s*:\s*)(.+?)(\s*(?:-->)?\s*)$", re.I)
+_DIAG_KEY = re.compile(r"^\s*(?:id|type|title|description)\s*:", re.I)
 
 def diagram_fields(blocks):
-    """[(block_idx, line_idx, prefix, value, suffix)] for protected diagram comments."""
+    """[(block_idx, [line_span], prefix, value, suffix)] for protected diagram
+    comments. Wrapped values absorb their continuation lines; a bare terminator
+    is never mistaken for a value."""
     out = []
     for bi, (k, b) in enumerate(blocks):
         if k != "prot" or not b.lstrip().startswith("<!--") or "```" in b:
             continue
-        for li, line in enumerate(b.split("\n")):
-            m = DIAG_FIELD.match(line)
-            if m and m.group(2).strip():
-                out.append((bi, li, m.group(1), m.group(2), m.group(3)))
+        lines = b.split("\n")
+        i = 0
+        while i < len(lines):
+            m = DIAG_FIELD.match(lines[i])
+            if m and m.group(2).strip() and m.group(2).strip() != "-->":
+                span = [i]; val = [m.group(2)]
+                j = i + 1
+                while (j < len(lines) and "-->" not in lines[j]
+                       and not _DIAG_KEY.match(lines[j]) and lines[j].strip()):
+                    val.append(lines[j].strip()); span.append(j); j += 1
+                out.append((bi, span, m.group(1), " ".join(val), m.group(3)))
+                i = j
+            else:
+                i += 1
     return out
+
+LAST_DIAGRAM_ISSUES = []
 
 def do_draft(model, blocks, log):
     src = [b for k, b in blocks if k == "text"]
@@ -399,12 +420,22 @@ def do_draft(model, blocks, log):
     flat = [t for i in sorted(results) for t in results[i]]
     nsrc = len(stripped)
     body = [restore_comments(t, keep) for t, (_, keep) in zip(flat[:nsrc], stripped)]
-    # reinsert translated diagram field values into their protected skeletons
+    # Reinsert translated diagram field values — GATED. Review-2 find: values live
+    # inside comments, which det_reasons strips, so a bad translation here used to
+    # bypass every check. Each value now passes autofix + det_reasons against its
+    # own source; failures keep the source value and are REPORTED via
+    # LAST_DIAGRAM_ISSUES (run() folds them into residual_rule_issues).
+    LAST_DIAGRAM_ISSUES.clear()
     blocks = [list(x) for x in blocks]
-    for (bi, li, pre, _v, suf), tr in zip(dfields, flat[nsrc:]):
+    for (bi, span, pre, v, suf), tr in zip(dfields, flat[nsrc:]):
+        tr = apply_autofix(tr.replace("-->", " ").replace("\n", " ").strip())
+        reasons = det_reasons(v, tr)
+        if reasons:
+            LAST_DIAGRAM_ISSUES.append({"block": bi, "field_src": v[:80], "why": reasons})
+            tr = v          # fail toward the source label, never toward silence
         lines = blocks[bi][1].split("\n")
-        lines[li] = pre + tr.replace("\n", " ").strip() + suf
-        blocks[bi][1] = "\n".join(lines)
+        lines[span[0]] = pre + tr + suf
+        blocks[bi][1] = "\n".join(l for li2, l in enumerate(lines) if li2 not in span[1:])
     it = iter(body)
     return [(k, b) if k == "prot" else ("text", next(it)) for k, b in blocks]
 
@@ -510,6 +541,8 @@ def run(en_path, outdir, config, name):
     residual = [{"i": x["i"], "issues": det_reasons(x["en"], x["final"])}
                 for x in entries if x["kind"] == "text"]
     residual = [r for r in residual if r["issues"]]
+    residual += [{"i": d["block"], "issues": [f"diagram field kept in source language: {d['why']}"]}
+                 for d in LAST_DIAGRAM_ISSUES]
     usage = {k: v for k, v in USAGE.items() if k != "est_cost_musd"}
     rep = {"name": name, "config": config, "models": cfg,
            "blocks": len(en_blocks), "changed": len(changed), "kept": kept,

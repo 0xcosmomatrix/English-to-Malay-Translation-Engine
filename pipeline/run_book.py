@@ -3,8 +3,9 @@
 Usage: run_book.py <en-dir> --out <dir> [--config budget] [--jobs 3] [--glob '1*.md']"""
 import argparse,concurrent.futures,glob,json,os,pathlib,subprocess,sys,time
 HERE=os.path.dirname(os.path.abspath(__file__))
+import re as _re
 def one(f,out,config):
-    name=pathlib.Path(f).stem
+    name=_re.sub(r"[^A-Za-z0-9._-]","_",pathlib.Path(f).stem)
     # purge stale artifacts so a failed chapter can never inherit an old run's report
     for suff in ("-report.json","-final.md","-blocks.json"):
         stale=pathlib.Path(out)/f"{name}{suff}"
@@ -31,7 +32,7 @@ def main():
         res=list(ex.map(lambda f: one(f,a.out,a.config),files))
     reports=[]; missing=[]
     for f in files:
-        p=pathlib.Path(a.out)/f"{pathlib.Path(f).stem}-report.json"
+        p=pathlib.Path(a.out)/f"{_re.sub(r'[^A-Za-z0-9._-]','_',pathlib.Path(f).stem)}-report.json"
         if p.exists(): reports.append(json.load(open(p)))
         else: missing.append(pathlib.Path(f).stem)
     if missing: print(f"WARNING: {len(missing)} chapter(s) produced no report: {missing}")
@@ -43,4 +44,5 @@ def main():
     json.dump(summary,open(pathlib.Path(a.out)/"book-report.json","w"),indent=1)
     print(json.dumps(summary))
     sys.exit(0 if ok==len(files) else 1)
-main()
+if __name__=="__main__":
+    main()

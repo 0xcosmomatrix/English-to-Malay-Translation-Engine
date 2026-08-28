@@ -1,4 +1,6 @@
 {
+ "corpus-registry.json": "e492b4eb215600de13dc5effcc03878987427f6d88fde18febfba6b06e80652d",
+ "en-idioms.json": "f32f84f0c68c689027870f269b660faf0f2afbece4e105fb6bb17d802564c5e1",
  "ms-collocations.json": "454b160324b0c147406b0acd4e86f8fb0b57e94741647f650918cee6badcbda0",
  "ms-dnt.json": "c9b48f2e0ebc7730a506b640e93578c8400406624079ffc1217b24b5dd79281c",
  "ms-figurative.json": "d79c0810543ae0db2df50fdc1b0d33a1dd24aec1807dac851493b5c1bbe3bac9",

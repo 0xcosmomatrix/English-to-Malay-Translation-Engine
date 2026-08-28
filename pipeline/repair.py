@@ -51,5 +51,15 @@ def main():
             P.atomic_write(bj, json.dumps(entries,ensure_ascii=False,indent=1))
             P.atomic_write(bj.replace("-blocks.json","-final.md"),
                            "\n\n".join(x["final"] for x in entries)+"\n")
+            # reports must not describe pre-repair text (review-2 find)
+            rp=bj.replace("-blocks.json","-report.json")
+            if os.path.exists(rp):
+                rep=json.load(open(rp))
+                res=[{"i":e["i"],"issues":P.det_reasons(e["en"],e["final"])}
+                     for e in entries if e["kind"]=="text"]
+                rep["residual_rule_issues"]=[x for x in res if x["issues"]]
+                rep["repaired_post_run"]=True
+                P.atomic_write(rp, json.dumps(rep,ensure_ascii=False,indent=1))
     print(f"repaired {fixed} block(s)")
-main()
+if __name__=="__main__":
+    main()

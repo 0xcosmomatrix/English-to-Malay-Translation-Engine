@@ -22,7 +22,16 @@ TERMS=HERE/"ms-terms.json"
 def load(): return json.loads(TERMS.read_text(encoding="utf8"))
 def save(d):
     shutil.copy(TERMS, TERMS.with_suffix(".json.bak"))
-    TERMS.write_text(json.dumps(d,ensure_ascii=False,indent=1)+"\n",encoding="utf8")
+    tmp=str(TERMS)+".tmp"
+    pathlib.Path(tmp).write_text(json.dumps(d,ensure_ascii=False,indent=1)+"\n",encoding="utf8")
+    import os as _os; _os.replace(tmp,str(TERMS))
+    try:   # sanctioned writer restamps the manifest so this edit never reads as drift
+        import importlib.util as _iu
+        _sp=_iu.spec_from_file_location("eg", HERE/"enforce_gate.py")
+        _eg=_iu.module_from_spec(_sp); _sp.loader.exec_module(_eg)
+        _eg.stamp_manifest()
+    except Exception as e:
+        print(f"  (manifest restamp skipped: {e})")
 
 def body(p):
     return msml.mask_body(pathlib.Path(p).read_text(encoding="utf8"))
@@ -67,6 +76,11 @@ def cmd_propose(args):
     for c in cands:
         orig,sug=c.get("orig",""),c.get("sug","")
         if not orig or not sug or sug.startswith("("): continue
+        # a NEW variant for an existing canonical is useful intelligence, not noise
+        if sug.lower() in canon and orig.lower() not in ruled_out and orig.lower() not in canon:
+            t=canon[sug.lower()]
+            print(f"  NOTE: {orig!r} looks like a new variant of enforced '{t['canonical']}' — "
+                  f"consider adding it to that term's variants after a ruling")
         hit=canon.get(orig.lower()) or ruled_out.get(sug.lower())
         if hit:
             print(f"  REJECTED (standing ruling): {orig!r} -> {sug!r} conflicts with "
@@ -138,7 +152,7 @@ def cmd_rule(args):
 ap=argparse.ArgumentParser(description=__doc__,formatter_class=argparse.RawDescriptionHelpFormatter)
 sub=ap.add_subparsers(dest="cmd",required=True)
 a=sub.add_parser("audit");   a.add_argument("corpus",nargs="+"); a.set_defaults(f=cmd_audit)
-b=sub.add_parser("propose"); b.add_argument("corrections"); b.add_argument("corpus",nargs="+")
+b=sub.add_parser("propose"); b.add_argument("corrections"); b.add_argument("corpus",nargs="*")
 b.add_argument("--source",default=f"review-{datetime.date.today():%Y-%m}"); b.set_defaults(f=cmd_propose)
 c=sub.add_parser("rule");    c.add_argument("en"); c.add_argument("--accept",action="store_true")
 c.add_argument("--reject",action="store_true"); c.add_argument("--canonical"); c.add_argument("--force",action="store_true")
