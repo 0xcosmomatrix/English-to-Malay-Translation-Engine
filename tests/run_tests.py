@@ -54,4 +54,11 @@ ok("parse_numbered echo-immune", got2 == ["terjemahan satu", "terjemahan dua"], 
 dirty = "Ayat terjemahan sebenar.\n(blok 2) \"trade currency\" ialah idiom (nota). Jangan calque ini."
 ok("scrub_notes strips translated notes", P.scrub_notes(dirty) == "Ayat terjemahan sebenar.", repr(P.scrub_notes(dirty)))
 
+# comments are not prose: INDEX terms must not raise variant/fact residuals
+r4 = P.det_reasons("<!-- DIAGRAM id: 02-01 --> text", "<!-- INDEX: prompt templates -->\nteks prom biasa")
+ok("det_reasons ignores comments", not r4, r4)
+# canonical containing its own variant must not self-flag
+r5 = P.det_reasons("x", "membina kecekapan dwi AI secara peribadi")
+ok("variant-in-canonical guard", not any("dwi AI" in x for x in r5), r5)
+
 print(f"\nall {N[0]} regression checks pass")

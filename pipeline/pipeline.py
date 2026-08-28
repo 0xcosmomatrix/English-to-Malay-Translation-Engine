@@ -223,7 +223,12 @@ def invented_facts(en_b, t):
 
 def det_reasons(en_b, cand):
     """Rule violations of one candidate measured against the ENGLISH + the verified
-    rules layer. Never measured against a sibling draft."""
+    rules layer. Never measured against a sibling draft.
+    Comments are stripped from BOTH sides first: INDEX/DIAGRAM comments carry
+    English terms and ids verbatim, and checking them produced phantom residuals
+    ('prompt' in INDEX comments, diagram ids as missing facts)."""
+    en_b = re.sub(r"<!--.*?-->", "", en_b, flags=re.S)
+    cand = re.sub(r"<!--.*?-->", "", cand, flags=re.S)
     reasons = []
     m = missing_facts(en_b, cand)
     if m: reasons.append(f"facts missing: {m[:4]}")
@@ -234,7 +239,15 @@ def det_reasons(en_b, cand):
     if lost: reasons.append(f"DNT lost: {lost}")
     hard = sorted(w for w in ENFORCE if has_word(cand, w))
     if hard: reasons.append(f"enforce-tier violation: {hard[:4]}")
-    tv = [v for v, c in VARIANTS if has_word(cand, v)]
+    tv = []
+    for v, c in VARIANTS:
+        n = M.count_word(cand, v)
+        if n and v.lower() in c.lower():
+            # a variant that is a substring of its own canonical phrase must not
+            # fire on the canonical ('dwi AI' inside 'kecekapan dwi AI')
+            n -= M.count_word(cand, c)
+        if n > 0:
+            tv.append(v)
     if tv: reasons.append(f"term variant: {tv[:3]}")
     return reasons
 

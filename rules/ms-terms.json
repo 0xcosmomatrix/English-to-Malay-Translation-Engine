@@ -146,11 +146,10 @@
   {
    "en": "menghubungkan",
    "canonical": "menghubungkaitkan",
-   "variants": [
-    "menghubungkan"
-   ],
+   "variants": [],
    "why": "human ruling 2026-08-28; Collocation",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "note": "demoted from enforcement 2026-08-28: 'menghubungkan' has a legitimate physical sense (arrows connecting diagram steps, ch04 b45). Conceptual linking still drafts as menghubungkaitkan via prompt."
   },
   {
    "en": "prompt",
@@ -173,12 +172,10 @@
   {
    "en": "framework (policy sense)",
    "canonical": "kerangka dasar",
-   "variants": [
-    "seni bina",
-    "Seni Bina"
-   ],
+   "variants": [],
    "why": "KD4: seni bina = building architecture only; kerangka covers plans/frameworks. Applies to policy-framework contexts; architecture-of-buildings text keeps seni bina — variants list drives FLAGGING via gates, ruling contex",
-   "source": "operator-ruling-2026-08-28+PRPM"
+   "source": "operator-ruling-2026-08-28+PRPM",
+   "note": "'seni bina' removed from enforcement 2026-08-28: fired on genuine architecture ('seni bina sifar kepercayaan' = zero trust architecture, ch04 b5) — exactly the context caveat in the original ruling. Heading-case 'Seni Bina' variant retained."
   },
   {
    "en": "perdagangan tradisional",
