@@ -20,7 +20,8 @@
     "kompetensi dwi",
     "dwi-kecekapan"
    ],
-   "why": "the book's own glossary defines 'Kecekapan dwi (dual competence)'"
+   "why": "the book's own glossary defines 'Kecekapan dwi (dual competence)'",
+   "note": "PRPM 2026-08-28: 'dwi' has no standalone entry — it is a bound prefix (dwibahasa, dwifungsi). 'kecekapan dwi' (and the proposed 'kecekapan dwi AI') may need the same native scrutiny as 'dwi AI'."
   },
   {
    "en": "Task-AI Map",
@@ -215,7 +216,10 @@
     "bahasa semula jadi"
    ],
    "status": "UNRESOLVED",
-   "why": "Reviewer wrote 'bahasa tabil', which appears to be a typo for 'bahasa tabii'. Confirm the intended form against PRPM before enforcing."
+   "why": "Reviewer wrote 'bahasa tabil', which appears to be a typo for 'bahasa tabii'. Confirm the intended form against PRPM before enforcing.",
+   "oracle": {
+    "bahasa tabii": "VALID_MALAY: KD4: \"bahasa yg digunakan oleh manusia dlm keadaan semula jadi\""
+   }
   },
   {
    "en": "framework (policy sense)",
@@ -224,7 +228,11 @@
     "seni bina"
    ],
    "status": "UNRESOLVED",
-   "why": "Reviewer flagged 'Seni Bina' as a wrong translation of the policy-architecture sense. 'Seni bina' is literally architecture (buildings). Confirm which English sense each occurrence carries before a blanket replacement."
+   "why": "Reviewer flagged 'Seni Bina' as a wrong translation of the policy-architecture sense. 'Seni bina' is literally architecture (buildings). Confirm which English sense each occurrence carries before a blanket replacement.",
+   "oracle": {
+    "seni bina": "VALID_MALAY: KD4: seni/ilmu mereka bentuk dan membina bangunan; gaya bangunan",
+    "kerangka": "VALID_MALAY: rangka-rangka (kapal, rumah); rancangan/garis kasar, kerangka teori"
+   }
   },
   {
    "en": "menggunakan",
@@ -243,7 +251,10 @@
     "risk": "CONTEXT-DEPENDENT: appears 9x — reviewer corrected one site, not the word"
    },
    "why": "Higher-level curriculum integration",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "mengintegrasikan": "VALID_MALAY: KD4: \"menggabungkan dua atau beberapa kaum (unsur) menjadi satu kesatuan\""
+   }
   },
   {
    "en": "bidang",
@@ -262,7 +273,10 @@
     "risk": "CONTEXT-DEPENDENT: appears 8x — reviewer corrected one site, not the word"
    },
    "why": "Greater precision",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "disiplin": "VALID_MALAY: latihan kelakuan; peraturan; kepatuhan; hukuman; bidang kajian"
+   }
   },
   {
    "en": "menghubungkan",
@@ -298,7 +312,10 @@
     "risk": "CONTEXT-DEPENDENT: appears 3x — reviewer corrected one site, not the word"
    },
    "why": "Systemic adoption",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "adaptasi": "VALID_MALAY: penyesuaian dgn keadaan dsb yg baru atau berbeza"
+   }
   },
   {
    "en": "Menjelaskan",
@@ -313,7 +330,11 @@
     "risk": "not present in corpus — nothing to enforce; record only"
    },
    "why": "Formal upgrade",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "menganalisis": "VALID_MALAY: KD4: \"melakukan analisis ke atas sesuatu (bahan, data)\"",
+    "menjelaskan": "VALID_MALAY: KD4: menerangkan supaya jelas; menyelesaikan (hutang, pekerjaan)"
+   }
   },
   {
    "en": "belum menggunakan",
@@ -328,7 +349,10 @@
     "risk": "not present in corpus — nothing to enforce; record only"
    },
    "why": "Formal upgrade",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "memanfaatkan": "VALID_MALAY: menggunakan sebaik-baiknya; mendapatkan faedah drpd sesuatu"
+   }
   },
   {
    "en": "bahasa semula jadi",
@@ -343,7 +367,10 @@
     "risk": "not present in corpus — nothing to enforce; record only"
    },
    "why": "Literal English translation",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "bahasa tabii": "VALID_MALAY: KD4: \"bahasa yg digunakan oleh manusia dlm keadaan semula jadi\""
+   }
   },
   {
    "en": "Seni Bina",
@@ -358,7 +385,11 @@
     "risk": "not present in corpus — nothing to enforce; record only"
    },
    "why": "Wrong translation",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "seni bina": "VALID_MALAY: KD4: seni/ilmu mereka bentuk dan membina bangunan; gaya bangunan",
+    "kerangka": "VALID_MALAY: rangka-rangka (kapal, rumah); rancangan/garis kasar, kerangka teori"
+   }
   },
   {
    "en": "sedang menganyam",
@@ -373,7 +404,11 @@
     "risk": "not present in corpus — nothing to enforce; record only"
    },
    "why": "Overly poetic",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "menyepadukan": "VALID_MALAY: KD4: \"menjadikan sepadu atau bersepadu\" (own headword entry)",
+    "menganyam": "VALID_MALAY: KD4: \"mengatur atau menyusun sesuatu bersilang-silang; menjalin\""
+   }
   },
   {
    "en": "perdagangan tradisional",
@@ -390,7 +425,10 @@
     "risk": "context-free candidate: appears once, so the correction is total"
    },
    "why": "Improper fit",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "perdagangan": "VALID_MALAY: KD4: \"perihal berdagang, urusan berniaga, perniagaan (antara negara)\""
+   }
   },
   {
    "en": "membuat pengajar",
@@ -405,7 +443,10 @@
     "risk": "not present in corpus — nothing to enforce; record only"
    },
    "why": "Awkward wording",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "menggerakkan": "VALID_MALAY: KD4 senses: menjadikan bergerak; mengalih; membangunkan; mengusahakan berfungsi"
+   }
   },
   {
    "en": "rasa tidak yakin",
@@ -420,7 +461,10 @@
     "risk": "not present in corpus — nothing to enforce; record only"
    },
    "why": "Formal noun upgrade",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "berkeyakinan": "VALID_MALAY: mempunyai keyakinan, mempercayai benar-benar"
+   }
   },
   {
    "en": "bertanya pendapatnya",
@@ -450,7 +494,11 @@
     "risk": "not present in corpus — nothing to enforce; record only"
    },
    "why": "Colloquial expression",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "berkongsi": "VALID_MALAY: bersekutu dlm kegiatan; bersama-sama membayar/menggunakan; berkomplot",
+    "pautan": "VALID_MALAY: KD4: pegangan; tempat berpaut; hubungan/kaitan; istilah: sambungan komunikasi/komputer"
+   }
   },
   {
    "en": "mendapat permulaan yang ketara",
@@ -465,7 +513,12 @@
     "risk": "not present in corpus — nothing to enforce; record only"
    },
    "why": "Literal translation",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "permulaan": "VALID_MALAY: KD4: awal/yang pertama sekali; dasar, asas; pendahuluan",
+    "bersaing": "VALID_MALAY: beriring-iring; turut serta; berdampingan; sejajar; also berlumba-lumba",
+    "ketara": "VALID_MALAY: nyata, terang kelihatan"
+   }
   },
   {
    "en": "new",
@@ -521,7 +574,11 @@
     "risk": "context-free candidate: appears once, so the correction is total"
    },
    "why": "judge-cited as an error ('kesilapan dwi AI') in ch01 segment",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "kecekapan": "VALID_MALAY: kesanggupan, kemampuan; kemahiran melakukan dgn cepat sempurna",
+    "dwi": "NO_ENTRY: No headword ('kata tiada'); compounds e.g. dwibahasa defined"
+   }
   },
   {
    "en": "Strong (as heading)",
@@ -540,7 +597,11 @@
     "risk": "CONTEXT-DEPENDENT: appears 4x — reviewer corrected one site, not the word"
    },
    "why": "judge-cited awkward heading word choice in ch02",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "mantap": "VALID_MALAY: tabah/tetap hati; tidak berubah-ubah, stabil",
+    "kukuh": "VALID_MALAY: kuat dan tegap binaannya; teguh pendirian, tidak berganjak"
+   }
   }
  ]
 }

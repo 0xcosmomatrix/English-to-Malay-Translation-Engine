@@ -1576,5 +1576,149 @@
   "evidence": "DBP istilah for AI prompt; reviewer + operator ruling",
   "date": "2026-08-28",
   "source": "operator ruling; DBP istilah per native reviewer"
+ },
+ "menganalisis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"melakukan analisis ke atas sesuatu (bahan, data)\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "menganyam": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"mengatur atau menyusun sesuatu bersilang-silang; menjalin\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "menggerakkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 senses: menjadikan bergerak; mengalih; membangunkan; mengusahakan berfungsi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "mengintegrasikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"menggabungkan dua atau beberapa kaum (unsur) menjadi satu kesatuan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "menjelaskan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: menerangkan supaya jelas; menyelesaikan (hutang, pekerjaan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "menyepadukan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"menjadikan sepadu atau bersepadu\" (own headword entry)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "pautan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: pegangan; tempat berpaut; hubungan/kaitan; istilah: sambungan komunikasi/komputer",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "perdagangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"perihal berdagang, urusan berniaga, perniagaan (antara negara)\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "permulaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: awal/yang pertama sekali; dasar, asas; pendahuluan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "seni bina": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: seni/ilmu mereka bentuk dan membina bangunan; gaya bangunan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "tabii": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 (Ar): menurut sifat kejadiannya; semula jadi; ilmu tabii=fizik",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "bahasa tabii": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"bahasa yg digunakan oleh manusia dlm keadaan semula jadi\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "adaptasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "penyesuaian dgn keadaan dsb yg baru atau berbeza",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "berkeyakinan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mempunyai keyakinan, mempercayai benar-benar",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "berkongsi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bersekutu dlm kegiatan; bersama-sama membayar/menggunakan; berkomplot",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "bersaing": {
+  "verdict": "VALID_MALAY",
+  "evidence": "beriring-iring; turut serta; berdampingan; sejajar; also berlumba-lumba",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "disiplin": {
+  "verdict": "VALID_MALAY",
+  "evidence": "latihan kelakuan; peraturan; kepatuhan; hukuman; bidang kajian",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "dwi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No headword ('kata tiada'); compounds e.g. dwibahasa defined",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "kecekapan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kesanggupan, kemampuan; kemahiran melakukan dgn cepat sempurna",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "kerangka": {
+  "verdict": "VALID_MALAY",
+  "evidence": "rangka-rangka (kapal, rumah); rancangan/garis kasar, kerangka teori",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "ketara": {
+  "verdict": "VALID_MALAY",
+  "evidence": "nyata, terang kelihatan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "kukuh": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kuat dan tegap binaannya; teguh pendirian, tidak berganjak",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "mantap": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tabah/tetap hati; tidak berubah-ubah, stabil",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "memanfaatkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menggunakan sebaik-baiknya; mendapatkan faedah drpd sesuatu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
  }
 }
