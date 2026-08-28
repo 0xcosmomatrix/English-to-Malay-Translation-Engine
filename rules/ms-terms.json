@@ -226,6 +226,16 @@
    "variants": [],
    "why": "PRPM istilah: integrated|bersepadu (perancangan bersepadu, Geografi); menyepadukan has own KD4 headword. Weaving metaphor replaced with the istilah family.",
    "source": "istilah-ruling-2026-08-28+PRPM"
+  },
+  {
+   "en": "instructor (person)",
+   "canonical": "pengajar",
+   "variants": [
+    "instruktur",
+    "instruktor"
+   ],
+   "why": "operator ruling 2026-08-28; PRPM: no KD entry for instruktur (Indonesian-style loan, x25 in v3). One panel judge had praised it — overruled by operator + dictionary.",
+   "source": "operator-ruling-2026-08-28+PRPM"
   }
  ],
  "distinct": [
@@ -689,7 +699,7 @@
     "pengajar (reviewer)",
     "instruktur (current)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 -> pengajar (operator ruling: 'instruktur is wrong')",
    "evidence": {
     "occurrences": 0,
     "samples": [],
