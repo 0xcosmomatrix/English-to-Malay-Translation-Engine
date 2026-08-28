@@ -29,6 +29,14 @@ RULES = os.environ.get("MS_RULES_DIR", os.path.join(_HERE, "..", "rules"))
 TERMS = json.load(open(os.path.join(RULES, "ms-terms.json")))
 BLOCK = json.load(open(os.path.join(RULES, "ms-indonesian-blocklist.json")))
 TESTSET = json.load(open(os.path.join(_HERE, "..", "eval", "arbiter", "testset.json")))
+try:
+    IDIOMS = json.load(open(os.path.join(RULES, "en-idioms.json")))["idioms"]
+except FileNotFoundError:
+    IDIOMS = []
+try:
+    _COLL = json.load(open(os.path.join(RULES, "ms-collocations.json")))["collocations"]
+except FileNotFoundError:
+    _COLL = []
 
 CFG = {
     "budget":  {"draft": "qwen/qwen3.5-397b-a17b", "rewrite": "google/gemma-4-26b-a4b-it", "gate": "google/gemma-4-26b-a4b-it"},
@@ -38,6 +46,7 @@ DNT = ["AI", "TVET", "PRISM", "TRUST", "BENCH", "HANDS", "GUARD", "ChatGPT", "Cl
        "Copilot", "Intel", "UNESCO", "ILO", "ITE", "BIBB", "RTO"]
 ENFORCE = {e["avoid_id"].lower() for e in BLOCK.get("enforce", [])}
 VARIANTS = [(v, t["canonical"]) for t in TERMS["terms"] for v in t.get("variants", [])]
+VARIANTS += [(v, c["canonical"]) for c in _COLL if c.get("status") == "enforced" for v in c.get("variants", [])]
 CMT = re.compile(r"^\s*<!--.*?-->\s*$")
 
 # ---------------- model I/O ----------------
@@ -245,9 +254,23 @@ def do_draft(model, blocks, log):
     stripped = [strip_comments(b) for b in src]
     texts = [pr for pr, _ in stripped]
     out, B = [], 8
+    def idiom_notes(chunk):
+        """Per-batch calque prevention: name each English idiom present and how to
+        render its MEANING. Fires only where an idiom actually occurs — the whole
+        dictionary never rides along in the prompt."""
+        notes = []
+        for j, c in enumerate(chunk):
+            low = c.lower()
+            for it in IDIOMS:
+                if it["phrase"] in low:
+                    notes.append(f'block [[{j+1}]]: "{it["phrase"]}" is an idiom ({it["gloss"]}). {it["ms_guidance"]}')
+        if not notes:
+            return ""
+        return ("\n\nIDIOM NOTES — render the meaning, never the words; do not echo these notes:\n"
+                + "\n".join(notes[:12]))
     for i in range(0, len(texts), B):
         chunk = texts[i:i + B]
-        got = parse_numbered(call(model, draft_prompt() + "\n\n" + numbered(chunk), temp=0.3), len(chunk))
+        got = parse_numbered(call(model, draft_prompt() + "\n\n" + numbered(chunk) + idiom_notes(chunk), temp=0.3), len(chunk))
         for j, g in enumerate(got):
             for _ in range(3):
                 if g is not None and g.strip():

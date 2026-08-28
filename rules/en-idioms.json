@@ -1,0 +1,545 @@
+{
+ "_about": [
+  "English idioms/metaphors found in the AI+ book corpus that produce calques when",
+  "rendered word-for-word. Consumed by the drafting pipeline: blocks containing a phrase",
+  "get a per-batch IDIOM NOTE with the ms_guidance. Guidance says how to render the",
+  "MEANING in natural formal Malay; it never invents proverbs. Grown per book by the",
+  "same harvest pass; entries are corpus-grounded, not a bulk idiom dictionary."
+ ],
+ "idioms": [
+  {
+   "phrase": "falls short",
+   "chapter": "150",
+   "gloss": "fails to meet the required standard",
+   "ms_guidance": "Guna 'tidak mencapai tahap yang ditetapkan' atau 'belum menepati standard kompetensi'. Jangan terjemah literal seperti 'jatuh pendek'."
+  },
+  {
+   "phrase": "where ai earns its place",
+   "chapter": "150",
+   "gloss": "where AI proves genuinely useful",
+   "ms_guidance": "Parafrasa: 'di situlah AI benar-benar membuktikan kegunaannya'. Elakkan calque 'memperoleh tempatnya'."
+  },
+  {
+   "phrase": "from scratch",
+   "chapter": "150",
+   "gloss": "starting with nothing, without a draft",
+   "ms_guidance": "Guna 'dari awal' atau 'tanpa sebarang draf' (contoh: 'menulis sepenuhnya dari awal'). Jangan terjemah 'dari calar/goresan'."
+  },
+  {
+   "phrase": "a borderline call",
+   "chapter": "150",
+   "gloss": "a close, difficult judgement decision",
+   "ms_guidance": "Parafrasa: 'keputusan yang hampir seri' atau 'keputusan di sempadan lulus-gagal yang memerlukan pertimbangan profesional'. Elakkan 'panggilan sempadan'."
+  },
+  {
+   "phrase": "workshop-floor supervision",
+   "chapter": "150",
+   "gloss": "direct supervision inside the actual workshop",
+   "ms_guidance": "Guna 'penyeliaan di bengkel' atau 'penyeliaan secara langsung di bengkel'. Jangan calque 'lantai bengkel' sebagai frasa tersendiri."
+  },
+  {
+   "phrase": "a generic feedback machine",
+   "chapter": "150",
+   "gloss": "impersonal, automated-sounding feedback",
+   "ms_guidance": "Parafrasa: 'maklum balas automatik yang tidak berjiwa/tidak peribadi'. Simile 'mesin' boleh dikekalkan jika ayat disusun semula secara semula jadi, tetapi jangan terjemah kata demi kata."
+  },
+  {
+   "phrase": "under time pressure",
+   "chapter": "150",
+   "gloss": "while rushed for time",
+   "ms_guidance": "Guna 'dalam keadaan kesuntukan masa' atau 'ketika dikejar masa'. Elakkan 'di bawah tekanan masa' yang berbau terjemahan."
+  },
+  {
+   "phrase": "the paperwork is relentless",
+   "chapter": "160",
+   "gloss": "the admin burden never lets up",
+   "ms_guidance": "Parafrasa: 'kerja dokumentasi tidak putus-putus' atau 'beban kerja kertas tidak berkesudahan'. Jangan terjemah 'relentless' sebagai 'tanpa belas kasihan'."
+  },
+  {
+   "phrase": "stay honest",
+   "chapter": "160",
+   "gloss": "kept accountable and realistic by outsiders",
+   "ms_guidance": "Konteks: 'advisory boards are where TVET programmes stay honest'. Parafrasa maksud: 'memastikan program kekal relevan dan berpijak pada keperluan sebenar industri'. Jangan terjemah literal 'kekal jujur'."
+  },
+  {
+   "phrase": "close the gap",
+   "chapter": "160",
+   "gloss": "eliminate the mismatch or shortfall",
+   "ms_guidance": "Guna padanan lazim 'merapatkan jurang' — ungkapan ini memang mantap dalam bahasa Melayu."
+  },
+  {
+   "phrase": "seals the partnership",
+   "chapter": "160",
+   "gloss": "finalises and secures the deal",
+   "ms_guidance": "Guna 'memeterai kerjasama' (padanan formal yang lazim). Elakkan 'menutup/mengunci perkongsian'."
+  },
+  {
+   "phrase": "the pipeline keeps moving",
+   "chapter": "160",
+   "gloss": "the flow of placements continues smoothly",
+   "ms_guidance": "Metafora 'pipeline' jangan dicalque sebagai 'saluran paip'. Parafrasa: 'proses penempatan terus berjalan lancar'. Untuk 'placement pipeline' secara am, guna 'aliran/rangkaian penempatan'."
+  },
+  {
+   "phrase": "the primary source of truth",
+   "chapter": "160",
+   "gloss": "the most authoritative, definitive reference",
+   "ms_guidance": "Guna 'sumber rujukan utama' atau 'rujukan muktamad'. Jangan calque 'sumber kebenaran'."
+  },
+  {
+   "phrase": "shared coffees",
+   "chapter": "160",
+   "gloss": "informal relationship-building meet-ups",
+   "ms_guidance": "Parafrasa: 'pertemuan santai sambil minum'. Jangan terjemah literal 'kopi yang dikongsi'; dalam konteks Malaysia, 'berbual di kedai kopi/mamak' juga wajar jika penyetempatan dibenarkan."
+  },
+  {
+   "phrase": "the narrowed pipeline",
+   "chapter": "160",
+   "gloss": "reduced future placement opportunities",
+   "ms_guidance": "Parafrasa: 'peluang penempatan yang semakin mengecil'. Elakkan sebarang rujukan literal kepada 'paip'."
+  },
+  {
+   "phrase": "went pale",
+   "chapter": "170",
+   "gloss": "showed visible shock or alarm",
+   "ms_guidance": "Guna 'berubah air muka' atau 'pucat wajahnya kerana terkejut' — pastikan makna terkejut/cemas jelas, bukan sekadar deskripsi warna kulit."
+  },
+  {
+   "phrase": "you have crossed a line",
+   "chapter": "170",
+   "gloss": "you have violated an ethical boundary",
+   "ms_guidance": "Guna padanan lazim 'melanggar batas' (contoh: 'anda sudah melanggar batas yang tidak sepatutnya dilangkaui')."
+  },
+  {
+   "phrase": "rule of thumb",
+   "chapter": "170",
+   "gloss": "practical general guideline",
+   "ms_guidance": "Guna 'panduan umum' atau 'kaedah praktik mudah'. Jangan sekali-kali terjemah 'peraturan ibu jari'."
+  },
+  {
+   "phrase": "reaching for the fastest way",
+   "chapter": "170",
+   "gloss": "instinctively choosing the quickest option",
+   "ms_guidance": "Parafrasa: 'cenderung memilih jalan paling pantas untuk menyiapkan kerja'. Jangan terjemah 'reaching' sebagai 'mencapai/menghulur tangan'."
+  },
+  {
+   "phrase": "the trade has not stood still",
+   "chapter": "180",
+   "gloss": "the industry has kept evolving",
+   "ms_guidance": "Parafrasa: 'industri tidak pernah berhenti berubah' atau 'bidang tred terus berkembang'. Elakkan 'tidak berdiri diam'."
+  },
+  {
+   "phrase": "her trade knowledge is drifting",
+   "chapter": "180",
+   "gloss": "her skills are slowly becoming outdated",
+   "ms_guidance": "Parafrasa: 'pengetahuan trednya semakin ketinggalan sedikit demi sedikit'. Jangan guna 'hanyut' secara literal tanpa konteks; 'semakin ketinggalan zaman' lebih jelas."
+  },
+  {
+   "phrase": "close that gap",
+   "chapter": "180",
+   "gloss": "eliminate the currency shortfall",
+   "ms_guidance": "Guna 'merapatkan jurang itu' — padanan mantap dalam bahasa Melayu."
+  },
+  {
+   "phrase": "on-the-tools practice",
+   "chapter": "180",
+   "gloss": "real hands-on trade work",
+   "ms_guidance": "Parafrasa: 'latihan amali sebenar' atau 'kerja tangan sebenar dalam bidang tred'. Jangan calque 'di atas alat'."
+  },
+  {
+   "phrase": "keeps the drip of trade intelligence flowing",
+   "chapter": "180",
+   "gloss": "maintains a steady trickle of industry updates",
+   "ms_guidance": "Parafrasa: 'memastikan maklumat industri terus diterima sedikit demi sedikit secara berterusan'. Jangan terjemah 'drip' sebagai 'titisan' dalam binaan literal yang janggal."
+  },
+  {
+   "phrase": "squeezed by the operational demands",
+   "chapter": "180",
+   "gloss": "time eroded by day-to-day workload",
+   "ms_guidance": "Guna 'terhimpit oleh tuntutan operasi harian' — 'terhimpit' ialah padanan figuratif yang semula jadi dalam bahasa Melayu."
+  },
+  {
+   "phrase": "bridge that gap",
+   "chapter": "180",
+   "gloss": "connect or reconcile the two sides",
+   "ms_guidance": "Guna 'merapatkan jurang itu' atau 'menjadi penghubung antara kedua-duanya'. Elakkan 'menjambatani' yang kurang lazim dalam BM Malaysia (itu kecenderungan Indonesia)."
+  },
+  {
+   "phrase": "a compliance exercise",
+   "chapter": "180",
+   "gloss": "done merely to satisfy requirements",
+   "ms_guidance": "Parafrasa: 'sekadar memenuhi syarat' atau 'formaliti semata-mata'. Jangan terjemah literal 'latihan pematuhan'."
+  },
+  {
+   "phrase": "an active intelligence-gathering mission",
+   "chapter": "180",
+   "gloss": "purposeful information-collecting effort",
+   "ms_guidance": "Parafrasa: 'usaha mengumpul maklumat industri secara aktif dan bermatlamat'. Elakkan 'misi perisikan' yang berkonotasi ketenteraan/espionaj."
+  },
+  {
+   "phrase": "the time that administration steals",
+   "chapter": "180",
+   "gloss": "time lost to admin work",
+   "ms_guidance": "Parafrasa: 'masa yang terbuang akibat urusan pentadbiran'. Personifikasi 'mencuri' boleh dikekalkan ('masa yang dicuri oleh kerja pentadbiran') jika gaya membenarkan, tetapi parafrasa lebih selamat untuk nada formal."
+  },
+  {
+   "phrase": "keeps both halves of your dual competence alive",
+   "chapter": "180",
+   "gloss": "maintains both skill sets actively",
+   "ms_guidance": "Parafrasa: 'mengekalkan kedua-dua cabang kompetensi anda — kemahiran tred dan amalan pengajaran'. Jangan terjemah 'alive' sebagai 'hidup' secara literal."
+  },
+  {
+   "phrase": "trade currency",
+   "chapter": "180",
+   "gloss": "being up to date in one's trade",
+   "ms_guidance": "AMARAN calque: 'currency' di sini bermaksud keterkinian, bukan mata wang. Guna 'keterkinian kemahiran tred' atau 'keterkinian dalam bidang tred'. Jangan sekali-kali 'mata wang tred'."
+  },
+  {
+   "phrase": "the dual currency problem",
+   "chapter": "180",
+   "gloss": "needing to stay current in two domains",
+   "ms_guidance": "Guna 'masalah keterkinian berganda' atau 'cabaran dua keterkinian: kemahiran tred dan amalan pengajaran'. Jangan sekali-kali gunakan 'mata wang'."
+  },
+  {
+   "phrase": "first-hand experience",
+   "chapter": "180",
+   "gloss": "direct personal experience",
+   "ms_guidance": "Guna 'pengalaman secara langsung' atau 'pengalaman sendiri'. 'Pengalaman tangan pertama' sudah agak lazim tetapi 'secara langsung' lebih bersih untuk nada formal."
+  },
+  {
+   "phrase": "fastest return on effort",
+   "chapter": "190",
+   "gloss": "greatest payoff relative to effort",
+   "ms_guidance": "Parafrasa: 'hasil paling cepat berbanding usaha yang dicurahkan'. Elakkan binaan kewangan literal seperti 'pulangan atas usaha' jika terasa kaku."
+  },
+  {
+   "phrase": "low stakes",
+   "chapter": "190",
+   "gloss": "low consequences if it goes wrong",
+   "ms_guidance": "Guna 'berisiko rendah' atau 'kesan kesilapannya kecil'. Jangan sekali-kali terjemah 'stakes' sebagai 'taruhan'. Sama juga untuk 'higher-stakes tasks': 'tugasan berisiko lebih tinggi'."
+  },
+  {
+   "phrase": "the better part of an hour",
+   "chapter": "190",
+   "gloss": "almost a full hour",
+   "ms_guidance": "Guna 'hampir sejam'. Jangan terjemah literal 'bahagian yang lebih baik daripada sejam'."
+  },
+  {
+   "phrase": "the time saving compounds",
+   "chapter": "190",
+   "gloss": "the savings accumulate and multiply",
+   "ms_guidance": "Parafrasa: 'penjimatan masa semakin terkumpul dan berganda dari semasa ke semasa'. Elakkan istilah faedah kompaun kecuali gaya membenarkan."
+  },
+  {
+   "phrase": "a natural quality gate",
+   "chapter": "190",
+   "gloss": "a built-in quality checkpoint",
+   "ms_guidance": "Parafrasa: 'langkah semakan kualiti yang sedia terbina dalam proses'. Jangan calque 'pintu/pagar kualiti'."
+  },
+  {
+   "phrase": "fall short",
+   "chapter": "190",
+   "gloss": "fail to meet expectations",
+   "ms_guidance": "Guna 'tidak menepati harapan' atau 'kurang memuaskan'. Jangan terjemah literal 'jatuh pendek'."
+  },
+  {
+   "phrase": "the workbench is still yours",
+   "chapter": "190",
+   "gloss": "hands-on teaching remains your responsibility",
+   "ms_guidance": "Metonimi: bangku kerja mewakili kerja amali. Boleh kekalkan imej dengan penjelasan ('kerja di bangku kerja tetap milik anda') atau parafrasa 'pengajaran amali tetap di tangan anda'."
+  },
+  {
+   "phrase": "the employer handshake is still yours",
+   "chapter": "190",
+   "gloss": "relationship-building with employers remains yours",
+   "ms_guidance": "Metonimi jabat tangan = jalinan hubungan/persetujuan. Parafrasa: 'jalinan hubungan dan persetujuan dengan majikan tetap di tangan anda'. Jangan biarkan literal 'jabat tangan majikan' berdiri tanpa konteks."
+  },
+  {
+   "phrase": "the heart of tvet",
+   "chapter": "190",
+   "gloss": "the core essence of TVET",
+   "ms_guidance": "Guna padanan lazim 'nadi TVET' atau 'teras TVET' — kedua-duanya semula jadi; 'jantung TVET' kurang idiomatik."
+  },
+  {
+   "phrase": "the tools are in your hands",
+   "chapter": "190",
+   "gloss": "you now have everything you need",
+   "ms_guidance": "'Alatnya kini di tangan anda' berfungsi dalam BM dan mengekalkan permainan makna tred; pastikan ayat susulan 'kepakaran tred juga di tangan anda' dikekalkan selari."
+  },
+  {
+   "phrase": "the irony was not lost on her",
+   "chapter": "100",
+   "gloss": "she clearly noticed the irony of the situation",
+   "ms_guidance": "Nyatakan secara langsung: \"Dia sedar betul akan ironi keadaan itu.\" Jangan terjemah literal seperti \"ironi itu tidak hilang daripadanya\"."
+  },
+  {
+   "phrase": "leading the way",
+   "chapter": "100",
+   "gloss": "acting as pioneers ahead of others",
+   "ms_guidance": "Gunakan \"menerajui\" atau \"menjadi perintis\" (contoh tajuk: \"Lima Institusi yang Menerajui\"); elakkan \"memimpin jalan\"."
+  },
+  {
+   "phrase": "where industry is heading, not where it was",
+   "chapter": "100",
+   "gloss": "the industry's future direction, not its past",
+   "ms_guidance": "Gunakan istilah lazim \"hala tuju industri\": \"menyediakan pelajar untuk hala tuju industri, bukan keadaan lampaunya\"."
+  },
+  {
+   "phrase": "the workbench has not caught up",
+   "chapter": "100",
+   "gloss": "classroom practice still lags behind policy",
+   "ms_guidance": "Parafrasa: \"amalan di peringkat bengkel masih ketinggalan\"; jangan terjemah literal tentang meja kerja yang mengejar."
+  },
+  {
+   "phrase": "head start",
+   "chapter": "100",
+   "gloss": "an early advantage over others",
+   "ms_guidance": "Gunakan \"kelebihan awal\" atau \"mendahului rakan sekerja\"; jangan terjemah literal komponen \"head\" dan \"start\"."
+  },
+  {
+   "phrase": "targeting the instructor bottleneck",
+   "chapter": "100",
+   "gloss": "instructors are the limiting constraint being addressed",
+   "ms_guidance": "Parafrasa: \"menangani kekangan utama, iaitu kesediaan tenaga pengajar\"; elakkan calque \"leher botol\"."
+  },
+  {
+   "phrase": "the direction of travel",
+   "chapter": "100",
+   "gloss": "the overall trend or future direction",
+   "ms_guidance": "Gunakan \"hala tuju\" (contoh: \"menunjukkan hala tuju TVET di peringkat global\"); bukan \"arah perjalanan\" secara literal."
+  },
+  {
+   "phrase": "not standing still — they are falling behind a moving baseline",
+   "chapter": "100",
+   "gloss": "inaction means losing ground as standards rise",
+   "ms_guidance": "Parafrasa: \"bukan sekadar tidak bergerak, malah semakin ketinggalan kerana tahap asas industri terus meningkat\"; jangan kekalkan imej \"garis asas bergerak\" secara kaku."
+  },
+  {
+   "phrase": "a passing trend",
+   "chapter": "100",
+   "gloss": "a temporary fad, not lasting change",
+   "ms_guidance": "Gunakan \"trend sementara\" atau \"fenomena bermusim\"; elakkan \"trend yang berlalu\"."
+  },
+  {
+   "phrase": "the workhorse",
+   "chapter": "100",
+   "gloss": "the main, most heavily used reliable tool",
+   "ms_guidance": "Parafrasa: \"alat utama yang paling banyak digunakan\"; jangan sekali-kali \"kuda kerja\"."
+  },
+  {
+   "phrase": "weaving ai into the dual apprenticeship system",
+   "chapter": "100",
+   "gloss": "gradually integrating AI throughout the system",
+   "ms_guidance": "Gunakan \"menerapkan\" atau \"menyepadukan AI ke dalam sistem\"; bukan \"menganyam\"."
+  },
+  {
+   "phrase": "the colleague others turn to",
+   "chapter": "100",
+   "gloss": "the person others seek out for help",
+   "ms_guidance": "Parafrasa: \"menjadi tempat rujukan rakan sekerja\"; jangan literal \"berpaling kepada\"."
+  },
+  {
+   "phrase": "a complete ai talent pipeline",
+   "chapter": "100",
+   "gloss": "a continuous supply chain of trained talent",
+   "ms_guidance": "Gunakan istilah lazim \"saluran bakat AI yang lengkap\" atau parafrasa \"laluan pembangunan bakat AI dari sekolah hingga pascasiswazah\"; elakkan imej paip."
+  },
+  {
+   "phrase": "vehicles for ai talent development",
+   "chapter": "100",
+   "gloss": "instruments or means for developing talent",
+   "ms_guidance": "Gunakan istilah lazim \"wahana pembangunan bakat AI\"; bukan \"kenderaan\"."
+  },
+  {
+   "phrase": "in its own right",
+   "chapter": "100",
+   "gloss": "as a distinct field by itself",
+   "ms_guidance": "Parafrasa: \"sebagai bidang tersendiri\" (contoh: \"dikaji sebagai bidang tersendiri, bukan sekadar sebahagian 'pendidikan'\")."
+  },
+  {
+   "phrase": "a telling absence",
+   "chapter": "100",
+   "gloss": "an absence that reveals something significant",
+   "ms_guidance": "Parafrasa: \"satu ketiadaan yang cukup bererti\" atau \"kekosongan yang menggambarkan keadaan sebenar\"; jangan literal \"ketiadaan yang memberitahu\"."
+  },
+  {
+   "phrase": "knows her way around a scan tool",
+   "chapter": "110",
+   "gloss": "is highly skilled and familiar with it",
+   "ms_guidance": "Parafrasa: \"sangat mahir menggunakan alat imbasan\"; jangan literal \"tahu jalannya di sekitar\"."
+  },
+  {
+   "phrase": "trial and error",
+   "chapter": "110",
+   "gloss": "learning through repeated attempts and mistakes",
+   "ms_guidance": "Gunakan padanan lazim \"cuba jaya\" (kaedah cuba jaya); bukan \"percubaan dan kesilapan\" secara kaku."
+  },
+  {
+   "phrase": "developed on the job",
+   "chapter": "110",
+   "gloss": "learned while actually working",
+   "ms_guidance": "Gunakan \"berkembang sambil bekerja\" atau \"dipelajari secara langsung di tempat kerja\"; bukan \"di atas kerja\"."
+  },
+  {
+   "phrase": "read the room",
+   "chapter": "110",
+   "gloss": "sense the mood of people present",
+   "ms_guidance": "Parafrasa: \"menilai suasana dan reaksi hadirin dalam mesyuarat\"; \"membaca suasana\" boleh diterima, jangan \"membaca bilik\"."
+  },
+  {
+   "phrase": "the work that wraps around the technical content",
+   "chapter": "110",
+   "gloss": "supporting work surrounding the core task",
+   "ms_guidance": "Parafrasa: \"kerja sokongan di sekeliling kandungan teknikal\"; jangan \"membalut\" atau \"membungkus\"."
+  },
+  {
+   "phrase": "relationship-building that gets squeezed",
+   "chapter": "110",
+   "gloss": "loses out when time pressure mounts",
+   "ms_guidance": "Parafrasa: \"usaha membina hubungan yang sering terpinggir apabila masa dihimpit tugasan dokumentasi\"; bukan \"diperah\"."
+  },
+  {
+   "phrase": "borderline competence calls",
+   "chapter": "110",
+   "gloss": "difficult judgement decisions on marginal cases",
+   "ms_guidance": "\"Calls\" bermaksud keputusan pertimbangan, bukan panggilan: \"keputusan profesional bagi kes kompetensi yang berada di ambang lulus\"."
+  },
+  {
+   "phrase": "ai is a document factory",
+   "chapter": "110",
+   "gloss": "machine that mass-produces documents mechanically",
+   "ms_guidance": "Metafora boleh dikekalkan sebagai \"kilang dokumen\" kerana mudah difahami, atau parafrasa \"mesin penghasil dokumen semata-mata\"."
+  },
+  {
+   "phrase": "use it as a desk reference",
+   "chapter": "110",
+   "gloss": "a quick-reference guide kept at hand",
+   "ms_guidance": "Parafrasa: \"panduan rujukan pantas yang sentiasa boleh dirujuk\"; jangan literal \"rujukan meja\"."
+  },
+  {
+   "phrase": "the turning point came when",
+   "chapter": "120",
+   "gloss": "the decisive moment of change",
+   "ms_guidance": "Gunakan padanan lazim \"titik perubahan\": \"Titik perubahannya ialah apabila...\"."
+  },
+  {
+   "phrase": "include a red herring",
+   "chapter": "120",
+   "gloss": "a deliberately misleading clue",
+   "ms_guidance": "Parafrasa: \"petunjuk mengelirukan yang sengaja diselitkan\"; jangan sekali-kali terjemah literal sebagai ikan."
+  },
+  {
+   "phrase": "where they fell short",
+   "chapter": "120",
+   "gloss": "where their performance was inadequate",
+   "ms_guidance": "Parafrasa: \"aspek yang belum mencapai tahap yang dikehendaki\"; jangan \"jatuh pendek\"."
+  },
+  {
+   "phrase": "the results have been mixed",
+   "chapter": "120",
+   "gloss": "inconsistent — some good, some poor",
+   "ms_guidance": "Gunakan \"hasilnya tidak sekata\" atau \"ada yang baik, ada yang kurang memuaskan\"; \"bercampur-campur\" boleh diterima dalam nada tidak rasmi."
+  },
+  {
+   "phrase": "not a sales pitch",
+   "chapter": "120",
+   "gloss": "not aggressive promotional talk",
+   "ms_guidance": "Gunakan \"bukan promosi jualan\" atau \"bukan pujukan jualan\"; jangan terjemah literal \"pitch\"."
+  },
+  {
+   "phrase": "the difference was not magic",
+   "chapter": "120",
+   "gloss": "the improvement had an ordinary, explainable cause",
+   "ms_guidance": "Parafrasa: \"Perbezaan itu bukan sesuatu yang ajaib — puncanya ialah kekhususan\"; kekalkan struktur ringkas, elakkan \"magik\"."
+  },
+  {
+   "phrase": "a long-standing relationship",
+   "chapter": "120",
+   "gloss": "a well-established, long-existing relationship",
+   "ms_guidance": "Gunakan \"hubungan yang telah lama terjalin\"; jangan literal \"berdiri lama\"."
+  },
+  {
+   "phrase": "a rolling commitment, not a one-time project",
+   "chapter": "130",
+   "gloss": "a continuous, ongoing obligation",
+   "ms_guidance": "Parafrasa: \"komitmen berterusan, bukan projek sekali sahaja\"; \"rolling\" jangan diterjemah sebagai bergolek."
+  },
+  {
+   "phrase": "as scaffolding for curriculum design, not as the architect",
+   "chapter": "130",
+   "gloss": "temporary support, not the designer in charge",
+   "ms_guidance": "Metafora binaan boleh dikekalkan (\"sebagai perancah... bukan arkiteknya\") kerana imejnya jelas; jika ragu, parafrasa \"alat sokongan, bukan penentu reka bentuk\"."
+  },
+  {
+   "phrase": "bridging the gap between",
+   "chapter": "130",
+   "gloss": "connecting or reducing a mismatch",
+   "ms_guidance": "Gunakan padanan lazim \"merapatkan jurang antara\"."
+  },
+  {
+   "phrase": "ai changes the economics of curriculum development",
+   "chapter": "130",
+   "gloss": "alters the cost-and-effort balance",
+   "ms_guidance": "Parafrasa: \"AI mengubah kos dan usaha yang diperlukan untuk pembangunan kurikulum\"; jangan literal \"menukar ekonomi\"."
+  },
+  {
+   "phrase": "ai does not know your kit",
+   "chapter": "130",
+   "gloss": "kit means your workshop equipment",
+   "ms_guidance": "\"Kit\" ialah bahasa basahan Inggeris untuk peralatan: terjemah sebagai \"AI tidak mengetahui peralatan bengkel anda\"; jangan kekalkan \"kit\" tanpa konteks."
+  },
+  {
+   "phrase": "three verification questions anchor every curriculum document",
+   "chapter": "130",
+   "gloss": "underpin or ground every document",
+   "ms_guidance": "Gunakan \"menjadi asas\" atau \"paksi\" (\"tiga soalan pengesahan menjadi asas setiap dokumen kurikulum\"); bukan imej sauh."
+  },
+  {
+   "phrase": "where they cut corners",
+   "chapter": "140",
+   "gloss": "skip proper steps to save effort",
+   "ms_guidance": "Parafrasa: \"di mana pelajar mengambil jalan pintas atau mencuaikan langkah yang sepatutnya\"; jangan \"memotong sudut\"."
+  },
+  {
+   "phrase": "saves you from staring at a blank page",
+   "chapter": "140",
+   "gloss": "spares you the struggle of starting from nothing",
+   "ms_guidance": "Parafrasa: \"anda tidak perlu bermula daripada kosong\"; imej merenung halaman kosong boleh digugurkan."
+  },
+  {
+   "phrase": "the workshop floor is yours",
+   "chapter": "140",
+   "gloss": "hands-on delivery remains your domain and responsibility",
+   "ms_guidance": "Parafrasa: \"urusan di lantai bengkel tetap terletak di tangan anda\" atau \"kerja amali di bengkel tetap tanggungjawab anda\"; jangan literal \"lantai itu milik anda\"."
+  },
+  {
+   "phrase": "knowledge that lives in your hands and your eyes",
+   "chapter": "140",
+   "gloss": "tacit, embodied know-how from experience",
+   "ms_guidance": "Parafrasa: \"pengetahuan yang sebati dengan tangan dan pandangan mata anda\" atau \"tersimpan dalam pengalaman amali anda\"; elakkan \"tinggal di dalam tangan\"."
+  },
+  {
+   "phrase": "fifteen minutes well spent",
+   "chapter": "140",
+   "gloss": "time that was thoroughly worthwhile",
+   "ms_guidance": "Gunakan \"lima belas minit yang berbaloi\"; jangan literal \"dibelanjakan dengan baik\"."
+  },
+  {
+   "phrase": "beyond ai's reach",
+   "chapter": "140",
+   "gloss": "things AI simply cannot do",
+   "ms_guidance": "Gunakan \"di luar kemampuan AI\"; \"di luar capaian\" boleh, tetapi elakkan imej fizikal \"jangkauan tangan\"."
+  },
+  {
+   "phrase": "a steady stream of operational documentation",
+   "chapter": "140",
+   "gloss": "a continuous flow of paperwork",
+   "ms_guidance": "Parafrasa: \"dokumentasi operasi yang datang tidak putus-putus\" atau \"aliran dokumentasi yang berterusan\"."
+  },
+  {
+   "phrase": "run through the session structure in her head",
+   "chapter": "140",
+   "gloss": "mentally rehearse the plan",
+   "ms_guidance": "Gunakan \"mengulang susunan sesi itu dalam fikirannya\"; \"dalam kepalanya\" kurang sesuai untuk laras rasmi."
+  }
+ ]
+}

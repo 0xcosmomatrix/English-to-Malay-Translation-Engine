@@ -1,0 +1,49 @@
+{
+ "_about": [
+  "L2.5 collocation layer for ms-MY. Same contract as ms-terms.json: only",
+  "status='enforced' entries reach gates; candidates await ruling. Multi-word,",
+  "word-boundary matched, masked-prose only."
+ ],
+ "collocations": [
+  {
+   "en": "close/bridge the gap",
+   "canonical": "merapatkan jurang",
+   "variants": [
+    "menutup jurang"
+   ],
+   "status": "enforced",
+   "why": "reviewer flag #16; standard Malay collocation",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "dominant pattern",
+   "canonical": "corak lazim",
+   "variants": [
+    "corak dominan"
+   ],
+   "status": "candidate",
+   "why": "reviewer flag #35 suggestion",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "consistent story (data)",
+   "canonical": "naratif yang konsisten",
+   "variants": [
+    "cerita yang konsisten"
+   ],
+   "status": "candidate",
+   "why": "reviewer flag #34",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "mobilise instructors",
+   "canonical": "menggerakkan tenaga pengajar",
+   "variants": [
+    "membuat pengajar"
+   ],
+   "status": "candidate",
+   "why": "reviewer flag #19; PRPM: menggerakkan = mengusahakan berfungsi",
+   "source": "review-2026-08+PRPM"
+  }
+ ]
+}

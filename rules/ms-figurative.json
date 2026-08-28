@@ -1,0 +1,446 @@
+{
+ "_about": [
+  "Malay figurative units (idioms + proverbs) harvested from English Wiktionary",
+  "categories (CC BY-SA, attributed). LICENCE LIST: used to validate figurative language",
+  "the pipeline produces (a metaphor not in this list is flagged as probably invented),",
+  "never to inject figurative language into translations.",
+  "Harvest notes: Fetched via English Wiktionary MediaWiki API (action=query, list=categorymembers, cmlimit=500, ns 0): Category:Malay_idioms = 58 titles (1 page), Category:Malay_proverbs = 36 titles (1 page); both categories exhausted with no continuation. Total 94 units (6 titles appear in both categories and are l"
+ ],
+ "units": [
+  {
+   "ms": "ada udang di sebalik batu",
+   "kind": "idiom",
+   "meaning": "There is a concealed ulterior motive in someone’s"
+  },
+  {
+   "ms": "air dicincang tidak akan putus",
+   "kind": "idiom",
+   "meaning": "the conflict between family members doesn't last long;"
+  },
+  {
+   "ms": "air tangan",
+   "kind": "idiom",
+   "meaning": "cooking or dish made by somebody's hard work"
+  },
+  {
+   "ms": "air yang tenang, jangan disangka tiada buaya",
+   "kind": "idiom",
+   "meaning": "A calm person or situation is not to"
+  },
+  {
+   "ms": "ajak-ajak ayam",
+   "kind": "idiom",
+   "meaning": "insincere (of invitations)"
+  },
+  {
+   "ms": "babi buta",
+   "kind": "idiom",
+   "meaning": "to act blindly"
+  },
+  {
+   "ms": "bagai telur di hujung tanduk",
+   "kind": "idiom",
+   "meaning": "being in a precarious situation, like being on"
+  },
+  {
+   "ms": "biar",
+   "kind": "idiom",
+   "meaning": "To let; to allow"
+  },
+  {
+   "ms": "biar putih tulang, jangan putih mata",
+   "kind": "idiom",
+   "meaning": "No matter how one makes a sacrifice, they"
+  },
+  {
+   "ms": "buta tuli",
+   "kind": "idiom",
+   "meaning": "to act blindly"
+  },
+  {
+   "ms": "cacing hendak menjadi naga",
+   "kind": "idiom",
+   "meaning": "a smaller or weaker person desiring to be"
+  },
+  {
+   "ms": "cakar ayam",
+   "kind": "idiom",
+   "meaning": "scrawl, scribble (bad handwriting)"
+  },
+  {
+   "ms": "curi ayam",
+   "kind": "idiom",
+   "meaning": "to commit offside"
+  },
+  {
+   "ms": "depan hidung",
+   "kind": "idiom",
+   "meaning": "under someone's nose"
+  },
+  {
+   "ms": "ditelan mati emak, diluah mati bapak",
+   "kind": "idiom",
+   "meaning": "between a rock and a hard place, to"
+  },
+  {
+   "ms": "duit kopi",
+   "kind": "idiom",
+   "meaning": "coffee money; bribe"
+  },
+  {
+   "ms": "embun belum kering lagi",
+   "kind": "idiom",
+   "meaning": "early in the morning"
+  },
+  {
+   "ms": "genggam bara api, biar sampai jadi arang",
+   "kind": "idiom",
+   "meaning": "one must undergo challenge with persistence until reaching"
+  },
+  {
+   "ms": "harapkan pagar, pagar makan padi",
+   "kind": "idiom",
+   "meaning": ""
+  },
+  {
+   "ms": "harapkan pegar, pegar makan padi",
+   "kind": "idiom",
+   "meaning": "to hope for a person to do something,"
+  },
+  {
+   "ms": "hidung tinggi",
+   "kind": "idiom",
+   "meaning": "arrogant, putting on airs"
+  },
+  {
+   "ms": "indah khabar daripada rupa",
+   "kind": "idiom",
+   "meaning": "more than meets the eye"
+  },
+  {
+   "ms": "kambing hitam",
+   "kind": "idiom",
+   "meaning": "scapegoat, black sheep"
+  },
+  {
+   "ms": "kata periuk belanga hitam",
+   "kind": "idiom",
+   "meaning": "pot calling the kettle black"
+  },
+  {
+   "ms": "katak di bawah tempurung",
+   "kind": "idiom",
+   "meaning": "An ignorant or unknowledgeable person, one of very"
+  },
+  {
+   "ms": "makan",
+   "kind": "idiom",
+   "meaning": "to eat"
+  },
+  {
+   "ms": "makan angin",
+   "kind": "idiom",
+   "meaning": "to get some fresh air, to go outside"
+  },
+  {
+   "ms": "makan garam",
+   "kind": "idiom",
+   "meaning": "to have lived long and are thus highly"
+  },
+  {
+   "ms": "masuk air",
+   "kind": "idiom",
+   "meaning": "crazy; goofy; silly; nuts"
+  },
+  {
+   "ms": "masuk telinga kanan, keluar telinga kiri",
+   "kind": "idiom",
+   "meaning": "to go in one ear and out the"
+  },
+  {
+   "ms": "melentur buluh biarlah dari rebungnya",
+   "kind": "idiom",
+   "meaning": "to train or educate from a young age"
+  },
+  {
+   "ms": "mencari jejak dalam air",
+   "kind": "idiom",
+   "meaning": "to flog a dead horse"
+  },
+  {
+   "ms": "mencurah minyak ke api",
+   "kind": "idiom",
+   "meaning": "to add fuel to the fire"
+  },
+  {
+   "ms": "mendabik dada",
+   "kind": "idiom",
+   "meaning": "To beat one's chest (to boast; to brag;"
+  },
+  {
+   "ms": "muka papan",
+   "kind": "idiom",
+   "meaning": "thick-skinned, insensitive to criticism, shameless"
+  },
+  {
+   "ms": "musuh dalam selimut",
+   "kind": "idiom",
+   "meaning": "a mole"
+  },
+  {
+   "ms": "nasi sudah menjadi bubur",
+   "kind": "idiom",
+   "meaning": "the die is cast, what's done is done"
+  },
+  {
+   "ms": "orang rumah",
+   "kind": "idiom",
+   "meaning": "A married woman, A wife"
+  },
+  {
+   "ms": "panjang tangan",
+   "kind": "idiom",
+   "meaning": "one who steals; thieving"
+  },
+  {
+   "ms": "periuk nasi",
+   "kind": "idiom",
+   "meaning": "rice cooker"
+  },
+  {
+   "ms": "pisang tidak akan berbuah dua kali",
+   "kind": "idiom",
+   "meaning": "opportunity seldom knocks twice"
+  },
+  {
+   "ms": "putih mata",
+   "kind": "idiom",
+   "meaning": "to surrender, to throw in the towel"
+  },
+  {
+   "ms": "putih tulang",
+   "kind": "idiom",
+   "meaning": "to sacrifice one's own life"
+  },
+  {
+   "ms": "sambil menyelam minum air",
+   "kind": "idiom",
+   "meaning": "at one blast; in one fell swoop"
+  },
+  {
+   "ms": "sediakan payung sebelum hujan",
+   "kind": "idiom",
+   "meaning": "to make hay while the sun shines; to"
+  },
+  {
+   "ms": "sengal-sengal ubi",
+   "kind": "idiom",
+   "meaning": ""
+  },
+  {
+   "ms": "seperti kera mendapat bunga",
+   "kind": "idiom",
+   "meaning": "like pearls before swine, of something of value"
+  },
+  {
+   "ms": "siling kaca",
+   "kind": "idiom",
+   "meaning": "glass ceiling"
+  },
+  {
+   "ms": "sudah jatuh, tertimpa tangga",
+   "kind": "idiom",
+   "meaning": "getting multiple misfortunes, one after another (same time"
+  },
+  {
+   "ms": "sudah terhantuk, baru tengadah",
+   "kind": "idiom",
+   "meaning": "only feeling remorse or having realized after receiving"
+  },
+  {
+   "ms": "tanam anggur",
+   "kind": "idiom",
+   "meaning": "to be unemployed; to have no source of"
+  },
+  {
+   "ms": "telur di hujung tanduk",
+   "kind": "idiom",
+   "meaning": "something or someone on a knife-edge"
+  },
+  {
+   "ms": "tempat jin buang anak",
+   "kind": "idiom",
+   "meaning": "middle of nowhere; remote and desolate place"
+  },
+  {
+   "ms": "terlepas dari mulut buaya, masuk ke mulut harimau",
+   "kind": "idiom",
+   "meaning": "to go out of the frying pan, into"
+  },
+  {
+   "ms": "tidak kena tempat",
+   "kind": "idiom",
+   "meaning": "out of place"
+  },
+  {
+   "ms": "titik peluh",
+   "kind": "idiom",
+   "meaning": "drops of sweat"
+  },
+  {
+   "ms": "ukur baju di badan sendiri",
+   "kind": "idiom",
+   "meaning": "to cut one's coat according to one's cloth"
+  },
+  {
+   "ms": "untuk rekod",
+   "kind": "idiom",
+   "meaning": "for the record"
+  },
+  {
+   "ms": "ada hujan ada panas, ada hari boleh balas",
+   "kind": "proverb",
+   "meaning": "evil be to him who evil thinks, old"
+  },
+  {
+   "ms": "ada padi semua kerja jadi, ada beras semua kerja deras",
+   "kind": "proverb",
+   "meaning": "where there is a will, there is a"
+  },
+  {
+   "ms": "ada padi, semua kerja jadi",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "air beriak tanda tak dalam",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "alah bisa, tegal biasa",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "anak kera di hutan disusui, anak sendiri di rumah kebuluran",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "badan sihat, otak cerdas",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "bapa borek, anak rintik",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "berakit-rakit ke hulu, berenang-renang ke tepian, bersakit-sakit dahulu, bersenang-senang kemudian",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "bersekutu bertambah mutu",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "di mana ada kemahuan, di situ ada jalan",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "di mana bumi dipijak, di situ langit dijunjung",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "enggang bersama enggang, pipit bersama pipit",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "guru kencing berdiri, murid kencing berlari",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "hendak seribu daya, tak hendak seribu dalih",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "hujan emas di negeri orang, hujan batu di negeri sendiri, baik juga di negeri sendiri",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "kalau takut dilambung ombak, jangan berumah di tepi pantai",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "kalau tidak dipecahkan ruyung, manakan dapat sagunya",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "kumbang tidak seekor, bunga tidak sekaki",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "masuk ke dalam kandang kambing mengembek, masuk ke dalam kandang kerbau menguak",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "mati tidak kerana sumpah, hidup tidak kerana kaul",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "sebab nila setitik, rosak susu sebelanga",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "sedikit-sedikit, lama-lama jadi bukit",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "senang dapat, senang habis",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "sepandai-pandai tupai melompat, akhirnya jatuh ke tanah juga",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "siapa cepat, dia dapat",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "tak tahu menari dikatakan lantai jongkang-jongket",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "tak tahu menari dikatakan tanah tinggi rendah",
+   "kind": "proverb",
+   "meaning": ""
+  },
+  {
+   "ms": "tak tahu menganyam pandan disalahkan",
+   "kind": "proverb",
+   "meaning": ""
+  }
+ ]
+}

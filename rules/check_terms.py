@@ -19,6 +19,12 @@ for tier in TIERS:
         if n: found[(e["avoid_id"],e["ms"])]+=n
     print(f"  [{tier}] {len(found)} distinct Indonesian form(s) present")
     for (a,m),n in found.most_common(8): print(f"      x{n:<3} '{a}' -> should be '{m}'")
+try:
+    col=json.load(open(HERE/"ms-collocations.json"))["collocations"]
+    found=[(v,c["canonical"]) for c in col if c.get("status")=="enforced" for v in c.get("variants",[]) if hits(v)]
+    print(f"\n  [collocations] {len(found)} enforced-collocation variant(s) present")
+    for v,canon in found: print(f"      x{hits(v):<3} '{v}' -> '{canon}'")
+except FileNotFoundError: pass
 print("\n  [terms] variants present that should be the canonical form:")
 for t in tm["terms"]:
     for v in t.get("variants",[]):
