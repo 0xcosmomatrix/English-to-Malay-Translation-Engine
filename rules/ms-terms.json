@@ -762,6 +762,36 @@
    },
    "why": "lexicon gate: nyah- is a productive DBP computing prefix (nyahpepijat); confirm coinage",
    "source": "review-2026-08"
+  },
+  {
+   "en": "moderation (assessment)",
+   "options": [
+    "moderasi (current)",
+    "penyelarasan"
+   ],
+   "status": "UNRESOLVED",
+   "why": "PRPM: no KD entry for moderasi; recorded as deliberate distinct-pair earlier — conflict needs native ruling (x6 in v3)",
+   "source": "corpus-audit-2026-08-28"
+  },
+  {
+   "en": "rubric (assessment)",
+   "options": [
+    "rubrik (current)",
+    "rubrik penilaian (istilah check)"
+   ],
+   "status": "UNRESOLVED",
+   "why": "KD labels rubrik IB in the newspaper-column sense; assessment sense is ubiquitous MY-education usage, likely istilah — confirm (x10 in v3)",
+   "source": "corpus-audit-2026-08-28"
+  },
+  {
+   "en": "immersive",
+   "options": [
+    "imersif (current)",
+    "mengasyikkan / bersifat imersif"
+   ],
+   "status": "UNRESOLVED",
+   "why": "PRPM: no KD entry; recent tech coinage, common in MY edu-tech (x2 in v3)",
+   "source": "corpus-audit-2026-08-28"
   }
  ]
 }

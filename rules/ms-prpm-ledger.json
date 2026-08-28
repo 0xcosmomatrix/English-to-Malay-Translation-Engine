@@ -3154,5 +3154,4175 @@
   "evidence": "reviewer ruling: apprentice",
   "date": "2026-08-28",
   "source": "reviewer-ruling-2026-08"
+ },
+ "populasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "jumlah semua orang yg mendiami sesuatu tempat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "positif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "pasti, tegas, tentu, tetap (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "possibility": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; only Kamus Inggeris-Melayu entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "potensi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kemampuan, kebolehan, kekuatan (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pra-penempatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "productive pra- + penempatan (root tempat, defined)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "praktikal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "melibatkan pengalaman atau penggunaan sebenar",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "prasyarat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "syarat yg amat penting dan perlu dipenuhi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "press": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; only Kamus Inggeris entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "press-releases": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; no Malay entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "produksi": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "KD label IB: barang-barang yg dihasilkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "profesion": {
+  "verdict": "VALID_MALAY",
+  "evidence": "pekerjaan yg memerlukan pelajaran tinggi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "profesional": {
+  "verdict": "VALID_MALAY",
+  "evidence": "berkaitan dgn bidang profesion (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "profesionalnya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root profesional defined + -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "progresif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menuju ke arah perbaikan atau kemajuan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "prosa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "karangan bertulis dgn bahasa biasa, lwn puisi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "prosedur": {
+  "verdict": "VALID_MALAY",
+  "evidence": "cara yg lazim utk membuat sesuatu urusan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "prosedural": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah lists only; Eng/Indo-style adjectival coinage [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "proses": {
+  "verdict": "VALID_MALAY",
+  "evidence": "satu siri perubahan yg berlaku",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "prospek": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kemungkinan atau peluang utk mencapai kejayaan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "prospektif": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no KD entry; English/Indonesian-style coinage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "publications": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; Kamus Inggeris only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "publish": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; Kamus Inggeris-Melayu only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "publishing": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; Kamus Inggeris-Melayu only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pukal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bongkah, gumpal, ketul (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "quick": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; Kamus Inggeris-Melayu only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "radar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "alat utk mengesan arah dan jarak",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ramp": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; Kamus Inggeris-Melayu only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "rancang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD headword rancang I/II/III; merancang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "rancangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sesuatu yg dirancang, persediaan, program",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "readytech": {
+  "verdict": "NO_ENTRY",
+  "evidence": "garble/brand coinage; nothing in any dictionary",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "realistik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "berhubungan dgn fahaman realisme",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "refleksi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bayangan, gambaran (dlm cermin, fikiran)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "reflektif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah lists only; Eng/Indo-style coinage; refleksi is KD form [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "regenerasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah MABBIM only; Indonesian-style coinage [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "registration": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; Kamus Inggeris-Melayu only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "rekod": {
+  "verdict": "VALID_MALAY",
+  "evidence": "prestasi terbaik yg dicapai; piring hitam",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "rekodkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root rekod defined + -kan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "rentang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "terhulur panjang, terhulur memanjang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "reputasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "nama baik (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "resource": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; Kamus Inggeris-Melayu only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "respons": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sambutan, reaksi, jawaban (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "revolution": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; Kamus Inggeris-Melayu only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ringkas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tidak panjang, pendek, singkat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ringkasan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "ikhtisar, intisari, singkatan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "rubrik": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "KD label IB: ruangan karangan dlm surat khabar",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "rules": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; no Malay entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "rumusan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "pernyataan atau kesimpulan tentang soal-soal pokok",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "rundingan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "perbincangan utk menyelesaikan masalah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "rutin": {
+  "verdict": "VALID_MALAY",
+  "evidence": "pekerjaan yg telah menjadi kelaziman",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sampel": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bahagian kecil yg mewakili, contoh",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sebaya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "seumur, sama umurnya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "segelintir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sekumpulan kecil (manusia)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "segi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "garis pd tepi bidang, sisi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "seimbang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "setimbang, sama berat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sejajar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "terletak sebaris, sederet",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sejawat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "rakan sejawat, kawan sekerja",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sekaligus": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Indonesian one-word spelling; Malay standard is sekali gus",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sekitar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sekeliling; lebih kurang, kira-kira",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sekunder": {
+  "verdict": "VALID_MALAY",
+  "evidence": "yg kedua, tidak yg utama",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sekurang-kurangnya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "paling kurang, serendah-rendahnya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "selesa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tidak sempit, lega; berasa enak, senang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "semester": {
+  "verdict": "VALID_MALAY",
+  "evidence": "satu drpd dua sesi pengajian",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "semikonduktor": {
+  "verdict": "VALID_MALAY",
+  "evidence": "(Fiz) bahan yg kadar aliran elektriknya bertambah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "senario": {
+  "verdict": "VALID_MALAY",
+  "evidence": "ringkasan plot sesuatu drama",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sengaja": {
+  "verdict": "VALID_MALAY",
+  "evidence": "memang diniatkan lebih dahulu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sensitif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mudah merasai sesuatu, peka",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sensitiviti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "keadaan sensitif, kepekaan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sensor": {
+  "verdict": "VALID_MALAY",
+  "evidence": "alat yg dapat mengesan perubahan, penderia",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sepintas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sepintas lalu: sambil lalu, selayang pandang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "series": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; Kamus Inggeris-Melayu only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sesebuah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "se-+sebuah (root buah); standard KD indefinite form",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sesuaikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root sesuai defined + -kan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "setanding": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sebanding, seimbang, setara",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "setara": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sama besarnya, sejajar",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "setaraf": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sama taraf, sedarjat, sejajar",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "setimbun": {
+  "verdict": "VALID_MALAY",
+  "evidence": "se- + timbun (root timbun defined)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "shortage": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; Kamus Inggeris-Melayu only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "signifikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bermakna, penting (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sihir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "perbuatan luar biasa secara ghaib",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sijil": {
+  "verdict": "VALID_MALAY",
+  "evidence": "surat akuan, surat tanda lulus",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sila": {
+  "verdict": "VALID_MALAY",
+  "evidence": "silalah, silakan: minta dgn hormat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "silang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bentuk spt salib, tanda darab",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "simplify": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; Kamus Inggeris-Melayu only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sintaks": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Pelajar: aturan struktur bahasa pengaturcaraan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sintesis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "proses menyatukan pelbagai unsur",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "skala": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tanda-tanda pd alat pengukur",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "skema": {
+  "verdict": "VALID_MALAY",
+  "evidence": "rajah yg perlu diikuti, rancangan teratur",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "skilled": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (skilled = mahir)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "skop": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD headword; Perdana hits: bidang/lingkup sesuatu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "skrip": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: sijil sementara; also teks lakonan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "social": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: sosial)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "society": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: masyarakat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "soket": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: alat yg diberi berlubang tempat memasukkan plag",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sovereign": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: berdaulat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "spektrum": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: cahaya berwarna-warni spt warna pelangi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "stages": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: peringkat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "status": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD entry; tesaurus: Bahasa Asal Inggeris, rujuk taraf",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "stem": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage or STEM acronym",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "stories": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: cerita)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "straitsai": {
+  "verdict": "NO_ENTRY",
+  "evidence": "brand/domain name (Straits AI), not a word",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "struggle": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: perjuangan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "struktural": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: berkaitan dgn struktur",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "style": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: gaya)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "suasana": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: keadaan yg wujud di sekitar sesuatu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sub-peranan": {
+  "verdict": "NO_ENTRY",
+  "evidence": "coinage: sub- + peranan (root valid, compound unlisted)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "subjek": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD headword; Perdana hits (mata pelajaran; pokok)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "subnet": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English networking term leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "subnetting": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English networking term leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "subrangkaian": {
+  "verdict": "NO_ENTRY",
+  "evidence": "coinage: sub- + rangkaian, calque of subnetwork",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "suite": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (software suite)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sulit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: tersembunyi; rahsia",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "sunting": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: hiasan; menyunting = mengedit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "susulan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD entry; root susul + -an",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "syak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: perasaan kurang percaya; waswas; curiga",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tabiat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: sifat batin seseorang; perangai",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tafsir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: keterangan atau penjelasan mengenai maksud",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tahap": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD headword; Perdana hits (peringkat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tahapnya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root tahap + -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tajaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: sesuatu yg ditaja",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tajuk": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD headword; Perdana hits (judul)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "taklimat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: penerangan ringkas ttg sesuatu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tangguhkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root tangguh + -kan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tank": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: kereta kebal/tangki)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "target": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: sasaran)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tatatertib": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: peraturan yg mesti dipatuhi; disiplin",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "teknikal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD Perdana headword (8 hits): berkaitan teknik",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "templat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD entry; Istilah Bahasa Melayu (112)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "teoretikal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD entry; Kamus Bahasa Melayu listings",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "teori": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD Perdana headword (5 hits)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "teoritikal": {
+  "verdict": "NO_ENTRY",
+  "evidence": "spelling variant/garble of teoretikal",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "terancang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root rancang + ter-; Perdana hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "terbukti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: telah nyata kerana ada buktinya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "terdokumen": {
+  "verdict": "VALID_MALAY",
+  "evidence": "ter- + dokumen (defined root); form itself unlisted",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tergolong": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: termasuk dlm sesuatu kumpulan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "terjejas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: menerima kesan; terganggu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "terjepit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: terhimpit di antara dua benda",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "terkumpul": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: sudah dikumpulkan; terhimpun",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "terkurasi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "coinage: ter- + kurasi (English curated); no root entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "terlatih": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: telah dilatih; terdidik",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "terminal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: stesen tempat bermulanya perkhidmatan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "terpenting": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root penting + ter-; Perdana hit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "terperinci": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root perinci + ter-; Perdana hit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tersebar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root sebar + ter-; Perdana hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tersirat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: terkandung atau tersembunyi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "teruk": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD Perdana headword (3 hits): parah/berat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "theonlinecitizen": {
+  "verdict": "NO_ENTRY",
+  "evidence": "website name (The Online Citizen), not a word",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tipikal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD entry; tesaurus sinonim lumrah, biasa, lazim",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "title": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: tajuk/gelaran)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tradisional": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD Perdana headword (11 hits)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "transkripsi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD entry; Istilah Bahasa Melayu (147)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "trek": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: lorong utk lumba lari, lumba kereta",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "trigger": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: pencetus)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tubi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: bertubi-tubi berulang-ulang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tunggakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: hutang yg masih belum dijelaskan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tunjang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: bahagian badan; akar tunjang; teras",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "tuntutan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root tuntut + -an; Perdana hit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ulung": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: banyak pengalamannya, cekap; terulung",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "unlocked": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: dibuka kunci)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "upaya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: usaha utk mencapai sesuatu maksud; ikhtiar",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "usahawan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD entry; root usaha + -wan (entrepreneur)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "variasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: kelainan drpd keadaan yg biasa",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "versi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD Perdana headword (1 hit)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "vignet": {
+  "verdict": "NO_ENTRY",
+  "evidence": "unadapted loan of vignette; no PRPM entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "vignette": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English/French leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "vignettes": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English plural leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "vinyet": {
+  "verdict": "NO_ENTRY",
+  "evidence": "phonetic coinage of vignette; no PRPM entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "vokasional": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: bkn kursus pendidikan mementingkan kemahiran",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "vokasionalnya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root vokasional + -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "waranti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Definisi: jaminan secara bertulis oleh syarikat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "words": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: perkataan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "worker": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (Malay: pekerja)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "workers": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English plural leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "wujud": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD Perdana headword (5 hits): ada, exist",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "zarah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD Perdana headword (2 hits): particle",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kalibrasi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus entry; Indonesian form (Malay: penentukuran/tentukuran)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kalis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"tidak dapat dimasuki (diserapi) sesuatu spt air\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "katalog": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"butiran senarai yg lengkap... mengikut abjad\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "keakraban": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"perhubungan atau pertalian yg sangat erat\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kebajikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"sesuatu yg membawa kebaikan, perbuatan baik\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kebanyakannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kebanyakan+-nya; root banyak defined in Kamus",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "keberkesanan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"perihal berkesan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kebolehcapaian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "keboleh-...-an derivative; root capai defined (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kebolehgunaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "keboleh-...-an derivative; root guna defined (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kecanggihan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"perihal (sifat, keadaan) canggih\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kecederaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 entry; regular ke-an of cedera",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kecerdasan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"kesempurnaan akal (utk berfikir)\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kedengarannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kedengaran+-nya; root dengar defined (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kelompongan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "ke-an of lompong, KD4: \"kosong, hampa\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kelulusan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"perihal lulus\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kemahiran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"kecekapan, kepandaian\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kematangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"perihal matang, kemasakan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kendalikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root kendali defined; mengendalikan in KD4",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kendiri": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"sendiri; kekendirian\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kesahihan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"perihal sahih (benar, pasti, sah)\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kesejagatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"hal sejagat, keuniversalan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "keseluruhannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "keseluruhan+-nya; root seluruh defined (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ketakselarasan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "ke+tak+selaras+an; root selaras defined (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ketekalan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"keadaan tekal, konsistensi\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ketersediaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"keadaan tersedia\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ketidakpadanan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "ke+tidak+padan+an; root padan defined (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ketidakpastian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"perihal tidak pasti\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ketidakselarasan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"keadaan tidak selaras\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ketidakupayaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"perihal tidak berupaya\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kewaspadaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"perihal atau keadaan waspada\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "khalayak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"orang ramai, orang banyak, umum\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kitar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 entry; \"kitar semula\", sekitar",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kitaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"gerakan berkitar, kisaran; kitaran hidup\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kohort": {
+  "verdict": "VALID_MALAY",
+  "evidence": "No Kamus entry; istilah lists only — technical loan [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kolej": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"maktab; kolej perguruan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "koleksi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"sesuatu yg dikumpulkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "komersial": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"berkaitan dgn atau bersifat perdagangan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "komersil": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 cross-ref: \"komersil ® komersial\" (variant)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "komit": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus entry; English leakage (commit); Malay uses komited/komitmen",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "komitmen": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"memberikan sepenuh tenaga... iltizam\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kompeten": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "KD4 labels it IB: \"IB 1. cekap, layak\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kompetensi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"kecekapan: kursus ~ umum\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kompetensinya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kompetensi+-nya; kompetensi defined in KD4",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "komponen": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"bahagian yg menjadikan sesuatu lengkap\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "konfigurasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"(Kim) susunan atom sesuatu molekul\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "konfigurasikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "konfigurasi+-kan; root konfigurasi defined (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "konseptual": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"berkaitan dgn konsep, berasaskan konsep\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "konsisten": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"terus berpegang pd pendirian... tekal\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "konsistensi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"perihal konsisten, ketekalan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "konsortium": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"gabungan beberapa buah syarikat\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "konstitutif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "No Kamus entry; istilah hits only — Indonesian/technical coinage [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "konsultasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"usaha bertukar-tukar fikiran... nasihat\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kontekstual": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"berkaitan dgn atau menurut konteks\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kontrak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"perjanjian formal dgn syarat-syarat tertentu\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kontraktor": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"orang atau syarikat yg mengikat kontrak\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "koreaherald": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Garble: run-together \"Korea Herald\" (newspaper name/URL)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kreatif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"mempunyai kebolehan mencipta\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kredit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"wang yg dipinjamkan... piutang\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kriteria": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"ukuran (asas pertimbangan) utk menentukan nilai\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kritik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"analisis, penilaian dan teguran\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kritikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"kritik (analisis, penilaian, dan ulasan)\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kumulatif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"bertimbunan atau menjadi makin banyak\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kurikulum": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"skop dan isi kandungan sesuatu mata pelajaran\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kursus": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"pelajaran mengenai sesuatu perkara\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "lajur": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"deret... baris, leret\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "laminat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "No Kamus entry; istilah lists only — technical loan (laminate) [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "landskap": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"pemandangan alam sesuatu kawasan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "lanjutannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "lanjutan+-nya; root lanjut defined (KD4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "latar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"bidang, permukaan... latar belakang\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "latih": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 entry: \"latih tubi; berlatih\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "latihan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"pelajaran atau didikan utk memahirkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "lawatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"perihal melawat... kunjungan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "lawatannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "lawatan+-nya; lawatan defined in KD4",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "laying": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (laying); only English-source istilah hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "lembaga": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 entry (bakal, benih; also board/body)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "lembaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"lampiran atau helai (kertas, surat khabar)\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "lengkok": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"bahagian... yg bengkok (berkelok), kelok\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "linear": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"berkaitan dgn atau berbentuk spt garis-garis\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "litar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"jalan lengkap yg dilalui arus elektrik\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "literasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"kebolehan menulis dan membaca, celik huruf\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "localisation": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; Malay is penyetempatan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "logik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"sains... pemikiran dan penaakulan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "logistik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"aspek sains ketenteraan... pembekalan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "lokal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 entry: \"bp bukan yg diimport; IB setempat\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "lokalisasi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus entry; Indonesian form (Malay: penyetempatan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "lokaliti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "No Kamus entry; istilah hits only — English-derived coinage [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "lulus": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"terus (masuk ke dlm lubang), lantas, tembus\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mahir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: \"terlatih utk mengerjakan sesuatu, cekap\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "majikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"orang yg mengambil satu atau lebih pekerja\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "majikannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "majikan + -nya; root majikan defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "maksimum": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"jumlah yg sebanyak-banyaknya\" (Kamus Dewan Edisi Keempat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "margin": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"jidar, garisan tepi; perbezaan antara dua jumlah\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "matang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"masak; mempunyai banyak pengalaman, sudah sempurna\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "matriks": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"persekitaran atau konteks tempat sesuatu berkembang\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "maximisation": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (untranslated); Malay is pemaksimuman",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mekanikal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"berhubung dgn jentera (mesin dll)\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "melangkaui": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"melalui, melewati\" (Kamus Dewan Edisi Keempat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "melatih": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"membiasakan, memahirkan\" (Kamus Dewan Edisi Keempat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "melintasinya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "melintasi + -nya; root lintas defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "meluluskan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"memperkenankan (permintaan, permohonan), mempersetujui\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "memaksimumkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menjadikan sebanyak-banyaknya\" (Kamus Dewan Edisi Keempat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "membimbing": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"memegang tangan dan memandu, memimpin\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "membuktikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menyungguhkan (meyakinkan) dgn bukti\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "memfabrikasi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry for word or root fabrikasi; English-derived coinage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "memfokuskan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menjadikan bertumpu pd satu titik, menumpukan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "memintas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"melalui jalan yg paling dekat; memotong\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mempamerkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mempertunjukkan atau memperagakan\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mempelajarinya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mempelajari + -nya; mempelajari defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "memproses": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mengambil tindakan mengikut prosedur yg ditetapkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menanganinya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menangani + -nya; menangani defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menarasikan": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry for word or root narasi; Indonesian-style coinage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menavigasi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry for word or root navigasi in Kamus; coinage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mencatatkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menuliskan atau merakamkan sesuatu utk peringatan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mencetak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mengecapkan tulisan (gambar) pd kertas\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mencetuskan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menimbulkan sesuatu dgn sekonyong-konyong\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mendawai": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"memasang dawai atau kawat\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mendemonstrasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "meN- + demonstrasi; root demonstrasi defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mendemonstrasikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menunjukkan serta menerangkan cara menggunakan sesuatu\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mendokumenkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mencatatkan sesuatu sbg dokumen\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mendokumentasikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mengusahakan sehingga tersedia sbg dokumentasi\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mendominasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menguasai, mengenakan kekuasaan terhadap\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mendraf": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"membuat atau menyediakan draf\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menduplikasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root duplikasi defined; menduplikasikan listed in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menelaah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mengkaji semula pelajaran; meneliti, menyelidiki\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menerapkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mempraktikkan, mengenakan pd, menyerapkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menerapkannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menerapkan + -nya; menerapkan defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengagihkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"membahagikan, memberikan\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengakses": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mendapat atau memperoleh akses kpd sesuatu\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengamalkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"melaksanakan, mempraktikkan, melakukan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengandaikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menganggap mungkin terjadi, memisalkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menganggarkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mengira(kan) secara kasar sahaja\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengartikulasikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menyatakan idea atau perasaan dgn kata-kata\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengartikulasikannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mengartikulasikan + -nya; base defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengenalinya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mengenali + -nya; mengenali defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengendalikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mengekang, menguasai, mengawal\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengendalikannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mengendalikan + -nya; base defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menggabungkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mengikat (mengumpulkan) menjadi satu, menyatukan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menggandakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"memperbanyakkan supaya menjadi dua kali jumlah\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menggubal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"membuat, menyusun, mencipta (undang-undang)\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menghidang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "meN- + hidang; root hidang/menghidangkan defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengiktiraf": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menerima atau mengakui\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengikutinya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mengikuti + -nya; mengikuti defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengimbangi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menjadi sbg imbangan kpd; menandingi\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengiterasi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry for word or root iterasi; English-derived coinage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengklasifikasikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menyusun mengikut kelas\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengkonfigurasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "meN- + konfigurasi; root konfigurasi defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengorganisasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "base of mengorganisasikan, defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengorganisasikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mengatur dlm organisasi, menyusun menjadi kesatuan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mengumpul": {
+  "verdict": "VALID_MALAY",
+  "evidence": "meN- + kumpul; root kumpul defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menjana": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root jana defined; menjanakan \"menghasilkan, mengeluarkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menjejaskan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mendatangkan kesan tidak baik pd, merosakkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menjelang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"hampir; datang berkunjung\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menjengkelkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menyebabkan kesal (sebal)\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mensintesis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "meN- + sintesis; root sintesis defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mentafsir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "meN- + tafsir; root tafsir defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menuntut": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"meminta dgn mendesak\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menuntutnya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menuntut + -nya; menuntut defined in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menyelenggara": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"membuat kerja-kerja serta mengurus supaya lancar\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menyelidik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"memeriksa sesuatu yg belum terang, menyiasat\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menyesuaikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menjadikan sesuai, menyelaraskan, memadankan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menyimpulkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"membentangkan (pendapat dsb) dgn ringkas\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menyorot": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"memancar (cahaya); menyoroti menerangi\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menyunting": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"memperkemas dan menyiapkan karangan utk dicetak\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "menzahirkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "meN-+zahir+-kan; root zahir \"nyata kelihatan\" defined",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "meraih": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menarik kpd diri sendiri; menarik (hati)\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "merancang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mengatur lebih dahulu, mempersiapkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "merangkumi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"melingkupi, mencakupi\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "merekodkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mencatat: ~ hasil kerja\" (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mereplikasi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry for word or root replikasi; English-derived coinage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "merespons": {
+  "verdict": "VALID_MALAY",
+  "evidence": "meN- + respons; root respons \"sambutan, reaksi\" defined",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "meringkaskan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menjadikan ringkas; memendekkan, menyingkatkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "merunding": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"sl menghitung, memperhitungkan\"; root runding defined",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mewujudkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"menjadikan berwujud, mengadakan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "microcredential-compatible": {
+  "verdict": "UNCLEAR",
+  "evidence": "PRPM refused hyphenated query twice; obvious English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "mikrokredensial": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; kredensial also absent; English-derived coinage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "moderasi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no Kamus entry; likely Indonesian loan (Malay: kesederhanaan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dwifokus": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: mempunyai dua fokus yg berbeza",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dwikekinian": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; coinage dwi- + Indonesian-style kekinian",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "editorial": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: rencana khas dlm akhbar oleh editor",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "editorialnya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root editorial defined in KD4 + -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ekosistem": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "eksekutif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "eksperimen": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Dewan Perdana entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "eksplisit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Dewan Perdana entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "elektrikal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "no KD entry; English 'electrical' adaptation, istilah lists only [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "elemen": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "embrace": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; only Kamus Inggeris-Melayu entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "empower": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; only Kamus Inggeris-Melayu entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "emsp": {
+  "verdict": "NO_ENTRY",
+  "evidence": "HTML entity &emsp; artifact, not a word",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "enac": {
+  "verdict": "NO_ENTRY",
+  "evidence": "garble, likely truncated 'enact'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "english": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; language name, no entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "enjin": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "entri": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Dewan Perdana entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "esei": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "europa": {
+  "verdict": "NO_ENTRY",
+  "evidence": "proper noun (Europe/Europa); no dictionary entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "explanations": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; plural English noun",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "fabrikasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "no KD entry; istilah/MABBIM term only, English-derived [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "fasilitasi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no KD entry; Indonesian-style -asi form",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "findings": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; plural English noun",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "firma": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "fokus": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "folder": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; only Kamus Inggeris-Melayu entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "font-size": {
+  "verdict": "NO_ENTRY",
+  "evidence": "CSS property leakage, not a word",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "formaliti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: tindakan yg perlu dipatuhi mengikut peraturan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "formatif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: yg berpengaruh utk membentuk sesuatu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "fotokopi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "founding": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; no entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "frasa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Dewan Perdana entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "fungsional": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: yg mempunyai atau diberi tugas-tugas tertentu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "futureskillsorganisation": {
+  "verdict": "NO_ENTRY",
+  "evidence": "URL/domain fragment, not a word",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "gabungan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 entry; root gabung",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "gementar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "generik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "gerbang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "glos": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: penjelasan ringkas utk menunjukkan makna",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "glosari": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "gubalan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus DBP: hasil menggubal; root gubal",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "harmonised": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (British spelling participle)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "hayat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "hidangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 entry; root hidang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "hipotesis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Dewan Perdana entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "hospitaliti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: layanan yg mesra kpd tetamu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "html": {
+  "verdict": "NO_ENTRY",
+  "evidence": "markup acronym leakage, not a word",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "https": {
+  "verdict": "NO_ENTRY",
+  "evidence": "URL scheme leakage, not a word",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "humans": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; plural English noun",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "igrouppress": {
+  "verdict": "NO_ENTRY",
+  "evidence": "URL/publisher-name fragment, not a word",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ilustratif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "no KD entry; istilah lists only; English/Indonesian-style adjective [upgraded: istilah presence = technical register, per tertiari precedent",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "imersif": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no KD entry; recent coinage from 'immersive'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "impak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "implikasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "implikasinya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root implikasi defined in KD4 + -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "independently": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; adverb, no entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "industri": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Dewan Perdana entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "inklusif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "no KD entry; common but only in istilah/MABBIM lists [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "innovations": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; plural English noun",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "insight": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; only Kamus Inggeris-Melayu entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "insights": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; plural English noun",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "institusi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Dewan Perdana entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "instrumen": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "integrasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "intelektual": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "interaktif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "interplaylearning": {
+  "verdict": "NO_ENTRY",
+  "evidence": "URL/company-name fragment, not a word",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "italic": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; only Kamus Inggeris-Melayu entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "item": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "iterasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "no KD entry; MABBIM istilah term from 'iteration' [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "jabat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "jangkauannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root jangkau defined in KD4; -an + -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "jelaga": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "jilid": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Dewan Perdana entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "join": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; only Kamus Inggeris-Melayu entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "joinery": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; only Kamus Inggeris-Melayu entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "journey": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage; only Kamus Inggeris-Melayu entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "judul": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "jujukan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: urutan, rentetan, susunan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "junior": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4: lebih muda; berpangkat lebih rendah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "jurang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "jurnal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Dewan Perdana entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "juruaudit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "juruelektrik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "juruteknik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "justeru": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Pelajar entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "kalangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD4 and Kamus Dewan Perdana entries",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "modul": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"unit atau bahagian tersendiri yg lengkap\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "motivasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"semangat yg kuat pd diri seseorang\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "munasabah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"boleh diterima akal, berpatutan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "muncul": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"keluar tiba-tiba, menampakkan diri, timbul\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "negatif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"pernyataan tidak atau bukan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "negative": {
+  "verdict": "NO_ENTRY",
+  "evidence": "only Kamus Inggeris-Melayu; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "news": {
+  "verdict": "NO_ENTRY",
+  "evidence": "only Kamus Inggeris-Melayu; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "newsroom": {
+  "verdict": "NO_ENTRY",
+  "evidence": "only Kamus Inggeris-Melayu; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "nilainya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root nilai: \"taksiran harga\" + -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "norma": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"ukuran utk menentukan sesuatu\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "nota": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"surat keterangan yg rasmi\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "notanya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root nota defined + clitic -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "objektif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"sesuatu khusus yg ingin dicapai, matlamat\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "onboarding": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Istilah hits only, no kamus entry; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "organisasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"kesatuan yg terdiri drpd bahagian-bahagian\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "padu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"mampat, padat, pejal, tumpat\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pameran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"pertunjukan barang-barang\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "parafrasa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"pengungkapan semula kandungan sesuatu tulisan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "partikel": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"(Lin) kata tugas\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pasca": {
+  "verdict": "VALID_MALAY",
+  "evidence": "standard prefix pasca- (post-); no standalone entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pastri": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"kuih drpd adunan tepung, lemak\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "paten": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"surat kerajaan yg memberi hak\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "patents": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no kamus entry; English plural leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "patiseri": {
+  "verdict": "NO_ENTRY",
+  "evidence": "nothing in PRPM; loan coinage from 'patisserie'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "patuhinya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root patuh: \"menurut perintah, taat\" + -i -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pedagogi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"kajian tentang kaedah dan prinsip pengajaran\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pegun": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"tidak bergerak, kaku\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pemaksimuman": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal memaksimumkan sesuatu\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pemarkahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal memberi markah\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pematuhan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perbuatan mengikut perintah\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pembantu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"orang yg membantu, penolong\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pembingkaian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root bingkai defined; peN-...-an derivative (framing)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pembolehubah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"pemboleh ubah: faktor yg tidak tetap, variabel\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pemproses": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"alat yg memproses sesuatu\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pemprosesan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perbuatan memproses\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pemurnian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal memurnikan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penaakulan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perbuatan menaakul\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penambahbaikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal menjadikan bertambah baik\" (s.v. tambah)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penapis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"alat utk menapis, penyaring\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penarafan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal menarafkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penarafannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root penarafan defined + -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pencetus": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"sesuatu yg mencetuskan: ~ idea\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pencirian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perbuatan mencirikan sesuatu\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pendawaian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"proses memasang dawai\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penderia": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"alat yg dapat mengesan... sensor\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penempatannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root penempatan: \"perihal menempatkan\" + -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penentukuran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tentukur unlisted; standard istilah coinage (calibration) [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pengamal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"orang yg bergiat dlm sesuatu profesion\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pengartikulasian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root artikulasi defined; peN-...-an derivative",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pengecam": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"pembidas, pengkritik, pencela\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pengecasan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"proses atau perbuatan mengecas\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pengenalpastian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal mengenal pasti\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pengendalian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal mengendalikan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pengendorsan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root endors/mengendors in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pengesah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"sesuatu yg mengesahkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pengesahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perbuatan atau hal mengesahkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penggal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"kerat, potong; bahagian masa pengajian\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penggubalan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal menggubal\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pengiktirafan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal mengiktiraf, pengakuan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penjajaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal menjajarkan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penjanaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perbuatan menjanakan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penjawat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"penjabat, pemegang jawatan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penjujukan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root jujuk defined; istilah: sequencing",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pensijilan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"pemberian atau penganugerahan sijil\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penting": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"amat perlu, mustahak\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penutur": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"orang yg menuturkan sesuatu bahasa\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penyelenggaraan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perbuatan menyelenggarakan, pemeliharaan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "penyesuaian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal menyesuaikan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "perancangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perbuatan merancang sesuatu\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "periferal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Istilah/MABBIM only; technical loan of 'peripheral' [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "perincikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root perinci: \"memperincikan menghuraikan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "perindustrian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal industri\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "peringkat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"tingkat dlm perkembangan sesuatu, tahap\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "persepsi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"gambaran dlm hati atau fikiran, tanggapan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "persidangannya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root persidangan: \"perjumpaan, mesyuarat\" + -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "perspektif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"pandangan (pentafsiran) yg wajar\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pertandingan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal bertanding, perlawanan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pertelingkahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perbalahan, perselisihan, persengketaan\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pertengkaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"perihal bertengkar\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "peruncit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"peniaga yg menjual secara runcit\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "philosophy": {
+  "verdict": "NO_ENTRY",
+  "evidence": "only Kamus Inggeris-Melayu; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pindaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"sesuatu yg dibuat utk meminda\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pintas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"jalan ~ jalan yg paling dekat\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "placed": {
+  "verdict": "NO_ENTRY",
+  "evidence": "only Kamus Inggeris-Melayu; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pola": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"corak; contoh, model, patrun\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "politeknik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "\"pusat pengajian tinggi... sains dan teknik\"",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "adaptif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "no Kamus Dewan entry; Istilah MABBIM only — technical loan [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "adendum": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tambahan maklumat pada bahagian akhir buku",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "admin": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English clipping of administrator; no dictionary definition",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "advokasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "no KD entry; Indonesian-style loan, istilah lists only [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "aiplus": {
+  "verdict": "NO_ENTRY",
+  "evidence": "coinage/product name AI+; no entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "akademik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "berkaitan dgn akademi (pusat pengajian tinggi)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "akreditasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "pengiktirafan rasmi terhadap sesuatu kursus pengajian",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "akses": {
+  "verdict": "VALID_MALAY",
+  "evidence": "proses atau cara utk mencapai sesuatu data",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "aligns": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (inflected English verb)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "alternatif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "pilihan yg merupakan kemestian; Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "alternative": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English; only Kamus Inggeris-Melayu headword",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "amalan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sesuatu yg dilakukan sbg suatu kebiasaan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "amali": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bkn pelaksanaan prinsip atau teori",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "amalkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root amal (amalan defined in KD)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ambar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sj barang yg harum baunya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "amid": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English preposition leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "amplify": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English; only Kamus Inggeris-Melayu headword",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "andaian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "contoh atau misalan yg dikemukakan utk menjelaskan hujah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "anekdot": {
+  "verdict": "VALID_MALAY",
+  "evidence": "kisah yg ringkas dan biasanya agak lucu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "anggaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "jumlah yg dianggarkan, perkiraan secara kasar",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "anggarkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root anggar (anggaran defined in KD)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "annex": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English; only Kamus Inggeris-Melayu headword",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "aras": {
+  "verdict": "VALID_MALAY",
+  "evidence": "hingga ke, sampai ke, paras, takat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "article": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English; only Kamus Inggeris-Melayu headword",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "articles": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English plural leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "artificialintelligenceact": {
+  "verdict": "UNCLEAR",
+  "evidence": "fetch failed twice; obvious run-together English 'Artificial Intelligence Act'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "aspirasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "keinginan yg kuat, cita-cita",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "atlas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "buku yg mengandungi peta-peta",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "audiens": {
+  "verdict": "VALID_MALAY",
+  "evidence": "para penonton yg menjadi tumpuan persembahan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "autonomi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "pemerintahan (pentadbiran, pengurusan) sendiri",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "baki": {
+  "verdict": "VALID_MALAY",
+  "evidence": "lebihan drpd sesuatu yg telah digunakan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bantu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD entry; berbantu, membantu derivatives listed",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bantuan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sesuatu yg diberikan utk membantu, pertolongan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bekerjasama": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bekerja bersama-sama atau saling membantu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berbantu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mempunyai (mendapat) bantuan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berbantukan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "menggunakan sesuatu bagi membantu melaksanakan tugas",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bercanggah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD entry; bercabang, memakai canggah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bereksperimen": {
+  "verdict": "VALID_MALAY",
+  "evidence": "membuat eksperimen",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berfasilitasi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry, no root fasilitasi in KD; Indonesian-style coinage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berfokus": {
+  "verdict": "VALID_MALAY",
+  "evidence": "berpusat, tertumpu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berfokuskan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root fokus (berfokus defined in KD)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berganda": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bertambah sekali lipat lebih banyak",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bergeser": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bergeselan, bersentuhan; beralih tempat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bergilir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "berganti dgn mengikut aturan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berimpak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root impak (KD headword); regular ber- derivative",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berintegrasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bergabung, berpadu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berisiko": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mempunyai (menghadapi) risiko",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berkelakuan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "membuat laku, berperangai, bertabiat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berkemahiran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mempunyai kemahiran, mahir",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berkepentingan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mempunyai kepentingan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berkesudahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root sudah; listed as kata terbitan of sudah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berlatih": {
+  "verdict": "VALID_MALAY",
+  "evidence": "memahirkan diri",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berorientasikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mempunyai sbg orientasi, berasaskan sesuatu orientasi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berperingkat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bertingkat, bertahap, berkelas",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berpotensi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mempunyai potensi, berkemampuan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bersemuka": {
+  "verdict": "VALID_MALAY",
+  "evidence": "berhadapan muka (dgn), bertemu muka",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berskala": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root skala (KD headword); regular ber- derivative",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bertaraf": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mempunyai taraf (darjat, tingkatan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bertauliah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mempunyai tauliah, ada tauliahnya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bertindan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bertimbun-timbun, bertindih-tindih",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bertindanan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root tindan (bertindan defined in KD)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berunding": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bercakap-cakap tentang sesuatu hal dgn sungguh-sungguh",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "berwibawa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mempunyai wibawa (kewibawaan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "betapa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "peri, alangkah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "betterment": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English; only Kamus Inggeris-Melayu headword",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bimbingan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "perbuatan membimbing, pimpinan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "binari": {
+  "verdict": "VALID_MALAY",
+  "evidence": "no KD entry; technical istilah loan for binary [upgraded: istilah presence = technical register, per tertiari precedent]",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bingkai": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tepi sesuatu benda dibuat drpd kayu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bonet": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tutup enjin (kereta)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bonus": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bayaran tambahan pd gaji sbg ganjaran",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "books": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English plural leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bootcamp": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English leakage (run-together boot camp)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bosch-stiftung": {
+  "verdict": "NO_ENTRY",
+  "evidence": "German proper noun (Robert Bosch Stiftung)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "brand": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English; only Kamus Inggeris-Melayu headword (jenama)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bukti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "keterangan yg nyata, tanda kebenaran, dalil",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bullets": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English plural leakage (list bullets)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bundel": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD entry (Jw label): simpul, ikatan; but 'bundle' sense is Indonesian usage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "bundles": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English plural leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "buruh": {
+  "verdict": "VALID_MALAY",
+  "evidence": "orang yg bekerja utk mencari makan, pekerja",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "campuradukkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root campur aduk (mencampuradukkan defined in KD)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "canggih": {
+  "verdict": "VALID_MALAY",
+  "evidence": "moden dan kompleks (alat), sofistikated",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "catat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mencatat: menulis atau merakamkan sesuatu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "catatkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root catat (defined in KD)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "celik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "(bkn mata) terbuka; sedar, timbul kesedaran",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "century": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Only Kamus Inggeris-Melayu headword; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "cetak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "cap (tanda, huruf) pd kertas atau kain",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ciri": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sifat (unsur, tanda) yg khusus pd sesuatu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "closer": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "collaborative": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Only Kamus Inggeris-Melayu headword; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "consilium": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; Latin term used as coinage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "converts": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "corak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "ragi atau bunga-bunga pd kain",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dagangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "barang-barang yg diperdagangkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dasar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bahagian yg di bawah sekali; asas, panduan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dasarnya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root dasar defined + -nya",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "decent": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Only Kamus Inggeris-Melayu headword; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "deklarasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "pernyataan yg ringkas dan jelas (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "demonstrasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "penerangan, peragaan; tunjuk perasaan (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "demonstrasikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root demonstrasi defined + -kan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "deployed": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Only Kamus Inggeris-Melayu headword; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "deria": {
+  "verdict": "VALID_MALAY",
+  "evidence": "alat perasa (pencium, pendengaran, pelihatan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "destinasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tempat yg dituju dlm perjalanan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dewasa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sudah baligh, sudah berumur 21 tahun ke atas",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diagihkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root agih: bahagi, beri; mengagihkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diagnostik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "bkn diagnosis: ujian ~ (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diakreditasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root akreditasi: pengiktirafan rasmi (di- Indonesian-style, root defined)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diakses": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root akses: proses utk mencapai data, capaian",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diamalkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root amal: apa sahaja yg dilakukan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diandaikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root andai: misal, umpama; andaikan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dibangkitkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root bangkit: berdiri, hidup kembali, naik",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dibantu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root bantu (tolong), core Kamus Dewan word",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dicampuradukkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD lists mencampuradukkan under campur aduk",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dicatatkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root catat: mencatat, menulis utk peringatan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dicetak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD cetak entry: 'sudah dicetak'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dicirikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root ciri defined + di-...-kan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "didemonstrasikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root demonstrasi defined + di-...-kan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "didokumenkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD dokumen entry: mendokumenkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "didokumentasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root dokumentasi defined; di- form Indonesian-style",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "didraf": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD draf entry: mendraf",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diekstrak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root ekstrak: mengekstrak (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "digerudi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root gerudi: menggerudi, membuat lubang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "digitalization": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; English leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "digubal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root gubal: menggubal (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dihimpit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root himpit: menghimpit, sangat rapat",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diiktiraf": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root iktiraf: mengiktiraf, menerima atau mengakui",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diintegrasikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root integrasi: penggabungan menjadi satu kesatuan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diiterasi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "iterasi no PRPM entry; tech coinage (DBP: lelaran)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dijana": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root jana: menjanakan, menghasilkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dikalibrasi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "kalibrasi no PRPM entry; Indonesian/tech (Malay: tentukur)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dikemukakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root muka; mengemukakan standard Kamus Dewan derivative",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dikompromi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root kompromi: persetujuan berdasarkan tolak ansur",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dikompromikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root kompromi defined + di-...-kan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dikreditkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root kredit: wang yg dipinjamkan; akaun",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dikumpulkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root kumpul: berkumpul, menjadi satu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dilatih": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root latih: latih tubi, latihan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dilokalkan": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "lokal: '2. IB setempat' (Kamus Dewan IB label)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diluluskan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root lulus defined (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dimensi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "ukuran saiz sesuatu (tinggi, panjang, lebar)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dipamerkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root pamer: mempamerkan, mempertunjukkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dipangkas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root pangkas: memangkas, bergunting",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diperbetulkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root betul: benar, tidak salah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diperhalus": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root halus defined (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diperkenalkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root kenal: dapat mengingat kembali, tahu",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diperluaskan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root luas: tidak sempit, lapang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dipertahankan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root tahan defined (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dipertingkat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root tingkat: lapis bersusun-susun",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diperuntukkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root untuk; peruntukan standard derivative",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diproses": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root proses: satu siri perubahan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dirunding": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root runding: berunding, merundingkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "disengajakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root sengaja: memang diniatkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "disepadukan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root sepadu: sebati, terserap, berjalin",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "disesuaikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root sesuai: padan benar, cocok",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "disetempatkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root setempat: di tempat itu sendiri",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "disintesis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root sintesis: proses menyatukan pelbagai unsur",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "disisipkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root sisip: menyisip, terselit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diskopkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root skop: bidang, lingkungan (derivative unusual, calque of 'scoped')",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "disulitkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root sulit: dirahsiakan, tersembunyi",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ditag": {
+  "verdict": "NO_ENTRY",
+  "evidence": "tag no PRPM entry; English leakage 'tagged'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ditaja": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root taja: menaja (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ditaklimatkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "KD taklimat entry: mentaklimatkan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ditambahbaik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root tambah baik: menambah baik, penambahbaikan (fused spelling nonstandard)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ditegangkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root tegang: kencang, tidak kendur",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diterapkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root terap defined; menerapkan standard",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ditindan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root tindan: bertindan, bertindih-tindih",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "ditindankan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root tindan defined + di-...-kan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "diungkap": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root ungkap: mengungkapkan, melahirkan isi hati",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "docs": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; English abbreviation leakage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dokumen": {
+  "verdict": "VALID_MALAY",
+  "evidence": "sesuatu yg bertulis atau bercetak sbg bukti",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dokumentasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "himpunan bahan atau dokumen (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dominan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "berkuasa atau berpengaruh (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "draf": {
+  "verdict": "VALID_MALAY",
+  "evidence": "tulisan disediakan secara kasar pd peringkat awal",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "dramatik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "mempunyai lagak yg sesuai utk drama",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my (shipped-corpus audit)"
  }
 }

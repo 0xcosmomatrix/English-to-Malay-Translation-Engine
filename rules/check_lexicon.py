@@ -32,6 +32,7 @@ def roots(w):
     return out
 def vocab(text):
     masked = re.sub(r"\(\*[^)]{0,80}?\*\)", " ", msml.mask_body(text))  # retained-EN glosses
+    masked = re.sub(r"[*_]", "", masked)  # letter-bolded mnemonics: **N**avigate must tokenize as Navigate, not N + avigate
     return {w.lower() for w in re.findall(r"[a-zA-Zà-ÿ]+(?:-[a-zA-Zà-ÿ]+)?", masked)}
 def lexicon():
     known=set()
@@ -43,6 +44,9 @@ def lexicon():
         for f in glob.glob(str(p/"*.md")): known|=vocab(open(f,encoding="utf8").read())
     led=json.load(open(HERE/"ms-prpm-ledger.json"))
     known|={w for w,v in led.items() if v["verdict"]=="VALID_MALAY"}
+    # the ledger OUTRANKS the corpus: a word the dictionary rejected must not be
+    # vouched for merely because the old book shipped it (corpus-audit finding)
+    known-={w for w,v in led.items() if v["verdict"] in ("NO_ENTRY","VERIFIED_INDONESIAN")}
     dnt=json.load(open(HERE/"ms-dnt.json"))
     known|={t.lower() for t in dnt["tokens"]}|{p.lower() for p in dnt["phrases"]}
     return known
