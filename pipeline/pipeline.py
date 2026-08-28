@@ -150,6 +150,7 @@ RULES
 - Address the reader as "anda"; instructional we = "kita".
 - No comma before "dan" in a series. Use "ialah" before nouns, never "Ini adalah".
 - "tool" = "alat" (never "peranti"). "new" = "baharu". Spell numbers 0-9 as words except versions/steps/measurements.
+- Where the English verb is "integrate/embed", use "mengintegrasikan" (not "menggunakan"); where English says "adoption" of a technology, prefer "penerimagunaan"; where English says "discipline" (academic), use "disiplin". Plain "use/field/trade" keep menggunakan/bidang. (Site-audit-backed; drafting guidance, not blind replacement.)
 - Keep in English: AI, TVET, PRISM, TRUST, BENCH, HANDS, GUARD, product names (ChatGPT, Claude, Copilot, Intel), institution names, and acronyms (RTO, ITE, BIBB, ILO, UNESCO). Framework letters keep their English word with a Malay gloss in parentheses on first use.
 - TERMS (binding):
 {trm}

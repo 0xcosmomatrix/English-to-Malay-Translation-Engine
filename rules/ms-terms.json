@@ -309,7 +309,7 @@
     "mengintegrasikan (reviewer)",
     "menggunakan (current)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 by site audit: default menggunakan; mengintegrasikan only where EN says integrate (1 site changed)",
    "evidence": {
     "occurrences": 9,
     "samples": [
@@ -324,7 +324,8 @@
    "oracle": {
     "mengintegrasikan": "VALID_MALAY: KD4: \"menggabungkan dua atau beberapa kaum (unsur) menjadi satu kesatuan\"",
     "istilah": "istilah: integration|integrasi/pemaduan (Pendidikan) — supports mengintegrasikan where EN means integrate; context ruling still needed (x9)"
-   }
+   },
+   "site_audit": "site audit 2026-08-28: 168 occurrences aligned to EN source; 129 resolved by EN trigger, 39 judged by 3-family panel with KD4/istilah senses as rubric; 38 KEEP, 1 change applied"
   },
   {
    "en": "bidang",
@@ -332,7 +333,7 @@
     "disiplin (reviewer)",
     "bidang (current)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 by site audit: bidang correct at all 53 sites incl. trades; disiplin reserved for explicit EN 'discipline'",
    "evidence": {
     "occurrences": 8,
     "samples": [
@@ -347,7 +348,8 @@
    "oracle": {
     "disiplin": "VALID_MALAY: latihan kelakuan; peraturan; kepatuhan; hukuman; bidang kajian",
     "istilah": "istilah: discipline|disiplin|Pendidikan — official for EN 'discipline'; bidang remains for trades/fields; context ruling still needed (x8)"
-   }
+   },
+   "site_audit": "site audit 2026-08-28: 168 occurrences aligned to EN source; 129 resolved by EN trigger, 39 judged by 3-family panel with KD4/istilah senses as rubric; 38 KEEP, 1 change applied"
   },
   {
    "en": "menghubungkan",
@@ -373,7 +375,7 @@
     "penggunaan (current)",
     "penerimagunaan (istilah: adoption)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 by site audit: penggunaan correct at all 39 sites; penerimagunaan reserved for explicit EN 'adoption' contexts",
    "evidence": {
     "occurrences": 3,
     "samples": [
@@ -388,7 +390,8 @@
    "oracle": {
     "adaptasi": "VALID_MALAY: penyesuaian dgn keadaan dsb yg baru atau berbeza",
     "istilah": "istilah adds a THIRD option: adoption|penerimagunaan|Komunikasi; adaptation|penyesuaian/adaptasi|Pendidikan. Reviewer menu now: penggunaan / adaptasi / penerimagunaan"
-   }
+   },
+   "site_audit": "site audit 2026-08-28: 168 occurrences aligned to EN source; 129 resolved by EN trigger, 39 judged by 3-family panel with KD4/istilah senses as rubric; 38 KEEP, 1 change applied"
   },
   {
    "en": "Menjelaskan",
