@@ -169,6 +169,10 @@ EN_NUM = {"zero": "0", "one": "1", "two": "2", "three": "3", "four": "4", "five"
           "ninety": "90", "hundred": "100", "thousand": "1000", "million": "1000000"}
 
 def nums(s):
+    # Times normalize across national conventions before extraction: EN "9:00" and
+    # Malaysian "9.00" are the same fact. Without this, every clock time in a
+    # chapter scores as one missing + one invented number (found live in ch02).
+    s = re.sub(r"\b(\d{1,2}):(\d{2})\b", r"\1.\2", s)
     return sorted(re.sub(r"[.,]+$", "", m) for m in NUM.findall(s))
 
 def has_word(t, w):
@@ -184,6 +188,8 @@ def missing_facts(en_b, t):
             continue
         if n.endswith("%") and re.search(rf"{re.escape(n[:-1])}\s*(%|peratus)", t, re.I):
             continue
+        if re.fullmatch(r"\d+\.5", n) and has_word(t, "setengah"):
+            continue  # "2.5 hours" -> "dua setengah jam" is a correct rendering
         out.append(n)
     return out
 
