@@ -19,11 +19,10 @@ def body(p):
     t=open(p,encoding="utf8").read(); t=re.sub(r"<!--.*?-->","",t,flags=re.S)
     return re.sub(r"\s+"," ",t)
 def has(t,s):
-    # Word-boundary for single tokens: plain substring matching reported "baru" as
-    # present inside "pembaharuan"/"terbaru" and inflated UNFIXED counts.
-    pat=re.escape(s)
-    if re.fullmatch(r"[\w'-]+",s): pat=rf"(?<![\w-]){pat}(?![\w-])"
-    return re.search(pat,t,re.I) is not None
+    # Boundaries on EVERY pattern, phrases included: 31/43 flags are multi-word,
+    # and substring matching scored "rasa tidak yakin" as present inside the
+    # correct "berasa tidak yakin", marking good text UNFIXED (review finding).
+    return re.search(rf"(?<![\w-]){re.escape(s)}(?![\w-])",t,re.I) is not None
 def classify(t,orig,sug):
     o=has(t,orig)
     s=has(t,sug) if not sug.startswith("(") else False
