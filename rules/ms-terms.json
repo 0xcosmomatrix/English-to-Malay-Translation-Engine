@@ -150,6 +150,15 @@
    ],
    "why": "human ruling 2026-08-28; Collocation",
    "source": "review-2026-08"
+  },
+  {
+   "en": "prompt",
+   "canonical": "prom",
+   "variants": [
+    "prompt"
+   ],
+   "why": "DBP istilah; requested by native reviewer (flag #14), ruled by operator 2026-08-28. Panel judges split on it (2 read 'prom' as typo, 1 cited DBP guidelines) — ruling is authority-based, not preference-based.",
+   "source": "operator-ruling-2026-08-28"
   }
  ],
  "distinct": [
@@ -196,7 +205,7 @@
     "prompt (keep English)",
     "prom (DBP istilah)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 -> prom",
    "why": "The shipped T2-133-MS uses 'prompt' 330 times and it is the form the book's own glossary teaches; the human reviewer asked for the official DBP istilah 'prom'. This decides ~330 occurrences per book and every prompt block heading. Needs a ruling."
   },
   {
@@ -496,6 +505,42 @@
      "why": "matches 'Kerangka Kelayakan Malaysia' and the diagram titles"
     }
    }
+  },
+  {
+   "en": "dual (AI) competence compound",
+   "options": [
+    "kecekapan dwi AI (reviewer)",
+    "dwi AI (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 1,
+    "samples": [
+     "ui kurang berkeyakinan terhadap kecekapan dwi AI mereka sendiri. Landskap alat"
+    ],
+    "risk": "context-free candidate: appears once, so the correction is total"
+   },
+   "why": "judge-cited as an error ('kesilapan dwi AI') in ch01 segment",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "Strong (as heading)",
+   "options": [
+    "Mantap (reviewer)",
+    "Kukuh (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 4,
+    "samples": [
+     ". *Rajah 2.2: Peta Tugas-AI TVET.* ### Kukuh — AI menyediakan draf, anda m",
+     "s. Kenal pasti satu tugas daripada lajur \"Kukuh\" yang anda lakukan secara man",
+     "orikan tugas kepada tiga tahap kesediaan: Kukuh (AI menyediakan draf, anda me"
+    ],
+    "risk": "CONTEXT-DEPENDENT: appears 4x — reviewer corrected one site, not the word"
+   },
+   "why": "judge-cited awkward heading word choice in ch02",
+   "source": "review-2026-08"
   }
  ]
 }

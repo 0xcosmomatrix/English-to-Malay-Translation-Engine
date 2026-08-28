@@ -1570,5 +1570,11 @@
   "evidence": "'Jw; menyelentik mencubit dgn ibu jari' — defined, Javanese-origin label",
   "date": "2026-08-28",
   "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "prom": {
+  "verdict": "VALID_MALAY",
+  "evidence": "DBP istilah for AI prompt; reviewer + operator ruling",
+  "date": "2026-08-28",
+  "source": "operator ruling; DBP istilah per native reviewer"
  }
 }
