@@ -56,6 +56,26 @@ VARIANTS = [(v, t["canonical"]) for t in TERMS["terms"] for v in t.get("variants
 VARIANTS += [(v, c["canonical"]) for c in _COLL if c.get("status") == "enforced" for v in c.get("variants", [])]
 CMT = M.CMT
 CONCURRENCY = int(os.environ.get("PIPELINE_CONCURRENCY", "6"))
+# Context-free human rulings applied mechanically BEFORE gating (sieve tier 3):
+# data-driven from the termbase's autofix flag — never a hardcoded list.
+AUTOFIX = sorted(((v, t["canonical"]) for t in TERMS["terms"] if t.get("autofix")
+                  for v in t.get("variants", [])), key=lambda x: -len(x[0]))
+
+def apply_autofix(text):
+    """Swap ruled variants to canonical in prose only (comments lifted out);
+    case-adapted; longest-first so suffixed forms cannot half-match."""
+    parts = []; last = 0
+    for m in re.finditer(r"<!--.*?-->", text, re.S):
+        parts.append(("p", text[last:m.start()])); parts.append(("c", m.group(0))); last = m.end()
+    parts.append(("p", text[last:]))
+    def seg_fix(seg):
+        for v, c in AUTOFIX:
+            def rep(mm):
+                srcw = mm.group(0)
+                return c[0].upper() + c[1:] if srcw[:1].isupper() and c[:1].islower() else c
+            seg = re.sub(rf"(?<![\w-]){re.escape(v)}(?![\w-])", rep, seg, flags=re.I)
+        return seg
+    return "".join(seg if kind == "c" else seg_fix(seg) for kind, seg in parts)
 
 # ---------------- model I/O with telemetry ----------------
 USAGE = collections.Counter()
@@ -356,6 +376,10 @@ def gate(cfg, en_blocks, dr_blocks, rw_blocks, log):
     English; deterministic decisions first, meaning-gate calls run in parallel."""
     entries = [None] * len(en_blocks)
     need_llm = []
+    # sieve tier 3 before tier 4: both candidates receive ruled fixes first, so
+    # the meaning gate judges repaired text and residuals reflect the final state
+    dr_blocks = [(k, apply_autofix(b) if k == "text" else b) for k, b in dr_blocks]
+    rw_blocks = [(k, apply_autofix(b) if k == "text" else b) for k, b in rw_blocks]
     for i, ((k, e), (_, d), (_, r)) in enumerate(zip(en_blocks, dr_blocks, rw_blocks)):
         if k == "prot" or r.strip() == d.strip():
             entries[i] = {"i": i, "kind": k, "en": e, "draft": d, "rewrite": None,

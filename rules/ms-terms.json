@@ -30,7 +30,8 @@
     "Task-AI Map",
     "Peta Tugasan-AI"
    ],
-   "why": "not a framework name, so it translates (MS-50)"
+   "why": "not a framework name, so it translates (MS-50)",
+   "autofix": true
   },
   {
    "en": "human-led",
@@ -105,7 +106,8 @@
     "pasca-menengah"
    ],
    "why": "reviewer flag; DBP writes the pasca- prefix closed",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "autofix": true
   },
   {
    "en": "computer vision",
@@ -158,7 +160,8 @@
     "prompt"
    ],
    "why": "DBP istilah; requested by native reviewer (flag #14), ruled by operator 2026-08-28. Panel judges split on it (2 read 'prom' as typo, 1 cited DBP guidelines) — ruling is authority-based, not preference-based.",
-   "source": "operator-ruling-2026-08-28"
+   "source": "operator-ruling-2026-08-28",
+   "autofix": true
   },
   {
    "en": "natural language",
@@ -167,7 +170,8 @@
     "bahasa semula jadi"
    ],
    "why": "KD4 headword: 'bahasa yg digunakan oleh manusia dlm keadaan semula jadi'. Reviewer request confirmed by dictionary.",
-   "source": "operator-ruling-2026-08-28+PRPM"
+   "source": "operator-ruling-2026-08-28+PRPM",
+   "autofix": true
   },
   {
    "en": "framework (policy sense)",
@@ -235,7 +239,8 @@
     "instruktor"
    ],
    "why": "operator ruling 2026-08-28; PRPM: no KD entry for instruktur (Indonesian-style loan, x25 in v3). One panel judge had praised it — overruled by operator + dictionary.",
-   "source": "operator-ruling-2026-08-28+PRPM"
+   "source": "operator-ruling-2026-08-28+PRPM",
+   "autofix": true
   },
   {
    "en": "trade (vocational)",

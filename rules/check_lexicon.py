@@ -44,11 +44,17 @@ def lexicon():
         for f in glob.glob(str(p/"*.md")): known|=vocab(open(f,encoding="utf8").read())
     led=json.load(open(HERE/"ms-prpm-ledger.json"))
     known|={w for w,v in led.items() if v["verdict"]=="VALID_MALAY"}
-    # the ledger OUTRANKS the corpus: a word the dictionary rejected must not be
-    # vouched for merely because the old book shipped it (corpus-audit finding)
-    known-={w for w,v in led.items() if v["verdict"] in ("NO_ENTRY","VERIFIED_INDONESIAN")}
     dnt=json.load(open(HERE/"ms-dnt.json"))
     known|={t.lower() for t in dnt["tokens"]}|{p.lower() for p in dnt["phrases"]}
+    try:
+        known|=set(json.load(open(HERE/"ms-wiktionary-lemmas.json")))
+    except FileNotFoundError:
+        pass
+    # ORDER MATTERS: the authority subtraction comes LAST, after every union.
+    # Wiktionary lists Indonesian-flavored entries as Malay ('solusi' is a lemma
+    # there) — a union placed after this subtraction would silently re-vouch a
+    # dictionary-rejected word. The ledger outranks every other tier.
+    known-={w for w,v in led.items() if v["verdict"] in ("NO_ENTRY","VERIFIED_INDONESIAN")}
     return known
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument("file"); ap.add_argument("--en")

@@ -17,13 +17,15 @@ human-pipeline edition **38–5–7** by a blind three-family judge panel
 0  PREP        mask fences/comments/DNT; per-batch idiom notes (calque prevention)
 1  DRAFT       LLM, rules in prompt — prompt/gate symmetry; batches run in parallel
 2  REWRITE     monolingual Malay editor pass, parallel batches
-3  GATES       deterministic first (facts vs SOURCE both directions, DNT tokens+
+3  AUTOFIX     context-free human rulings applied to BOTH candidates before any
+               judgment (data-driven from the termbase autofix flag) — the gate
+               judges repaired text, and residuals reflect the shipped state
+4  GATES       deterministic first (facts vs SOURCE both directions, DNT tokens+
                phrases case-sensitively, enforce tier, term/collocation variants),
                then diff-scoped LLM meaning checks in parallel; select the better
                of {draft, rewrite} per block, both scored against the ENGLISH
-4  REPAIR      mechanical application of context-free human rulings to residual
-               sites; every edit verified cleaner-or-rolled-back
 5  REPORT      everything else is advisory: ranked flags, lexicon OOV, telemetry
+               (pipeline/repair.py reruns tier 3 standalone on existing output)
 ```
 
 Every chapter emits aligned `blocks.json` (EN ↔ draft ↔ rewrite ↔ final), a
@@ -47,7 +49,7 @@ whole tier CI-validated on each push:
 | `msml.py` | shared text mechanics: masking, word boundaries, number extraction with time/% normalization — the single source of truth |
 | `enforce_gate.py` | the **only** sanctioned writer of the enforce tier; validates all three legs; **fails closed** |
 | `rulebook.py` | correction intake → evidence → human ruling; oracle-gated promotion |
-| `check_terms.py` / `check_lexicon.py` | tiered corpus checker · closed-world OOV screen (a word must be vouched by corpus−ledger-invalid ∪ ledger ∪ lemmas ∪ DNT ∪ source ∪ morphology) |
+| `check_terms.py` / `check_lexicon.py` | tiered corpus checker · closed-world OOV screen: (corpus ∪ ledger-valid ∪ lemmas ∪ DNT ∪ source ∪ morphology) **− ledger-rejected, subtracted last** — tier order is authority order, and Wiktionary lists Indonesian-flavored entries as Malay, so the dictionary's no must outrank every yes |
 
 **Three legs to enforce, none optional:** unanimous 3-family model panel
 (calibrated on blind knowns) → PRPM/Kamus Dewan oracle ruling (`VALID_MALAY` is

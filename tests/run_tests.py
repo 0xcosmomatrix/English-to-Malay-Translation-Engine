@@ -78,4 +78,13 @@ _src=open(os.path.join(HERE,"..","rules","check_lexicon.py")).read().replace("\n
 _cl=types.ModuleType("cl"); _cl.__dict__["__file__"]=os.path.join(HERE,"..","rules","check_lexicon.py"); exec(compile(_src,"check_lexicon.py","exec"),_cl.__dict__)
 ok("lexicon morphology roots", "bangun" in _cl.roots("membangunkan") and "langkah" in _cl.roots("langkah-langkah"))
 
+# ordering: authority subtraction last — a ledger-rejected word that Wiktionary
+# lists as a lemma ('solusi') must NOT be vouched; a clean lemma must be
+lex=_cl.lexicon()
+ok("lexicon authority order", "solusi" not in lex and "rumah" in lex)
+# autofix precedes gating and is data-driven from the termbase
+ok("autofix from termbase", P.apply_autofix("teks prompt ini dan instruktur itu") == "teks prom ini dan pengajar itu",
+   P.apply_autofix("teks prompt ini dan instruktur itu"))
+ok("autofix skips comments", P.apply_autofix("<!-- INDEX: prompt -->\nteks prompt") == "<!-- INDEX: prompt -->\nteks prom")
+
 print(f"\nall {N[0]} regression checks pass")
