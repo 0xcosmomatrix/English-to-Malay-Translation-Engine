@@ -236,6 +236,16 @@
    ],
    "why": "operator ruling 2026-08-28; PRPM: no KD entry for instruktur (Indonesian-style loan, x25 in v3). One panel judge had praised it — overruled by operator + dictionary.",
    "source": "operator-ruling-2026-08-28+PRPM"
+  },
+  {
+   "en": "trade (vocational)",
+   "canonical": "bidang",
+   "variants": [
+    "tred",
+    "trednya"
+   ],
+   "why": "operator ruling 2026-08-28: 'tred' is an invented English-Malay blend (no KD entry). Context forms: kemahiran vokasional (trade skills), pameran industri (trade exhibition). JPK vernacular use acknowledged and overruled.",
+   "source": "operator-ruling-2026-08-28"
   }
  ],
  "distinct": [
@@ -714,7 +724,7 @@
     "bidang / tred (JPK usage) (reviewer)",
     "tred (current)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 -> banned (operator: invented EN-MS blend). bidang / kemahiran vokasional / pameran industri per context",
    "evidence": {
     "occurrences": 0,
     "samples": [],
