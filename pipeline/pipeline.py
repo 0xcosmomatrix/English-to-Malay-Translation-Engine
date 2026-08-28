@@ -58,10 +58,31 @@ VARIANTS = [(v, t["canonical"]) for t in TERMS["terms"] for v in t.get("variants
 VARIANTS += [(v, c["canonical"]) for c in _COLL if c.get("status") == "enforced" for v in c.get("variants", [])]
 CMT = M.CMT
 CONCURRENCY = int(os.environ.get("PIPELINE_CONCURRENCY", "6"))
+sys.path.insert(0, _HERE)
+try:
+    import verdictlog as _VL
+except Exception:
+    _VL = None
+
+def safe_name(stem):
+    """Chapter identity: ONE derivation, imported by run_book — the filename is
+    a cross-process protocol and copies of this rule drifted once."""
+    return re.sub(r"[^A-Za-z0-9._-]", "_", stem)
+
+# ---- precompiled rule matchers (the det-gate hot path) ----
+_ENF_WS = M.WordSet(sorted(ENFORCE))
+_DNT_WS = M.WordSet(DNT, flags=0)                      # case-sensitive: proper names
+_VAR_RX = [(re.compile(M.word_pat(v), re.I),
+            re.compile(M.word_pat(c), re.I) if re.search(M.word_pat(v), c, re.I) else None,
+            v)
+           for v, c in VARIANTS]
+_ENNUM_WS = M.WordSet(list(M.EN_NUM))
+_MW_RX = {n: re.compile(M.word_pat(w), re.I) for n, w in M.MW.items()}
 # Context-free human rulings applied mechanically BEFORE gating (sieve tier 3):
 # data-driven from the termbase's autofix flag — never a hardcoded list.
 AUTOFIX = sorted(((v, t["canonical"]) for t in TERMS["terms"] if t.get("autofix")
                   for v in t.get("variants", [])), key=lambda x: -len(x[0]))
+_AUTOFIX_RX = [(re.compile(M.word_pat(v), re.I), c) for v, c in AUTOFIX]
 
 def apply_autofix(text):
     """Swap ruled variants to canonical in prose only (comments lifted out);
@@ -71,13 +92,13 @@ def apply_autofix(text):
         parts.append(("p", text[last:m.start()])); parts.append(("c", m.group(0))); last = m.end()
     parts.append(("p", text[last:]))
     def seg_fix(seg):
-        for v, c in AUTOFIX:
+        for rx, c in _AUTOFIX_RX:
             def rep(mm):
                 srcw = mm.group(0)
                 if srcw.isupper() and len(srcw) > 1:
                     return c.upper()
                 return c[0].upper() + c[1:] if srcw[:1].isupper() and c[:1].islower() else c
-            seg = re.sub(rf"(?<![\w-]){re.escape(v)}(?![\w-])", rep, seg, flags=re.I)
+            seg = rx.sub(rep, seg)
         return seg
     return "".join(seg if kind == "c" else seg_fix(seg) for kind, seg in parts)
 
@@ -216,13 +237,18 @@ def parse_numbered(raw, n):
     return [got.get(i + 1) for i in range(n)]
 
 # ---------------- prompts ----------------
+_DP_CACHE = {}
+
 def draft_prompt():
+    _key = os.environ.get("EXEMPLARS", "43")
+    if _key in _DP_CACHE:
+        return _DP_CACHE[_key]
     trm = "\n".join(f'- "{t["en"]}" -> {t["canonical"]}  (never: {", ".join(t.get("variants", []))})'
                     for t in TERMS["terms"])
     n = int(os.environ.get("EXEMPLARS", "43"))
     real = [i for i in TESTSET if i["truth"] == "REAL"][:n]
     exs = "\n".join("- " + re.sub(r"^\[[a-z]+\] ", "", e["label"]) for e in real) or "(none supplied)"
-    return f"""You are a native Malaysian author writing the Bahasa Melayu (Malaysia) edition of a professional book about AI for TVET instructors — not a literal translator. Standard Bahasa Melayu Malaysia, formal but natural; never Indonesian forms.
+    _p = f"""You are a native Malaysian author writing the Bahasa Melayu (Malaysia) edition of a professional book about AI for TVET instructors — not a literal translator. Standard Bahasa Melayu Malaysia, formal but natural; never Indonesian forms.
 
 RULES
 - Address the reader as "anda"; instructional we = "kita".
@@ -238,6 +264,8 @@ EDITOR PRECEDENT — a Malaysian reviewer corrected an earlier translation of th
 {exs}
 
 TASK: translate each numbered block below into Malay. Return the SAME numbered blocks [[n]] in the same order, nothing else. Preserve markdown (#, **, lists) exactly. Translate heading text. Do not add or drop sentences; every fact, number and name must survive exactly."""
+    _DP_CACHE[_key] = _p
+    return _p
 
 RW = ("Anda ialah editor buku profesional dari Malaysia. Baiki setiap perenggan bernombor di bawah supaya berbunyi "
       "seperti tulisan asal penulis Malaysia — Bahasa Melayu Malaysia yang baku, formal tetapi lancar. "
@@ -249,15 +277,16 @@ RW = ("Anda ialah editor buku profesional dari Malaysia. Baiki setiap perenggan 
 # ---------------- deterministic checks (mechanics via msml) ----------------
 nums, has_word, MW, EN_NUM = M.nums, M.has_word, M.MW, M.EN_NUM
 
-def missing_facts(en_b, t):
+def missing_facts(en_b, t, _ne=None, _nt=None):
     """EN numbers absent from t, excusing 0-9 spelled out, % as 'peratus', X.5 as 'setengah'."""
-    miss = list((collections.Counter(nums(en_b)) - collections.Counter(nums(t))).elements())
+    ne = _ne if _ne is not None else collections.Counter(nums(en_b))
+    nt = _nt if _nt is not None else collections.Counter(nums(t))
     out = []
     spelled_used = collections.Counter()
-    for n in miss:
+    for n in (ne - nt).elements():
         if n in MW:
             # count-aware: one 'tiga' excuses one missing '3', not every one
-            if spelled_used[n] < M.count_word(t, MW[n]):
+            if spelled_used[n] < len(_MW_RX[n].findall(t)):
                 spelled_used[n] += 1
                 continue
         if n.endswith("%") and re.search(rf"(?<![\d.,]){re.escape(n[:-1])}\s*(?:%|peratus\b)", t, re.I):
@@ -268,14 +297,14 @@ def missing_facts(en_b, t):
         out.append(n)
     return out
 
-def invented_facts(en_b, t):
+def invented_facts(en_b, t, _ne=None, _nt=None):
     """Numbers in t whose VALUE the English never contained (bidirectional fact gate)."""
-    en_vals = set(nums(en_b))
-    for w, v in EN_NUM.items():
-        if has_word(en_b, w):
-            en_vals.add(v)
+    en_vals = set(_ne if _ne is not None else nums(en_b))
+    for w in _ENNUM_WS.present(en_b):
+        en_vals.add(EN_NUM[w])
     en_vals |= {v.rstrip("%") for v in en_vals}
-    return [n for n in set(nums(t)) if n not in en_vals and n.rstrip("%") not in en_vals]
+    tv = set(_nt if _nt is not None else nums(t))
+    return [n for n in tv if n not in en_vals and n.rstrip("%") not in en_vals]
 
 def det_reasons(en_b, cand):
     """Rule violations of one candidate measured against the ENGLISH + the verified
@@ -283,24 +312,26 @@ def det_reasons(en_b, cand):
     Comments are stripped from BOTH sides first: INDEX/DIAGRAM comments carry
     English terms and ids verbatim, and checking them produced phantom residuals
     ('prompt' in INDEX comments, diagram ids as missing facts)."""
-    en_b = re.sub(r"<!--.*?-->", "", en_b, flags=re.S)
-    cand = re.sub(r"<!--.*?-->", "", cand, flags=re.S)
+    en_b = M.mask_body(en_b)
+    cand = M.mask_body(cand)
     reasons = []
-    m = missing_facts(en_b, cand)
+    ne = collections.Counter(nums(en_b)); nc = collections.Counter(nums(cand))
+    m = missing_facts(en_b, cand, _ne=ne, _nt=nc)
     if m: reasons.append(f"facts missing: {m[:4]}")
-    inv = invented_facts(en_b, cand)
+    inv = invented_facts(en_b, cand, _ne=ne, _nt=nc)
     if inv: reasons.append(f"facts invented: {inv[:4]}")
-    lost = [d for d in DNT if M.count_word_cs(en_b, d) > M.count_word_cs(cand, d)]
+    enc, cnc = _DNT_WS.independent_counts(en_b), _DNT_WS.independent_counts(cand)
+    lost = [d for d in DNT if enc[d] > cnc[d]]
     if lost: reasons.append(f"DNT lost: {lost}")
-    hard = sorted(w for w in ENFORCE if has_word(cand, w))
+    hard = sorted(w for w, n in _ENF_WS.independent_counts(cand).items() if n)
     if hard: reasons.append(f"enforce-tier violation: {hard[:4]}")
     tv = []
-    for v, c in VARIANTS:
-        n = M.count_word(cand, v)
-        if n and re.search(M.word_pat(v), c, re.I):
+    for rx_v, rx_c, v in _VAR_RX:
+        n = len(rx_v.findall(cand))
+        if n and rx_c is not None:
             # a variant that is a substring of its own canonical phrase must not
             # fire on the canonical ('dwi AI' inside 'kecekapan dwi AI')
-            n -= M.count_word(cand, c)
+            n -= len(rx_c.findall(cand))
         if n > 0:
             tv.append(v)
     if tv: reasons.append(f"term variant: {tv[:3]}")
@@ -336,15 +367,17 @@ def scrub_notes(text):
     ours, so its signature is scrubbable deterministically."""
     return "\n".join(l for l in text.split("\n") if not NOTE_SIG.search(l)).strip()
 
+_IDIOM_WS = M.WordSet([it["phrase"] for it in IDIOMS])
+_IDIOM_MAP = {it["phrase"].lower(): it for it in IDIOMS}
+
 def idiom_notes(chunk):
     """Per-batch calque prevention: name each English idiom present and how to
     render its MEANING. Fires only where an idiom actually occurs."""
     notes = []
     for j, c in enumerate(chunk):
-        low = c.lower()
-        for it in IDIOMS:
-            if re.search(M.word_pat(it["phrase"]), low):
-                notes.append(f'(block {j+1}) "{it["phrase"]}" is an idiom ({it["gloss"]}). {it["ms_guidance"]}')
+        for ph in sorted(_IDIOM_WS.present(c.lower())):
+            it = _IDIOM_MAP[ph]
+            notes.append(f'(block {j+1}) "{it["phrase"]}" is an idiom ({it["gloss"]}). {it["ms_guidance"]}')
     if not notes:
         return ""
     return ("\n\nIDIOM NOTES — render the meaning, never the words; do not echo these notes:\n"
@@ -369,25 +402,31 @@ def diagram_fields(blocks):
         while i < len(lines):
             m = DIAG_FIELD.match(lines[i])
             if m and m.group(2).strip() and m.group(2).strip() != "-->":
-                span = [i]; val = [m.group(2)]
+                span = [i]; val = [m.group(2)]; term_keep = None
                 j = i + 1
-                while (j < len(lines) and "-->" not in lines[j]
-                       and not _DIAG_KEY.match(lines[j]) and lines[j].strip()):
-                    val.append(lines[j].strip()); span.append(j); j += 1
-                out.append((bi, span, m.group(1), " ".join(val), m.group(3)))
+                while j < len(lines):
+                    L = lines[j]
+                    if _DIAG_KEY.match(L) or not L.strip():
+                        break
+                    if "-->" in L:
+                        pre2, sep, post = L.partition("-->")
+                        if pre2.strip():   # wrapped value sharing the terminator line
+                            val.append(pre2.strip()); span.append(j)
+                            term_keep = (j, sep + post)
+                        break
+                    val.append(L.strip()); span.append(j); j += 1
+                out.append((bi, span, m.group(1), " ".join(val), m.group(3), term_keep))
                 i = j
             else:
                 i += 1
     return out
-
-LAST_DIAGRAM_ISSUES = []
 
 def do_draft(model, blocks, log):
     src = [b for k, b in blocks if k == "text"]
     stripped = [strip_comments(b) for b in src]
     texts = [pr for pr, _ in stripped]
     dfields = diagram_fields(blocks)
-    texts = texts + [v for _, _, _, v, _ in dfields]   # field values ride the same protocol
+    texts = texts + [f[3] for f in dfields]   # field values ride the same protocol
     B = 8
     batches = [(i, texts[i:i + B]) for i in range(0, len(texts), B)]
 
@@ -403,8 +442,8 @@ def do_draft(model, blocks, log):
             for _ in range(3):
                 if g is not None and g.strip():
                     break
-                g = (parse_numbered(call(model, draft_prompt() + "\n\n" + numbered([chunk[j]]),
-                                         temp=0.3, stage="draft"), 1) or [None])[0]
+                g = parse_numbered(call(model, draft_prompt() + "\n\n" + numbered([chunk[j]]),
+                                         temp=0.3, stage="draft"), 1)[0]
                 g = scrub_notes(g) if g else g
             if not (g and g.strip()):
                 # Falling back to English is how 799 words once shipped untranslated.
@@ -425,19 +464,30 @@ def do_draft(model, blocks, log):
     # bypass every check. Each value now passes autofix + det_reasons against its
     # own source; failures keep the source value and are REPORTED via
     # LAST_DIAGRAM_ISSUES (run() folds them into residual_rule_issues).
-    LAST_DIAGRAM_ISSUES.clear()
+    diagram_issues = []
     blocks = [list(x) for x in blocks]
-    for (bi, span, pre, v, suf), tr in zip(dfields, flat[nsrc:]):
-        tr = apply_autofix(tr.replace("-->", " ").replace("\n", " ").strip())
-        reasons = det_reasons(v, tr)
-        if reasons:
-            LAST_DIAGRAM_ISSUES.append({"block": bi, "field_src": v[:80], "why": reasons})
-            tr = v          # fail toward the source label, never toward silence
+    by_block = collections.defaultdict(list)
+    for field, tr in zip(dfields, flat[nsrc:]):
+        by_block[field[0]].append((field, tr))
+    for bi, flist in by_block.items():
         lines = blocks[bi][1].split("\n")
-        lines[span[0]] = pre + tr + suf
-        blocks[bi][1] = "\n".join(l for li2, l in enumerate(lines) if li2 not in span[1:])
+        # LAST field first: span deletion must never shift an unprocessed field's
+        # indices (review-confirmed corruption in multi-field blocks)
+        for (bi2, span, pre, v, suf, term_keep), tr in sorted(flist, key=lambda x: -x[0][1][0]):
+            tr = apply_autofix(tr.replace("-->", " ").replace("\n", " ").strip())
+            reasons = det_reasons(v, tr)
+            if reasons:
+                diagram_issues.append({"block": bi, "field_src": v[:80], "why": reasons})
+                tr = v      # fail toward the source label, never toward silence
+            lines[span[0]] = pre + tr + suf
+            for idx in sorted(span[1:], reverse=True):
+                if term_keep and idx == term_keep[0]:
+                    lines[idx] = term_keep[1]   # the --> terminator survives
+                else:
+                    del lines[idx]
+        blocks[bi][1] = "\n".join(lines)
     it = iter(body)
-    return [(k, b) if k == "prot" else ("text", next(it)) for k, b in blocks]
+    return [(k, b) if k == "prot" else ("text", next(it)) for k, b in blocks], diagram_issues
 
 def do_rewrite(model, blocks, log):
     texts = [(i, b) for i, (k, b) in enumerate(blocks) if k == "text"]
@@ -482,7 +532,8 @@ def gate(cfg, en_blocks, dr_blocks, rw_blocks, log):
         dd, rd = det_reasons(e, d), det_reasons(e, r)
         if len(rd) > len(dd):
             entries[i] = {"i": i, "kind": k, "en": e, "draft": d, "rewrite": r, "final": d,
-                          "gate": "revert-rules", "why": f"draft={dd or 'clean'} rewrite={rd}"}
+                          "gate": "revert-rules", "final_det": dd,
+                          "why": f"draft={dd or 'clean'} rewrite={rd}"}
             continue
         need_llm.append((i, e, d, r, dd, rd))
 
@@ -494,7 +545,7 @@ def gate(cfg, en_blocks, dr_blocks, rw_blocks, log):
             why = f"REPAIRED draft {dd} -> {rd}"
         return i, {"i": i, "kind": "text", "en": e, "draft": d, "rewrite": r,
                    "final": r if ok else d, "gate": "kept" if ok else "revert-meaning",
-                   "why": why}, repaired
+                   "final_det": rd if ok else dd, "why": why}, repaired
 
     repaired_n = 0
     with concurrent.futures.ThreadPoolExecutor(CONCURRENCY) as ex:
@@ -502,23 +553,15 @@ def gate(cfg, en_blocks, dr_blocks, rw_blocks, log):
             entries[i] = entry
             repaired_n += rep
     log(f"gate: {len(need_llm)} meaning checks done")
-    try:
-        import verdictlog
+    if _VL:
         recs = [{"label": x["gate"], "input": {"en": x["en"][:400], "draft": (x["draft"] or "")[:400],
                  "rewrite": (x["rewrite"] or "")[:400]}, "meta": {"why": x.get("why", "")[:200], "block": x["i"]}}
                 for x in entries if x and x["gate"] != "unchanged"]
-        verdictlog.log_verdicts("gate-decisions", recs, source="pipeline")
-    except Exception:
-        pass
+        _VL.log_verdicts("gate-decisions", recs, source="pipeline")
     final = [(x["kind"], x["final"]) for x in entries]
     return final, entries, repaired_n
 
-def atomic_write(path, text):
-    """Write-temp-then-rename: an exception mid-run must never leave a torn file."""
-    tmp = str(path) + ".tmp"
-    with open(tmp, "w", encoding="utf8") as f:
-        f.write(text)
-    os.replace(tmp, str(path))
+atomic_write = M.atomic_write
 
 def run(en_path, outdir, config, name):
     cfg = CFG[config]
@@ -528,7 +571,7 @@ def run(en_path, outdir, config, name):
     t0 = time.time()
     en_blocks = split_blocks(pathlib.Path(en_path).read_text(encoding="utf8"))
     log(f"{len(en_blocks)} blocks ({sum(1 for k, _ in en_blocks if k == 'text')} translatable), concurrency={CONCURRENCY}")
-    dr = do_draft(cfg["draft"], en_blocks, log)
+    dr, diagram_issues = do_draft(cfg["draft"], en_blocks, log)
     atomic_write(out / f"{name}-draft.md", join_blocks(dr))
     rw = do_rewrite(cfg["rewrite"], dr, log)
     atomic_write(out / f"{name}-rewrite.md", join_blocks(rw))
@@ -538,11 +581,12 @@ def run(en_path, outdir, config, name):
     atomic_write(out / f"{name}-blocks.json", json.dumps(entries, ensure_ascii=False, indent=1))
     changed = [x for x in entries if x["gate"] != "unchanged"]
     kept = sum(1 for x in changed if x["gate"] == "kept")
-    residual = [{"i": x["i"], "issues": det_reasons(x["en"], x["final"])}
+    residual = [{"i": x["i"], "issues": (x["final_det"] if "final_det" in x
+                                         else det_reasons(x["en"], x["final"]))}
                 for x in entries if x["kind"] == "text"]
     residual = [r for r in residual if r["issues"]]
     residual += [{"i": d["block"], "issues": [f"diagram field kept in source language: {d['why']}"]}
-                 for d in LAST_DIAGRAM_ISSUES]
+                 for d in diagram_issues]
     usage = {k: v for k, v in USAGE.items() if k != "est_cost_musd"}
     rep = {"name": name, "config": config, "models": cfg,
            "blocks": len(en_blocks), "changed": len(changed), "kept": kept,
@@ -563,7 +607,7 @@ def main():
     r.add_argument("--config", default="budget", choices=list(CFG))
     r.add_argument("--name")
     a = ap.parse_args()
-    name = re.sub(r"[^A-Za-z0-9._-]", "_", a.name or pathlib.Path(a.en_file).stem)
+    name = safe_name(a.name or pathlib.Path(a.en_file).stem)
     run(a.en_file, a.out, a.config, name)
 
 if __name__ == "__main__":

@@ -1,10 +1,18 @@
 #!/usr/bin/env python3
 """Zero-dependency regression suite. Every case here is a bug that shipped once."""
-import os, sys, importlib.util
+import os, sys, importlib.util, subprocess, tempfile, types
 os.environ.setdefault("OPENROUTER_API_KEY", "dummy")
 HERE = os.path.dirname(os.path.abspath(__file__))
 spec = importlib.util.spec_from_file_location("p", os.path.join(HERE, "..", "pipeline", "pipeline.py"))
 P = importlib.util.module_from_spec(spec); spec.loader.exec_module(P)
+def load(relpath, name):
+    """Import a repo module by path. Every target is __main__-guarded, so the old
+    read-source-and-strip-main exec surgery was a no-op ritual around this."""
+    sp = importlib.util.spec_from_file_location(name, os.path.join(HERE, "..", relpath))
+    mod = importlib.util.module_from_spec(sp)
+    sp.loader.exec_module(mod)
+    return mod
+
 N = [0]
 def ok(name, cond, detail=""):
     N[0] += 1
@@ -70,18 +78,14 @@ r7 = P.det_reasons("You must trust the output and check hands-on work.", "Anda m
 ok("DNT case-sensitivity", not any("DNT" in x for x in r7), r7)
 
 # lexicon morphology: affixed forms resolve to roots
-import importlib.util as _iu
-_ls=_iu.spec_from_file_location("cl", os.path.join(HERE,"..","rules","check_lexicon.py"))
-# import module functions without running main
-import types
-_src=open(os.path.join(HERE,"..","rules","check_lexicon.py")).read().replace("\nmain()","\n")
-_cl=types.ModuleType("cl"); _cl.__dict__["__file__"]=os.path.join(HERE,"..","rules","check_lexicon.py"); exec(compile(_src,"check_lexicon.py","exec"),_cl.__dict__)
+_cl = load("rules/check_lexicon.py", "cl")
 ok("lexicon morphology roots", "bangun" in _cl.roots("membangunkan") and "langkah" in _cl.roots("langkah-langkah"))
 
 # ordering: authority subtraction last — a ledger-rejected word that Wiktionary
 # lists as a lemma ('solusi') must NOT be vouched; a clean lemma must be
-lex=_cl.lexicon()
+lex,linv=_cl.lexicon()
 ok("lexicon authority order", "solusi" not in lex and "rumah" in lex)
+ok("ledger beats morphology", "solusi" in linv and "solusi" not in lex)
 # autofix precedes gating and is data-driven from the termbase
 ok("autofix from termbase", P.apply_autofix("teks prompt ini dan instruktur itu") == "teks prom ini dan pengajar itu",
    P.apply_autofix("teks prompt ini dan instruktur itu"))
@@ -90,8 +94,7 @@ ok("autofix skips comments", P.apply_autofix("<!-- INDEX: prompt -->\nteks promp
 # verdict log roundtrip
 import tempfile
 os.environ["VERDICT_DATA_DIR"]=tempfile.mkdtemp()
-_vs=_iu.spec_from_file_location("vl", os.path.join(HERE,"..","pipeline","verdictlog.py"))
-VL=_iu.module_from_spec(_vs); _vs.loader.exec_module(VL)
+VL = load("pipeline/verdictlog.py", "vl")
 VL.log_verdicts("t",[{"label":"PASS","input":{"x":1}}],"test")
 got=VL.read_verdicts("t")
 ok("verdictlog roundtrip", len(got)==1 and got[0]["label"]=="PASS")
@@ -125,7 +128,7 @@ def _stub_call(model,text,temp=0.0,tries=4,stage="misc",timeout=300):
     return "\n\n".join(outp)
 _orig_call=P.call; P.call=_stub_call
 blocks=[("text",f"para {i} unique-{i}") for i in range(30)]
-out=P.do_draft("m",blocks,lambda m:None)
+out,_=P.do_draft("m",blocks,lambda m:None)
 ok("parallel reassembly preserves order", all(f"unique-{i}" in out[i][1] for i in range(30)),
    [out[i][1] for i in range(3)])
 P.call=_orig_call
@@ -166,21 +169,14 @@ def _stub_call2(model,text,temp=0.0,tries=4,stage="misc",timeout=300):
     if calls["n"]==1: return "[[1]]\n(blok 1) \"x\" nota"
     return "[[1]]\nterjemahan sebenar"
 P.call=_stub_call2
-out2=P.do_draft("m",[("text","one para")],lambda m:None)
+out2,_=P.do_draft("m",[("text","one para")],lambda m:None)
 ok("note-only response redrafted, no hole", out2[0][1]=="terjemahan sebenar", out2)
 P.call=_orig_call
-# repair table == pipeline table (single source)
-import importlib.util as _iu2
-_rs=_iu2.spec_from_file_location("rp", os.path.join(HERE,"..","pipeline","repair.py"))
-_src2=open(os.path.join(HERE,"..","pipeline","repair.py")).read().replace("\nmain()","\n")
-import types as _ty
-RP=_ty.ModuleType("rp"); RP.__dict__["__file__"]=os.path.join(HERE,"..","pipeline","repair.py")
-exec(compile(_src2,"repair.py","exec"),RP.__dict__)
-ok("repair AUTOFIX == termbase AUTOFIX", RP.AUTOFIX==dict(P.AUTOFIX))
+# repair owns NO substitution logic: engine and table both come from pipeline
+RP = load("pipeline/repair.py", "rp")
+ok("repair has no private engine", not hasattr(RP,"swap_prose") and not hasattr(RP,"AUTOFIX") and RP.P is not None)
 # lexicon: ledger-rejected exact form cannot escape via morphology
-ok("ledger beats morphology", "jawaban" in _cl.__dict__.get("_LEDGER_INVALID",set()) or True)  # structural: covered below
-import subprocess as _sp
-r=_sp.run([sys.executable,os.path.join(HERE,"..","rules","rulebook.py"),"rule","anything"],capture_output=True,text=True)
+r=subprocess.run([sys.executable,os.path.join(HERE,"..","rules","rulebook.py"),"rule","anything"],capture_output=True,text=True)
 ok("rulebook refuses flagless rule", r.returncode!=0 and "exactly one" in (r.stdout+r.stderr))
 
 # ===== round-2 fixes =====
@@ -201,10 +197,10 @@ type: x -->
 
 End para."""
 bl2=P.split_blocks(md2)
-out3=P.do_draft("m",bl2,lambda m:None)
+out3,_iss3=P.do_draft("m",bl2,lambda m:None)
 prot=[b for k,b in out3 if k=="prot"][0]
 ok("diagram gate keeps source on DNT loss", "The GUARD Framework" in prot and "PENJAGA" not in prot, prot)
-ok("diagram gate reports the rejection", len(P.LAST_DIAGRAM_ISSUES)==1 and "DNT" in str(P.LAST_DIAGRAM_ISSUES), P.LAST_DIAGRAM_ISSUES)
+ok("diagram gate reports the rejection", len(_iss3)==1 and "DNT" in str(_iss3), _iss3)
 P.call=_oc
 # wrapped field values absorb continuation lines; bare terminator never a value
 md3="""A.
@@ -229,18 +225,62 @@ P.IDIOMS.append({"phrase":"read the room","gloss":"g","ms_guidance":"m"})
 ok("idiom boundary matching", P.idiom_notes(["He bread the roomy hall"])=="" and "read the room" in P.idiom_notes(["Please read the room now"]))
 P.IDIOMS.pop()
 # enforce_gate: drift fails the check (sandboxed rules copy)
-import tempfile,shutil,subprocess as _sp2
+import shutil
 sand=tempfile.mkdtemp()
 rsrc=os.path.join(HERE,"..","rules")
 for fn in os.listdir(rsrc):
     if fn.endswith((".json",".py")): shutil.copy(os.path.join(rsrc,fn),sand)
 # registry with no required corpora so the gate runs corpus-free in the sandbox
 open(os.path.join(sand,"corpus-registry.json"),"w").write('{"corpora":[]}')
-r1=_sp2.run([sys.executable,os.path.join(sand,"enforce_gate.py")],capture_output=True,text=True,cwd=sand)
+r1=subprocess.run([sys.executable,os.path.join(sand,"enforce_gate.py")],capture_output=True,text=True,cwd=sand)
 ok("sandbox apply stamps", "manifest stamped" in r1.stdout, r1.stdout[-200:])
 with open(os.path.join(sand,"ms-terms.json"),"a") as f: f.write("\n")
-r2=_sp2.run([sys.executable,os.path.join(sand,"enforce_gate.py"),"--check"],capture_output=True,text=True,cwd=sand)
+r2=subprocess.run([sys.executable,os.path.join(sand,"enforce_gate.py"),"--check"],capture_output=True,text=True,cwd=sand)
 ok("drift fails the check", r2.returncode!=0 and "DRIFT" in r2.stdout, (r2.returncode,r2.stdout[-150:]))
 shutil.rmtree(sand)
+
+# ===== round-3 fixes =====
+# counting semantics: independent per-word arithmetic survives pooling
+ws=P.M.WordSet(["AI","AI+ Ethics"],flags=0)
+ok("DNT independent counts", ws.independent_counts("Use AI with AI+ Ethics.")["AI"]==2)
+# multi-field diagram block: both fields land, no index shift corruption
+md4="""X.
+
+<!-- DIAGRAM id: 01-03
+description: First value that
+  wraps here
+title: Second value
+type: z -->
+
+Y."""
+bl4=P.split_blocks(md4)
+def _dc(model,text,temp=0.0,tries=4,stage="misc",timeout=300):
+    import re as _re
+    parts=_re.split(r"\[\[(\d+)\]\]",text)
+    return "\n\n".join(f"[[{parts[i]}]]\nT{parts[i]}<{parts[i+1].strip()[:15]}>" for i in range(1,len(parts)-1,2))
+with_patch=P.call; P.call=_dc
+out4,iss4=P.do_draft("m",bl4,lambda m:None)
+prot4=[b for k,b in out4 if k=="prot"][0]
+ok("multi-field reinsertion intact", "id: 01-03" in prot4 and "type: z -->" in prot4
+   and prot4.count("title:")==1 and prot4.count("description:")==1, prot4)
+P.call=with_patch
+# draft prompt cache keys on EXEMPLARS
+os.environ["EXEMPLARS"]="43"; p43=P.draft_prompt()
+os.environ["EXEMPLARS"]="0"; p0=P.draft_prompt()
+os.environ["EXEMPLARS"]="43"
+ok("prompt cache keyed by EXEMPLARS", p43!=p0 and P.draft_prompt() is p43)
+# restore_comments loss alarm: force the counting mismatch by blinding CMT,
+# proving the RuntimeError branch is live (it is defense-in-depth; normal flow
+# cannot reach it, which is exactly why it needs an artificial exercise)
+import re as _re2
+_orig_cmt=P.CMT
+P.CMT=_re2.compile(r"(?!x)x")     # matches nothing -> restored count < len(keep)
+try:
+    P.restore_comments("line", {0:"<!-- k -->"})
+    _fired=False
+except RuntimeError:
+    _fired=True
+P.CMT=_orig_cmt
+ok("restore_comments loss alarm fires", _fired)
 
 print(f"\nall {N[0]} regression checks pass")

@@ -55,30 +55,32 @@ def lexicon(extra=None):
         known|=set(json.load(open(HERE/"ms-wiktionary-lemmas.json")))
     except FileNotFoundError:
         pass
-    global _LEDGER_INVALID
     # ORDER MATTERS: the authority subtraction comes LAST, after every union.
     # Wiktionary lists Indonesian-flavored entries as Malay ('solusi' is a lemma
     # there) — a union placed after this subtraction would silently re-vouch a
     # dictionary-rejected word. The ledger outranks every other tier.
-    _LEDGER_INVALID={w for w,v in led.items() if v.get("verdict") in ("NO_ENTRY","VERIFIED_INDONESIAN")}
-    known-=_LEDGER_INVALID
-    return known
-
-_LEDGER_INVALID=set()
+    invalid={w for w,v in led.items() if v.get("verdict") in ("NO_ENTRY","VERIFIED_INDONESIAN")}
+    known-=invalid
+    return known, invalid
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument("file"); ap.add_argument("--en")
+    ap=argparse.ArgumentParser()
+    ap.add_argument("files",nargs="+",help="translated .md files (one lexicon build for all)")
+    ap.add_argument("--en",action="append",default=[],help="EN source(s); vocab joins the accounting")
     a=ap.parse_args()
-    en_extra=vocab(open(a.en,encoding="utf8").read()) if a.en else set()
-    known=lexicon(extra=en_extra)   # EN vocab unions INSIDE, before the authority subtraction
-    text=open(a.file,encoding="utf8").read()
-    # a ledger-rejected exact form is flagged even when morphology could vouch a
-    # root ('jawaban' must not escape via 'jawab' + '-an'); the dictionary's no wins
-    oov=sorted(w for w in vocab(text) if len(w)>2 and
-               (w in _LEDGER_INVALID or not (roots(w)&known)))
-    print(f"  {os.path.basename(a.file)}: {len(oov)} unaccounted word form(s)")
-    for w in oov:
-        m=re.search(rf"(?<![\w-]){re.escape(w)}(?![\w-])", msml.mask_body(text), re.I)
-        ctx=re.sub(r"\s+"," ",msml.mask_body(text)[max(0,m.start()-40):m.start()+len(w)+30]) if m else ""
-        print(f"    {w:<24} …{ctx}…")
+    en_extra=set()
+    for ef in a.en: en_extra|=vocab(open(ef,encoding="utf8").read())
+    known,invalid=lexicon(extra=en_extra)   # EN vocab unions INSIDE, before the authority subtraction
+    for path in a.files:
+        text=open(path,encoding="utf8").read()
+        masked=msml.mask_body(text)
+        # a ledger-rejected exact form is flagged even when morphology could vouch a
+        # root ('jawaban' must not escape via 'jawab' + '-an'); the dictionary's no wins
+        oov=sorted(w for w in vocab(text) if len(w)>2 and
+                   (w in invalid or not (roots(w)&known)))
+        print(f"  {os.path.basename(path)}: {len(oov)} unaccounted word form(s)")
+        for w in oov:
+            m=re.search(msml.word_pat(w), masked, re.I)
+            ctx=re.sub(r"\s+"," ",masked[max(0,m.start()-40):m.start()+len(w)+30]) if m else ""
+            print(f"    {w:<24} …{ctx}…")
 if __name__=="__main__":
     main()

@@ -39,9 +39,10 @@ def body(p):
 word_pat = msml.word_pat
 
 def occurrences(term,text): return [m for m in re.finditer(word_pat(term),text,re.I)]
-def contexts(term,text,n=3):
+def contexts(term,text,n=3,_occ=None):
+    occ=_occ if _occ is not None else occurrences(term,text)
     return [re.sub(r"\s+"," ",text[max(0,m.start()-42):m.start()+len(term)+30]).strip()
-            for m in occurrences(term,text)[:n]]
+            for m in occ[:n]]
 
 def cmd_audit(args):
     d=load(); corpus="\n".join(body(p) for p in args.corpus)
@@ -54,7 +55,7 @@ def cmd_audit(args):
             if not occ: continue
             risky+=1
             print(f"  '{v}' -> '{t['canonical']}'  ({t['en']})  x{len(occ)}")
-            for c in contexts(v,corpus): print(f"        …{c}…")
+            for c in contexts(v,corpus,_occ=occ): print(f"        …{c}…")
             print(f"        ^ if any of these reads correctly as-is, this rule is "
                   f"context-dependent and must NOT be enforced globally.\n")
     print(f"  {risky} enforced variant(s) still present." if risky else "  clean — no enforced variant present.")

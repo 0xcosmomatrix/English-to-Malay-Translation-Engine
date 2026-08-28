@@ -8,12 +8,11 @@ the generating pipeline.
 
 Usage: trial.py <en-file.md> --configs budget,premium --out DIR [--judge]
 """
-import argparse, hashlib, json, os, random, re, sys, pathlib, importlib.util
+import argparse, collections, concurrent.futures, hashlib, json, os, random, re, sys, pathlib
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import verdictlog as V
-spec = importlib.util.spec_from_file_location("pl", os.path.join(HERE, "pipeline.py"))
-P = importlib.util.module_from_spec(spec); spec.loader.exec_module(P)
+import pipeline as P
 
 def main():
     ap = argparse.ArgumentParser()
@@ -25,12 +24,13 @@ def main():
     out = pathlib.Path(a.out); out.mkdir(parents=True, exist_ok=True)
     seed = int(hashlib.md5(a.en_file.encode()).hexdigest()[:8], 16)  # stable across runs
     rng = random.Random(seed)
-    labels = dict(zip(cfgs, rng.sample([chr(65 + i) for i in range(len(cfgs))], len(cfgs))))
-    json.dump(labels, open(out / "blind-key.json", "w"))    # sealed key
-    name = pathlib.Path(a.en_file).stem
+    letters = [chr(65 + i) for i in range(len(cfgs))]
+    rng.shuffle(letters)
+    labels = dict(zip(cfgs, letters))
+    P.atomic_write(out / "blind-key.json", json.dumps(labels))    # sealed key
+    name = P.safe_name(pathlib.Path(a.en_file).stem)
     for c in cfgs:
-        P.USAGE.clear()
-        P.run(a.en_file, str(out / labels[c]), c, name)
+        P.run(a.en_file, str(out / labels[c]), c, name)   # run() clears USAGE itself
     print(f"trial complete: versions {sorted(labels.values())} in {out} (key sealed in blind-key.json)")
     if not a.judge:
         return
@@ -40,35 +40,39 @@ def main():
         return [e for e in json.load(open(out / labels[c] / f"{name}-blocks.json"))
                 if e["kind"] == "text" and len(e["en"].split()) > 30]
     bb = blocks(base)
-    import urllib.request, collections, time
-    def call(model, p):
-        body = json.dumps({"model": model, "messages": [{"role": "user", "content": p}],
-                           "temperature": 0, "reasoning": {"enabled": False}}).encode()
-        r = urllib.request.Request("https://openrouter.ai/api/v1/chat/completions", data=body,
-            headers={"Authorization": f"Bearer {os.environ['OPENROUTER_API_KEY']}", "Content-Type": "application/json"})
-        with urllib.request.urlopen(r, timeout=240) as f:
-            return json.load(f)["choices"][0]["message"]["content"] or ""
     JUDGES = ["z-ai/glm-5.1", "anthropic/claude-haiku-4.5"]   # outside the generating pipeline
+
+    def judge_prompt(en, p1, p2):
+        return (f"Professional English->Malay (Malaysia) editor: which translation would you print? "
+                f"Note: 'prom' is the official DBP istilah for an AI prompt.\n\nENGLISH:\n{en}\n\nA:\n{p1}\n\nB:\n{p2}\n\n"
+                + 'STRICT JSON: {"choice":"A"|"B"|"TIE"}')
+
+    def one_vote(judge, en, p1, p2):
+        try:
+            raw = P.call(judge, judge_prompt(en, p1, p2), temp=0.0, stage="judge", timeout=120)
+        except RuntimeError:
+            return "T"   # transient judge failure = tie, never an aborted trial
+        d = P.M.extract_json(raw) or {}
+        return {"A": "A", "B": "B", "TIE": "T"}.get(str(d.get("choice", "")).upper(), "T")
     for other in rest:
         ob = {e["en"]: e for e in blocks(other)}
         segs = [e for e in bb if e["en"] in ob][:a.segments]
+        # all (segment, judge, order) calls are independent — run them concurrently
+        tasks = [(si, j, o) for si in range(len(segs)) for j in JUDGES for o in (0, 1)]
+        def run_task(t):
+            si, j, o = t
+            e = segs[si]; x, y = e["final"], ob[e["en"]]["final"]
+            raw = one_vote(j, e["en"], *( (x, y) if o == 0 else (y, x) ))
+            fwd = {"A": base, "B": other, "T": "TIE"} if o == 0 else {"A": other, "B": base, "T": "TIE"}
+            return si, j, fwd[raw]
+        votes_by = collections.defaultdict(dict)
+        with concurrent.futures.ThreadPoolExecutor(P.CONCURRENCY) as ex:
+            for si, j, vv in ex.map(run_task, tasks):
+                votes_by[si].setdefault(j, []).append(vv)
         agg = collections.Counter()
-        for e in segs:
+        for si, e in enumerate(segs):
             x, y = e["final"], ob[e["en"]]["final"]
-            votes = []
-            for j in JUDGES:
-                def v(p):
-                    for _ in range(3):
-                        try:
-                            m = re.search(r'"choice"\s*:\s*"(A|B|TIE)"', call(j, p))
-                            return {"A": "A", "B": "B", "TIE": "T"}[m.group(1)] if m else "T"
-                        except Exception:
-                            time.sleep(3)
-                    return "T"   # transient judge failure = tie, never an aborted trial
-                pr = lambda p1, p2: (f"Professional English->Malay (Malaysia) editor: which translation would you print? Note: 'prom' is the official DBP istilah for an AI prompt.\n\nENGLISH:\n{e['en']}\n\nA:\n{p1}\n\nB:\n{p2}\n\n" + 'STRICT JSON: {"choice":"A"|"B"|"TIE"}')
-                v1 = {"A": base, "B": other, "T": "TIE"}[v(pr(x, y))]
-                v2 = {"A": other, "B": base, "T": "TIE"}[v(pr(y, x))]
-                votes.append(v1 if v1 == v2 else "TIE"); time.sleep(1)
+            votes = [(vs[0] if len(set(vs)) == 1 else "TIE") for vs in votes_by[si].values()]
             c = collections.Counter(votes)
             win = base if c[base] > c[other] else (other if c[other] > c[base] else "TIE")
             agg[win] += 1

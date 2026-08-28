@@ -12,9 +12,9 @@ enforcement fails toward advisory, never the other way.
 Usage:  enforce_gate.py           apply (demote violators, stamp provenance)
         enforce_gate.py --check   validate only, exit 1 on violations (CI mode)
 """
-import json, sys, os as _os
-sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
-import msml,re,sys,os,shutil,datetime,pathlib
+import datetime, hashlib, json, os, pathlib, re, shutil, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import msml
 HERE=pathlib.Path(__file__).resolve().parent
 BL=HERE/"ms-indonesian-blocklist.json"
 CAP=500   # throttle guardrail: the tier is meant to stay dozens-to-hundreds
@@ -47,20 +47,21 @@ def _manifest_files():
     for g in MANIFEST_GLOBS: files+=list(HERE.glob(g))
     return sorted(f for f in set(files) if f.name!="rules-manifest.json")
 
+def _current_hashes():
+    return {f.name: hashlib.sha256(f.read_bytes()).hexdigest() for f in _manifest_files()}
+
 def stamp_manifest():
     """The one sanctioned stamp. Every legitimate writer (this gate, rulebook)
     calls it after writing, so honest edits never read as drift."""
-    import hashlib
-    man={f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in _manifest_files()}
+    man=_current_hashes()
     tmp=str(HERE/"rules-manifest.json")+".tmp"
     open(tmp,"w").write(json.dumps(man,indent=1)); os.replace(tmp,str(HERE/"rules-manifest.json"))
 
 def manifest_drift():
     mf=HERE/"rules-manifest.json"
     if not mf.exists(): return []
-    import hashlib
     man=json.load(open(mf)); drift=[]
-    cur={f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in _manifest_files()}
+    cur=_current_hashes()
     for fn in set(man)|set(cur):
         if man.get(fn)!=cur.get(fn): drift.append(fn)   # changed, missing, OR added
     return sorted(drift)
@@ -74,12 +75,19 @@ def main():
     ms=corpus_text("approved-malay",allow_missing=nocorpus); en=corpus_text("english-source",allow_missing=nocorpus)
     if nocorpus and not (ms or en): print("NOTE: corpus leg SKIPPED (no corpora present) — legs 1-2 + provenance only")
     today=str(datetime.date.today()); keep=[]; demoted=[]
+    # leg 3 in TWO passes, not 386: one grouped alternation per corpus
+    enf_words=[e["avoid_id"] for e in bl.get("enforce",[])]
+    ws=msml.WordSet(enf_words)
+    # independent (per-word) arithmetic: pooled longest-first scans miss words
+    # embedded in longer entries ('uang' in 'uang tunai') and would fail TOWARD
+    # enforcement — the inverted direction (review-confirmed)
+    ms_counts, en_counts = ws.independent_counts(ms), ws.independent_counts(en)
     for e in bl.get("enforce",[]):
         w=e["avoid_id"]; reasons=[]
         if e.get("panel")!="unanimous-3": reasons.append("no unanimous panel record")  # no default: absence of provenance is a failure, not a pass
         o=led.get(w.lower(),{}).get("verdict","")
         if o not in ("VERIFIED_INDONESIAN","NO_ENTRY"): reasons.append(f"oracle leg fails: {o or 'not in ledger'}")
-        h_ms,h_en=hits(w,ms),hits(w,en)
+        h_ms,h_en=ms_counts[w.lower()],en_counts[w.lower()]
         if h_ms: reasons.append(f"fires {h_ms}x in approved Malay corpus")
         if h_en: reasons.append(f"collides {h_en}x with English source")
         if reasons:
@@ -109,7 +117,7 @@ def main():
                     if e["avoid_id"].lower()==d["avoid_id"].lower():
                         e["demoted_from_enforce"]=d["demoted"]; e["demotion_why"]=d["why"]
         bl["_counts"]={"enforce":len(keep),"flag":len(bl["flag"])}
-        json.dump(bl,open(BL,"w"),ensure_ascii=False,indent=1)
+        msml.atomic_write(BL, json.dumps(bl,ensure_ascii=False,indent=1))
         print("written (backup: .bak)")
     stamp_manifest()
     print("manifest stamped")

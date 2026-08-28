@@ -109,4 +109,5 @@ def main():
             print(f"  {slug} chunk{c}: {min(b+BATCH,len(chunk))}/{len(chunk)}",flush=True)
         json.dump(res,open(outf,"w"),ensure_ascii=False)
     print(f"DONE {slug} failures={fails}")
-main()
+if __name__=="__main__":
+    main()
