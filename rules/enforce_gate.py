@@ -92,9 +92,12 @@ def main():
                         e["demoted_from_enforce"]=d["demoted"]; e["demotion_why"]=d["why"]
         bl["_counts"]={"enforce":len(keep),"flag":len(bl["flag"])}
         json.dump(bl,open(BL,"w"),ensure_ascii=False,indent=1)
-        import hashlib
-        man={f.name:hashlib.sha256(f.read_bytes()).hexdigest()
-             for f in sorted(HERE.glob("ms-*.json")) if f.name!="rules-manifest.json"}
-        (HERE/"rules-manifest.json").write_text(json.dumps(man,indent=1))
-        print("written (backup: .bak; manifest stamped)")
+        print("written (backup: .bak)")
+    # manifest stamps on EVERY apply, clean or not — a clean state is exactly
+    # what the drift detector must be able to prove later
+    import hashlib
+    man={f.name:hashlib.sha256(f.read_bytes()).hexdigest()
+         for f in sorted(HERE.glob("ms-*.json")) if f.name!="rules-manifest.json"}
+    (HERE/"rules-manifest.json").write_text(json.dumps(man,indent=1))
+    print("manifest stamped")
 main()
