@@ -251,6 +251,16 @@
    ],
    "why": "operator ruling 2026-08-28: 'tred' is an invented English-Malay blend (no KD entry). Context forms: kemahiran vokasional (trade skills), pameran industri (trade exhibition). JPK vernacular use acknowledged and overruled.",
    "source": "operator-ruling-2026-08-28"
+  },
+  {
+   "en": "competent (person, adjective)",
+   "canonical": "cekap",
+   "variants": [
+    "kompeten"
+   ],
+   "autofix": true,
+   "why": "KD4 labels 'kompeten' IB ('cekap, layak'). Applied as a v3 repair 2026-08-28 but never promoted — v4 regression proved the gap. 'kompetensi' (noun) is untouched: separate word, standard in TVET.",
+   "source": "corpus-audit+PRPM, promoted 2026-08-29"
   }
  ],
  "distinct": [
