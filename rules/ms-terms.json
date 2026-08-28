@@ -197,6 +197,38 @@
    ],
    "why": "KD4: dwi is a bound prefix (dwibahasa, dwifungsi) — bare 'dwi AI' is malformed. Replacement provisional; see note on 'dual competence' term.",
    "source": "operator-ruling-2026-08-28+PRPM"
+  },
+  {
+   "en": "Menjelaskan",
+   "canonical": "Menganalisis",
+   "variants": [],
+   "why": "PRPM istilah: analyse|menganalisis|Pendidikan. Applies where EN objective verb is 'analyse'; Menjelaskan stays correct for 'explain'.",
+   "source": "istilah-ruling-2026-08-28+PRPM"
+  },
+  {
+   "en": "menghantar pautan",
+   "canonical": "berkongsi pautan",
+   "variants": [
+    "menghantar pautan"
+   ],
+   "why": "PRPM istilah: sharing|berkongsi. 'Share a link' contexts; menghantar stays for literal 'send'.",
+   "source": "istilah-ruling-2026-08-28+PRPM"
+  },
+  {
+   "en": "mendapat permulaan yang ketara",
+   "canonical": "memperoleh kelebihan bersaingan yang ketara",
+   "variants": [
+    "mendapat permulaan yang ketara"
+   ],
+   "why": "PRPM istilah: competitive advantage|kelebihan bersaingan|Pentadbiran. Note official form is 'bersaingan', refining reviewer's 'bersaing'. Also in en-idioms as calque repair for 'head start'.",
+   "source": "istilah-ruling-2026-08-28+PRPM"
+  },
+  {
+   "en": "sedang menganyam",
+   "canonical": "kini menyepadukan",
+   "variants": [],
+   "why": "PRPM istilah: integrated|bersepadu (perancangan bersepadu, Geografi); menyepadukan has own KD4 headword. Weaving metaphor replaced with the istilah family.",
+   "source": "istilah-ruling-2026-08-28+PRPM"
   }
  ],
  "distinct": [
@@ -290,7 +322,8 @@
    "why": "Higher-level curriculum integration",
    "source": "review-2026-08",
    "oracle": {
-    "mengintegrasikan": "VALID_MALAY: KD4: \"menggabungkan dua atau beberapa kaum (unsur) menjadi satu kesatuan\""
+    "mengintegrasikan": "VALID_MALAY: KD4: \"menggabungkan dua atau beberapa kaum (unsur) menjadi satu kesatuan\"",
+    "istilah": "istilah: integration|integrasi/pemaduan (Pendidikan) — supports mengintegrasikan where EN means integrate; context ruling still needed (x9)"
    }
   },
   {
@@ -312,7 +345,8 @@
    "why": "Greater precision",
    "source": "review-2026-08",
    "oracle": {
-    "disiplin": "VALID_MALAY: latihan kelakuan; peraturan; kepatuhan; hukuman; bidang kajian"
+    "disiplin": "VALID_MALAY: latihan kelakuan; peraturan; kepatuhan; hukuman; bidang kajian",
+    "istilah": "istilah: discipline|disiplin|Pendidikan — official for EN 'discipline'; bidang remains for trades/fields; context ruling still needed (x8)"
    }
   },
   {
@@ -336,7 +370,8 @@
    "en": "penggunaan",
    "options": [
     "adaptasi (reviewer)",
-    "penggunaan (current)"
+    "penggunaan (current)",
+    "penerimagunaan (istilah: adoption)"
    ],
    "status": "UNRESOLVED",
    "evidence": {
@@ -351,7 +386,8 @@
    "why": "Systemic adoption",
    "source": "review-2026-08",
    "oracle": {
-    "adaptasi": "VALID_MALAY: penyesuaian dgn keadaan dsb yg baru atau berbeza"
+    "adaptasi": "VALID_MALAY: penyesuaian dgn keadaan dsb yg baru atau berbeza",
+    "istilah": "istilah adds a THIRD option: adoption|penerimagunaan|Komunikasi; adaptation|penyesuaian/adaptasi|Pendidikan. Reviewer menu now: penggunaan / adaptasi / penerimagunaan"
    }
   },
   {
@@ -360,7 +396,7 @@
     "Menganalisis (reviewer)",
     "Menjelaskan (current)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 -> Menganalisis (istilah-backed)",
    "evidence": {
     "occurrences": 0,
     "samples": [],
@@ -388,7 +424,8 @@
    "why": "Formal upgrade",
    "source": "review-2026-08",
    "oracle": {
-    "memanfaatkan": "VALID_MALAY: menggunakan sebaik-baiknya; mendapatkan faedah drpd sesuatu"
+    "memanfaatkan": "VALID_MALAY: menggunakan sebaik-baiknya; mendapatkan faedah drpd sesuatu",
+    "istilah": "istilah: leverage|keumpilan is mechanical/financial only — figurative 'memanfaatkan' is register choice, stays human"
    }
   },
   {
@@ -434,7 +471,7 @@
     "kini menyepadukan (reviewer)",
     "sedang menganyam (current)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 -> kini menyepadukan (istilah-backed)",
    "evidence": {
     "occurrences": 0,
     "samples": [],
@@ -482,7 +519,8 @@
    "why": "Awkward wording",
    "source": "review-2026-08",
    "oracle": {
-    "menggerakkan": "VALID_MALAY: KD4 senses: menjadikan bergerak; mengalih; membangunkan; mengusahakan berfungsi"
+    "menggerakkan": "VALID_MALAY: KD4 senses: menjadikan bergerak; mengalih; membangunkan; mengusahakan berfungsi",
+    "istilah": "istilah: mobilization of work force|mobilisasi tenaga kerja|Pentadbiran — reviewer's menggerakkan is collocational, not istilah; stays human"
    }
   },
   {
@@ -500,7 +538,8 @@
    "why": "Formal noun upgrade",
    "source": "review-2026-08",
    "oracle": {
-    "berkeyakinan": "VALID_MALAY: mempunyai keyakinan, mempercayai benar-benar"
+    "berkeyakinan": "VALID_MALAY: mempunyai keyakinan, mempercayai benar-benar",
+    "istilah": "istilah: self-confidence|keyakinan diri|Psikologi — informs, does not discriminate"
    }
   },
   {
@@ -516,7 +555,10 @@
     "risk": "not present in corpus — nothing to enforce; record only"
    },
    "why": "Colloquial expression",
-   "source": "review-2026-08"
+   "source": "review-2026-08",
+   "oracle": {
+    "istilah": "istilah: view|pandangan, opinion|pendapat — the ruling is which EN sense each site carries"
+   }
   },
   {
    "en": "menghantar pautan",
@@ -524,7 +566,7 @@
     "berkongsi pautan (reviewer)",
     "menghantar pautan (current)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 -> berkongsi pautan (istilah-backed)",
    "evidence": {
     "occurrences": 0,
     "samples": [],
@@ -543,7 +585,7 @@
     "memperoleh kelebihan bersaing yang ketara (reviewer)",
     "mendapat permulaan yang ketara (current)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 -> memperoleh kelebihan bersaingan yang ketara (istilah-backed)",
    "evidence": {
     "occurrences": 0,
     "samples": [],
@@ -637,7 +679,8 @@
    "source": "review-2026-08",
    "oracle": {
     "mantap": "VALID_MALAY: tabah/tetap hati; tidak berubah-ubah, stabil",
-    "kukuh": "VALID_MALAY: kuat dan tegap binaannya; teguh pendirian, tidak berganjak"
+    "kukuh": "VALID_MALAY: kuat dan tegap binaannya; teguh pendirian, tidak berganjak",
+    "istilah": "istilah: robust|teguh/lasak (Matematik) — but the EN heading word is 'Strong', not 'robust'; stays human"
    }
   }
  ]

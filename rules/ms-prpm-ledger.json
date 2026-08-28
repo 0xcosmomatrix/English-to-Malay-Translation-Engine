@@ -1720,5 +1720,29 @@
   "evidence": "menggunakan sebaik-baiknya; mendapatkan faedah drpd sesuatu",
   "date": "2026-08-28",
   "source": "prpm.dbp.gov.my/Cari1 (open-question cross-check)"
+ },
+ "kelebihan bersaingan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: competitive advantage | Pentadbiran",
+  "date": "2026-08-28",
+  "source": "prpm istilah database"
+ },
+ "penerimagunaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: adoption | Komunikasi",
+  "date": "2026-08-28",
+  "source": "prpm istilah database"
+ },
+ "bersepadu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: integrated | Geografi/Komputer",
+  "date": "2026-08-28",
+  "source": "prpm istilah database"
+ },
+ "keumpilan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: leverage (mechanical/financial) | Kejuruteraan",
+  "date": "2026-08-28",
+  "source": "prpm istilah database"
  }
 }
