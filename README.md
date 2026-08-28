@@ -1,88 +1,113 @@
 # English → Malay Translation Engine
 
 A verification-first pipeline for translating professional books from English to
-Bahasa Melayu (Malaysia). Built on one principle, learned empirically: **sort every
-failure class by how cheaply it can be verified, and let the cheapest sound layer
-decide first and terminally.**
+Bahasa Melayu (Malaysia). One principle, learned empirically: **sort every failure
+class by how cheaply it can be verified, and let the cheapest sound layer decide
+first and terminally.**
+
+Measured on the AI+ TVET Instructors book (10 chapters, ~26k words):
+**9.5 minutes and $0.29 per book** · zero fact defects, zero enforcement
+violations, zero untranslated residue · preferred over the previously shipped
+human-pipeline edition **38–5–7** by a blind three-family judge panel
+(both presentation orders, order-flips scored as ties).
 
 ## Architecture — the sieve
 
 ```
-0  PREP        mask fences/comments/DNT; annotate blocks with term bindings
-1  DRAFT       LLM, rules in prompt (prompt/gate symmetry: gates only check what was asked)
-2  HARD GATES  deterministic: enforce tier, facts vs SOURCE, structure — acts, never flags
-3  REWRITE     monolingual Malay editor pass; segment-level accept/revert,
-               both candidates scored against the ENGLISH (never each other)
-4  LLM CHECKS  diff-scoped, binary questions only
-5  FLAG REPORT advisory, ranked, suppressed against the approved corpus
+0  PREP        mask fences/comments/DNT; per-batch idiom notes (calque prevention)
+1  DRAFT       LLM, rules in prompt — prompt/gate symmetry; batches run in parallel
+2  REWRITE     monolingual Malay editor pass, parallel batches
+3  GATES       deterministic first (facts vs SOURCE both directions, DNT tokens+
+               phrases case-sensitively, enforce tier, term/collocation variants),
+               then diff-scoped LLM meaning checks in parallel; select the better
+               of {draft, rewrite} per block, both scored against the ENGLISH
+4  REPAIR      mechanical application of context-free human rulings to residual
+               sites; every edit verified cleaner-or-rolled-back
+5  REPORT      everything else is advisory: ranked flags, lexicon OOV, telemetry
 ```
+
+Every chapter emits aligned `blocks.json` (EN ↔ draft ↔ rewrite ↔ final), a
+report with per-stage token usage and estimated cost, and residual findings.
 
 ## The rules layer — the ledger
 
-`rules/` carries the enforcement data, every entry provenance-stamped:
+`rules/` holds the enforcement data, every entry provenance-stamped and the
+whole tier CI-validated on each push:
 
 | file | contents |
 |---|---|
-| `ms-indonesian-blocklist.json` | **enforce tier: 193 entries** (3-model unanimous panel + PRPM/Kamus Dewan verification + corpus back-test) · **flag tier: ~884** advisory entries (Wiktionary spelling-differences appendix, CC BY-SA) |
-| `ms-terms.json` | book termbase: enforced canonical forms, look-alike `distinct` records, `open_questions` awaiting human ruling with evidence attached |
-| `ms-prpm-ledger.json` | 262 cached dictionary rulings (verdict, ≤10-word evidence quote, date) — each word consulted once, ever |
+| `ms-indonesian-blocklist.json` | **enforce: 193** (3-model unanimous panel + PRPM verification + corpus back-test) · **flag: ~877** advisory (Wiktionary spelling appendix, CC BY-SA) |
+| `ms-terms.json` | 26 cited term rulings (operator/reviewer/istilah-backed) · look-alike `distinct` records · `open_questions` ruling queue with occurrence counts, contexts, and oracle testimony attached |
+| `ms-prpm-ledger.json` | **1,221 cached dictionary rulings** (verdict, ≤10-word evidence, date) — each word consulted once, ever; the ledger **outranks corpus membership** |
+| `ms-dnt.json` | Do-Not-Translate registry: tokens + multi-word product/series titles, counted case-sensitively EN-vs-candidate |
+| `ms-collocations.json` | enforced + candidate multi-word collocations |
+| `en-idioms.json` | 89 corpus-harvested English idioms with render-the-meaning guidance, injected per batch only where a phrase occurs |
+| `ms-figurative.json` | 87 Malay idioms/proverbs (Wiktionary) — licence list for validating figurative output, never for generating it |
+| `ms-wiktionary-lemmas.json` | 10,553 Malay lemmas (Wiktionary, CC BY-SA) — mid-trust vouching tier |
+| `msml.py` | shared text mechanics: masking, word boundaries, number extraction with time/% normalization — the single source of truth |
 | `enforce_gate.py` | the **only** sanctioned writer of the enforce tier; validates all three legs; **fails closed** |
-| `rulebook.py` | correction intake: propose → frequency/context evidence → human ruling; oracle-gated promotion |
-| `check_terms.py` | tiered corpus checker (`[enforce]` = errors, `[flag]` = advisory) |
+| `rulebook.py` | correction intake → evidence → human ruling; oracle-gated promotion |
+| `check_terms.py` / `check_lexicon.py` | tiered corpus checker · closed-world OOV screen (a word must be vouched by corpus−ledger-invalid ∪ ledger ∪ lemmas ∪ DNT ∪ source ∪ morphology) |
 
-**Three legs to enforce, none optional:** unanimous 3-family model panel (calibrated
-on blind knowns, sub-80% auditors discarded) → PRPM oracle ruling (`VALID_MALAY`
-is an unforceable refusal) → zero hits across every human-approved corpus.
-The panel alone would have shipped 28 bad rules (`kanker`, `kursi`, `jawaban` —
-all have obscure real Malay senses); the oracle blocked every one.
+**Three legs to enforce, none optional:** unanimous 3-family model panel
+(calibrated on blind knowns) → PRPM/Kamus Dewan oracle ruling (`VALID_MALAY` is
+an unforceable refusal) → zero hits across human-approved corpora. The panel
+alone would have shipped 28 bad rules (`kanker`, `kursi` — obscure real senses
+only the dictionary knew); the oracle blocked every one. The corpus tier was
+itself audited against the oracle (704 words): 132 shipped-but-invalid words
+were demoted from vouching power.
 
-## Status: prototype with verified data
+## Status
 
-Measured on chapter 1 (independent re-audit reproduced all numbers from disk):
-reviewer-flag checks clean 4/13 → **11/13**; all-43 not-broken 51% → **74%**;
-fact loss 1 → **0**; cost ~$4.14/book (non-converging) → **~$0.16** (converging,
-reasoning tokens disabled — 98% of Qwen output was billed reasoning).
+Production-shaped and instrumented, human-in-the-loop by design:
 
-Known issues from the adversarial build review (see `docs/build-review.html`):
-three criticals are fixed in this repo (fail-open corpus leg, default-pass panel
-leg, registry pointing at temp storage); still open — `restore_comments` line-loss,
-`regate.py` misalignment, one-directional fact scoring in `gate_v3`, multi-word
-matching in `check43`, and `pipeline.py`'s entrypoint predating the sibling fixes.
-Treat `pipeline/` and `eval/scoring/` as lab code; treat `rules/` as data you can rely on.
+- `tests/run_tests.py`: **17 regression checks, each pinning a bug that actually
+  shipped** (comment loss, invented facts, note echo/translation leaks, boundary
+  and case collisions, tokenizer artifacts). CI runs them plus the gate and
+  compile checks on every push.
+- The residual ruling queue is small and genuinely human: register choices and
+  coinage confirmations, delivered with occurrence counts, live contexts, and
+  dictionary testimony so a native session is adjudication, not proofreading.
+- Known ceiling: register/naturalness converges through rulings and sampled
+  native review; it is measured, not certified.
 
 ## What is deliberately NOT here
 
-- **Book content**: source chapters, translations, and the approved Malay corpus
-  are proprietary. Populate `corpus/private/` locally (see `corpus/README.md`);
-  the gate fails closed without it, and CI runs `--check --no-corpus` (legs 1–2 only).
-- **Microsoft terminology glossary**: excluded on license grounds (and its
-  cross-reference approach was tested and rejected — different localization
-  choices are not errors).
+- **Book content**: sources, translations, and the approved Malay corpus are
+  proprietary. Populate `corpus/private/` locally (see `corpus/README.md`);
+  the gate fails closed without it and CI runs `--check --no-corpus`.
+- **Microsoft terminology glossary**: excluded on license grounds (approach
+  tested and rejected — different localization choices are not errors).
 
 ## Quickstart
 
 ```
-# validate the rules layer (legs 1-2 + provenance; no corpora needed)
-python3 rules/enforce_gate.py --check --no-corpus
+# translate one chapter / a whole book (OPENROUTER_API_KEY required)
+python3 pipeline/pipeline.py run chapter.md --out out/ --config budget
+python3 pipeline/run_book.py corpus/private/en --out out/ --jobs 3
 
-# full three-leg check (after populating corpus/private/)
+# apply context-free rulings to residual sites (verified, rollback-on-non-improvement)
+python3 pipeline/repair.py out/
+
+# validate the rules layer / scan a translation / OOV screen
 python3 rules/enforce_gate.py --check
+python3 rules/check_terms.py translated.md
+python3 rules/check_lexicon.py translated.md --en source.md
 
-# scan a translated chapter
-python3 rules/check_terms.py path/to/chapter.md
-
-# correction intake -> ruling sheet -> promotion (oracle-gated)
+# correction intake -> ruling -> promotion (oracle-gated)
 python3 rules/rulebook.py propose corrections.json chapter.md
 python3 rules/rulebook.py rule "<term>" --accept
 ```
 
-Pipeline model config (measured, not assumed): drafter `qwen/qwen3.5-397b-a17b`
-with `reasoning: {enabled: false}`; rewriter/gate `google/gemma-4-26b-a4b-it`;
-keys via `OPENROUTER_API_KEY`.
+Model config (measured): drafter `qwen/qwen3.5-397b-a17b` with
+`reasoning: {enabled: false}` — 98% of its default output was billed reasoning
+tokens; disabling it was 23× cheaper *and* scored better. Rewriter/gate
+`google/gemma-4-26b-a4b-it`. Judges for evaluation panels must come from
+families outside the generating pipeline.
 
 ## Provenance & attribution
 
-Blocklist flag tier derives from Wiktionary's *Spelling differences between
-Indonesian and Standard Malay* appendix (CC BY-SA). Dictionary evidence quotes
-(≤10 words) from PRPM / Kamus Dewan Edisi Keempat, Dewan Bahasa dan Pustaka —
-consulted per-word as an authority, never bulk-copied.
+Blocklist flag tier and the lemma inventory derive from English Wiktionary
+(CC BY-SA). Dictionary evidence quotes (≤10 words) from PRPM / Kamus Dewan
+Edisi Keempat, Dewan Bahasa dan Pustaka — consulted per-word as an authority
+with polite rate limits, never bulk-copied.
