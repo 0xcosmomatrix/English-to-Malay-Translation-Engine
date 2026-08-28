@@ -49,8 +49,8 @@ CFG = {
 # $/1M tokens (in, out) for the report's cost estimate; update when models change.
 PRICE = {"qwen/qwen3.5-397b-a17b": (0.39, 2.34), "anthropic/claude-sonnet-5": (2.00, 10.00),
          "google/gemma-4-26b-a4b-it": (0.07, 0.34), "google/gemini-2.5-flash": (0.30, 2.50)}
-DNT = ["AI", "TVET", "PRISM", "TRUST", "BENCH", "HANDS", "GUARD", "ChatGPT", "Claude",
-       "Copilot", "Intel", "UNESCO", "ILO", "ITE", "BIBB", "RTO"]
+_DNT = json.load(open(os.path.join(RULES, "ms-dnt.json")))
+DNT = _DNT["tokens"] + _DNT["phrases"]
 ENFORCE = {e["avoid_id"].lower() for e in BLOCK.get("enforce", [])}
 VARIANTS = [(v, t["canonical"]) for t in TERMS["terms"] for v in t.get("variants", [])]
 VARIANTS += [(v, c["canonical"]) for c in _COLL if c.get("status") == "enforced" for v in c.get("variants", [])]
@@ -179,7 +179,8 @@ RULES
 - No comma before "dan" in a series. Use "ialah" before nouns, never "Ini adalah".
 - "tool" = "alat" (never "peranti"). "new" = "baharu". Spell numbers 0-9 as words except versions/steps/measurements.
 - Where the English verb is "integrate/embed", use "mengintegrasikan" (not "menggunakan"); where English says "adoption" of a technology, prefer "penerimagunaan"; where English says "discipline" (academic), use "disiplin". Plain "use/field/trade" keep menggunakan/bidang. (Site-audit-backed; drafting guidance, not blind replacement.)
-- Keep in English: AI, TVET, PRISM, TRUST, BENCH, HANDS, GUARD, product names (ChatGPT, Claude, Copilot, Intel), institution names, and acronyms (RTO, ITE, BIBB, ILO, UNESCO). Framework letters keep their English word with a Malay gloss in parentheses on first use.
+- Keep in English, verbatim: {", ".join(_DNT["tokens"])} — and every series/product title: {", ".join(_DNT["phrases"])}. Framework letters keep their English word with a Malay gloss in parentheses on first use.
+- A NAMED framework is "Kerangka <NAME>" ("Kerangka GUARD"), never "Kerangka Dasar <NAME>"; "kerangka dasar" is for unnamed policy frameworks only.
 - TERMS (binding):
 {trm}
 
@@ -234,8 +235,7 @@ def det_reasons(en_b, cand):
     if m: reasons.append(f"facts missing: {m[:4]}")
     inv = invented_facts(en_b, cand)
     if inv: reasons.append(f"facts invented: {inv[:4]}")
-    lost = [d for d in DNT
-            if len(re.findall(rf"\b{re.escape(d)}\b", en_b)) > len(re.findall(rf"\b{re.escape(d)}\b", cand))]
+    lost = [d for d in DNT if M.count_word(en_b, d) > M.count_word(cand, d)]
     if lost: reasons.append(f"DNT lost: {lost}")
     hard = sorted(w for w in ENFORCE if has_word(cand, w))
     if hard: reasons.append(f"enforce-tier violation: {hard[:4]}")

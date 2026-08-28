@@ -61,4 +61,8 @@ ok("det_reasons ignores comments", not r4, r4)
 r5 = P.det_reasons("x", "membina kecekapan dwi AI secara peribadi")
 ok("variant-in-canonical guard", not any("dwi AI" in x for x in r5), r5)
 
+# phrase-level DNT: a translated product title is a hard loss
+r6 = P.det_reasons("See AI+ Everyone (T1-01) for details.", "Rujuk AI+ Semua Orang (T1-01) untuk butiran.")
+ok("DNT phrase loss caught", any("AI+ Everyone" in x for x in r6), r6)
+
 print(f"\nall {N[0]} regression checks pass")

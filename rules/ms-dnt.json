@@ -1,0 +1,39 @@
+{
+ "_about": [
+  "Do-Not-Translate registry for ms-MY. tokens = single words/acronyms;",
+  "phrases = multi-word proper names (product family, series titles). Both are",
+  "held verbatim: the drafting prompt forbids translating them and the gate",
+  "counts each entry EN-vs-candidate, flagging any loss as a hard reason.",
+  "Gap history: 'AI+ Everyone' was translated to 'AI+ Semua Orang' in v3 ch08",
+  "because the product family was not listed (caught by the blind panel).",
+  "Extend phrases with each new book's catalogue titles."
+ ],
+ "tokens": [
+  "AI",
+  "TVET",
+  "PRISM",
+  "TRUST",
+  "BENCH",
+  "HANDS",
+  "GUARD",
+  "ChatGPT",
+  "Claude",
+  "Copilot",
+  "Intel",
+  "UNESCO",
+  "ILO",
+  "ITE",
+  "BIBB",
+  "RTO"
+ ],
+ "phrases": [
+  "AI+ Everyone",
+  "AI+ Educators",
+  "AI+ Lesson Planning",
+  "AI+ Ethics",
+  "AI+ Data Privacy",
+  "AI+ Report Writing",
+  "AI+ Instructional Design",
+  "AI+ Assessment Design"
+ ]
+}
