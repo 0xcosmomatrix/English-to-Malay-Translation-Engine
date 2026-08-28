@@ -20,4 +20,4 @@ jobs:
           print(f"{len(files)} JSON files parse")
           PY
       - name: pipeline + tools compile
-        run: python -m py_compile rules/enforce_gate.py rules/rulebook.py rules/check_terms.py pipeline/pipeline.py pipeline/gate_v3.py pipeline/regate.py
+        run: python -m py_compile rules/msml.py rules/enforce_gate.py rules/rulebook.py rules/check_terms.py pipeline/pipeline.py pipeline/run_book.py
