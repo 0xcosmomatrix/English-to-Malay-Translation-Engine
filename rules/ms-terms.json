@@ -160,6 +160,43 @@
    ],
    "why": "DBP istilah; requested by native reviewer (flag #14), ruled by operator 2026-08-28. Panel judges split on it (2 read 'prom' as typo, 1 cited DBP guidelines) — ruling is authority-based, not preference-based.",
    "source": "operator-ruling-2026-08-28"
+  },
+  {
+   "en": "natural language",
+   "canonical": "bahasa tabii",
+   "variants": [
+    "bahasa semula jadi"
+   ],
+   "why": "KD4 headword: 'bahasa yg digunakan oleh manusia dlm keadaan semula jadi'. Reviewer request confirmed by dictionary.",
+   "source": "operator-ruling-2026-08-28+PRPM"
+  },
+  {
+   "en": "framework (policy sense)",
+   "canonical": "kerangka dasar",
+   "variants": [
+    "seni bina",
+    "Seni Bina"
+   ],
+   "why": "KD4: seni bina = building architecture only; kerangka covers plans/frameworks. Applies to policy-framework contexts; architecture-of-buildings text keeps seni bina — variants list drives FLAGGING via gates, ruling contex",
+   "source": "operator-ruling-2026-08-28+PRPM"
+  },
+  {
+   "en": "perdagangan tradisional",
+   "canonical": "kemahiran vokasional sedia ada",
+   "variants": [
+    "perdagangan tradisional"
+   ],
+   "why": "KD4: perdagangan = commerce/berniaga only, no craft sense. Reviewer flag #18 + panel judges + oracle agree.",
+   "source": "operator-ruling-2026-08-28+PRPM"
+  },
+  {
+   "en": "dual AI (bare compound)",
+   "canonical": "kecekapan dwi AI",
+   "variants": [
+    "dwi AI"
+   ],
+   "why": "KD4: dwi is a bound prefix (dwibahasa, dwifungsi) — bare 'dwi AI' is malformed. Replacement provisional; see note on 'dual competence' term.",
+   "source": "operator-ruling-2026-08-28+PRPM"
   }
  ],
  "distinct": [
@@ -215,7 +252,7 @@
     "bahasa tabii",
     "bahasa semula jadi"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 -> bahasa tabii (oracle-backed operator ruling)",
    "why": "Reviewer wrote 'bahasa tabil', which appears to be a typo for 'bahasa tabii'. Confirm the intended form against PRPM before enforcing.",
    "oracle": {
     "bahasa tabii": "VALID_MALAY: KD4: \"bahasa yg digunakan oleh manusia dlm keadaan semula jadi\""
@@ -227,7 +264,7 @@
     "kerangka dasar",
     "seni bina"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 -> kerangka dasar (oracle-backed operator ruling)",
    "why": "Reviewer flagged 'Seni Bina' as a wrong translation of the policy-architecture sense. 'Seni bina' is literally architecture (buildings). Confirm which English sense each occurrence carries before a blanket replacement.",
    "oracle": {
     "seni bina": "VALID_MALAY: KD4: seni/ilmu mereka bentuk dan membina bangunan; gaya bangunan",
@@ -360,7 +397,7 @@
     "bahasa tabii (reviewer)",
     "bahasa semula jadi (current)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 -> bahasa tabii (oracle-backed operator ruling)",
    "evidence": {
     "occurrences": 0,
     "samples": [],
@@ -378,7 +415,7 @@
     "Kerangka Dasar (reviewer)",
     "Seni Bina (current)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 -> kerangka dasar (oracle-backed operator ruling)",
    "evidence": {
     "occurrences": 0,
     "samples": [],
@@ -416,7 +453,7 @@
     "kemahiran vokasional sedia ada (reviewer)",
     "perdagangan tradisional (current)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 -> kemahiran vokasional sedia ada (oracle-backed operator ruling)",
    "evidence": {
     "occurrences": 1,
     "samples": [
@@ -565,7 +602,7 @@
     "kecekapan dwi AI (reviewer)",
     "dwi AI (current)"
    ],
-   "status": "UNRESOLVED",
+   "status": "RESOLVED 2026-08-28 -> never bare 'dwi AI' (bound prefix per KD4); replacement form 'kecekapan dwi AI' provisional pending native check of 'kecekapan dwi' itself",
    "evidence": {
     "occurrences": 1,
     "samples": [
