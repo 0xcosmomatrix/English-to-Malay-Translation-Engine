@@ -1,0 +1,1574 @@
+[
+ {
+  "word": "Eropa",
+  "why": "promotion-candidate",
+  "use": "Eropah",
+  "kind": "blocklist"
+ },
+ {
+  "word": "Finlandia",
+  "why": "promotion-candidate",
+  "use": "Finland",
+  "kind": "blocklist"
+ },
+ {
+  "word": "Inggris",
+  "why": "promotion-candidate",
+  "use": "Inggeris",
+  "kind": "blocklist"
+ },
+ {
+  "word": "Kosta Rika",
+  "why": "promotion-candidate",
+  "use": "Costa Rica",
+  "kind": "blocklist"
+ },
+ {
+  "word": "Kroasia",
+  "why": "promotion-candidate",
+  "use": "Croatia",
+  "kind": "blocklist"
+ },
+ {
+  "word": "Kuba",
+  "why": "promotion-candidate",
+  "use": "Cuba",
+  "kind": "blocklist"
+ },
+ {
+  "word": "Lituania",
+  "why": "promotion-candidate",
+  "use": "Lithuania",
+  "kind": "blocklist"
+ },
+ {
+  "word": "Maret",
+  "why": "promotion-candidate",
+  "use": "Mac",
+  "kind": "blocklist"
+ },
+ {
+  "word": "Mèksiko",
+  "why": "promotion-candidate",
+  "use": "Mexico",
+  "kind": "blocklist"
+ },
+ {
+  "word": "PPB",
+  "why": "termbase-corruption-risk",
+  "use": "CPD",
+  "kind": "termbase"
+ },
+ {
+  "word": "Paraguai",
+  "why": "promotion-candidate",
+  "use": "Paraguay",
+  "kind": "blocklist"
+ },
+ {
+  "word": "Peta Tugasan-AI",
+  "why": "termbase-corruption-risk",
+  "use": "Peta Tugas-AI",
+  "kind": "termbase"
+ },
+ {
+  "word": "Registered Training Organisations (RTO)",
+  "why": "termbase-corruption-risk",
+  "use": "Organisasi Latihan Berdaftar (RTO)",
+  "kind": "termbase"
+ },
+ {
+  "word": "Rumania",
+  "why": "promotion-candidate",
+  "use": "Romania",
+  "kind": "blocklist"
+ },
+ {
+  "word": "Senin",
+  "why": "promotion-candidate",
+  "use": "Isnin",
+  "kind": "blocklist"
+ },
+ {
+  "word": "Skotlandia",
+  "why": "promotion-candidate",
+  "use": "Scotland",
+  "kind": "blocklist"
+ },
+ {
+  "word": "Spanyol",
+  "why": "promotion-candidate",
+  "use": "Sepanyol",
+  "kind": "blocklist"
+ },
+ {
+  "word": "Task-AI Map",
+  "why": "termbase-corruption-risk",
+  "use": "Peta Tugas-AI",
+  "kind": "termbase"
+ },
+ {
+  "word": "Uruguai",
+  "why": "promotion-candidate",
+  "use": "Uruguay",
+  "kind": "blocklist"
+ },
+ {
+  "word": "acaram",
+  "why": "promotion-candidate",
+  "use": "caram",
+  "kind": "blocklist"
+ },
+ {
+  "word": "adon",
+  "why": "promotion-candidate",
+  "use": "adun",
+  "kind": "blocklist"
+ },
+ {
+  "word": "aerodinamika",
+  "why": "promotion-candidate",
+  "use": "aerodinamik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "aerodinamis",
+  "why": "promotion-candidate",
+  "use": "aerodinamik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "akordeon",
+  "why": "promotion-candidate",
+  "use": "akordion",
+  "kind": "blocklist"
+ },
+ {
+  "word": "akrobatis",
+  "why": "promotion-candidate",
+  "use": "akrobatik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "aktifitas",
+  "why": "promotion-candidate",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "aktivitas",
+  "why": "promotion-candidate",
+  "use": "aktiviti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "akun",
+  "why": "promotion-candidate",
+  "use": "akaun",
+  "kind": "blocklist"
+ },
+ {
+  "word": "akuntabilitas",
+  "why": "promotion-candidate",
+  "use": "akauntabiliti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "akuntan",
+  "why": "promotion-candidate",
+  "use": "akauntan",
+  "kind": "blocklist"
+ },
+ {
+  "word": "alamas",
+  "why": "promotion-candidate",
+  "use": "almas",
+  "kind": "blocklist"
+ },
+ {
+  "word": "aldehida",
+  "why": "promotion-candidate",
+  "use": "aldehid",
+  "kind": "blocklist"
+ },
+ {
+  "word": "alferes",
+  "why": "promotion-candidate",
+  "use": "alperes",
+  "kind": "blocklist"
+ },
+ {
+  "word": "algoritme",
+  "why": "promotion-candidate",
+  "use": "algoritma",
+  "kind": "blocklist"
+ },
+ {
+  "word": "altitudo",
+  "why": "promotion-candidate",
+  "use": "altitud",
+  "kind": "blocklist"
+ },
+ {
+  "word": "altruistis",
+  "why": "promotion-candidate",
+  "use": "altruistik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "amatir",
+  "why": "promotion-candidate",
+  "use": "amatur",
+  "kind": "blocklist"
+ },
+ {
+  "word": "ambiguitas",
+  "why": "promotion-candidate",
+  "use": "ambiguiti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "analekta",
+  "why": "promotion-candidate",
+  "use": "analek",
+  "kind": "blocklist"
+ },
+ {
+  "word": "analisa",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "anestesi",
+  "why": "promotion-candidate",
+  "use": "anestesia",
+  "kind": "blocklist"
+ },
+ {
+  "word": "antarbangsa",
+  "why": "promotion-candidate",
+  "use": "antarabangsa",
+  "kind": "blocklist"
+ },
+ {
+  "word": "apak",
+  "why": "promotion-candidate",
+  "use": "hapak",
+  "kind": "blocklist"
+ },
+ {
+  "word": "apotek",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "arti",
+  "why": "promotion-candidate",
+  "use": "erti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "arung",
+  "why": "promotion-candidate",
+  "use": "harung",
+  "kind": "blocklist"
+ },
+ {
+  "word": "asuransi",
+  "why": "promotion-candidate",
+  "use": "insurans",
+  "kind": "blocklist"
+ },
+ {
+  "word": "bahwa",
+  "why": "promotion-candidate",
+  "use": "bahawa",
+  "kind": "blocklist"
+ },
+ {
+  "word": "baru",
+  "why": "termbase-corruption-risk",
+  "use": "baharu",
+  "kind": "termbase"
+ },
+ {
+  "word": "berantas",
+  "why": "promotion-candidate",
+  "use": "banteras",
+  "kind": "blocklist"
+ },
+ {
+  "word": "berbantuan AI",
+  "why": "termbase-corruption-risk",
+  "use": "berbantukan AI",
+  "kind": "termbase"
+ },
+ {
+  "word": "bicara",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "bolu",
+  "why": "promotion-candidate",
+  "use": "baulu",
+  "kind": "blocklist"
+ },
+ {
+  "word": "bombardemen",
+  "why": "promotion-candidate",
+  "use": "bombardmen",
+  "kind": "blocklist"
+ },
+ {
+  "word": "bugil",
+  "why": "promotion-candidate",
+  "use": "bogel",
+  "kind": "blocklist"
+ },
+ {
+  "word": "bulevar",
+  "why": "promotion-candidate",
+  "use": "boulevard",
+  "kind": "blocklist"
+ },
+ {
+  "word": "diketuai manusia",
+  "why": "termbase-corruption-risk",
+  "use": "diterajui manusia",
+  "kind": "termbase"
+ },
+ {
+  "word": "dipimpin manusia",
+  "why": "termbase-corruption-risk",
+  "use": "diterajui manusia",
+  "kind": "termbase"
+ },
+ {
+  "word": "dus",
+  "why": "promotion-candidate",
+  "use": "dos",
+  "kind": "blocklist"
+ },
+ {
+  "word": "dwi-kecekapan",
+  "why": "termbase-corruption-risk",
+  "use": "kecekapan dwi",
+  "kind": "termbase"
+ },
+ {
+  "word": "ekspor",
+  "why": "promotion-candidate",
+  "use": "eksport",
+  "kind": "blocklist"
+ },
+ {
+  "word": "elektris",
+  "why": "promotion-candidate",
+  "use": "elektrik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "elektrode",
+  "why": "promotion-candidate",
+  "use": "elektrod",
+  "kind": "blocklist"
+ },
+ {
+  "word": "elektronika",
+  "why": "promotion-candidate",
+  "use": "elektronik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "empiris",
+  "why": "promotion-candidate",
+  "use": "empirik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "endemis",
+  "why": "promotion-candidate",
+  "use": "endemik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "entitas",
+  "why": "promotion-candidate",
+  "use": "entiti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "enyak",
+  "why": "promotion-candidate",
+  "use": "henyak",
+  "kind": "blocklist"
+ },
+ {
+  "word": "eret",
+  "why": "promotion-candidate",
+  "use": "heret",
+  "kind": "blocklist"
+ },
+ {
+  "word": "ergonomis",
+  "why": "promotion-candidate",
+  "use": "ergonomik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "erotis",
+  "why": "promotion-candidate",
+  "use": "erotik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "etnis",
+  "why": "promotion-candidate",
+  "use": "etnik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "eugenika",
+  "why": "promotion-candidate",
+  "use": "eugenik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "fakultas",
+  "why": "promotion-candidate",
+  "use": "fakulti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "fantastis",
+  "why": "promotion-candidate",
+  "use": "fantastik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "farji",
+  "why": "promotion-candidate",
+  "use": "faraj",
+  "kind": "blocklist"
+ },
+ {
+  "word": "fasilitas",
+  "why": "promotion-candidate",
+  "use": "fasiliti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "februari",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "fisika kuantum",
+  "why": "promotion-candidate",
+  "use": "fizik kuantum",
+  "kind": "blocklist"
+ },
+ {
+  "word": "fleksibêl",
+  "why": "promotion-candidate",
+  "use": "fleksibel",
+  "kind": "blocklist"
+ },
+ {
+  "word": "fukaha",
+  "why": "promotion-candidate",
+  "use": "fuqaha",
+  "kind": "blocklist"
+ },
+ {
+  "word": "gamis",
+  "why": "promotion-candidate",
+  "use": "kamis",
+  "kind": "blocklist"
+ },
+ {
+  "word": "gana",
+  "why": "promotion-candidate",
+  "use": "ghana",
+  "kind": "blocklist"
+ },
+ {
+  "word": "geleting",
+  "why": "promotion-candidate",
+  "use": "keleting",
+  "kind": "blocklist"
+ },
+ {
+  "word": "gelimang",
+  "why": "promotion-candidate",
+  "use": "gelumang",
+  "kind": "blocklist"
+ },
+ {
+  "word": "geosfer",
+  "why": "promotion-candidate",
+  "use": "geosfera",
+  "kind": "blocklist"
+ },
+ {
+  "word": "gerupis",
+  "why": "promotion-candidate",
+  "use": "geropes",
+  "kind": "blocklist"
+ },
+ {
+  "word": "gom",
+  "why": "promotion-candidate",
+  "use": "gam",
+  "kind": "blocklist"
+ },
+ {
+  "word": "gorden",
+  "why": "promotion-candidate",
+  "use": "korden",
+  "kind": "blocklist"
+ },
+ {
+  "word": "guliga",
+  "why": "promotion-candidate",
+  "use": "geliga",
+  "kind": "blocklist"
+ },
+ {
+  "word": "handel",
+  "why": "promotion-candidate",
+  "use": "hendal",
+  "kind": "blocklist"
+ },
+ {
+  "word": "hanya manusia",
+  "why": "termbase-corruption-risk",
+  "use": "manusia sahaja",
+  "kind": "termbase"
+ },
+ {
+  "word": "hewan",
+  "why": "promotion-candidate",
+  "use": "haiwan",
+  "kind": "blocklist"
+ },
+ {
+  "word": "hewani",
+  "why": "promotion-candidate",
+  "use": "haiwani",
+  "kind": "blocklist"
+ },
+ {
+  "word": "ibukota",
+  "why": "promotion-candidate",
+  "use": "ibu kota",
+  "kind": "blocklist"
+ },
+ {
+  "word": "ijin",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "incit",
+  "why": "promotion-candidate",
+  "use": "hincit",
+  "kind": "blocklist"
+ },
+ {
+  "word": "indik",
+  "why": "promotion-candidate",
+  "use": "hindik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "integritas",
+  "why": "promotion-candidate",
+  "use": "integriti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "intensitas",
+  "why": "promotion-candidate",
+  "use": "intensiti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "istri",
+  "why": "promotion-candidate",
+  "use": "isteri",
+  "kind": "blocklist"
+ },
+ {
+  "word": "izin",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "jadwal",
+  "why": "promotion-candidate",
+  "use": "jadual",
+  "kind": "blocklist"
+ },
+ {
+  "word": "jawaban",
+  "why": "promotion-candidate",
+  "use": "jawapan",
+  "kind": "blocklist"
+ },
+ {
+  "word": "jembatan",
+  "why": "promotion-candidate",
+  "use": "jambatan",
+  "kind": "blocklist"
+ },
+ {
+  "word": "jerukup",
+  "why": "promotion-candidate",
+  "use": "jerungkup",
+  "kind": "blocklist"
+ },
+ {
+  "word": "jujah",
+  "why": "promotion-candidate",
+  "use": "jujat",
+  "kind": "blocklist"
+ },
+ {
+  "word": "jura",
+  "why": "promotion-candidate",
+  "use": "jurah",
+  "kind": "blocklist"
+ },
+ {
+  "word": "juru uang",
+  "why": "promotion-candidate",
+  "use": "juruwang",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kalender",
+  "why": "promotion-candidate",
+  "use": "kalendar",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kampanye",
+  "why": "promotion-candidate",
+  "use": "kempen",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kanker",
+  "why": "promotion-candidate",
+  "use": "kanser",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kantor",
+  "why": "promotion-candidate",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "kapasitas",
+  "why": "promotion-candidate",
+  "use": "kapasiti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kaper",
+  "why": "promotion-candidate",
+  "use": "karper",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kapilaritas",
+  "why": "promotion-candidate",
+  "use": "kapilariti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kapiler",
+  "why": "promotion-candidate",
+  "use": "kapilari",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kardiolog",
+  "why": "promotion-candidate",
+  "use": "kardiologis",
+  "kind": "blocklist"
+ },
+ {
+  "word": "karena",
+  "why": "promotion-candidate",
+  "use": "kerana",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kartu kredit",
+  "why": "promotion-candidate",
+  "use": "kad kredit",
+  "kind": "blocklist"
+ },
+ {
+  "word": "karyah",
+  "why": "promotion-candidate",
+  "use": "kiryah",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kebijakan",
+  "why": "promotion-candidate",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "kecandan",
+  "why": "promotion-candidate",
+  "use": "kucandan",
+  "kind": "blocklist"
+ },
+ {
+  "word": "keik",
+  "why": "promotion-candidate",
+  "use": "kek",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kelelap",
+  "why": "promotion-candidate",
+  "use": "kelalap",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kelemur",
+  "why": "promotion-candidate",
+  "use": "kelemumur",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kelikat",
+  "why": "promotion-candidate",
+  "use": "kulikat",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kendala",
+  "why": "promotion-candidate",
+  "use": "gendala",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kendara",
+  "why": "promotion-candidate",
+  "use": "kendera",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kendaraan",
+  "why": "promotion-candidate",
+  "use": "kenderaan",
+  "kind": "blocklist"
+ },
+ {
+  "word": "keremot",
+  "why": "promotion-candidate",
+  "use": "keremut",
+  "kind": "blocklist"
+ },
+ {
+  "word": "keripik",
+  "why": "promotion-candidate",
+  "use": "kerepek",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kerupuk",
+  "why": "promotion-candidate",
+  "use": "keropok",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kesehatan",
+  "why": "promotion-candidate",
+  "use": "kesihatan",
+  "kind": "blocklist"
+ },
+ {
+  "word": "ketrampilan",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "keuangan",
+  "why": "promotion-candidate",
+  "use": "kewangan",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kimus",
+  "why": "promotion-candidate",
+  "use": "kim",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kolektivitas",
+  "why": "promotion-candidate",
+  "use": "kolektiviti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kompetensi dwi",
+  "why": "termbase-corruption-risk",
+  "use": "kecekapan dwi",
+  "kind": "termbase"
+ },
+ {
+  "word": "konseling",
+  "why": "promotion-candidate",
+  "use": "kaunseling",
+  "kind": "blocklist"
+ },
+ {
+  "word": "konselor",
+  "why": "promotion-candidate",
+  "use": "kaunselor",
+  "kind": "blocklist"
+ },
+ {
+  "word": "konter",
+  "why": "promotion-candidate",
+  "use": "kaunter",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kontinuitas",
+  "why": "promotion-candidate",
+  "use": "kontinuiti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "koper",
+  "why": "promotion-candidate",
+  "use": "kopor",
+  "kind": "blocklist"
+ },
+ {
+  "word": "korps",
+  "why": "promotion-candidate",
+  "use": "kor",
+  "kind": "blocklist"
+ },
+ {
+  "word": "korsase",
+  "why": "promotion-candidate",
+  "use": "korsaj",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kosmis",
+  "why": "promotion-candidate",
+  "use": "kosmik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kreativitas",
+  "why": "promotion-candidate",
+  "use": "kreativiti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kredibilitas",
+  "why": "promotion-candidate",
+  "use": "kredibiliti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kriminalitas",
+  "why": "promotion-candidate",
+  "use": "kriminaliti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kualitas",
+  "why": "promotion-candidate",
+  "use": "kualiti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kuantitas",
+  "why": "promotion-candidate",
+  "use": "kuantiti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kuarsa",
+  "why": "promotion-candidate",
+  "use": "kuarza",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kuarsit",
+  "why": "promotion-candidate",
+  "use": "kuartzit",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kue",
+  "why": "promotion-candidate",
+  "use": "kuih",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kulah",
+  "why": "promotion-candidate",
+  "use": "kolah",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kuliner",
+  "why": "promotion-candidate",
+  "use": "kulinari",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kungkang",
+  "why": "promotion-candidate",
+  "use": "kongkang",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kuretase",
+  "why": "promotion-candidate",
+  "use": "kuretaj",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kursi",
+  "why": "promotion-candidate",
+  "use": "kerusi",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kustar",
+  "why": "promotion-candidate",
+  "use": "kastard",
+  "kind": "blocklist"
+ },
+ {
+  "word": "kwasiorkor",
+  "why": "promotion-candidate",
+  "use": "kwasyiorkor",
+  "kind": "blocklist"
+ },
+ {
+  "word": "lancia",
+  "why": "promotion-candidate",
+  "use": "lanca",
+  "kind": "blocklist"
+ },
+ {
+  "word": "lemari",
+  "why": "promotion-candidate",
+  "use": "almari",
+  "kind": "blocklist"
+ },
+ {
+  "word": "lenggundi",
+  "why": "promotion-candidate",
+  "use": "legundi",
+  "kind": "blocklist"
+ },
+ {
+  "word": "lisensi",
+  "why": "promotion-candidate",
+  "use": "lesen",
+  "kind": "blocklist"
+ },
+ {
+  "word": "loberci",
+  "why": "promotion-candidate",
+  "use": "labuci",
+  "kind": "blocklist"
+ },
+ {
+  "word": "lungkang",
+  "why": "promotion-candidate",
+  "use": "longkang",
+  "kind": "blocklist"
+ },
+ {
+  "word": "magasin",
+  "why": "promotion-candidate",
+  "use": "magazin",
+  "kind": "blocklist"
+ },
+ {
+  "word": "managemen",
+  "why": "promotion-candidate",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "margarin",
+  "why": "promotion-candidate",
+  "use": "marjerin",
+  "kind": "blocklist"
+ },
+ {
+  "word": "marine",
+  "why": "promotion-candidate",
+  "use": "marin",
+  "kind": "blocklist"
+ },
+ {
+  "word": "masase",
+  "why": "promotion-candidate",
+  "use": "masaj",
+  "kind": "blocklist"
+ },
+ {
+  "word": "masokhis",
+  "why": "promotion-candidate",
+  "use": "masokis",
+  "kind": "blocklist"
+ },
+ {
+  "word": "masokhisme",
+  "why": "promotion-candidate",
+  "use": "masokisme",
+  "kind": "blocklist"
+ },
+ {
+  "word": "mau",
+  "why": "promotion-candidate",
+  "use": "mahu",
+  "kind": "blocklist"
+ },
+ {
+  "word": "mayoritas",
+  "why": "promotion-candidate",
+  "use": "majoriti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "mempengaruhi",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "menghubungkan",
+  "why": "termbase-corruption-risk",
+  "use": "menghubungkaitkan",
+  "kind": "termbase"
+ },
+ {
+  "word": "menutup jurang",
+  "why": "termbase-corruption-risk",
+  "use": "merapatkan jurang",
+  "kind": "termbase"
+ },
+ {
+  "word": "mercon",
+  "why": "promotion-candidate",
+  "use": "mercun",
+  "kind": "blocklist"
+ },
+ {
+  "word": "merubah",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "militer",
+  "why": "promotion-candidate",
+  "use": "militari",
+  "kind": "blocklist"
+ },
+ {
+  "word": "netral",
+  "why": "promotion-candidate",
+  "use": "neutral",
+  "kind": "blocklist"
+ },
+ {
+  "word": "nomor",
+  "why": "promotion-candidate",
+  "use": "nombor",
+  "kind": "blocklist"
+ },
+ {
+  "word": "november",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "nuklir",
+  "why": "promotion-candidate",
+  "use": "nuklear",
+  "kind": "blocklist"
+ },
+ {
+  "word": "obesitas",
+  "why": "promotion-candidate",
+  "use": "obesiti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "objektivitas",
+  "why": "promotion-candidate",
+  "use": "objektiviti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "obstetri",
+  "why": "promotion-candidate",
+  "use": "obstetrik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "obyek",
+  "why": "promotion-candidate",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "ons",
+  "why": "promotion-candidate",
+  "use": "auns",
+  "kind": "blocklist"
+ },
+ {
+  "word": "opsi",
+  "why": "promotion-candidate",
+  "use": "opsyen",
+  "kind": "blocklist"
+ },
+ {
+  "word": "oranye",
+  "why": "promotion-candidate",
+  "use": "oren",
+  "kind": "blocklist"
+ },
+ {
+  "word": "oto",
+  "why": "promotion-candidate",
+  "use": "auto",
+  "kind": "blocklist"
+ },
+ {
+  "word": "ovula",
+  "why": "promotion-candidate",
+  "use": "ovul",
+  "kind": "blocklist"
+ },
+ {
+  "word": "parasut",
+  "why": "promotion-candidate",
+  "use": "paracut",
+  "kind": "blocklist"
+ },
+ {
+  "word": "pasar uang",
+  "why": "promotion-candidate",
+  "use": "pasaran wang",
+  "kind": "blocklist"
+ },
+ {
+  "word": "pasca menengah",
+  "why": "termbase-corruption-risk",
+  "use": "pascamenengah",
+  "kind": "termbase"
+ },
+ {
+  "word": "pasca-menengah",
+  "why": "termbase-corruption-risk",
+  "use": "pascamenengah",
+  "kind": "termbase"
+ },
+ {
+  "word": "pelatih",
+  "why": "termbase-corruption-risk",
+  "use": "perantis",
+  "kind": "termbase"
+ },
+ {
+  "word": "pembelajar",
+  "why": "termbase-corruption-risk",
+  "use": "pelajar",
+  "kind": "termbase"
+ },
+ {
+  "word": "penadbiran",
+  "why": "promotion-candidate",
+  "use": "pentadbiran",
+  "kind": "blocklist"
+ },
+ {
+  "word": "penasaran",
+  "why": "promotion-candidate",
+  "use": "panasaran",
+  "kind": "blocklist"
+ },
+ {
+  "word": "penglihatan komputer",
+  "why": "termbase-corruption-risk",
+  "use": "visi komputer",
+  "kind": "termbase"
+ },
+ {
+  "word": "pentaksiran",
+  "why": "termbase-corruption-risk",
+  "use": "penilaian",
+  "kind": "termbase"
+ },
+ {
+  "word": "piawai",
+  "why": "termbase-corruption-risk",
+  "use": "standard",
+  "kind": "termbase"
+ },
+ {
+  "word": "piawaian",
+  "why": "termbase-corruption-risk",
+  "use": "standard",
+  "kind": "termbase"
+ },
+ {
+  "word": "pimpinan manusia",
+  "why": "termbase-corruption-risk",
+  "use": "diterajui manusia",
+  "kind": "termbase"
+ },
+ {
+  "word": "praktek",
+  "why": "promotion-candidate",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "pribumi",
+  "why": "promotion-candidate",
+  "use": "peribumi",
+  "kind": "blocklist"
+ },
+ {
+  "word": "produktivitas",
+  "why": "promotion-candidate",
+  "use": "produktiviti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "propinsi",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "publisitas",
+  "why": "promotion-candidate",
+  "use": "publisiti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "rangka kerja",
+  "why": "termbase-corruption-risk",
+  "use": "kerangka",
+  "kind": "termbase"
+ },
+ {
+  "word": "realitas",
+  "why": "promotion-candidate",
+  "use": "realiti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "rekor",
+  "why": "promotion-candidate",
+  "use": "rekod",
+  "kind": "blocklist"
+ },
+ {
+  "word": "resiko",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "resmi",
+  "why": "promotion-candidate",
+  "use": "rasmi",
+  "kind": "blocklist"
+ },
+ {
+  "word": "riketsia",
+  "why": "promotion-candidate",
+  "use": "riket",
+  "kind": "blocklist"
+ },
+ {
+  "word": "ritme",
+  "why": "promotion-candidate",
+  "use": "ritma",
+  "kind": "blocklist"
+ },
+ {
+  "word": "ritmis",
+  "why": "promotion-candidate",
+  "use": "ritmik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "sabotase",
+  "why": "promotion-candidate",
+  "use": "sabotaj",
+  "kind": "blocklist"
+ },
+ {
+  "word": "salep",
+  "why": "promotion-candidate",
+  "use": "salap",
+  "kind": "blocklist"
+ },
+ {
+  "word": "sampo",
+  "why": "promotion-candidate",
+  "use": "syampu",
+  "kind": "blocklist"
+ },
+ {
+  "word": "sarkastis",
+  "why": "promotion-candidate",
+  "use": "sarkastik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "saus",
+  "why": "promotion-candidate",
+  "use": "sos",
+  "kind": "blocklist"
+ },
+ {
+  "word": "saus tomat",
+  "why": "promotion-candidate",
+  "use": "sos tomato",
+  "kind": "blocklist"
+ },
+ {
+  "word": "sekis",
+  "why": "promotion-candidate",
+  "use": "syis",
+  "kind": "blocklist"
+ },
+ {
+  "word": "sekrup",
+  "why": "promotion-candidate",
+  "use": "skru",
+  "kind": "blocklist"
+ },
+ {
+  "word": "seksualitas",
+  "why": "promotion-candidate",
+  "use": "seksualiti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "sekuritas",
+  "why": "promotion-candidate",
+  "use": "sekuriti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "selebritas",
+  "why": "promotion-candidate",
+  "use": "selebriti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "selentik",
+  "why": "promotion-candidate",
+  "use": "jelentik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "selepa",
+  "why": "promotion-candidate",
+  "use": "celepa",
+  "kind": "blocklist"
+ },
+ {
+  "word": "seluler",
+  "why": "promotion-candidate",
+  "use": "selular",
+  "kind": "blocklist"
+ },
+ {
+  "word": "sensitivitas",
+  "why": "promotion-candidate",
+  "use": "sensitiviti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "sentralistis",
+  "why": "promotion-candidate",
+  "use": "sentralistik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "sersan",
+  "why": "promotion-candidate",
+  "use": "sarjan",
+  "kind": "blocklist"
+ },
+ {
+  "word": "sif",
+  "why": "promotion-candidate",
+  "use": "syif",
+  "kind": "blocklist"
+ },
+ {
+  "word": "silahkan",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "sistim",
+  "why": "promotion-candidate",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "skenario",
+  "why": "promotion-candidate",
+  "use": "senario",
+  "kind": "blocklist"
+ },
+ {
+  "word": "solidaritas",
+  "why": "promotion-candidate",
+  "use": "solidariti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "sosis",
+  "why": "promotion-candidate",
+  "use": "sosej",
+  "kind": "blocklist"
+ },
+ {
+  "word": "spons",
+  "why": "promotion-candidate",
+  "use": "span",
+  "kind": "blocklist"
+ },
+ {
+  "word": "standar",
+  "why": "promotion-candidate",
+  "use": "standard",
+  "kind": "blocklist"
+ },
+ {
+  "word": "standarisasi",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "stasiun",
+  "why": "promotion-candidate",
+  "use": "stesen",
+  "kind": "blocklist"
+ },
+ {
+  "word": "statistika",
+  "why": "promotion-candidate",
+  "use": "statistik",
+  "kind": "blocklist"
+ },
+ {
+  "word": "statuta",
+  "why": "promotion-candidate",
+  "use": "statut",
+  "kind": "blocklist"
+ },
+ {
+  "word": "subyek",
+  "why": "my-gate-word",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "tehnik",
+  "why": "promotion-candidate",
+  "use": "",
+  "kind": "hardset"
+ },
+ {
+  "word": "uang",
+  "why": "promotion-candidate",
+  "use": "wang",
+  "kind": "blocklist"
+ },
+ {
+  "word": "uang tunai",
+  "why": "promotion-candidate",
+  "use": "wang tunai",
+  "kind": "blocklist"
+ },
+ {
+  "word": "ubub",
+  "why": "promotion-candidate",
+  "use": "hubub",
+  "kind": "blocklist"
+ },
+ {
+  "word": "universitas",
+  "why": "promotion-candidate",
+  "use": "universiti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "utilitas",
+  "why": "promotion-candidate",
+  "use": "utiliti",
+  "kind": "blocklist"
+ },
+ {
+  "word": "variansi",
+  "why": "promotion-candidate",
+  "use": "varians",
+  "kind": "blocklist"
+ },
+ {
+  "word": "verifikasi",
+  "why": "termbase-corruption-risk",
+  "use": "pengesahan",
+  "kind": "termbase"
+ },
+ {
+  "word": "veteriner",
+  "why": "promotion-candidate",
+  "use": "veterinar",
+  "kind": "blocklist"
+ },
+ {
+  "word": "volunter",
+  "why": "promotion-candidate",
+  "use": "voluntari",
+  "kind": "blocklist"
+ }
+]

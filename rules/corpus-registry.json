@@ -1,0 +1,29 @@
+{
+ "_about": [
+  "Corpora for enforce_gate.py leg 3. Relative paths resolve against rules/.",
+  "approved-malay = human-reviewed shipped Malay a rule must NEVER fire on.",
+  "english-source = English source text checked for loan/proper-noun collisions.",
+  "The book corpora are proprietary and untracked: populate corpus/private/ locally",
+  "(see corpus/README.md). The gate FAILS CLOSED when a required corpus is absent."
+ ],
+ "corpora": [
+  {
+   "role": "approved-malay",
+   "path": "../corpus/private/t2-133-ms",
+   "required": true,
+   "note": "shipped T2-133-MS chapters"
+  },
+  {
+   "role": "approved-malay",
+   "path": "../corpus/private/t2-133w-ms",
+   "required": true,
+   "note": "shipped T2-133W-MS workbook"
+  },
+  {
+   "role": "english-source",
+   "path": "../corpus/private/en",
+   "required": true,
+   "note": "English source chapters"
+  }
+ ]
+}

@@ -1,0 +1,6194 @@
+{
+ "_about": [
+  "Indonesian-spelling watchlist for ms-MY. FLAG ONLY — never auto-replace.",
+  "",
+  "Source: Wiktionary Appendix:Spelling_differences_between_Indonesian_and_Standard_Malay",
+  "(10 alphabetical pages, CC BY-SA). These are curated as spelling variants of the SAME word,",
+  "which is why they are usable; a general term-divergence list is not (see _rejected below).",
+  "",
+  "Why flag-only: some entries are soft preferences, not errors. 'baru' is real Malay even",
+  "though 'baharu' is the formal standard. Separating hard errors ('aktivitas', 'jawaban',",
+  "'karena' — not Malay words at all) from soft preferences needs a full Malay lexicon;",
+  "Kamus Dewan / PRPM is the oracle and is not bulk-downloadable. Until then a human decides.",
+  "",
+  "Promote an entry into ms-terms.json once a reviewer has ruled on it — that file IS enforced.",
+  "",
+  "Match whole words, case-insensitively. Never run a language-ID classifier over Malay:",
+  "MalayMMLU found human-authored Malaysian prose classifies as 53% Indonesian.",
+  "2026-08-28: enforce tier added — 3-model unanimous panel + PRPM/Kamus Dewan verification (Id label or no entry). Ledger: ms-prpm-ledger.json. Flag tier remains advisory."
+ ],
+ "_rejected": [
+  "A Microsoft MALAY.tbx x INDONESIAN.tbx cross-reference was built and DISCARDED.",
+  "It yielded 11,263 pairs but the premise is unsound: the two localisation teams choosing",
+  "different words for one English concept does not make the Indonesian choice invalid Malay.",
+  "Tested against a real chapter it demanded tugas->tugasan, sedang->sederhana (means",
+  "'moderate', not 'currently'), jabatan->jawatan, bidang->medan. All false positives.",
+  "The Microsoft Malay glossary is kept separately as a POSITIVE terminology resource",
+  "(ms-microsoft-glossary.json, 17,260 en->ms pairs) which is what it is actually good for."
+ ],
+ "_counts": {
+  "enforce": 193,
+  "flag": 884
+ },
+ "flag": [
+  {
+   "en": "accord",
+   "ms": "muafakat",
+   "avoid_id": "mufakat"
+  },
+  {
+   "en": "accord",
+   "ms": "kord",
+   "avoid_id": "akor"
+  },
+  {
+   "en": "actress",
+   "ms": "aktres",
+   "avoid_id": "aktris"
+  },
+  {
+   "en": "actuary",
+   "ms": "aktuari",
+   "avoid_id": "aktuaris"
+  },
+  {
+   "en": "adhesive tape",
+   "ms": "selofan",
+   "avoid_id": "selotip"
+  },
+  {
+   "en": "adrenaline",
+   "ms": "adrenalina",
+   "avoid_id": "adrenalin"
+  },
+  {
+   "en": "advocating the lower lip forward",
+   "ms": "jebik",
+   "avoid_id": "cebik"
+  },
+  {
+   "en": "afflict (disease)",
+   "ms": "hidap",
+   "avoid_id": "idap"
+  },
+  {
+   "en": "agent",
+   "ms": "ejen",
+   "avoid_id": "agen"
+  },
+  {
+   "en": "always",
+   "ms": "sentiasa",
+   "avoid_id": "senantiasa"
+  },
+  {
+   "en": "ammonia",
+   "ms": "ammonia",
+   "avoid_id": "amonia"
+  },
+  {
+   "en": "amphibian",
+   "ms": "amfibia",
+   "avoid_id": "amfibi"
+  },
+  {
+   "en": "analytical",
+   "ms": "analitikal",
+   "avoid_id": "analitis"
+  },
+  {
+   "en": "anemone",
+   "ms": "anemone",
+   "avoid_id": "anemon"
+  },
+  {
+   "en": "anno Domini, Common Era",
+   "ms": "Masihi",
+   "avoid_id": "Masehi"
+  },
+  {
+   "en": "answer",
+   "ms": "jawapan",
+   "avoid_id": "jawaban"
+  },
+  {
+   "en": "Antarctica",
+   "ms": "Antartika",
+   "avoid_id": "Antarktika"
+  },
+  {
+   "en": "antimicrobial",
+   "ms": "antimikrob",
+   "avoid_id": "antimikroba"
+  },
+  {
+   "en": "apartheid",
+   "ms": "aparteid",
+   "avoid_id": "apartheid"
+  },
+  {
+   "en": "apartment, flat",
+   "ms": "apartmen",
+   "avoid_id": "apartemen"
+  },
+  {
+   "en": "apple",
+   "ms": "epal",
+   "avoid_id": "apel"
+  },
+  {
+   "en": "Arabic shirt",
+   "ms": "kamis",
+   "avoid_id": "gamis"
+  },
+  {
+   "en": "arbitrage",
+   "ms": "arbitraj",
+   "avoid_id": "arbitrase"
+  },
+  {
+   "en": "archaic",
+   "ms": "arkaik",
+   "avoid_id": "arkais"
+  },
+  {
+   "en": "archive",
+   "ms": "arkib",
+   "avoid_id": "arsip"
+  },
+  {
+   "en": "architect",
+   "ms": "arkitek",
+   "avoid_id": "arsitek"
+  },
+  {
+   "en": "Arctic",
+   "ms": "Artik",
+   "avoid_id": "Arktika"
+  },
+  {
+   "en": "aristocratic",
+   "ms": "aristokratik",
+   "avoid_id": "aristokratis"
+  },
+  {
+   "en": "arithmetic",
+   "ms": "aritmetik",
+   "avoid_id": "aritmetika"
+  },
+  {
+   "en": "armed forces",
+   "ms": "tentera",
+   "avoid_id": "tentara"
+  },
+  {
+   "en": "army",
+   "ms": "lasykar",
+   "avoid_id": "laskar"
+  },
+  {
+   "en": "arrowleaf sida",
+   "ms": "celeguri",
+   "avoid_id": "seleguri"
+  },
+  {
+   "en": "arthropods",
+   "ms": "artropod",
+   "avoid_id": "artropoda"
+  },
+  {
+   "en": "articulated",
+   "ms": "ganding",
+   "avoid_id": "gandeng"
+  },
+  {
+   "en": "artifact",
+   "ms": "artifak",
+   "avoid_id": "artefak"
+  },
+  {
+   "en": "as if",
+   "ms": "kaya",
+   "avoid_id": "kayak"
+  },
+  {
+   "en": "asbestos",
+   "ms": "asbestos",
+   "avoid_id": "asbes"
+  },
+  {
+   "en": "asphalt",
+   "ms": "asfalt",
+   "avoid_id": "aspal"
+  },
+  {
+   "en": "assembly",
+   "ms": "majlis",
+   "avoid_id": "majelis"
+  },
+  {
+   "en": "astrophysics",
+   "ms": "astrofizik",
+   "avoid_id": "astrofisika"
+  },
+  {
+   "en": "assignment",
+   "ms": "tugasan",
+   "avoid_id": "tugas"
+  },
+  {
+   "en": "assignment",
+   "ms": "tugasan",
+   "avoid_id": "penugasan"
+  },
+  {
+   "en": "atmosphere",
+   "ms": "atmosfera",
+   "avoid_id": "atmosfer"
+  },
+  {
+   "en": "atmospheric",
+   "ms": "atmosferik",
+   "avoid_id": "atmosferis"
+  },
+  {
+   "en": "attempted murder",
+   "ms": "percubaan membunuh",
+   "avoid_id": "percobaan pembunuhan"
+  },
+  {
+   "en": "auction",
+   "ms": "lelong",
+   "avoid_id": "lelang"
+  },
+  {
+   "en": "August",
+   "ms": "Ogos",
+   "avoid_id": "Agustus"
+  },
+  {
+   "en": "authoritarian",
+   "ms": "autoritarian",
+   "avoid_id": "otoriter"
+  },
+  {
+   "en": "authority",
+   "ms": "autoriti",
+   "avoid_id": "otoritas"
+  },
+  {
+   "en": "autocratic",
+   "ms": "autokratik",
+   "avoid_id": "autokratis"
+  },
+  {
+   "en": "automatic",
+   "ms": "automatik",
+   "avoid_id": "otomatis"
+  },
+  {
+   "en": "automation",
+   "ms": "automasi",
+   "avoid_id": "otomasi"
+  },
+  {
+   "en": "automotive",
+   "ms": "automotif",
+   "avoid_id": "otomotif"
+  },
+  {
+   "en": "autonomy",
+   "ms": "autonomi",
+   "avoid_id": "otonomi"
+  },
+  {
+   "en": "avocado",
+   "ms": "avokado",
+   "avoid_id": "avokad"
+  },
+  {
+   "en": "awkward",
+   "ms": "kekok",
+   "avoid_id": "kikuk"
+  },
+  {
+   "en": "aware",
+   "ms": "sedar",
+   "avoid_id": "sadar"
+  },
+  {
+   "en": "axiom",
+   "ms": "aksiom",
+   "avoid_id": "aksioma"
+  },
+  {
+   "en": "ayatollah",
+   "ms": "ayatollah",
+   "avoid_id": "ayatullah"
+  },
+  {
+   "en": "bacteria",
+   "ms": "bakteria",
+   "avoid_id": "bakteri"
+  },
+  {
+   "en": "bacteriophage",
+   "ms": "bakteriofaj",
+   "avoid_id": "bakteriofag"
+  },
+  {
+   "en": "balance scale",
+   "ms": "dacing",
+   "avoid_id": "dacin"
+  },
+  {
+   "en": "balcony",
+   "ms": "balkoni",
+   "avoid_id": "balkon"
+  },
+  {
+   "en": "bald",
+   "ms": "gondol",
+   "avoid_id": "gundul"
+  },
+  {
+   "en": "ballast",
+   "ms": "balast",
+   "avoid_id": "balas"
+  },
+  {
+   "en": "ballon",
+   "ms": "belon",
+   "avoid_id": "balon"
+  },
+  {
+   "en": "bankrupt",
+   "ms": "bankrap",
+   "avoid_id": "bangkrut"
+  },
+  {
+   "en": "banner",
+   "ms": "sepanduk",
+   "avoid_id": "spanduk"
+  },
+  {
+   "en": "banteng",
+   "ms": "banting",
+   "avoid_id": "banteng"
+  },
+  {
+   "en": "baozi",
+   "ms": "pau",
+   "avoid_id": "bakpao"
+  },
+  {
+   "en": "bark: painful dog",
+   "ms": "kuing",
+   "avoid_id": "kaing"
+  },
+  {
+   "en": "barracks",
+   "ms": "berek",
+   "avoid_id": "barak"
+  },
+  {
+   "en": "basalt",
+   "ms": "basalt",
+   "avoid_id": "basal"
+  },
+  {
+   "en": "base",
+   "ms": "bes",
+   "avoid_id": "basa"
+  },
+  {
+   "en": "baseball",
+   "ms": "besbol",
+   "avoid_id": "bisbol"
+  },
+  {
+   "en": "basket straps",
+   "ms": "jangkih",
+   "avoid_id": "jangki"
+  },
+  {
+   "en": "bat",
+   "ms": "kelawar",
+   "avoid_id": "kelelawar"
+  },
+  {
+   "en": "battery",
+   "ms": "bateri",
+   "avoid_id": "baterai"
+  },
+  {
+   "en": "beaker",
+   "ms": "bikar",
+   "avoid_id": "beker"
+  },
+  {
+   "en": "bean sprout",
+   "ms": "tauge",
+   "avoid_id": "taoge"
+  },
+  {
+   "en": "beard",
+   "ms": "janggut",
+   "avoid_id": "jenggot"
+  },
+  {
+   "en": "beat, blow, stroke",
+   "ms": "hentam",
+   "avoid_id": "hantam"
+  },
+  {
+   "en": "beautiful and glowing stone",
+   "ms": "gemala",
+   "avoid_id": "kemala"
+  },
+  {
+   "en": "Belgium",
+   "ms": "Belgium",
+   "avoid_id": "Belgia"
+  },
+  {
+   "en": "bell",
+   "ms": "loceng",
+   "avoid_id": "lonceng"
+  },
+  {
+   "en": "ben, drumstick tree",
+   "ms": "kelur",
+   "avoid_id": "kelor"
+  },
+  {
+   "en": "beret (cap)",
+   "ms": "beret",
+   "avoid_id": "baret"
+  },
+  {
+   "en": "bile",
+   "ms": "hempedu",
+   "avoid_id": "empedu"
+  },
+  {
+   "en": "biliary",
+   "ms": "biliari",
+   "avoid_id": "bilier"
+  },
+  {
+   "en": "billiard",
+   "ms": "biliard",
+   "avoid_id": "biliar"
+  },
+  {
+   "en": "billion",
+   "ms": "bilion",
+   "avoid_id": "biliun"
+  },
+  {
+   "en": "binary",
+   "ms": "binari",
+   "avoid_id": "biner"
+  },
+  {
+   "en": "bioenergetics",
+   "ms": "bioenergetik",
+   "avoid_id": "bioenergetika"
+  },
+  {
+   "en": "biologic",
+   "ms": "biologik",
+   "avoid_id": "biologis"
+  },
+  {
+   "en": "biological",
+   "ms": "biologikal",
+   "avoid_id": "biologis"
+  },
+  {
+   "en": "biome",
+   "ms": "biom",
+   "avoid_id": "bioma"
+  },
+  {
+   "en": "biophysics",
+   "ms": "biofizik",
+   "avoid_id": "biofisika"
+  },
+  {
+   "en": "biorhythm",
+   "ms": "bioritma",
+   "avoid_id": "bioritme"
+  },
+  {
+   "en": "biosphere",
+   "ms": "biosfera",
+   "avoid_id": "biosfer"
+  },
+  {
+   "en": "biscuit",
+   "ms": "biskut",
+   "avoid_id": "biskuit"
+  },
+  {
+   "en": "blond",
+   "ms": "perang",
+   "avoid_id": "pirang"
+  },
+  {
+   "en": "blouse",
+   "ms": "blaus",
+   "avoid_id": "blus"
+  },
+  {
+   "en": "Boolean logic",
+   "ms": "logik Boolean",
+   "avoid_id": "logika boolean"
+  },
+  {
+   "en": "Brahmin",
+   "ms": "brahman",
+   "avoid_id": "brahmana"
+  },
+  {
+   "en": "branch",
+   "ms": "cawang",
+   "avoid_id": "cabang"
+  },
+  {
+   "en": "branch",
+   "ms": "cawangan",
+   "avoid_id": "cabang"
+  },
+  {
+   "en": "breathe",
+   "ms": "nafas",
+   "avoid_id": "napas"
+  },
+  {
+   "en": "breathed",
+   "ms": "hembus",
+   "avoid_id": "embus"
+  },
+  {
+   "en": "bribe",
+   "ms": "rasuah",
+   "avoid_id": "rasywah"
+  },
+  {
+   "en": "brigade",
+   "ms": "briged",
+   "avoid_id": "brigade"
+  },
+  {
+   "en": "brigadier",
+   "ms": "brigedier",
+   "avoid_id": "brigadir"
+  },
+  {
+   "en": "Britain, Britannia",
+   "ms": "Britain",
+   "avoid_id": "Britania"
+  },
+  {
+   "en": "briquette",
+   "ms": "brikuet",
+   "avoid_id": "briket"
+  },
+  {
+   "en": "broken, damaged",
+   "ms": "rosak",
+   "avoid_id": "rusak"
+  },
+  {
+   "en": "brown",
+   "ms": "coklat",
+   "avoid_id": "cokelat"
+  },
+  {
+   "en": "budget",
+   "ms": "bajet",
+   "avoid_id": "bujet"
+  },
+  {
+   "en": "bulldozer",
+   "ms": "buldozer",
+   "avoid_id": "buldoser"
+  },
+  {
+   "en": "bunker",
+   "ms": "bunker",
+   "avoid_id": "bungker"
+  },
+  {
+   "en": "bureaucratic",
+   "ms": "birokratik",
+   "avoid_id": "birokratis"
+  },
+  {
+   "en": "bus",
+   "ms": "bas",
+   "avoid_id": "bus"
+  },
+  {
+   "en": "business",
+   "ms": "bisnes",
+   "avoid_id": "bisnis"
+  },
+  {
+   "en": "but",
+   "ms": "justeru",
+   "avoid_id": "justru"
+  },
+  {
+   "en": "cabotage",
+   "ms": "kabotaj",
+   "avoid_id": "kabotase"
+  },
+  {
+   "en": "cacao",
+   "ms": "koko",
+   "avoid_id": "kakao"
+  },
+  {
+   "en": "cadet",
+   "ms": "teruna",
+   "avoid_id": "taruna"
+  },
+  {
+   "en": "cake {{w|Kuih kosui|kosui}}",
+   "ms": "kaswi",
+   "avoid_id": "kasui"
+  },
+  {
+   "en": "calculation",
+   "ms": "perhitungan",
+   "avoid_id": "penghitungan"
+  },
+  {
+   "en": "calendar",
+   "ms": "kalendar",
+   "avoid_id": "kalender"
+  },
+  {
+   "en": "call, cry, or shout",
+   "ms": "himbau",
+   "avoid_id": "imbau"
+  },
+  {
+   "en": "Cambodia",
+   "ms": "Kemboja",
+   "avoid_id": "Kamboja"
+  },
+  {
+   "en": "Cameroon",
+   "ms": "Cameroon",
+   "avoid_id": "Kamerun"
+  },
+  {
+   "en": "camp",
+   "ms": "kem",
+   "avoid_id": "kamp"
+  },
+  {
+   "en": "camp",
+   "ms": "khemah",
+   "avoid_id": "kemah"
+  },
+  {
+   "en": "camphor",
+   "ms": "kamfor",
+   "avoid_id": "kamper"
+  },
+  {
+   "en": "camouflage",
+   "ms": "kamuflag",
+   "avoid_id": "kamuflase"
+  },
+  {
+   "en": "cancer",
+   "ms": "kanser",
+   "avoid_id": "kanker"
+  },
+  {
+   "en": "capable",
+   "ms": "cekap",
+   "avoid_id": "cakap"
+  },
+  {
+   "en": "carburetor, carburettor",
+   "ms": "karburetor",
+   "avoid_id": "karburator"
+  },
+  {
+   "en": "card",
+   "ms": "kad",
+   "avoid_id": "kartu"
+  },
+  {
+   "en": "carnival",
+   "ms": "karnival",
+   "avoid_id": "karnaval"
+  },
+  {
+   "en": "carp",
+   "ms": "karper",
+   "avoid_id": "kaper"
+  },
+  {
+   "en": "carriage",
+   "ms": "gerabak",
+   "avoid_id": "gerobak"
+  },
+  {
+   "en": "cartridge",
+   "ms": "kartrij",
+   "avoid_id": "kartrid"
+  },
+  {
+   "en": "case",
+   "ms": "kes",
+   "avoid_id": "kasus"
+  },
+  {
+   "en": "catechist",
+   "ms": "kategis",
+   "avoid_id": "katekis"
+  },
+  {
+   "en": "cathode",
+   "ms": "katod",
+   "avoid_id": "katode"
+  },
+  {
+   "en": "cavalry",
+   "ms": "kavalri",
+   "avoid_id": "kavaleri"
+  },
+  {
+   "en": "ceramic",
+   "ms": "seramik",
+   "avoid_id": "keramik"
+  },
+  {
+   "en": "chair",
+   "ms": "kerusi",
+   "avoid_id": "kursi"
+  },
+  {
+   "en": "chakravartin",
+   "ms": "cakerawati",
+   "avoid_id": "cakrawati"
+  },
+  {
+   "en": "chancellor",
+   "ms": "canselor",
+   "avoid_id": "kanselir"
+  },
+  {
+   "en": "characteristic",
+   "ms": "kulikat",
+   "avoid_id": "kelikat"
+  },
+  {
+   "en": "chauvinism",
+   "ms": "cauvinisme",
+   "avoid_id": "sauvinisme"
+  },
+  {
+   "en": "chauvinist",
+   "ms": "cauvinis",
+   "avoid_id": "sauvinis"
+  },
+  {
+   "en": "checkmate",
+   "ms": "syahmat",
+   "avoid_id": "sekakmat"
+  },
+  {
+   "en": "chelate",
+   "ms": "jelentik",
+   "avoid_id": "selentik"
+  },
+  {
+   "en": "chest tightness",
+   "ms": "bengik",
+   "avoid_id": "bengek"
+  },
+  {
+   "en": "chimpanzee",
+   "ms": "cimpanzi",
+   "avoid_id": "simpanse"
+  },
+  {
+   "en": "Chile",
+   "ms": "Chile",
+   "avoid_id": "Chili"
+  },
+  {
+   "en": "choir",
+   "ms": "koir",
+   "avoid_id": "kor"
+  },
+  {
+   "en": "Christianity, Christian",
+   "ms": "Kristian",
+   "avoid_id": "Kristen"
+  },
+  {
+   "en": "Christmas Island",
+   "ms": "Pulau Krismas",
+   "avoid_id": "Pulau Christmas"
+  },
+  {
+   "en": "chronic",
+   "ms": "kronik",
+   "avoid_id": "kronis"
+  },
+  {
+   "en": "cigar",
+   "ms": "cerut",
+   "avoid_id": "cerutu"
+  },
+  {
+   "en": "cigarette container",
+   "ms": "celepa",
+   "avoid_id": "selepa"
+  },
+  {
+   "en": "cigarettes with enau leaves as the wrapper",
+   "ms": "kaung",
+   "avoid_id": "kawung"
+  },
+  {
+   "en": "circumcision",
+   "ms": "khatan",
+   "avoid_id": "khitan"
+  },
+  {
+   "en": "circus",
+   "ms": "sarkas",
+   "avoid_id": "sirkus"
+  },
+  {
+   "en": "citizen",
+   "ms": "warganegara",
+   "avoid_id": "warga negara"
+  },
+  {
+   "en": "civil",
+   "ms": "sivil",
+   "avoid_id": "sipil"
+  },
+  {
+   "en": "clamp",
+   "ms": "penyepit",
+   "avoid_id": "penjepit"
+  },
+  {
+   "en": "clapping, colliding",
+   "ms": "dempuk",
+   "avoid_id": "dempok"
+  },
+  {
+   "en": "clause",
+   "ms": "klausa",
+   "avoid_id": "klausul"
+  },
+  {
+   "en": "clause",
+   "ms": "fasal",
+   "avoid_id": "pasal"
+  },
+  {
+   "en": "clavicle",
+   "ms": "klavikel",
+   "avoid_id": "klavikula"
+  },
+  {
+   "en": "clinical",
+   "ms": "klinikal",
+   "avoid_id": "klinis"
+  },
+  {
+   "en": "clinician",
+   "ms": "klinisian",
+   "avoid_id": "klinisi"
+  },
+  {
+   "en": "clove",
+   "ms": "cengkeh",
+   "avoid_id": "cengkih"
+  },
+  {
+   "en": "club",
+   "ms": "kelab",
+   "avoid_id": "klub"
+  },
+  {
+   "en": "cluster",
+   "ms": "kluster",
+   "avoid_id": "klaster"
+  },
+  {
+   "en": "code",
+   "ms": "kod",
+   "avoid_id": "kode"
+  },
+  {
+   "en": "code",
+   "ms": "kanun",
+   "avoid_id": "qanun"
+  },
+  {
+   "en": "codeine",
+   "ms": "kodeina",
+   "avoid_id": "kodein"
+  },
+  {
+   "en": "cognac",
+   "ms": "cognac",
+   "avoid_id": "konyak"
+  },
+  {
+   "en": "cohort",
+   "ms": "kohort",
+   "avoid_id": "kohor"
+  },
+  {
+   "en": "collage",
+   "ms": "kolaj",
+   "avoid_id": "kolase"
+  },
+  {
+   "en": "colleague",
+   "ms": "rakan",
+   "avoid_id": "rekan"
+  },
+  {
+   "en": "college",
+   "ms": "kolej",
+   "avoid_id": "kolese"
+  },
+  {
+   "en": "column",
+   "ms": "kolum",
+   "avoid_id": "kolom"
+  },
+  {
+   "en": "Colombia",
+   "ms": "Colombia",
+   "avoid_id": "Kolombia"
+  },
+  {
+   "en": "commander",
+   "ms": "komander",
+   "avoid_id": "komandan"
+  },
+  {
+   "en": "come on",
+   "ms": "ayuh",
+   "avoid_id": "ayo"
+  },
+  {
+   "en": "commemoration of someone's death annually",
+   "ms": "hol",
+   "avoid_id": "haul"
+  },
+  {
+   "en": "comment",
+   "ms": "komen",
+   "avoid_id": "komentar"
+  },
+  {
+   "en": "commission",
+   "ms": "komisen",
+   "avoid_id": "komisi"
+  },
+  {
+   "en": "committee",
+   "ms": "komiti",
+   "avoid_id": "komite"
+  },
+  {
+   "en": "commodity",
+   "ms": "komoditi",
+   "avoid_id": "komoditas"
+  },
+  {
+   "en": "common cold",
+   "ms": "selesema",
+   "avoid_id": "selesma"
+  },
+  {
+   "en": "common house gecko",
+   "ms": "cicak",
+   "avoid_id": "cecak"
+  },
+  {
+   "en": "community",
+   "ms": "komuniti",
+   "avoid_id": "komunitas"
+  },
+  {
+   "en": "Comoros",
+   "ms": "Comoros",
+   "avoid_id": "Komoro"
+  },
+  {
+   "en": "company",
+   "ms": "kompeni",
+   "avoid_id": "kompi"
+  },
+  {
+   "en": "company",
+   "ms": "syarikat",
+   "avoid_id": "serikat"
+  },
+  {
+   "en": "compartment",
+   "ms": "kompartmen",
+   "avoid_id": "kompartemen"
+  },
+  {
+   "en": "competition, race",
+   "ms": "lumba",
+   "avoid_id": "lomba"
+  },
+  {
+   "en": "complete",
+   "ms": "komplit",
+   "avoid_id": "komplet"
+  },
+  {
+   "en": "complexity",
+   "ms": "kompleksiti",
+   "avoid_id": "kompleksitas"
+  },
+  {
+   "en": "comrade",
+   "ms": "komrad",
+   "avoid_id": "kamerad"
+  },
+  {
+   "en": "concentric",
+   "ms": "konsentrik",
+   "avoid_id": "konsentris"
+  },
+  {
+   "en": "concrete",
+   "ms": "konkrit",
+   "avoid_id": "konkret"
+  },
+  {
+   "en": "concert",
+   "ms": "konsert",
+   "avoid_id": "konser"
+  },
+  {
+   "en": "concordance",
+   "ms": "konkordans",
+   "avoid_id": "konkordansi"
+  },
+  {
+   "en": "condenser",
+   "ms": "kondenser",
+   "avoid_id": "kondensor"
+  },
+  {
+   "en": "cone",
+   "ms": "kon",
+   "avoid_id": "konus"
+  },
+  {
+   "en": "congestive heart failure",
+   "ms": "kegagalan jantung kongestif",
+   "avoid_id": "gagal jantung kongestif"
+  },
+  {
+   "en": "Congo",
+   "ms": "Congo",
+   "avoid_id": "Kongo"
+  },
+  {
+   "en": "conifer",
+   "ms": "konifer",
+   "avoid_id": "konifera"
+  },
+  {
+   "en": "conjunctiva",
+   "ms": "konjunktiva",
+   "avoid_id": "konjungtiva"
+  },
+  {
+   "en": "conjunctivitis",
+   "ms": "konjunktivitis",
+   "avoid_id": "konjungtivitis"
+  },
+  {
+   "en": "consortium",
+   "ms": "konsortium",
+   "avoid_id": "konsorsium"
+  },
+  {
+   "en": "container",
+   "ms": "kontena",
+   "avoid_id": "kontainer"
+  },
+  {
+   "en": "contemporary",
+   "ms": "kontemporari",
+   "avoid_id": "kontemporer"
+  },
+  {
+   "en": "contingent",
+   "ms": "kontinjen",
+   "avoid_id": "kontingen"
+  },
+  {
+   "en": "convention",
+   "ms": "konvensyen",
+   "avoid_id": "konvensi"
+  },
+  {
+   "en": "cooperation",
+   "ms": "kerjasama",
+   "avoid_id": "kerja sama"
+  },
+  {
+   "en": "cooperative",
+   "ms": "koperatif",
+   "avoid_id": "kooperatif"
+  },
+  {
+   "en": "coronary",
+   "ms": "koronari",
+   "avoid_id": "koroner"
+  },
+  {
+   "en": "corporal",
+   "ms": "zahir",
+   "avoid_id": "lahir"
+  },
+  {
+   "en": "corporal",
+   "ms": "koperal",
+   "avoid_id": "kopral"
+  },
+  {
+   "en": "crawling",
+   "ms": "hindik",
+   "avoid_id": "indik"
+  },
+  {
+   "en": "creaky",
+   "ms": "garau",
+   "avoid_id": "parau"
+  },
+  {
+   "en": "cream",
+   "ms": "krim",
+   "avoid_id": "krem"
+  },
+  {
+   "en": "cricket",
+   "ms": "cengkerik",
+   "avoid_id": "jangkrik"
+  },
+  {
+   "en": "crime",
+   "ms": "jenayah",
+   "avoid_id": "jinayah"
+  },
+  {
+   "en": "critical",
+   "ms": "kritikal",
+   "avoid_id": "kritis"
+  },
+  {
+   "en": "crooked-bent",
+   "ms": "keretot",
+   "avoid_id": "kerekot"
+  },
+  {
+   "en": "crowded",
+   "ms": "hingar",
+   "avoid_id": "ingar"
+  },
+  {
+   "en": "crowing rooster",
+   "ms": "kuruyuk",
+   "avoid_id": "kukuruyuk"
+  },
+  {
+   "en": "crush",
+   "ms": "gilis",
+   "avoid_id": "gilas"
+  },
+  {
+   "en": "currency",
+   "ms": "mata wang",
+   "avoid_id": "mata uang"
+  },
+  {
+   "en": "cuteness",
+   "ms": "kucandan",
+   "avoid_id": "kecandan"
+  },
+  {
+   "en": "cuticle",
+   "ms": "kutikel",
+   "avoid_id": "kutikula"
+  },
+  {
+   "en": "cybernetics",
+   "ms": "sibernetik",
+   "avoid_id": "sibernetika"
+  },
+  {
+   "en": "cycle rickshaw",
+   "ms": "beca",
+   "avoid_id": "becak"
+  },
+  {
+   "en": "cynophobia",
+   "ms": "kinofobia",
+   "avoid_id": "sinofobia"
+  },
+  {
+   "en": "Cyprus",
+   "ms": "Cyprus",
+   "avoid_id": "Siprus"
+  },
+  {
+   "en": "cyst",
+   "ms": "sista",
+   "avoid_id": "kista"
+  },
+  {
+   "en": "Czech",
+   "ms": "Czech",
+   "avoid_id": "Ceko"
+  },
+  {
+   "en": "dainty (delicately small and pretty)",
+   "ms": "mongel",
+   "avoid_id": "mungil"
+  },
+  {
+   "en": "damage",
+   "ms": "kerosakan",
+   "avoid_id": "kerusakan"
+  },
+  {
+   "en": "dead end",
+   "ms": "intil",
+   "avoid_id": "kintil"
+  },
+  {
+   "en": "debt",
+   "ms": "hutang",
+   "avoid_id": "utang"
+  },
+  {
+   "en": "decade",
+   "ms": "dekad",
+   "avoid_id": "dekade"
+  },
+  {
+   "en": "December",
+   "ms": "Disember",
+   "avoid_id": "Desember"
+  },
+  {
+   "en": "decree",
+   "ms": "dekri",
+   "avoid_id": "dekret"
+  },
+  {
+   "en": "degree",
+   "ms": "darjah",
+   "avoid_id": "derajat"
+  },
+  {
+   "en": "degree",
+   "ms": "gred",
+   "avoid_id": "grad"
+  },
+  {
+   "en": "delicious",
+   "ms": "lazat",
+   "avoid_id": "lezat"
+  },
+  {
+   "en": "deliver",
+   "ms": "hantar",
+   "avoid_id": "antar"
+  },
+  {
+   "en": "demagogic",
+   "ms": "demagog",
+   "avoid_id": "demagogis"
+  },
+  {
+   "en": "democratic",
+   "ms": "demokratik",
+   "avoid_id": "demokratis"
+  },
+  {
+   "en": "demographic",
+   "ms": "demografik",
+   "avoid_id": "demografis"
+  },
+  {
+   "en": "dengue",
+   "ms": "denggi",
+   "avoid_id": "dengue"
+  },
+  {
+   "en": "dentist",
+   "ms": "doktor gigi",
+   "avoid_id": "dokter gigi"
+  },
+  {
+   "en": "deposit",
+   "ms": "deposit",
+   "avoid_id": "deposito"
+  },
+  {
+   "en": "depot",
+   "ms": "depoh",
+   "avoid_id": "depot"
+  },
+  {
+   "en": "dhikr",
+   "ms": "dikir",
+   "avoid_id": "zikir"
+  },
+  {
+   "en": "dialect",
+   "ms": "loghat",
+   "avoid_id": "logat"
+  },
+  {
+   "en": "diamond",
+   "ms": "almas",
+   "avoid_id": "alamas"
+  },
+  {
+   "en": "diarrhea",
+   "ms": "diarea",
+   "avoid_id": "diare"
+  },
+  {
+   "en": "difference",
+   "ms": "faraq",
+   "avoid_id": "farak"
+  },
+  {
+   "en": "different",
+   "ms": "beza",
+   "avoid_id": "beda"
+  },
+  {
+   "en": "different",
+   "ms": "fariq",
+   "avoid_id": "farik"
+  },
+  {
+   "en": "digital electronics",
+   "ms": "elektronik digit",
+   "avoid_id": "elektronika digital"
+  },
+  {
+   "en": "dignity",
+   "ms": "maruah",
+   "avoid_id": "muruah"
+  },
+  {
+   "en": "dilemmatic",
+   "ms": "dilematik",
+   "avoid_id": "dilematis"
+  },
+  {
+   "en": "diode",
+   "ms": "diod",
+   "avoid_id": "diode"
+  },
+  {
+   "en": "diphtheria",
+   "ms": "difteria",
+   "avoid_id": "difteri"
+  },
+  {
+   "en": "dirty muddy",
+   "ms": "gelepok",
+   "avoid_id": "gelepot"
+  },
+  {
+   "en": "discount",
+   "ms": "diskaun",
+   "avoid_id": "diskon"
+  },
+  {
+   "en": "discrete",
+   "ms": "diskrit",
+   "avoid_id": "diskret"
+  },
+  {
+   "en": "dishonest",
+   "ms": "kongkalikung",
+   "avoid_id": "kongkalikong"
+  },
+  {
+   "en": "dismal",
+   "ms": "ghobar",
+   "avoid_id": "gobar"
+  },
+  {
+   "en": "distance between right and left foot",
+   "ms": "kengkang",
+   "avoid_id": "kangkang"
+  },
+  {
+   "en": "distortion",
+   "ms": "herot",
+   "avoid_id": "erot"
+  },
+  {
+   "en": "diversity",
+   "ms": "diversiti",
+   "avoid_id": "diversitas"
+  },
+  {
+   "en": "divide",
+   "ms": "bahagi",
+   "avoid_id": "bagi"
+  },
+  {
+   "en": "division",
+   "ms": "pembahagian",
+   "avoid_id": "pembagian"
+  },
+  {
+   "en": "division",
+   "ms": "divisyen",
+   "avoid_id": "divisi"
+  },
+  {
+   "en": "doctor",
+   "ms": "doktor",
+   "avoid_id": "dokter"
+  },
+  {
+   "en": "documentary",
+   "ms": "dokumentari",
+   "avoid_id": "dokumenter"
+  },
+  {
+   "en": "dogmatic",
+   "ms": "dogmatik",
+   "avoid_id": "dogmatis"
+  },
+  {
+   "en": "donkey",
+   "ms": "keldai",
+   "avoid_id": "keledai"
+  },
+  {
+   "en": "dose",
+   "ms": "dos",
+   "avoid_id": "dosis"
+  },
+  {
+   "en": "dragonfly",
+   "ms": "pepatung",
+   "avoid_id": "papatong"
+  },
+  {
+   "en": "dramatic",
+   "ms": "dramatik",
+   "avoid_id": "dramatis"
+  },
+  {
+   "en": "drastic",
+   "ms": "drastik",
+   "avoid_id": "drastis"
+  },
+  {
+   "en": "dreg",
+   "ms": "hampas",
+   "avoid_id": "ampas"
+  },
+  {
+   "en": "drop",
+   "ms": "titis",
+   "avoid_id": "tetes"
+  },
+  {
+   "en": "dry",
+   "ms": "kontang",
+   "avoid_id": "kerontang"
+  },
+  {
+   "en": "dues money",
+   "ms": "hunjin",
+   "avoid_id": "hujin"
+  },
+  {
+   "en": "dust",
+   "ms": "habuk",
+   "avoid_id": "debu"
+  },
+  {
+   "en": "dust cleaner",
+   "ms": "kemucing",
+   "avoid_id": "kemoceng"
+  },
+  {
+   "en": "dynamic",
+   "ms": "dinamik",
+   "avoid_id": "dinamis"
+  },
+  {
+   "en": "dynamics",
+   "ms": "dinamik",
+   "avoid_id": "dinamika"
+  },
+  {
+   "en": "eagle",
+   "ms": "helang",
+   "avoid_id": "elang"
+  },
+  {
+   "en": "eardrum",
+   "ms": "gegendang telinga",
+   "avoid_id": "gendang telinga"
+  },
+  {
+   "en": "earring",
+   "ms": "gewang",
+   "avoid_id": "giwang"
+  },
+  {
+   "en": "ear canal",
+   "ms": "salur telinga",
+   "avoid_id": "saluran telinga"
+  },
+  {
+   "en": "economic",
+   "ms": "ekonomik",
+   "avoid_id": "ekonomis"
+  },
+  {
+   "en": "Ecuador",
+   "ms": "Ecuador",
+   "avoid_id": "Ekuador"
+  },
+  {
+   "en": "eczema",
+   "ms": "ekzema",
+   "avoid_id": "ekzem"
+  },
+  {
+   "en": "egoistic",
+   "ms": "egoistik",
+   "avoid_id": "egoistis"
+  },
+  {
+   "en": "Eid al-Adha",
+   "ms": "Aidiladha",
+   "avoid_id": "Iduladha"
+  },
+  {
+   "en": "Eid al-Fitr",
+   "ms": "Aidilfitri",
+   "avoid_id": "Idulfitri"
+  },
+  {
+   "en": "eight",
+   "ms": "lapan",
+   "avoid_id": "delapan"
+  },
+  {
+   "en": "elastic",
+   "ms": "hulur",
+   "avoid_id": "ulur"
+  },
+  {
+   "en": "elite",
+   "ms": "elit",
+   "avoid_id": "elite"
+  },
+  {
+   "en": "end",
+   "ms": "hujung",
+   "avoid_id": "ujung"
+  },
+  {
+   "en": "ensemble",
+   "ms": "ensembel",
+   "avoid_id": "ensambel"
+  },
+  {
+   "en": "ensign",
+   "ms": "alperes",
+   "avoid_id": "alferes"
+  },
+  {
+   "en": "epaulet, epaulette",
+   "ms": "epaulet",
+   "avoid_id": "epolet"
+  },
+  {
+   "en": "epidemic",
+   "ms": "epidemik",
+   "avoid_id": "epidemi"
+  },
+  {
+   "en": "episode",
+   "ms": "episod",
+   "avoid_id": "episode"
+  },
+  {
+   "en": "ergonomics",
+   "ms": "ergonomik",
+   "avoid_id": "ergonomi"
+  },
+  {
+   "en": "error",
+   "ms": "ralat",
+   "avoid_id": "galat"
+  },
+  {
+   "en": "essay",
+   "ms": "esei",
+   "avoid_id": "esai"
+  },
+  {
+   "en": "eternal",
+   "ms": "baqa",
+   "avoid_id": "baka"
+  },
+  {
+   "en": "Eucharist",
+   "ms": "Eukaris",
+   "avoid_id": "Ekaristi"
+  },
+  {
+   "en": "excitement",
+   "ms": "ghairah",
+   "avoid_id": "gairah"
+  },
+  {
+   "en": "exercise",
+   "ms": "senaman",
+   "avoid_id": "senam"
+  },
+  {
+   "en": "explanation",
+   "ms": "huraian",
+   "avoid_id": "uraian"
+  },
+  {
+   "en": "faint",
+   "ms": "pengsan",
+   "avoid_id": "pingsan"
+  },
+  {
+   "en": "fall behind, dropping",
+   "ms": "cicir",
+   "avoid_id": "cecer"
+  },
+  {
+   "en": "fall in love",
+   "ms": "kesmaran",
+   "avoid_id": "kasmaran"
+  },
+  {
+   "en": "father",
+   "ms": "bapa",
+   "avoid_id": "bapak"
+  },
+  {
+   "en": "feudal",
+   "ms": "feudal",
+   "avoid_id": "feodal"
+  },
+  {
+   "en": "feudalism",
+   "ms": "feudalisme",
+   "avoid_id": "feodalisme"
+  },
+  {
+   "en": "fiction",
+   "ms": "fiksyen",
+   "avoid_id": "fiksi"
+  },
+  {
+   "en": "figure",
+   "ms": "susuk",
+   "avoid_id": "sosok"
+  },
+  {
+   "en": "film",
+   "ms": "filem",
+   "avoid_id": "film"
+  },
+  {
+   "en": "fishy",
+   "ms": "hanyir",
+   "avoid_id": "anyir"
+  },
+  {
+   "en": "firm stance and always consistent attitude",
+   "ms": "istiqamah",
+   "avoid_id": "istikamah"
+  },
+  {
+   "en": "flattened and wide noodles",
+   "ms": "kuetiau",
+   "avoid_id": "kwetiau"
+  },
+  {
+   "en": "floor tile",
+   "ms": "jubin",
+   "avoid_id": "ubin"
+  },
+  {
+   "en": "flower",
+   "ms": "kesuma",
+   "avoid_id": "kusuma"
+  },
+  {
+   "en": "fog",
+   "ms": "kabus",
+   "avoid_id": "kabut"
+  },
+  {
+   "en": "folded at the end or edge so that the folded part depends",
+   "ms": "kelebet",
+   "avoid_id": "kelebek"
+  },
+  {
+   "en": "force",
+   "ms": "daya",
+   "avoid_id": "gaya"
+  },
+  {
+   "en": "foreign body",
+   "ms": "bendasing",
+   "avoid_id": "benda asing"
+  },
+  {
+   "en": "forest betel",
+   "ms": "kaduk",
+   "avoid_id": "kadok"
+  },
+  {
+   "en": "foul smell",
+   "ms": "kahang",
+   "avoid_id": "kohong"
+  },
+  {
+   "en": "France",
+   "ms": "Perancis",
+   "avoid_id": "Prancis"
+  },
+  {
+   "en": "Friday",
+   "ms": "Jumaat",
+   "avoid_id": "Jumat"
+  },
+  {
+   "en": "fried noodles",
+   "ms": "mi goreng",
+   "avoid_id": "mie goreng"
+  },
+  {
+   "en": "frigate",
+   "ms": "frigat",
+   "avoid_id": "fregat"
+  },
+  {
+   "en": "front row",
+   "ms": "dammah",
+   "avoid_id": "damah"
+  },
+  {
+   "en": "fume",
+   "ms": "wasap",
+   "avoid_id": "asap"
+  },
+  {
+   "en": "fungicide",
+   "ms": "fungisid",
+   "avoid_id": "fungisida"
+  },
+  {
+   "en": "gallon",
+   "ms": "gelen",
+   "avoid_id": "galon"
+  },
+  {
+   "en": "garage",
+   "ms": "garaj",
+   "avoid_id": "garasi"
+  },
+  {
+   "en": "garrison",
+   "ms": "garrison",
+   "avoid_id": "garnisun"
+  },
+  {
+   "en": "garuda",
+   "ms": "geroda",
+   "avoid_id": "garuda"
+  },
+  {
+   "en": "gear",
+   "ms": "gear",
+   "avoid_id": "gir"
+  },
+  {
+   "en": "general",
+   "ms": "jeneral",
+   "avoid_id": "jenderal"
+  },
+  {
+   "en": "generic",
+   "ms": "gerenek",
+   "avoid_id": "gerenik"
+  },
+  {
+   "en": "genetic",
+   "ms": "genetik",
+   "avoid_id": "genetis"
+  },
+  {
+   "en": "genetics",
+   "ms": "genetik",
+   "avoid_id": "genetika"
+  },
+  {
+   "en": "Geneva {{q|city in Switzerland}}",
+   "ms": "Geneva",
+   "avoid_id": "Jenewa"
+  },
+  {
+   "en": "genocide",
+   "ms": "genosid",
+   "avoid_id": "genosida"
+  },
+  {
+   "en": "gentle",
+   "ms": "gemalai",
+   "avoid_id": "gemulai"
+  },
+  {
+   "en": "geriatrics",
+   "ms": "geriatrik",
+   "avoid_id": "geriatri"
+  },
+  {
+   "en": "geographic",
+   "ms": "geografik",
+   "avoid_id": "geografis"
+  },
+  {
+   "en": "ghain {{q|Arabic script letter}}",
+   "ms": "ghain",
+   "avoid_id": "gain"
+  },
+  {
+   "en": "gift",
+   "ms": "kurnia",
+   "avoid_id": "karunia"
+  },
+  {
+   "en": "gimmick",
+   "ms": "elat",
+   "avoid_id": "helat"
+  },
+  {
+   "en": "ginger",
+   "ms": "lampoyang",
+   "avoid_id": "lempuyang"
+  },
+  {
+   "en": "giraffe",
+   "ms": "zirafah",
+   "avoid_id": "jerapah"
+  },
+  {
+   "en": "gizzard",
+   "ms": "hempedal",
+   "avoid_id": "empedal"
+  },
+  {
+   "en": "glacier",
+   "ms": "glasier",
+   "avoid_id": "gletser"
+  },
+  {
+   "en": "glossary",
+   "ms": "glosari",
+   "avoid_id": "glosarium"
+  },
+  {
+   "en": "go away",
+   "ms": "hincit",
+   "avoid_id": "incit"
+  },
+  {
+   "en": "gonorrhea",
+   "ms": "gonorea",
+   "avoid_id": "gonore"
+  },
+  {
+   "en": "governor",
+   "ms": "gabenor",
+   "avoid_id": "gubernur"
+  },
+  {
+   "en": "governor general",
+   "ms": "gabenor jeneral",
+   "avoid_id": "gubernur jenderal"
+  },
+  {
+   "en": "grammar",
+   "ms": "tatabahasa",
+   "avoid_id": "tata bahasa"
+  },
+  {
+   "en": "grapefruit",
+   "ms": "gedang",
+   "avoid_id": "gadang"
+  },
+  {
+   "en": "graph",
+   "ms": "graf",
+   "avoid_id": "grafik"
+  },
+  {
+   "en": "graphic",
+   "ms": "grafik",
+   "avoid_id": "grafis"
+  },
+  {
+   "en": "graphics",
+   "ms": "grafik",
+   "avoid_id": "grafika"
+  },
+  {
+   "en": "grasp (verb)",
+   "ms": "cengkam",
+   "avoid_id": "cengkeram"
+  },
+  {
+   "en": "gravity",
+   "ms": "graviti",
+   "avoid_id": "gravitasi"
+  },
+  {
+   "en": "gray, grey",
+   "ms": "kelabu",
+   "avoid_id": "abu-abu"
+  },
+  {
+   "en": "guerrilla",
+   "ms": "gerila",
+   "avoid_id": "gerilya"
+  },
+  {
+   "en": "gun",
+   "ms": "senapang",
+   "avoid_id": "senapan"
+  },
+  {
+   "en": "haemorrhoid, hemorrhoid",
+   "ms": "buasir",
+   "avoid_id": "bawasir"
+  },
+  {
+   "en": "hangar",
+   "ms": "hangar",
+   "avoid_id": "hanggar"
+  },
+  {
+   "en": "harmonic, harmonious",
+   "ms": "harmonik",
+   "avoid_id": "harmonis"
+  },
+  {
+   "en": "healthy",
+   "ms": "sihat",
+   "avoid_id": "sehat"
+  },
+  {
+   "en": "heaven",
+   "ms": "jannah",
+   "avoid_id": "janah"
+  },
+  {
+   "en": "heaven",
+   "ms": "syurga",
+   "avoid_id": "surga"
+  },
+  {
+   "en": "hectare",
+   "ms": "hektar",
+   "avoid_id": "hektare"
+  },
+  {
+   "en": "helmet",
+   "ms": "helmet",
+   "avoid_id": "helm"
+  },
+  {
+   "en": "hemisphere",
+   "ms": "hemisfera",
+   "avoid_id": "hemisfer"
+  },
+  {
+   "en": "herbicide",
+   "ms": "herbisid",
+   "avoid_id": "herbisida"
+  },
+  {
+   "en": "hiking",
+   "ms": "kembara",
+   "avoid_id": "embara"
+  },
+  {
+   "en": "honor",
+   "ms": "izzah",
+   "avoid_id": "izah"
+  },
+  {
+   "en": "hornblende",
+   "ms": "hornblend",
+   "avoid_id": "hornblenda"
+  },
+  {
+   "en": "hornet",
+   "ms": "tebuan",
+   "avoid_id": "tabuhan"
+  },
+  {
+   "en": "housecoat",
+   "ms": "hauskot",
+   "avoid_id": "hoskut"
+  },
+  {
+   "en": "hub",
+   "ms": "hab",
+   "avoid_id": "hub"
+  },
+  {
+   "en": "hello",
+   "ms": "helo",
+   "avoid_id": "halo"
+  },
+  {
+   "en": "howdah",
+   "ms": "hodah",
+   "avoid_id": "haudah"
+  },
+  {
+   "en": "humble",
+   "ms": "khudu",
+   "avoid_id": "khuduk"
+  },
+  {
+   "en": "hunchback",
+   "ms": "bongkok",
+   "avoid_id": "bungkuk"
+  },
+  {
+   "en": "hung parliament",
+   "ms": "parlimen tergantung",
+   "avoid_id": "parlemen gantung"
+  },
+  {
+   "en": "Hungary",
+   "ms": "Hungary",
+   "avoid_id": "Hungaria"
+  },
+  {
+   "en": "hurricane",
+   "ms": "taufan",
+   "avoid_id": "topan"
+  },
+  {
+   "en": "hybrid",
+   "ms": "hibrid",
+   "avoid_id": "hibrida"
+  },
+  {
+   "en": "hydraulic",
+   "ms": "hidraulik",
+   "avoid_id": "hidraulis"
+  },
+  {
+   "en": "hydraulics",
+   "ms": "hidraulik",
+   "avoid_id": "hidraulika"
+  },
+  {
+   "en": "hydrosphere",
+   "ms": "hidrosfera",
+   "avoid_id": "hidrosfer"
+  },
+  {
+   "en": "hyperbole",
+   "ms": "hiperbola",
+   "avoid_id": "hiperbol"
+  },
+  {
+   "en": "hypothetic, hypothetical",
+   "ms": "hipotetikal",
+   "avoid_id": "hipotetis"
+  },
+  {
+   "en": "hypotenuse",
+   "ms": "hipotenus",
+   "avoid_id": "hipotenusa"
+  },
+  {
+   "en": "hypotonic",
+   "ms": "hipotonik",
+   "avoid_id": "hipotonis"
+  },
+  {
+   "en": "ice",
+   "ms": "ais",
+   "avoid_id": "es"
+  },
+  {
+   "en": "ice cream",
+   "ms": "aiskrim",
+   "avoid_id": "es krim"
+  },
+  {
+   "en": "Iceland",
+   "ms": "Iceland",
+   "avoid_id": "Islandia"
+  },
+  {
+   "en": "idea",
+   "ms": "idea",
+   "avoid_id": "ide"
+  },
+  {
+   "en": "idealistic",
+   "ms": "idealistik",
+   "avoid_id": "idealistis"
+  },
+  {
+   "en": "identity",
+   "ms": "identiti",
+   "avoid_id": "identitas"
+  },
+  {
+   "en": "image",
+   "ms": "imej",
+   "avoid_id": "imaji"
+  },
+  {
+   "en": "imagination",
+   "ms": "imaginasi",
+   "avoid_id": "imajinasi"
+  },
+  {
+   "en": "imaginative",
+   "ms": "imaginatif",
+   "avoid_id": "imajinatif"
+  },
+  {
+   "en": "imitation of the sound of water",
+   "ms": "ketimbung",
+   "avoid_id": "kecimpung"
+  },
+  {
+   "en": "immigration",
+   "ms": "imigresen",
+   "avoid_id": "imigrasi"
+  },
+  {
+   "en": "immunity",
+   "ms": "imuniti",
+   "avoid_id": "imunitas"
+  },
+  {
+   "en": "import",
+   "ms": "import",
+   "avoid_id": "impor"
+  },
+  {
+   "en": "impotence",
+   "ms": "impotens",
+   "avoid_id": "impotensi"
+  },
+  {
+   "en": "incessant",
+   "ms": "gencer",
+   "avoid_id": "gencar"
+  },
+  {
+   "en": "indemnity",
+   "ms": "indemniti",
+   "avoid_id": "indemnitas"
+  },
+  {
+   "en": "infantry",
+   "ms": "infantri",
+   "avoid_id": "infanteri"
+  },
+  {
+   "en": "inference",
+   "ms": "inferens",
+   "avoid_id": "inferensi"
+  },
+  {
+   "en": "influencer",
+   "ms": "pempengaruh",
+   "avoid_id": "pemengaruh"
+  },
+  {
+   "en": "infusion",
+   "ms": "infusi",
+   "avoid_id": "infus"
+  },
+  {
+   "en": "ink",
+   "ms": "dakwat",
+   "avoid_id": "dawat"
+  },
+  {
+   "en": "ins and outs",
+   "ms": "selok-belok",
+   "avoid_id": "seluk-beluk"
+  },
+  {
+   "en": "insecticide",
+   "ms": "insektisid",
+   "avoid_id": "insektisida"
+  },
+  {
+   "en": "inspector",
+   "ms": "inspektor",
+   "avoid_id": "inspektur"
+  },
+  {
+   "en": "installment",
+   "ms": "ansuran",
+   "avoid_id": "angsuran"
+  },
+  {
+   "en": "internal",
+   "ms": "interen",
+   "avoid_id": "intern"
+  },
+  {
+   "en": "intolerance",
+   "ms": "intolerans",
+   "avoid_id": "intoleransi"
+  },
+  {
+   "en": "inverted",
+   "ms": "songsang",
+   "avoid_id": "sungsang"
+  },
+  {
+   "en": "invertebrate",
+   "ms": "invertebrat",
+   "avoid_id": "invertebrata"
+  },
+  {
+   "en": "ionosphere",
+   "ms": "ionosfera",
+   "avoid_id": "ionosfer"
+  },
+  {
+   "en": "iqama",
+   "ms": "kamat",
+   "avoid_id": "ikamah"
+  },
+  {
+   "en": "Iraq",
+   "ms": "Iraq",
+   "avoid_id": "Irak"
+  },
+  {
+   "en": "Ireland",
+   "ms": "Ireland",
+   "avoid_id": "Irlandia"
+  },
+  {
+   "en": "isha",
+   "ms": "isyak",
+   "avoid_id": "isya"
+  },
+  {
+   "en": "Isra",
+   "ms": "Israk",
+   "avoid_id": "Isra"
+  },
+  {
+   "en": "istighfar",
+   "ms": "istighfar",
+   "avoid_id": "istigfar"
+  },
+  {
+   "en": "istinja",
+   "ms": "istinjak",
+   "avoid_id": "istinja"
+  },
+  {
+   "en": "Italy",
+   "ms": "Itali",
+   "avoid_id": "Italia"
+  },
+  {
+   "en": "jagged, four-hole iron bracelets, the size of a finger, are worn for punching",
+   "ms": "kelakkeling",
+   "avoid_id": "kerakeling"
+  },
+  {
+   "en": "Jamaica",
+   "ms": "Jamaica",
+   "avoid_id": "Jamaika"
+  },
+  {
+   "en": "jamboree",
+   "ms": "jambori",
+   "avoid_id": "jambore"
+  },
+  {
+   "en": "Japan",
+   "ms": "Jepun",
+   "avoid_id": "Jepang"
+  },
+  {
+   "en": "jasmine",
+   "ms": "jasmin",
+   "avoid_id": "yasmin"
+  },
+  {
+   "en": "jitter",
+   "ms": "gementar",
+   "avoid_id": "gemetar"
+  },
+  {
+   "en": "Jordan",
+   "ms": "Jordan",
+   "avoid_id": "Yordania"
+  },
+  {
+   "en": "July",
+   "ms": "Julai",
+   "avoid_id": "Juli"
+  },
+  {
+   "en": "Jumada I",
+   "ms": "Jamadilawal",
+   "avoid_id": "Jumadilawal"
+  },
+  {
+   "en": "Jumada II",
+   "ms": "Jamadilakhir",
+   "avoid_id": "Jumadilakhir"
+  },
+  {
+   "en": "June",
+   "ms": "Jun",
+   "avoid_id": "Juni"
+  },
+  {
+   "en": "junk",
+   "ms": "jong",
+   "avoid_id": "jung"
+  },
+  {
+   "en": "Kaaba",
+   "ms": "Kaabah",
+   "avoid_id": "Ka'bah"
+  },
+  {
+   "en": "kangaroo",
+   "ms": "kanggaru",
+   "avoid_id": "kanguru"
+  },
+  {
+   "en": "karyotype",
+   "ms": "kariotip",
+   "avoid_id": "kariotipe"
+  },
+  {
+   "en": "kenong",
+   "ms": "kenung",
+   "avoid_id": "kenong"
+  },
+  {
+   "en": "kermak leaves",
+   "ms": "keremak",
+   "avoid_id": "kermak"
+  },
+  {
+   "en": "kinematics",
+   "ms": "kinematik",
+   "avoid_id": "kinematika"
+  },
+  {
+   "en": "kinesics",
+   "ms": "kinesik",
+   "avoid_id": "kinesika"
+  },
+  {
+   "en": "kinetic",
+   "ms": "kinetik",
+   "avoid_id": "kinetis"
+  },
+  {
+   "en": "kinetics",
+   "ms": "kinetik",
+   "avoid_id": "kinetika"
+  },
+  {
+   "en": "king",
+   "ms": "betara",
+   "avoid_id": "batara"
+  },
+  {
+   "en": "knight",
+   "ms": "kesateria",
+   "avoid_id": "kesatria"
+  },
+  {
+   "en": "kulintang",
+   "ms": "kulintang",
+   "avoid_id": "kolintang"
+  },
+  {
+   "en": "kuweni",
+   "ms": "kebambam",
+   "avoid_id": "kebembem"
+  },
+  {
+   "en": "lacquer",
+   "ms": "lakuer",
+   "avoid_id": "lak"
+  },
+  {
+   "en": "lak stone",
+   "ms": "lakri",
+   "avoid_id": "lakeri"
+  },
+  {
+   "en": "landscape",
+   "ms": "landskap",
+   "avoid_id": "lanskap"
+  },
+  {
+   "en": "lantern",
+   "ms": "tanglong",
+   "avoid_id": "tanglung"
+  },
+  {
+   "en": "large needle",
+   "ms": "cuban",
+   "avoid_id": "coban"
+  },
+  {
+   "en": "larynx",
+   "ms": "larinks",
+   "avoid_id": "laring"
+  },
+  {
+   "en": "launch",
+   "ms": "lancar",
+   "avoid_id": "luncur"
+  },
+  {
+   "en": "laundry",
+   "ms": "benatu",
+   "avoid_id": "penatu"
+  },
+  {
+   "en": "lavender",
+   "ms": "lavender",
+   "avoid_id": "lavendel"
+  },
+  {
+   "en": "leaning",
+   "ms": "hereng",
+   "avoid_id": "ereng"
+  },
+  {
+   "en": "Lebanon",
+   "ms": "Lubnan",
+   "avoid_id": "Lebanon"
+  },
+  {
+   "en": "ledger",
+   "ms": "lejar",
+   "avoid_id": "leger"
+  },
+  {
+   "en": "leeches",
+   "ms": "pacat",
+   "avoid_id": "pacet"
+  },
+  {
+   "en": "legion",
+   "ms": "legion",
+   "avoid_id": "legiun"
+  },
+  {
+   "en": "length size",
+   "ms": "ela",
+   "avoid_id": "elo"
+  },
+  {
+   "en": "liability",
+   "ms": "liabiliti",
+   "avoid_id": "liabilitas"
+  },
+  {
+   "en": "lieutenant",
+   "ms": "leftenan",
+   "avoid_id": "letnan"
+  },
+  {
+   "en": "lift",
+   "ms": "lif",
+   "avoid_id": "lift"
+  },
+  {
+   "en": "light (visible light)",
+   "ms": "ketara",
+   "avoid_id": "kentara"
+  },
+  {
+   "en": "linear",
+   "ms": "linear",
+   "avoid_id": "linier"
+  },
+  {
+   "en": "literature",
+   "ms": "sastera",
+   "avoid_id": "sastra"
+  },
+  {
+   "en": "literature",
+   "ms": "susastera",
+   "avoid_id": "susastra"
+  },
+  {
+   "en": "literature",
+   "ms": "kesusasteraan",
+   "avoid_id": "kesusastraan"
+  },
+  {
+   "en": "local",
+   "ms": "tempatan",
+   "avoid_id": "setempat"
+  },
+  {
+   "en": "logic",
+   "ms": "logik",
+   "avoid_id": "logis"
+  },
+  {
+   "en": "logical",
+   "ms": "logikal",
+   "avoid_id": "logis"
+  },
+  {
+   "en": "logics",
+   "ms": "logik",
+   "avoid_id": "logika"
+  },
+  {
+   "en": "long pipe",
+   "ms": "hukah",
+   "avoid_id": "hokah"
+  },
+  {
+   "en": "lotion",
+   "ms": "losen",
+   "avoid_id": "losion"
+  },
+  {
+   "en": "Luxembourg",
+   "ms": "Luxembourg",
+   "avoid_id": "Luksemburg"
+  },
+  {
+   "en": "lychee",
+   "ms": "laici",
+   "avoid_id": "leci"
+  },
+  {
+   "en": "Macau",
+   "ms": "Macau",
+   "avoid_id": "Makau"
+  },
+  {
+   "en": "Madagascar",
+   "ms": "Madagascar",
+   "avoid_id": "Madagaskar"
+  },
+  {
+   "en": "magic",
+   "ms": "magik",
+   "avoid_id": "magis"
+  },
+  {
+   "en": "maghrib",
+   "ms": "maghrib",
+   "avoid_id": "magrib"
+  },
+  {
+   "en": "magistrate",
+   "ms": "majistret",
+   "avoid_id": "magistrat"
+  },
+  {
+   "en": "magnitude",
+   "ms": "magnitud",
+   "avoid_id": "magnitudo"
+  },
+  {
+   "en": "major",
+   "ms": "mejar",
+   "avoid_id": "mayor"
+  },
+  {
+   "en": "major",
+   "ms": "major",
+   "avoid_id": "mayor"
+  },
+  {
+   "en": "Maldives",
+   "ms": "Maldives",
+   "avoid_id": "Maladewa"
+  },
+  {
+   "en": "man",
+   "ms": "peria",
+   "avoid_id": "pria"
+  },
+  {
+   "en": "manuscript",
+   "ms": "naskhah",
+   "avoid_id": "naskah"
+  },
+  {
+   "en": "marble",
+   "ms": "marmar",
+   "avoid_id": "marmer"
+  },
+  {
+   "en": "marriage",
+   "ms": "kahwin",
+   "avoid_id": "kawin"
+  },
+  {
+   "en": "marshal",
+   "ms": "marsyal",
+   "avoid_id": "marsekal"
+  },
+  {
+   "en": "mathematics",
+   "ms": "matematik",
+   "avoid_id": "matematika"
+  },
+  {
+   "en": "mechanic (adj)",
+   "ms": "mekanik",
+   "avoid_id": "mekanis"
+  },
+  {
+   "en": "mechanical",
+   "ms": "mekanikal",
+   "avoid_id": "mekanis"
+  },
+  {
+   "en": "mechanics",
+   "ms": "mekanik",
+   "avoid_id": "mekanika"
+  },
+  {
+   "en": "medication",
+   "ms": "ubat",
+   "avoid_id": "obat"
+  },
+  {
+   "en": "megabat",
+   "ms": "keluang",
+   "avoid_id": "kalong"
+  },
+  {
+   "en": "melodic",
+   "ms": "melodik",
+   "avoid_id": "melodis"
+  },
+  {
+   "en": "menopause",
+   "ms": "menopaus",
+   "avoid_id": "menopause"
+  },
+  {
+   "en": "metal finger gloves",
+   "ms": "jidal",
+   "avoid_id": "bidal"
+  },
+  {
+   "en": "method",
+   "ms": "kaedah",
+   "avoid_id": "kaidah"
+  },
+  {
+   "en": "microorganism",
+   "ms": "mikroorganisma",
+   "avoid_id": "mikroorganisme"
+  },
+  {
+   "en": "microscopic",
+   "ms": "mikroskopik",
+   "avoid_id": "mikroskopis"
+  },
+  {
+   "en": "midwifery",
+   "ms": "perbidanan",
+   "avoid_id": "kebidanan"
+  },
+  {
+   "en": "militia",
+   "ms": "militia",
+   "avoid_id": "milisi"
+  },
+  {
+   "en": "minced",
+   "ms": "cencang",
+   "avoid_id": "cincang"
+  },
+  {
+   "en": "mind",
+   "ms": "helah",
+   "avoid_id": "helat"
+  },
+  {
+   "en": "minute (60 seconds)",
+   "ms": "minit",
+   "avoid_id": "menit"
+  },
+  {
+   "en": "minority",
+   "ms": "minoriti",
+   "avoid_id": "minoritas"
+  },
+  {
+   "en": "mobile phase",
+   "ms": "fasa gerak",
+   "avoid_id": "fase gerak"
+  },
+  {
+   "en": "mode",
+   "ms": "mod",
+   "avoid_id": "mode"
+  },
+  {
+   "en": "mode",
+   "ms": "mod",
+   "avoid_id": "modus"
+  },
+  {
+   "en": "mode of transport",
+   "ms": "mod",
+   "avoid_id": "moda"
+  },
+  {
+   "en": "modern",
+   "ms": "moden",
+   "avoid_id": "modern"
+  },
+  {
+   "en": "modern physics",
+   "ms": "fizik moden",
+   "avoid_id": "fisika modern"
+  },
+  {
+   "en": "Monaco",
+   "ms": "Monaco",
+   "avoid_id": "Monako"
+  },
+  {
+   "en": "moon",
+   "ms": "cendera",
+   "avoid_id": "candra"
+  },
+  {
+   "en": "moonsighting",
+   "ms": "rukyah",
+   "avoid_id": "rukyat"
+  },
+  {
+   "en": "morbidity",
+   "ms": "morbiditi",
+   "avoid_id": "morbiditas"
+  },
+  {
+   "en": "mortality",
+   "ms": "mortaliti",
+   "avoid_id": "mortalitas"
+  },
+  {
+   "en": "mosaic",
+   "ms": "mozek",
+   "avoid_id": "mosaik"
+  },
+  {
+   "en": "mother",
+   "ms": "bonda",
+   "avoid_id": "bunda"
+  },
+  {
+   "en": "Mozambique",
+   "ms": "Mozambique",
+   "avoid_id": "Mozambik"
+  },
+  {
+   "en": "mule",
+   "ms": "baghal",
+   "avoid_id": "bagal"
+  },
+  {
+   "en": "museum",
+   "ms": "muzium",
+   "avoid_id": "museum"
+  },
+  {
+   "en": "music",
+   "ms": "muzik",
+   "avoid_id": "musik"
+  },
+  {
+   "en": "music video",
+   "ms": "video muzik",
+   "avoid_id": "video musik"
+  },
+  {
+   "en": "namely (that is)",
+   "ms": "iaitu",
+   "avoid_id": "yaitu"
+  },
+  {
+   "en": "native",
+   "ms": "bumiputera",
+   "avoid_id": "bumiputra"
+  },
+  {
+   "en": "nature (n)",
+   "ms": "kudrat",
+   "avoid_id": "kodrat"
+  },
+  {
+   "en": "nature (adj)",
+   "ms": "kudrati",
+   "avoid_id": "kodrati"
+  },
+  {
+   "en": "negligent",
+   "ms": "ghaflah",
+   "avoid_id": "gaflah"
+  },
+  {
+   "en": "neonate",
+   "ms": "neonat",
+   "avoid_id": "neonatus"
+  },
+  {
+   "en": "Neptune",
+   "ms": "Neptun",
+   "avoid_id": "Neptunus"
+  },
+  {
+   "en": "neutral",
+   "ms": "neutral",
+   "avoid_id": "netral"
+  },
+  {
+   "en": "nephew",
+   "ms": "kemanakan",
+   "avoid_id": "kemenakan"
+  },
+  {
+   "en": "new",
+   "ms": "baharu",
+   "avoid_id": "baru"
+  },
+  {
+   "en": "news",
+   "ms": "khabar",
+   "avoid_id": "kabar"
+  },
+  {
+   "en": "newspaper",
+   "ms": "surat khabar",
+   "avoid_id": "surat kabar"
+  },
+  {
+   "en": "noble title of Makassar",
+   "ms": "keraeng",
+   "avoid_id": "karaeng"
+  },
+  {
+   "en": "North Macedonia",
+   "ms": "Macedonia Utara",
+   "avoid_id": "Makedonia Utara"
+  },
+  {
+   "en": "Northern Cyprus",
+   "ms": "Cyprus Utara",
+   "avoid_id": "Siprus Utara"
+  },
+  {
+   "en": "Northern Ireland",
+   "ms": "Ireland Utara",
+   "avoid_id": "Irlandia Utara"
+  },
+  {
+   "en": "Norway",
+   "ms": "Norway",
+   "avoid_id": "Norwegia"
+  },
+  {
+   "en": "notice",
+   "ms": "notis",
+   "avoid_id": "nota"
+  },
+  {
+   "en": "oblation, sacrificial offering; sacrifice",
+   "ms": "korban",
+   "avoid_id": "kurban"
+  },
+  {
+   "en": "obstacle",
+   "ms": "gendala",
+   "avoid_id": "kendala"
+  },
+  {
+   "en": "ocean",
+   "ms": "samudera",
+   "avoid_id": "samudra"
+  },
+  {
+   "en": "office",
+   "ms": "jabatan",
+   "avoid_id": "jawatan"
+  },
+  {
+   "en": "official",
+   "ms": "rasmi",
+   "avoid_id": "resmi"
+  },
+  {
+   "en": "official",
+   "ms": "jawatan",
+   "avoid_id": "jabatan"
+  },
+  {
+   "en": "often",
+   "ms": "acap kali",
+   "avoid_id": "acapkali"
+  },
+  {
+   "en": "only",
+   "ms": "sahaja",
+   "avoid_id": "saja"
+  },
+  {
+   "en": "orchid",
+   "ms": "anggerik",
+   "avoid_id": "anggrek"
+  },
+  {
+   "en": "organism",
+   "ms": "organisma",
+   "avoid_id": "organisme"
+  },
+  {
+   "en": "ovary",
+   "ms": "ovari",
+   "avoid_id": "ovarium"
+  },
+  {
+   "en": "orthopaedics, orthopedics",
+   "ms": "ortopedik",
+   "avoid_id": "ortopedi"
+  },
+  {
+   "en": "package",
+   "ms": "pakej",
+   "avoid_id": "paket"
+  },
+  {
+   "en": "paediatric, pediatric",
+   "ms": "pediatrik",
+   "avoid_id": "pediatri"
+  },
+  {
+   "en": "palm",
+   "ms": "palma",
+   "avoid_id": "palem"
+  },
+  {
+   "en": "pagan",
+   "ms": "kifarat",
+   "avoid_id": "kafarat"
+  },
+  {
+   "en": "pajama",
+   "ms": "pijama",
+   "avoid_id": "piama"
+  },
+  {
+   "en": "Palestine",
+   "ms": "Palestin",
+   "avoid_id": "Palestina"
+  },
+  {
+   "en": "palisade",
+   "ms": "palisad",
+   "avoid_id": "palisade"
+  },
+  {
+   "en": "pandemic",
+   "ms": "pandemik",
+   "avoid_id": "pandemi"
+  },
+  {
+   "en": "pandemic",
+   "ms": "wabak",
+   "avoid_id": "wabah"
+  },
+  {
+   "en": "parasitic plant",
+   "ms": "bendalu",
+   "avoid_id": "benalu"
+  },
+  {
+   "en": "parish",
+   "ms": "parokhi",
+   "avoid_id": "paroki"
+  },
+  {
+   "en": "parliament",
+   "ms": "parlimen",
+   "avoid_id": "parlemen"
+  },
+  {
+   "en": "parse",
+   "ms": "hurai",
+   "avoid_id": "urai"
+  },
+  {
+   "en": "part",
+   "ms": "sebahagian",
+   "avoid_id": "sebagian"
+  },
+  {
+   "en": "part one's hair; brush aside",
+   "ms": "sebak",
+   "avoid_id": "sibak"
+  },
+  {
+   "en": "party",
+   "ms": "parti",
+   "avoid_id": "partai"
+  },
+  {
+   "en": "passport",
+   "ms": "pasport",
+   "avoid_id": "paspor"
+  },
+  {
+   "en": "pavilion",
+   "ms": "pavilion",
+   "avoid_id": "paviliun"
+  },
+  {
+   "en": "peck",
+   "ms": "kucup",
+   "avoid_id": "kecup"
+  },
+  {
+   "en": "pedigree",
+   "ms": "salasilah",
+   "avoid_id": "silsilah"
+  },
+  {
+   "en": "peel",
+   "ms": "kobak",
+   "avoid_id": "kubak"
+  },
+  {
+   "en": "pen",
+   "ms": "pen",
+   "avoid_id": "pena"
+  },
+  {
+   "en": "pencil",
+   "ms": "pensel",
+   "avoid_id": "pensil"
+  },
+  {
+   "en": "pension",
+   "ms": "pencen",
+   "avoid_id": "pensiun"
+  },
+  {
+   "en": "people who are proficient about yoga",
+   "ms": "jogi",
+   "avoid_id": "yogi"
+  },
+  {
+   "en": "persimmon",
+   "ms": "kesmak",
+   "avoid_id": "kesemek"
+  },
+  {
+   "en": "personal",
+   "ms": "peribadi",
+   "avoid_id": "pribadi"
+  },
+  {
+   "en": "personality",
+   "ms": "personaliti",
+   "avoid_id": "personalitas"
+  },
+  {
+   "en": "pesticide",
+   "ms": "pestisid",
+   "avoid_id": "pestisida"
+  },
+  {
+   "en": "petition",
+   "ms": "petisyen",
+   "avoid_id": "petisi"
+  },
+  {
+   "en": "petrol",
+   "ms": "benzin",
+   "avoid_id": "bensin"
+  },
+  {
+   "en": "pharmaceutical",
+   "ms": "farmaseutikal",
+   "avoid_id": "farmasetis"
+  },
+  {
+   "en": "pharmaceutics",
+   "ms": "farmaseutik",
+   "avoid_id": "farmasetika"
+  },
+  {
+   "en": "phase",
+   "ms": "fasa",
+   "avoid_id": "fase"
+  },
+  {
+   "en": "phenotype",
+   "ms": "fenotip",
+   "avoid_id": "fenotipe"
+  },
+  {
+   "en": "phonemic",
+   "ms": "fonemik",
+   "avoid_id": "fonemis"
+  },
+  {
+   "en": "physical",
+   "ms": "fizikal",
+   "avoid_id": "fisik"
+  },
+  {
+   "en": "physical geography",
+   "ms": "geografi fizikal",
+   "avoid_id": "geografi fisik"
+  },
+  {
+   "en": "picnic",
+   "ms": "temasya",
+   "avoid_id": "tamasya"
+  },
+  {
+   "en": "pipe",
+   "ms": "paip",
+   "avoid_id": "pipa"
+  },
+  {
+   "en": "placard",
+   "ms": "pelakat",
+   "avoid_id": "plakat"
+  },
+  {
+   "en": "plan",
+   "ms": "pelan",
+   "avoid_id": "plan"
+  },
+  {
+   "en": "plate",
+   "ms": "plat",
+   "avoid_id": "pelat"
+  },
+  {
+   "en": "platoon",
+   "ms": "platun",
+   "avoid_id": "peleton"
+  },
+  {
+   "en": "plumule",
+   "ms": "plumul",
+   "avoid_id": "plumula"
+  },
+  {
+   "en": "plural",
+   "ms": "majmuk",
+   "avoid_id": "majemuk"
+  },
+  {
+   "en": "pocket, sack",
+   "ms": "kantung",
+   "avoid_id": "kantong"
+  },
+  {
+   "en": "Poland",
+   "ms": "Poland",
+   "avoid_id": "Polandia"
+  },
+  {
+   "en": "police",
+   "ms": "polis",
+   "avoid_id": "polisi"
+  },
+  {
+   "en": "police state",
+   "ms": "negara polis",
+   "avoid_id": "negara polisi"
+  },
+  {
+   "en": "policy",
+   "ms": "polisi",
+   "avoid_id": "polis"
+  },
+  {
+   "en": "popular",
+   "ms": "popular",
+   "avoid_id": "populer"
+  },
+  {
+   "en": "popularity",
+   "ms": "populariti",
+   "avoid_id": "popularitas"
+  },
+  {
+   "en": "population genetics",
+   "ms": "genetik populasi",
+   "avoid_id": "genetika populasi"
+  },
+  {
+   "en": "porcelain",
+   "ms": "porselin",
+   "avoid_id": "porselen"
+  },
+  {
+   "en": "potato chips",
+   "ms": "kerepek kentang",
+   "avoid_id": "keripik kentang"
+  },
+  {
+   "en": "practical",
+   "ms": "praktikal",
+   "avoid_id": "praktis"
+  },
+  {
+   "en": "prank",
+   "ms": "kecindan",
+   "avoid_id": "kecandan"
+  },
+  {
+   "en": "praying mantis",
+   "ms": "centadu",
+   "avoid_id": "sentadu"
+  },
+  {
+   "en": "premium",
+   "ms": "yuran",
+   "avoid_id": "iuran"
+  },
+  {
+   "en": "premium",
+   "ms": "premium",
+   "avoid_id": "premi"
+  },
+  {
+   "en": "premix",
+   "ms": "pracampuran",
+   "avoid_id": "pracampur"
+  },
+  {
+   "en": "prestige",
+   "ms": "prestij",
+   "avoid_id": "prestise"
+  },
+  {
+   "en": "previously",
+   "ms": "dahulu",
+   "avoid_id": "dulu"
+  },
+  {
+   "en": "prick",
+   "ms": "cucuk",
+   "avoid_id": "cocok"
+  },
+  {
+   "en": "primate",
+   "ms": "primat",
+   "avoid_id": "primata"
+  },
+  {
+   "en": "prisoner",
+   "ms": "banduan",
+   "avoid_id": "benduan"
+  },
+  {
+   "en": "private",
+   "ms": "privet",
+   "avoid_id": "privat"
+  },
+  {
+   "en": "procedure",
+   "ms": "tatacara",
+   "avoid_id": "tata cara"
+  },
+  {
+   "en": "profession",
+   "ms": "profesion",
+   "avoid_id": "profesi"
+  },
+  {
+   "en": "programming",
+   "ms": "pemprograman",
+   "avoid_id": "pemrograman"
+  },
+  {
+   "en": "project",
+   "ms": "projek",
+   "avoid_id": "proyek"
+  },
+  {
+   "en": "pronunciation",
+   "ms": "sebutan",
+   "avoid_id": "penyebutan"
+  },
+  {
+   "en": "protein",
+   "ms": "protin",
+   "avoid_id": "protein"
+  },
+  {
+   "en": "prototype",
+   "ms": "prototaip",
+   "avoid_id": "prototipe"
+  },
+  {
+   "en": "psychological",
+   "ms": "psikologikal",
+   "avoid_id": "psikologis"
+  },
+  {
+   "en": "psychologist",
+   "ms": "psikologis",
+   "avoid_id": "psikolog"
+  },
+  {
+   "en": "puberty",
+   "ms": "baligh",
+   "avoid_id": "balig"
+  },
+  {
+   "en": "pull in",
+   "ms": "hisap",
+   "avoid_id": "isap"
+  },
+  {
+   "en": "pulmonary",
+   "ms": "pulmonari",
+   "avoid_id": "pulmoner"
+  },
+  {
+   "en": "pump",
+   "ms": "pam",
+   "avoid_id": "pompa"
+  },
+  {
+   "en": "punishment",
+   "ms": "seksa",
+   "avoid_id": "siksa"
+  },
+  {
+   "en": "pyramid",
+   "ms": "piramid",
+   "avoid_id": "piramida"
+  },
+  {
+   "en": "quarantine",
+   "ms": "kuarantin",
+   "avoid_id": "karantina"
+  },
+  {
+   "en": "question",
+   "ms": "soalan",
+   "avoid_id": "soal"
+  },
+  {
+   "en": "quiz",
+   "ms": "kuiz",
+   "avoid_id": "kuis"
+  },
+  {
+   "en": "radicle",
+   "ms": "radikel",
+   "avoid_id": "radikula"
+  },
+  {
+   "en": "rainfall",
+   "ms": "curahan",
+   "avoid_id": "curah"
+  },
+  {
+   "en": "rally",
+   "ms": "rali",
+   "avoid_id": "reli"
+  },
+  {
+   "en": "rationale",
+   "ms": "rasional",
+   "avoid_id": "rasio"
+  },
+  {
+   "en": "razor",
+   "ms": "kerempagi",
+   "avoid_id": "kerampagi"
+  },
+  {
+   "en": "realistic",
+   "ms": "realistik",
+   "avoid_id": "realistis"
+  },
+  {
+   "en": "rebate",
+   "ms": "rebat",
+   "avoid_id": "rabat"
+  },
+  {
+   "en": "recipe",
+   "ms": "resipi",
+   "avoid_id": "resep"
+  },
+  {
+   "en": "receipt",
+   "ms": "resit",
+   "avoid_id": "resi"
+  },
+  {
+   "en": "record",
+   "ms": "rakam",
+   "avoid_id": "rekam"
+  },
+  {
+   "en": "recording",
+   "ms": "rakaman",
+   "avoid_id": "rekaman"
+  },
+  {
+   "en": "regime",
+   "ms": "rejim",
+   "avoid_id": "rezim"
+  },
+  {
+   "en": "regiment",
+   "ms": "rejimen",
+   "avoid_id": "resimen"
+  },
+  {
+   "en": "relativity",
+   "ms": "relativiti",
+   "avoid_id": "relativitas"
+  },
+  {
+   "en": "reliable, dependable",
+   "ms": "handal",
+   "avoid_id": "andal"
+  },
+  {
+   "en": "representation in painting or engraving",
+   "ms": "figura",
+   "avoid_id": "pigura"
+  },
+  {
+   "en": "resonance",
+   "ms": "resonans",
+   "avoid_id": "resonansi"
+  },
+  {
+   "en": "respect",
+   "ms": "jurah",
+   "avoid_id": "jura"
+  },
+  {
+   "en": "responsibility",
+   "ms": "tanggungjawab",
+   "avoid_id": "tanggung jawab"
+  },
+  {
+   "en": "rice sprawled and mixed with side dishes",
+   "ms": "kabuli",
+   "avoid_id": "kebuli"
+  },
+  {
+   "en": "rickets",
+   "ms": "riket",
+   "avoid_id": "riketsia"
+  },
+  {
+   "en": "riot",
+   "ms": "honar",
+   "avoid_id": "onar"
+  },
+  {
+   "en": "road",
+   "ms": "harung",
+   "avoid_id": "arung"
+  },
+  {
+   "en": "rojak",
+   "ms": "rojak",
+   "avoid_id": "rujak"
+  },
+  {
+   "en": "rooster",
+   "ms": "jaguh",
+   "avoid_id": "jago"
+  },
+  {
+   "en": "round",
+   "ms": "ronda",
+   "avoid_id": "ronde"
+  },
+  {
+   "en": "rug (carpet)",
+   "ms": "permaidani",
+   "avoid_id": "permadani"
+  },
+  {
+   "en": "rumour",
+   "ms": "khabar angin",
+   "avoid_id": "kabar angin"
+  },
+  {
+   "en": "sack",
+   "ms": "guni",
+   "avoid_id": "goni"
+  },
+  {
+   "en": "sad",
+   "ms": "hiba",
+   "avoid_id": "iba"
+  },
+  {
+   "en": "salaam alaikum",
+   "ms": "assalamualaikum",
+   "avoid_id": "asalamualaikum"
+  },
+  {
+   "en": "salad",
+   "ms": "salad",
+   "avoid_id": "selada"
+  },
+  {
+   "en": "salty",
+   "ms": "masin",
+   "avoid_id": "asin"
+  },
+  {
+   "en": "sandpaper",
+   "ms": "kertas empelas",
+   "avoid_id": "ampelas"
+  },
+  {
+   "en": "sardine",
+   "ms": "sardin",
+   "avoid_id": "sarden"
+  },
+  {
+   "en": "Saturn",
+   "ms": "Zuhal",
+   "avoid_id": "Zohal"
+  },
+  {
+   "en": "scale",
+   "ms": "skel",
+   "avoid_id": "skala"
+  },
+  {
+   "en": "scheme",
+   "ms": "skim",
+   "avoid_id": "skema"
+  },
+  {
+   "en": "scholarship",
+   "ms": "biasiswa",
+   "avoid_id": "beasiswa"
+  },
+  {
+   "en": "scold",
+   "ms": "herdik",
+   "avoid_id": "hardik"
+  },
+  {
+   "en": "scoop",
+   "ms": "cedok",
+   "avoid_id": "ciduk"
+  },
+  {
+   "en": "scorpion",
+   "ms": "kala jengking",
+   "avoid_id": "kalajengking"
+  },
+  {
+   "en": "secret",
+   "ms": "rahsia",
+   "avoid_id": "rahasia"
+  },
+  {
+   "en": "sect",
+   "ms": "sekta",
+   "avoid_id": "sekte"
+  },
+  {
+   "en": "section",
+   "ms": "bahagian",
+   "avoid_id": "bagian"
+  },
+  {
+   "en": "section",
+   "ms": "seksyen",
+   "avoid_id": "seksi"
+  },
+  {
+   "en": "secular",
+   "ms": "sekular",
+   "avoid_id": "sekuler"
+  },
+  {
+   "en": "sediment, precipitate",
+   "ms": "hendap",
+   "avoid_id": "endap"
+  },
+  {
+   "en": "sense",
+   "ms": "deria",
+   "avoid_id": "indra"
+  },
+  {
+   "en": "sermon",
+   "ms": "khutbah",
+   "avoid_id": "khotbah"
+  },
+  {
+   "en": "series",
+   "ms": "siri",
+   "avoid_id": "seri"
+  },
+  {
+   "en": "Sha'ban",
+   "ms": "Syaaban",
+   "avoid_id": "Syakban"
+  },
+  {
+   "en": "shake",
+   "ms": "goncang",
+   "avoid_id": "guncang"
+  },
+  {
+   "en": "shell",
+   "ms": "cangkerang",
+   "avoid_id": "cangkang"
+  },
+  {
+   "en": "shiftwork",
+   "ms": "syif",
+   "avoid_id": "sif"
+  },
+  {
+   "en": "silk",
+   "ms": "sutera",
+   "avoid_id": "sutra"
+  },
+  {
+   "en": "simple leaf chaste tree",
+   "ms": "legundi",
+   "avoid_id": "lenggundi"
+  },
+  {
+   "en": "sinful",
+   "ms": "fasiq",
+   "avoid_id": "fasik"
+  },
+  {
+   "en": "sink",
+   "ms": "kelalap",
+   "avoid_id": "kelelap"
+  },
+  {
+   "en": "siren",
+   "ms": "siren",
+   "avoid_id": "sirene"
+  },
+  {
+   "en": "sky",
+   "ms": "cakerawala",
+   "avoid_id": "cakrawala"
+  },
+  {
+   "en": "slang",
+   "ms": "slanga",
+   "avoid_id": "slang"
+  },
+  {
+   "en": "slip",
+   "ms": "gelumang",
+   "avoid_id": "gelimang"
+  },
+  {
+   "en": "Slovakia",
+   "ms": "Slovakia",
+   "avoid_id": "Slowakia"
+  },
+  {
+   "en": "small cut",
+   "ms": "hiris",
+   "avoid_id": "iris"
+  },
+  {
+   "en": "snapping",
+   "ms": "hantuk",
+   "avoid_id": "antuk"
+  },
+  {
+   "en": "snooker",
+   "ms": "snuker",
+   "avoid_id": "snoker"
+  },
+  {
+   "en": "snot",
+   "ms": "hingus",
+   "avoid_id": "ingus"
+  },
+  {
+   "en": "snow",
+   "ms": "salji",
+   "avoid_id": "salju"
+  },
+  {
+   "en": "sob",
+   "ms": "teresak-esak",
+   "avoid_id": "terisak-isak"
+  },
+  {
+   "en": "sounds smooth and loud",
+   "ms": "keleting",
+   "avoid_id": "geleting"
+  },
+  {
+   "en": "sour",
+   "ms": "masam",
+   "avoid_id": "asam"
+  },
+  {
+   "en": "souvenir",
+   "ms": "cenderamata",
+   "avoid_id": "cendera mata"
+  },
+  {
+   "en": "soy sauce",
+   "ms": "kicap",
+   "avoid_id": "kecap"
+  },
+  {
+   "en": "spayed, castration",
+   "ms": "kembiri",
+   "avoid_id": "kebiri"
+  },
+  {
+   "en": "spectacles",
+   "ms": "kaca mata",
+   "avoid_id": "kacamata"
+  },
+  {
+   "en": "sphincter",
+   "ms": "sfinkter",
+   "avoid_id": "sfingter"
+  },
+  {
+   "en": "spider",
+   "ms": "labah-labah",
+   "avoid_id": "laba-laba"
+  },
+  {
+   "en": "spoils of war",
+   "ms": "ghanimah",
+   "avoid_id": "ganimah"
+  },
+  {
+   "en": "sparrow",
+   "ms": "jelatik",
+   "avoid_id": "gelatik"
+  },
+  {
+   "en": "sputum",
+   "ms": "kahak",
+   "avoid_id": "dahak"
+  },
+  {
+   "en": "stadium",
+   "ms": "stadium",
+   "avoid_id": "stadion"
+  },
+  {
+   "en": "stamp",
+   "ms": "cop",
+   "avoid_id": "cap"
+  },
+  {
+   "en": "statement",
+   "ms": "kenyataan",
+   "avoid_id": "pernyataan"
+  },
+  {
+   "en": "steak",
+   "ms": "stik",
+   "avoid_id": "steik"
+  },
+  {
+   "en": "steam",
+   "ms": "wap",
+   "avoid_id": "uap"
+  },
+  {
+   "en": "stereotype",
+   "ms": "stereotaip",
+   "avoid_id": "stereotipe"
+  },
+  {
+   "en": "stoning",
+   "ms": "rejam",
+   "avoid_id": "rajam"
+  },
+  {
+   "en": "strange",
+   "ms": "gharib",
+   "avoid_id": "garib"
+  },
+  {
+   "en": "strategic",
+   "ms": "strategik",
+   "avoid_id": "strategis"
+  },
+  {
+   "en": "strawberry",
+   "ms": "strawberi",
+   "avoid_id": "stroberi"
+  },
+  {
+   "en": "stretching",
+   "ms": "gelenggang",
+   "avoid_id": "gelinggang"
+  },
+  {
+   "en": "style",
+   "ms": "stil",
+   "avoid_id": "stilus"
+  },
+  {
+   "en": "subsidiary",
+   "ms": "subsidiari",
+   "avoid_id": "subsider"
+  },
+  {
+   "en": "suck, draw",
+   "ms": "sedut",
+   "avoid_id": "sedot"
+  },
+  {
+   "en": "sun",
+   "ms": "suria",
+   "avoid_id": "surya"
+  },
+  {
+   "en": "superiority",
+   "ms": "superioriti",
+   "avoid_id": "superioritas"
+  },
+  {
+   "en": "supply (amount of)",
+   "ms": "bekalan",
+   "avoid_id": "perbekalan"
+  },
+  {
+   "en": "surprised",
+   "ms": "hairan",
+   "avoid_id": "heran"
+  },
+  {
+   "en": "Sweden",
+   "ms": "Sweden",
+   "avoid_id": "Swedia"
+  },
+  {
+   "en": "syllabic",
+   "ms": "silabik",
+   "avoid_id": "silabis"
+  },
+  {
+   "en": "symbiotic",
+   "ms": "simbiotik",
+   "avoid_id": "simbiotis"
+  },
+  {
+   "en": "symptom",
+   "ms": "simptom",
+   "avoid_id": "simtom"
+  },
+  {
+   "en": "syndicate",
+   "ms": "sindiket",
+   "avoid_id": "sindikat"
+  },
+  {
+   "en": "synthetic",
+   "ms": "sintetik",
+   "avoid_id": "sintetis"
+  },
+  {
+   "en": "Syria",
+   "ms": "Syria",
+   "avoid_id": "Suriah"
+  },
+  {
+   "en": "syrup",
+   "ms": "sirap",
+   "avoid_id": "sirop"
+  },
+  {
+   "en": "systematic",
+   "ms": "sistematik",
+   "avoid_id": "sistematis"
+  },
+  {
+   "en": "tactical",
+   "ms": "taktikal",
+   "avoid_id": "taktis"
+  },
+  {
+   "en": "talcum",
+   "ms": "talkum",
+   "avoid_id": "talk"
+  },
+  {
+   "en": "tar",
+   "ms": "belaking",
+   "avoid_id": "belangkin"
+  },
+  {
+   "en": "tart",
+   "ms": "tart",
+   "avoid_id": "tar"
+  },
+  {
+   "en": "tauco (fermented soybean paste)",
+   "ms": "taucu",
+   "avoid_id": "taoco"
+  },
+  {
+   "en": "taxi",
+   "ms": "teksi",
+   "avoid_id": "taksi"
+  },
+  {
+   "en": "technical",
+   "ms": "teknikal",
+   "avoid_id": "teknis"
+  },
+  {
+   "en": "technician",
+   "ms": "teknisyen",
+   "avoid_id": "teknisi"
+  },
+  {
+   "en": "telephone",
+   "ms": "telefon",
+   "avoid_id": "telepon"
+  },
+  {
+   "en": "television",
+   "ms": "televisyen",
+   "avoid_id": "televisi"
+  },
+  {
+   "en": "tempo",
+   "ms": "tempoh",
+   "avoid_id": "tempo"
+  },
+  {
+   "en": "terrace",
+   "ms": "teres",
+   "avoid_id": "teras"
+  },
+  {
+   "en": "the honorable",
+   "ms": "Yang Berhormat (YB)",
+   "avoid_id": "Yang Terhormat (Yth.)"
+  },
+  {
+   "en": "thematic",
+   "ms": "tematik",
+   "avoid_id": "tematis"
+  },
+  {
+   "en": "theocratic",
+   "ms": "teokratik",
+   "avoid_id": "teokratis"
+  },
+  {
+   "en": "theorem",
+   "ms": "teorem",
+   "avoid_id": "teorema"
+  },
+  {
+   "en": "theoretical",
+   "ms": "teoretikal",
+   "avoid_id": "teoretis"
+  },
+  {
+   "en": "thermal",
+   "ms": "terma",
+   "avoid_id": "termal"
+  },
+  {
+   "en": "thermodynamic",
+   "ms": "termodinamik",
+   "avoid_id": "termodinamis"
+  },
+  {
+   "en": "thermodynamics",
+   "ms": "termodinamik",
+   "avoid_id": "termodinamika"
+  },
+  {
+   "en": "thin",
+   "ms": "nipis",
+   "avoid_id": "tipis"
+  },
+  {
+   "en": "thin-layer chromatography",
+   "ms": "kromatografi lapisan nipis",
+   "avoid_id": "kromatografi lapis tipis"
+  },
+  {
+   "en": "think ; thinking",
+   "ms": "fikir",
+   "avoid_id": "pikir"
+  },
+  {
+   "en": "thud",
+   "ms": "gedebak",
+   "avoid_id": "gedebuk"
+  },
+  {
+   "en": "Thursday",
+   "ms": "Khamis",
+   "avoid_id": "Kamis"
+  },
+  {
+   "en": "tickle",
+   "ms": "geletek",
+   "avoid_id": "gelitik"
+  },
+  {
+   "en": "tight-lipped",
+   "ms": "bongkas",
+   "avoid_id": "bungkas"
+  },
+  {
+   "en": "time zone",
+   "ms": "zon waktu",
+   "avoid_id": "zona waktu"
+  },
+  {
+   "en": "tofu",
+   "ms": "tauhu",
+   "avoid_id": "tahu"
+  },
+  {
+   "en": "tomato",
+   "ms": "tomato",
+   "avoid_id": "tomat"
+  },
+  {
+   "en": "Tomb Sweeping Day",
+   "ms": "cembeng",
+   "avoid_id": "cengbeng"
+  },
+  {
+   "en": "ton",
+   "ms": "tan",
+   "avoid_id": "ton"
+  },
+  {
+   "en": "tonnage",
+   "ms": "tanan",
+   "avoid_id": "tonase"
+  },
+  {
+   "en": "tool for unplugging bottle plugs",
+   "ms": "koterek",
+   "avoid_id": "kotrek"
+  },
+  {
+   "en": "toothless",
+   "ms": "rompong",
+   "avoid_id": "ompong"
+  },
+  {
+   "en": "tract",
+   "ms": "salur",
+   "avoid_id": "saluran"
+  },
+  {
+   "en": "tragic",
+   "ms": "tragik",
+   "avoid_id": "tragis"
+  },
+  {
+   "en": "trample",
+   "ms": "hentak",
+   "avoid_id": "entak"
+  },
+  {
+   "en": "trapezium",
+   "ms": "trapezium",
+   "avoid_id": "trapesium"
+  },
+  {
+   "en": "traumatic",
+   "ms": "traumatik",
+   "avoid_id": "traumatis"
+  },
+  {
+   "en": "treacherous",
+   "ms": "derhaka",
+   "avoid_id": "durhaka"
+  },
+  {
+   "en": "trend",
+   "ms": "trend",
+   "avoid_id": "tren"
+  },
+  {
+   "en": "Trinity",
+   "ms": "triniti",
+   "avoid_id": "trinitas"
+  },
+  {
+   "en": "tropical",
+   "ms": "tropika",
+   "avoid_id": "tropis"
+  },
+  {
+   "en": "truck",
+   "ms": "trak",
+   "avoid_id": "truk"
+  },
+  {
+   "en": "try",
+   "ms": "cuba",
+   "avoid_id": "coba"
+  },
+  {
+   "en": "tunnel",
+   "ms": "terowong",
+   "avoid_id": "terowongan"
+  },
+  {
+   "en": "turmeric bird",
+   "ms": "kepudang",
+   "avoid_id": "kepodang"
+  },
+  {
+   "en": "turpentine",
+   "ms": "turpentin",
+   "avoid_id": "terpentin"
+  },
+  {
+   "en": "turquoise",
+   "ms": "firus",
+   "avoid_id": "pirus"
+  },
+  {
+   "en": "twitching",
+   "ms": "kumat-kamit",
+   "avoid_id": "komat-kamit"
+  },
+  {
+   "en": "type",
+   "ms": "tipa",
+   "avoid_id": "tipe"
+  },
+  {
+   "en": "ugly",
+   "ms": "jelik",
+   "avoid_id": "jelek"
+  },
+  {
+   "en": "ugly",
+   "ms": "hodoh",
+   "avoid_id": "odoh"
+  },
+  {
+   "en": "Ukraine",
+   "ms": "Ukraine",
+   "avoid_id": "Ukraina"
+  },
+  {
+   "en": "unbalanced, unequal limbs",
+   "ms": "tempang",
+   "avoid_id": "timpang"
+  },
+  {
+   "en": "understand",
+   "ms": "faham",
+   "avoid_id": "paham"
+  },
+  {
+   "en": "United States of America",
+   "ms": "Amerika Syarikat",
+   "avoid_id": "Amerika Serikat"
+  },
+  {
+   "en": "unseen",
+   "ms": "ghaib",
+   "avoid_id": "gaib"
+  },
+  {
+   "en": "vacuole",
+   "ms": "vakuol",
+   "avoid_id": "vakuola"
+  },
+  {
+   "en": "vase",
+   "ms": "pasu",
+   "avoid_id": "vas"
+  },
+  {
+   "en": "velvet (fabric)",
+   "ms": "baldu",
+   "avoid_id": "beledu"
+  },
+  {
+   "en": "Venus",
+   "ms": "Zuhrah",
+   "avoid_id": "Zohrah"
+  },
+  {
+   "en": "vertebrate",
+   "ms": "vertebrat",
+   "avoid_id": "vertebrata"
+  },
+  {
+   "en": "Vesak",
+   "ms": "Wesak",
+   "avoid_id": "Waisak"
+  },
+  {
+   "en": "victory",
+   "ms": "ghalib",
+   "avoid_id": "galib"
+  },
+  {
+   "en": "volunteering",
+   "ms": "kesukarelawanan",
+   "avoid_id": "kesukarelaan"
+  },
+  {
+   "en": "virologic",
+   "ms": "virologik",
+   "avoid_id": "virologis"
+  },
+  {
+   "en": "vulcanic",
+   "ms": "vulkanik",
+   "avoid_id": "vulkanis"
+  },
+  {
+   "en": "volume",
+   "ms": "volum",
+   "avoid_id": "volume"
+  },
+  {
+   "en": "voucher",
+   "ms": "baucar",
+   "avoid_id": "voucer"
+  },
+  {
+   "en": "want",
+   "ms": "mahu",
+   "avoid_id": "mau"
+  },
+  {
+   "en": "wasp",
+   "ms": "tebuan",
+   "avoid_id": "tawon"
+  },
+  {
+   "en": "water storage (stone)",
+   "ms": "kolah",
+   "avoid_id": "kulah"
+  },
+  {
+   "en": "wedding ring",
+   "ms": "caram",
+   "avoid_id": "acaram"
+  },
+  {
+   "en": "wet rendang",
+   "ms": "kulio",
+   "avoid_id": "kalio"
+  },
+  {
+   "en": "winding sheet, burial shroud",
+   "ms": "kapan",
+   "avoid_id": "kafan"
+  },
+  {
+   "en": "wheezing",
+   "ms": "icip",
+   "avoid_id": "cicip"
+  },
+  {
+   "en": "worried",
+   "ms": "khuatir",
+   "avoid_id": "khawatir"
+  },
+  {
+   "en": "wrinkle-wrinkled",
+   "ms": "keremut",
+   "avoid_id": "keremot"
+  },
+  {
+   "en": "wool",
+   "ms": "wul",
+   "avoid_id": "wol"
+  },
+  {
+   "en": "wrinkle",
+   "ms": "kerepot",
+   "avoid_id": "keriput"
+  },
+  {
+   "en": "yarmulke",
+   "ms": "yarmulka",
+   "avoid_id": "yarmulke"
+  },
+  {
+   "en": "yaws",
+   "ms": "patik",
+   "avoid_id": "patek"
+  },
+  {
+   "en": "yeast",
+   "ms": "kamir",
+   "avoid_id": "khamir"
+  },
+  {
+   "en": "yesterday",
+   "ms": "kelmarin",
+   "avoid_id": "kemarin"
+  },
+  {
+   "en": "youngest sibling",
+   "ms": "bongsu",
+   "avoid_id": "bungsu"
+  },
+  {
+   "en": "youtiao",
+   "ms": "cakoi",
+   "avoid_id": "cakwe"
+  },
+  {
+   "en": "zither",
+   "ms": "ziter",
+   "avoid_id": "siter"
+  },
+  {
+   "en": "zone",
+   "ms": "zon",
+   "avoid_id": "zona"
+  }
+ ],
+ "enforce": [
+  {
+   "avoid_id": "Eropa",
+   "ms": "Eropah",
+   "en": "Europe",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Finlandia",
+   "ms": "Finland",
+   "en": "Finland",
+   "prpm": "NO_ENTRY",
+   "evidence": "Only 'Adakah anda bermaksud' suggestions; no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Inggris",
+   "ms": "Inggeris",
+   "en": "England",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Kosta Rika",
+   "ms": "Costa Rica",
+   "en": "Costa Rica",
+   "prpm": "NO_ENTRY",
+   "evidence": "Only spelling suggestions; no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Kroasia",
+   "ms": "Croatia",
+   "en": "Croatia",
+   "prpm": "NO_ENTRY",
+   "evidence": "No definition, no tesaurus; no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Kuba",
+   "ms": "Cuba",
+   "en": "Cuba",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Lituania",
+   "ms": "Lithuania",
+   "en": "Lithuania",
+   "prpm": "NO_ENTRY",
+   "evidence": "Only spelling suggestions; no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Maret",
+   "ms": "Mac",
+   "en": "March",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "'Id bulan ketiga dlm tahun Masihi, Mac'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Mèksiko",
+   "ms": "Mexico",
+   "en": "Mexico",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Paraguai",
+   "ms": "Paraguay",
+   "en": "Paraguay",
+   "prpm": "NO_ENTRY",
+   "evidence": "Only spelling suggestions; no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Rumania",
+   "ms": "Romania",
+   "en": "Romania",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Senin",
+   "ms": "Isnin",
+   "en": "Monday",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "'1. bp Isnin; 2. Id hari Isnin' — bp/Id labels only, no standard sense",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Skotlandia",
+   "ms": "Scotland",
+   "en": "Scotland",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Spanyol",
+   "ms": "Sepanyol",
+   "en": "Spain, Spanish",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "Uruguai",
+   "ms": "Uruguay",
+   "en": "Uruguay",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan entry; page returned no dictionary result",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "adon",
+   "ms": "adun",
+   "en": "mix",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only Istilah MABBIM/corpus hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "aerodinamika",
+   "ms": "aerodinamik",
+   "en": "aerodynamics",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only Istilah MABBIM hit",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "aerodinamis",
+   "ms": "aerodinamik",
+   "en": "aerodynamic",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan entry; page returned no dictionary result",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "akordeon",
+   "ms": "akordion",
+   "en": "accordion",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan entry; page returned no dictionary result",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "akrobatis",
+   "ms": "akrobatik",
+   "en": "acrobatic",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan entry; page returned no dictionary result",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "aktifitas",
+   "ms": "",
+   "en": "",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only MABBIM/majalah corpus hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "aktivitas",
+   "ms": "aktiviti",
+   "en": "activity",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only Istilah MABBIM (61) hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "akun",
+   "ms": "akaun",
+   "en": "account",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only Istilah MABBIM (26) hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "akuntabilitas",
+   "ms": "akauntabiliti",
+   "en": "accountability",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only Istilah MABBIM (17) hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "akuntan",
+   "ms": "akauntan",
+   "en": "accountant",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only Istilah MABBIM hit",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "aldehida",
+   "ms": "aldehid",
+   "en": "aldehyde",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only MABBIM/Istilah hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "algoritme",
+   "ms": "algoritma",
+   "en": "algorithm",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only Istilah MABBIM hit",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "altitudo",
+   "ms": "altitud",
+   "en": "altitude",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan entry; page returned no dictionary result",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "altruistis",
+   "ms": "altruistik",
+   "en": "altruistic",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan entry; page returned no dictionary result",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "amatir",
+   "ms": "amatur",
+   "en": "amateur",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "ambiguitas",
+   "ms": "ambiguiti",
+   "en": "ambiguity",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "analekta",
+   "ms": "analek",
+   "en": "analects",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "anestesi",
+   "ms": "anestesia",
+   "en": "anaesthesia, anesthesia",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "antarbangsa",
+   "ms": "antarabangsa",
+   "en": "international",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "apak",
+   "ms": "hapak",
+   "en": "musty",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "arti",
+   "ms": "erti",
+   "en": "meaning",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "asuransi",
+   "ms": "insurans",
+   "en": "insurance",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "Kamus Dewan: 'IB insurans' (Indonesian-Dutch label)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "bahwa",
+   "ms": "bahawa",
+   "en": "whereas",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "berantas",
+   "ms": "banteras",
+   "en": "eradicate",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "Kamus Dewan: 'Id; memberantas membanteras' (Id label)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "bolu",
+   "ms": "baulu",
+   "en": "sponge",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "bombardemen",
+   "ms": "bombardmen",
+   "en": "bombardment",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "Kamus Dewan: '(bombardemén) IB pengeboman' (Indonesian-Dutch label)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "bugil",
+   "ms": "bogel",
+   "en": "nude",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "bulevar",
+   "ms": "boulevard",
+   "en": "boulevard",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hit",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "dus",
+   "ms": "dos",
+   "en": "box",
+   "prpm": "NO_ENTRY",
+   "evidence": "no headword; Kamus hits are substrings only (tandus, dengkis)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "ekspor",
+   "ms": "eksport",
+   "en": "export",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM istilah only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "elektris",
+   "ms": "elektrik",
+   "en": "electric, electrical",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM istilah only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "elektrode",
+   "ms": "elektrod",
+   "en": "electrode",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM istilah only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "elektronika",
+   "ms": "elektronik",
+   "en": "electronics",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only Buku hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "empiris",
+   "ms": "empirik",
+   "en": "empirical",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "'(émpiris) IB berdasarkan... pemerhatian' — IB = Indonesia-Belanda label",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "endemis",
+   "ms": "endemik",
+   "en": "endemic",
+   "prpm": "NO_ENTRY",
+   "evidence": "no entry; suggests 'endemik' instead",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "entitas",
+   "ms": "entiti",
+   "en": "entity",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "enyak",
+   "ms": "henyak",
+   "en": "stomp hard",
+   "prpm": "NO_ENTRY",
+   "evidence": "no entry; suggests 'enak, enjak, endak'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "eret",
+   "ms": "heret",
+   "en": "sled",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; no root entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "ergonomis",
+   "ms": "ergonomik",
+   "en": "ergonomic",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "erotis",
+   "ms": "erotik",
+   "en": "erotic",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; istilah/akhbar hits only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "etnis",
+   "ms": "etnik",
+   "en": "ethnic",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM/akhbar/buku only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "eugenika",
+   "ms": "eugenik",
+   "en": "eugenics",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan entry; only suggestion 'Adakah anda bermaksud: eugenik'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "fakultas",
+   "ms": "fakulti",
+   "en": "faculty",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "Kamus Dewan Edisi Keempat: 'Id fakulti'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "fantastis",
+   "ms": "fantastik",
+   "en": "fantastic",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah hit",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "farji",
+   "ms": "faraj",
+   "en": "vagina",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; only suggestion 'Adakah anda bermaksud: faraj, forge'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "fasilitas",
+   "ms": "fasiliti",
+   "en": "facility",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only MABBIM istilah hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "fisika kuantum",
+   "ms": "fizik kuantum",
+   "en": "quantum physics",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; suggestion 'Adakah anda bermaksud: fizik kuantum'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "fleksibêl",
+   "ms": "fleksibel",
+   "en": "flexible",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' for this circumflex spelling; standard form is ",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "fukaha",
+   "ms": "fuqaha",
+   "en": "faqih",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; only suggestion 'Adakah anda bermaksud: fuqaha'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "gana",
+   "ms": "ghana",
+   "en": "wealth",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only Glosari Bahasa Sukuan hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "geosfer",
+   "ms": "geosfera",
+   "en": "geosphere",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition and no suggestions shown at all",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "gerupis",
+   "ms": "geropes",
+   "en": "small job",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; suggestion 'Adakah anda bermaksud: gerepes, geropes'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "gom",
+   "ms": "gam",
+   "en": "gum",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only dialect glossaries (Johor, Melaka) and is",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "gorden",
+   "ms": "korden",
+   "en": "curtain",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "Kamus Dewan: 'IB tabir, tirai' — IB marks Indonesian-Dutch loan",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "guliga",
+   "ms": "geliga",
+   "en": "stone of wisdom",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; no suggestions",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "handel",
+   "ms": "hendal",
+   "en": "handle",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "hewan",
+   "ms": "haiwan",
+   "en": "animal",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan entry; only MABBIM/corpus and dialect glossary hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "hewani",
+   "ms": "haiwani",
+   "en": "animal",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan entry; root hewan also absent",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "ibukota",
+   "ms": "ibu kota",
+   "en": "capital city",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "integritas",
+   "ms": "integriti",
+   "en": "integrity",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "intensitas",
+   "ms": "intensiti",
+   "en": "intensity",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "istri",
+   "ms": "isteri",
+   "en": "wife",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "jadwal",
+   "ms": "jadual",
+   "en": "schedule",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "jembatan",
+   "ms": "jambatan",
+   "en": "bridge",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "jerukup",
+   "ms": "jerungkup",
+   "en": "caged",
+   "prpm": "NO_ENTRY",
+   "evidence": "Empty results page; no definition or corpus hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "jujah",
+   "ms": "jujat",
+   "en": "slander",
+   "prpm": "NO_ENTRY",
+   "evidence": "Empty results page; no definition or corpus hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "juru uang",
+   "ms": "juruwang",
+   "en": "cashier",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan entry; page only suggests 'juru ang, juru aung'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kampanye",
+   "ms": "kempen",
+   "en": "campaign",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "'IB ®kempen' — Indonesian-Dutch label, cross-ref to kempen",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kantor",
+   "ms": "",
+   "en": "",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "'Id pejabat'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kapasitas",
+   "ms": "kapasiti",
+   "en": "capacity",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kapilaritas",
+   "ms": "kapilariti",
+   "en": "capillarity",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kapiler",
+   "ms": "kapilari",
+   "en": "capillary",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kardiolog",
+   "ms": "kardiologis",
+   "en": "cardiologist",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; suggests 'kardiologi, cardiology'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "karena",
+   "ms": "kerana",
+   "en": "because",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "'Id kerana'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kartu kredit",
+   "ms": "kad kredit",
+   "en": "credit card",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "No phrase entry; root kartu is 'Id 1. kad'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "karyah",
+   "ms": "kiryah",
+   "en": "sin",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; suggests 'kiryah, kariah, karya'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "keik",
+   "ms": "kek",
+   "en": "cake",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; suggests 'kek'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kelemur",
+   "ms": "kelemumur",
+   "en": "dandruff",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; suggests 'kelemut, kelebur'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kendara",
+   "ms": "kendera",
+   "en": "vehicle",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' (dialect glossary hits only)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kendaraan",
+   "ms": "kenderaan",
+   "en": "vehicle",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan entry; root 'kendara' also has none",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "keripik",
+   "ms": "kerepek",
+   "en": "chips",
+   "prpm": "NO_ENTRY",
+   "evidence": "Only 'Adakah anda bermaksud: keritik, kerpik...' suggestions",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kerupuk",
+   "ms": "keropok",
+   "en": "cracker",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kesehatan",
+   "ms": "kesihatan",
+   "en": "health",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; root 'sehat' also absent from Kamus Dewan",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "keuangan",
+   "ms": "kewangan",
+   "en": "finance",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; root 'uang' also absent from Kamus Dewan",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kimus",
+   "ms": "kim",
+   "en": "chyme",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' (Istilah hits only)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kolektivitas",
+   "ms": "kolektiviti",
+   "en": "collectivity",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "konseling",
+   "ms": "kaunseling",
+   "en": "counselling",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "konselor",
+   "ms": "kaunselor",
+   "en": "counselor",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "konter",
+   "ms": "kaunter",
+   "en": "counter",
+   "prpm": "NO_ENTRY",
+   "evidence": "Only 'Adakah anda bermaksud: kontur, kontet...' suggestions",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kontinuitas",
+   "ms": "kontinuiti",
+   "en": "continuity",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "koper",
+   "ms": "kopor",
+   "en": "case",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "Kamus Dewan: 'IB sj beg kulit... kopor' (IB = Indonesian-Dutch label)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "korps",
+   "ms": "kor",
+   "en": "corps",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "korsase",
+   "ms": "korsaj",
+   "en": "corsage",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; only 'Adakah anda bermaksud: kor ase'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kosmis",
+   "ms": "kosmik",
+   "en": "cosmic",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; only 'Adakah anda bermaksud: kosmos'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kreativitas",
+   "ms": "kreativiti",
+   "en": "creativity",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kredibilitas",
+   "ms": "kredibiliti",
+   "en": "credibility",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kriminalitas",
+   "ms": "kriminaliti",
+   "en": "criminality",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kualitas",
+   "ms": "kualiti",
+   "en": "quality",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kuantitas",
+   "ms": "kuantiti",
+   "en": "quantity",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kuarsa",
+   "ms": "kuarza",
+   "en": "quartz",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kuarsit",
+   "ms": "kuartzit",
+   "en": "quartzite",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kue",
+   "ms": "kuih",
+   "en": "kuih",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan entry; only dialect glossaries (Johor, Kedah)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kuliner",
+   "ms": "kulinari",
+   "en": "culinary",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; only 'Adakah anda bermaksud: kulinari'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kungkang",
+   "ms": "kongkang",
+   "en": "sloth",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kuretase",
+   "ms": "kuretaj",
+   "en": "curettage",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; only spelling suggestions (kuret ase)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kustar",
+   "ms": "kastard",
+   "en": "custard",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; only 'Adakah anda bermaksud: kusta, kastor'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "kwasiorkor",
+   "ms": "kwasyiorkor",
+   "en": "kwashiorkor",
+   "prpm": "NO_ENTRY",
+   "evidence": "Carian kata tiada di dalam kamus terkini",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "lancia",
+   "ms": "lanca",
+   "en": "rickshaw",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "lemari",
+   "ms": "almari",
+   "en": "cupboard",
+   "prpm": "NO_ENTRY",
+   "evidence": "'bp almari' — colloquial (bp) cross-reference only, no standard sense",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "lisensi",
+   "ms": "lesen",
+   "en": "licence, license",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "'IB surat kebenaran, lesen' — IB (Indonesian-Dutch) label",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "loberci",
+   "ms": "labuci",
+   "en": "sequin",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "'Id jemeki; labuci' (Kamus Dewan Edisi Keempat)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "lungkang",
+   "ms": "longkang",
+   "en": "sewer",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only MABBIM term hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "magasin",
+   "ms": "magazin",
+   "en": "magazine",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; page suggests 'Adakah anda bermaksud: magazin'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "managemen",
+   "ms": "",
+   "en": "",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only MABBIM/corpus hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "margarin",
+   "ms": "marjerin",
+   "en": "margarine",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only one MABBIM hit",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "marine",
+   "ms": "marin",
+   "en": "marine",
+   "prpm": "NO_ENTRY",
+   "evidence": "Only Kamus Inggeris-Melayu Dewan entries (English headword); no Malay Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "masase",
+   "ms": "masaj",
+   "en": "massage",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; spelling suggestions only ('masse', 'masseuse')",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "masokhis",
+   "ms": "masokis",
+   "en": "masochist",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; suggestion 'mas ok his' only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "masokhisme",
+   "ms": "masokisme",
+   "en": "masochism",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; page suggests 'Adakah anda bermaksud: masokisme'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "mayoritas",
+   "ms": "majoriti",
+   "en": "majority",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only MABBIM term hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "mercon",
+   "ms": "mercun",
+   "en": "firecracker",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "Kamus Dewan: 'Definisi : Id mercun.'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "militer",
+   "ms": "militari",
+   "en": "military",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "Kamus Dewan: '(militér) Id askar, tentera, ketenteraan'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "nomor",
+   "ms": "nombor",
+   "en": "number",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "nuklir",
+   "ms": "nuklear",
+   "en": "nuclear",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "obesitas",
+   "ms": "obesiti",
+   "en": "obesity",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "objektivitas",
+   "ms": "objektiviti",
+   "en": "objectivity",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "obstetri",
+   "ms": "obstetrik",
+   "en": "obstetrics",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' — no dictionary hits at all",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "obyek",
+   "ms": "",
+   "en": "",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM/Buku hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "ons",
+   "ms": "auns",
+   "en": "ounce",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "Kamus Dewan: 'Definisi : IB auns.' — IB (Indonesia-Belanda) label marks Indonesian usage",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "opsi",
+   "ms": "opsyen",
+   "en": "option",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "oranye",
+   "ms": "oren",
+   "en": "orange",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "oto",
+   "ms": "auto",
+   "en": "car",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "Kamus Dewan oto I: 'Id motokar' (oto II 'pakaian penutup dada' is unrelated garment sense)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "ovula",
+   "ms": "ovul",
+   "en": "ovule",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; page only suggests 'ovule, ovul, uvula'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "parasut",
+   "ms": "paracut",
+   "en": "parachute",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "pasar uang",
+   "ms": "pasaran wang",
+   "en": "money market",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan entry for the phrase; only tesaurus for 'pasar'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "penadbiran",
+   "ms": "pentadbiran",
+   "en": "administration",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; portal suggests 'pentadbiran'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "penasaran",
+   "ms": "panasaran",
+   "en": "curious",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "praktek",
+   "ms": "",
+   "en": "",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini' (Indonesian spelling)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "pribumi",
+   "ms": "peribumi",
+   "en": "native",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "produktivitas",
+   "ms": "produktiviti",
+   "en": "productivity",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "publisitas",
+   "ms": "publisiti",
+   "en": "publicity",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; portal suggests 'publisiti'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "realitas",
+   "ms": "realiti",
+   "en": "reality",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "rekor",
+   "ms": "rekod",
+   "en": "record",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "'(rékor) Id rekod' — Id label in Kamus Dewan",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "ritme",
+   "ms": "ritma",
+   "en": "rhythm",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition for ritme",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "ritmis",
+   "ms": "ritmik",
+   "en": "rhythmic",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition for ritmis",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "sabotase",
+   "ms": "sabotaj",
+   "en": "sabotage",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition for sabotase",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "salep",
+   "ms": "salap",
+   "en": "ointment",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition for salep",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "sampo",
+   "ms": "syampu",
+   "en": "shampoo",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition for sampo",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "sarkastis",
+   "ms": "sarkastik",
+   "en": "sarcastic",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition for sarkastis",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "saus",
+   "ms": "sos",
+   "en": "sauce",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "'IB kuah yg dimasak' — IB (Indonesian-Dutch) label",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "saus tomat",
+   "ms": "sos tomato",
+   "en": "ketchup",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "No compound entry; root 'saus' labelled IB (Indonesian)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "sekis",
+   "ms": "syis",
+   "en": "schist",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition for sekis",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "sekrup",
+   "ms": "skru",
+   "en": "screw",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition for sekrup",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "seksualitas",
+   "ms": "seksualiti",
+   "en": "sexuality",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition for seksualitas",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "sekuritas",
+   "ms": "sekuriti",
+   "en": "security",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition for sekuritas",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "selebritas",
+   "ms": "selebriti",
+   "en": "celebrity",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition for selebritas",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "seluler",
+   "ms": "selular",
+   "en": "cellular",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "sensitivitas",
+   "ms": "sensitiviti",
+   "en": "sensitivity",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; only MABBIM term hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "sentralistis",
+   "ms": "sentralistik",
+   "en": "centralistic",
+   "prpm": "NO_ENTRY",
+   "evidence": "No entry; only 'Adakah anda bermaksud' suggestions shown",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "sersan",
+   "ms": "sarjan",
+   "en": "sergeant",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "'Id sarjan' (Kamus Dewan Edisi Keempat)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "sistim",
+   "ms": "",
+   "en": "",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; corpus hits only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "skenario",
+   "ms": "senario",
+   "en": "scenario",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM/corpus hits only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "solidaritas",
+   "ms": "solidariti",
+   "en": "solidarity",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM/corpus hits only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "sosis",
+   "ms": "sosej",
+   "en": "sausage",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM hits only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "spons",
+   "ms": "span",
+   "en": "sponge",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; one MABBIM hit only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "standar",
+   "ms": "standard",
+   "en": "standard",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM/corpus hits only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "stasiun",
+   "ms": "stesen",
+   "en": "station",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "'IB stesen' (Indonesian-Dutch label, Kamus Dewan Ed.4)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "statistika",
+   "ms": "statistik",
+   "en": "statistics",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM/book hits only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "statuta",
+   "ms": "statut",
+   "en": "statute",
+   "prpm": "NO_ENTRY",
+   "evidence": "'Carian kata tiada di dalam kamus terkini'; one MABBIM hit only",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "tehnik",
+   "ms": "",
+   "en": "",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only Istilah MABBIM/Buku corpus hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "uang",
+   "ms": "wang",
+   "en": "money",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only Istilah MABBIM and corpus hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "uang tunai",
+   "ms": "wang tunai",
+   "en": "cash",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition for the phrase; only tesaurus 'tunai'",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "ubub",
+   "ms": "hubub",
+   "en": "bellows",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition or tesaurus information at all",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "universitas",
+   "ms": "universiti",
+   "en": "university",
+   "prpm": "VERIFIED_INDONESIAN",
+   "evidence": "'Id universiti: U~ Indonesia' (Kamus Dewan Edisi Keempat)",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "utilitas",
+   "ms": "utiliti",
+   "en": "utility",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only Istilah MABBIM hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "variansi",
+   "ms": "varians",
+   "en": "variance",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only one Istilah MABBIM hit",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "veteriner",
+   "ms": "veterinar",
+   "en": "veterinary",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only one Khidmat Nasihat hit",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  },
+  {
+   "avoid_id": "volunter",
+   "ms": "voluntari",
+   "en": "voluntary",
+   "prpm": "NO_ENTRY",
+   "evidence": "No Kamus Dewan definition; only Istilah MABBIM hits",
+   "panel": "unanimous-3",
+   "corpus_clean": "2026-08-28"
+  }
+ ]
+}

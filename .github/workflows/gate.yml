@@ -1,0 +1,21 @@
+name: gate
+on: [push, pull_request]
+jobs:
+  rules-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      # legs 1-2 + provenance completeness; leg 3 needs the private corpus and runs locally
+      - run: python rules/enforce_gate.py --check --no-corpus
+      - name: all JSON parses
+        run: |
+          python - <<'PY'
+          import json,glob
+          files=glob.glob("rules/*.json")+glob.glob("eval/**/*.json",recursive=True)
+          for f in files: json.load(open(f))
+          print(f"{len(files)} JSON files parse")
+          PY
+      - name: pipeline + tools compile
+        run: python -m py_compile rules/enforce_gate.py rules/rulebook.py rules/check_terms.py pipeline/pipeline.py pipeline/gate_v3.py pipeline/regate.py

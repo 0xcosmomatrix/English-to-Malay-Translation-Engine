@@ -1,0 +1,501 @@
+{
+ "_about": [
+  "L2 termbase for ms-MY. One English concept, one Malay rendering.",
+  "'canonical' is what the book uses; 'variants' are renderings that were found",
+  "in this book and normalised away. 'distinct' records source terms that look",
+  "like drift to an automated sweep but are separate words in English — they are",
+  "listed so nobody 'fixes' them again.",
+  "Decided 24 Aug 2026 against the published English T2-133; pending native review.",
+  "",
+  "EXTENDED 2026-08-27. 'terms' now carries the original book-derived entries plus entries",
+  "confirmed by the human review of chapter 1. 'open_questions' holds decisions that change",
+  "many occurrences and must not be settled silently. Pair this with",
+  "ms-indonesian-blocklist.json, which handles Indonesian-form drift generically."
+ ],
+ "terms": [
+  {
+   "en": "dual competence",
+   "canonical": "kecekapan dwi",
+   "variants": [
+    "kompetensi dwi",
+    "dwi-kecekapan"
+   ],
+   "why": "the book's own glossary defines 'Kecekapan dwi (dual competence)'"
+  },
+  {
+   "en": "Task-AI Map",
+   "canonical": "Peta Tugas-AI",
+   "variants": [
+    "Task-AI Map",
+    "Peta Tugasan-AI"
+   ],
+   "why": "not a framework name, so it translates (MS-50)"
+  },
+  {
+   "en": "human-led",
+   "canonical": "diterajui manusia",
+   "variants": [
+    "diketuai manusia",
+    "dipimpin manusia",
+    "pimpinan manusia"
+   ],
+   "why": "passive participle matching '-led'; used by the workflow diagrams"
+  },
+  {
+   "en": "AI-assisted (attributive)",
+   "canonical": "berbantukan AI",
+   "variants": [
+    "berbantuan AI"
+   ],
+   "why": "follows 'Pembelajaran Berbantukan Komputer', the established Malaysian form",
+   "note": "'bantuan AI' as a noun and 'yang dibantu AI' as a passive verb are correct and stay"
+  },
+  {
+   "en": "human-only",
+   "canonical": "manusia sahaja",
+   "variants": [
+    "hanya manusia"
+   ]
+  },
+  {
+   "en": "assessment",
+   "canonical": "penilaian",
+   "variants": [
+    "pentaksiran"
+   ],
+   "why": "dominant in this book and in every diagram",
+   "open": "DBP prefers 'pentaksiran' for assessment — worth a native-review decision"
+  },
+  {
+   "en": "learner",
+   "canonical": "pelajar",
+   "variants": [
+    "pembelajar"
+   ]
+  },
+  {
+   "en": "standard (noun)",
+   "canonical": "standard",
+   "variants": [
+    "piawaian",
+    "piawai"
+   ],
+   "why": "Malaysian TVET convention (Standard Kemahiran Pekerjaan Kebangsaan)"
+  },
+  {
+   "en": "verification",
+   "canonical": "pengesahan",
+   "variants": [
+    "verifikasi"
+   ]
+  },
+  {
+   "en": "continuing professional development",
+   "canonical": "CPD",
+   "variants": [
+    "PPB"
+   ]
+  },
+  {
+   "en": "post-secondary",
+   "canonical": "pascamenengah",
+   "variants": [
+    "pasca menengah",
+    "pasca-menengah"
+   ],
+   "why": "reviewer flag; DBP writes the pasca- prefix closed",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "computer vision",
+   "canonical": "visi komputer",
+   "variants": [
+    "penglihatan komputer"
+   ],
+   "why": "reviewer flag; 'penglihatan komputer' is a literal calque",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "apprentice",
+   "canonical": "perantis",
+   "variants": [
+    "pelatih"
+   ],
+   "why": "reviewer flag; 'pelatih' means trainer/instructor and reverses who is trained",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "close the gap",
+   "canonical": "merapatkan jurang",
+   "variants": [
+    "menutup jurang"
+   ],
+   "why": "reviewer flag; collocation",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "Registered Training Organisation",
+   "canonical": "Organisasi Latihan Berdaftar (RTO)",
+   "variants": [
+    "Registered Training Organisations (RTO)"
+   ],
+   "why": "reviewer flag; official terminology, keep RTO in parentheses",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "menghubungkan",
+   "canonical": "menghubungkaitkan",
+   "variants": [
+    "menghubungkan"
+   ],
+   "why": "human ruling 2026-08-28; Collocation",
+   "source": "review-2026-08"
+  }
+ ],
+ "distinct": [
+  {
+   "en": [
+    "work placement",
+    "workplace placement",
+    "industry placement"
+   ],
+   "ms": [
+    "penempatan kerja",
+    "penempatan tempat kerja",
+    "penempatan industri"
+   ],
+   "why": "three different phrases in the English source"
+  },
+  {
+   "en": [
+    "moderation",
+    "standardisation"
+   ],
+   "ms": [
+    "moderasi",
+    "penyeragaman"
+   ],
+   "why": "the English uses both in one sentence"
+  },
+  {
+   "en": [
+    "competency",
+    "competence"
+   ],
+   "ms": [
+    "kompetensi",
+    "kecekapan"
+   ],
+   "why": "competency units vs personal competence — the distinction is in the source"
+  }
+ ],
+ "open_questions": [
+  {
+   "en": "prompt",
+   "options": [
+    "prompt (keep English)",
+    "prom (DBP istilah)"
+   ],
+   "status": "UNRESOLVED",
+   "why": "The shipped T2-133-MS uses 'prompt' 330 times and it is the form the book's own glossary teaches; the human reviewer asked for the official DBP istilah 'prom'. This decides ~330 occurrences per book and every prompt block heading. Needs a ruling."
+  },
+  {
+   "en": "natural language",
+   "options": [
+    "bahasa tabii",
+    "bahasa semula jadi"
+   ],
+   "status": "UNRESOLVED",
+   "why": "Reviewer wrote 'bahasa tabil', which appears to be a typo for 'bahasa tabii'. Confirm the intended form against PRPM before enforcing."
+  },
+  {
+   "en": "framework (policy sense)",
+   "options": [
+    "kerangka dasar",
+    "seni bina"
+   ],
+   "status": "UNRESOLVED",
+   "why": "Reviewer flagged 'Seni Bina' as a wrong translation of the policy-architecture sense. 'Seni bina' is literally architecture (buildings). Confirm which English sense each occurrence carries before a blanket replacement."
+  },
+  {
+   "en": "menggunakan",
+   "options": [
+    "mengintegrasikan (reviewer)",
+    "menggunakan (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 9,
+    "samples": [
+     "iga daripada mereka langsung tidak pernah menggunakan perisian AI secara profesiona",
+     "l pada tahun sebelumnya. Bagi mereka yang menggunakan AI, tugas yang paling dominan",
+     "ipada tenaga kerja dewasa di Eropah telah menggunakan atau melihat rakan sekerja me"
+    ],
+    "risk": "CONTEXT-DEPENDENT: appears 9x — reviewer corrected one site, not the word"
+   },
+   "why": "Higher-level curriculum integration",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "bidang",
+   "options": [
+    "disiplin (reviewer)",
+    "bidang (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 8,
+    "samples": [
+     "secara sistematik --- Nkechi mengajar bidang pemasangan elektrik di sebuah",
+     "ya tertumpu kepada satu wilayah atau satu bidang perdagangan sahaja. Ia mewaki",
+     "tanpa mengira sama ada mereka mempelajari bidang elektronik, perhotelan atau k"
+    ],
+    "risk": "CONTEXT-DEPENDENT: appears 8x — reviewer corrected one site, not the word"
+   },
+   "why": "Greater precision",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "menghubungkan",
+   "options": [
+    "menghubungkaitkan (reviewer)",
+    "menghubungkan (current)"
+   ],
+   "status": "RESOLVED 2026-08-28 -> menghubungkaitkan",
+   "evidence": {
+    "occurrences": 1,
+    "samples": [
+     "tukan AI. Tenaga pengajar TVET yang mampu menghubungkan kepakaran teknikal dengan lit"
+    ],
+    "risk": "context-free candidate: appears once, so the correction is total"
+   },
+   "why": "Collocation",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "penggunaan",
+   "options": [
+    "adaptasi (reviewer)",
+    "penggunaan (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 3,
+    "samples": [
+     "n oleh BIBB dikhususkan sepenuhnya kepada penggunaan AI dalam pendidikan vokasiona",
+     "ekangan jalur lebar dan bajet menyukarkan penggunaan alat komersial. **Penyelesai",
+     "t masih berada di peringkat perintis atau penggunaan awal. Pemerhatian utama: pe"
+    ],
+    "risk": "CONTEXT-DEPENDENT: appears 3x — reviewer corrected one site, not the word"
+   },
+   "why": "Systemic adoption",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "Menjelaskan",
+   "options": [
+    "Menganalisis (reviewer)",
+    "Menjelaskan (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Formal upgrade",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "belum menggunakan",
+   "options": [
+    "masih belum memanfaatkan (reviewer)",
+    "belum menggunakan (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Formal upgrade",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "bahasa semula jadi",
+   "options": [
+    "bahasa tabii (reviewer)",
+    "bahasa semula jadi (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Literal English translation",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "Seni Bina",
+   "options": [
+    "Kerangka Dasar (reviewer)",
+    "Seni Bina (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Wrong translation",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "sedang menganyam",
+   "options": [
+    "kini menyepadukan (reviewer)",
+    "sedang menganyam (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Overly poetic",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "perdagangan tradisional",
+   "options": [
+    "kemahiran vokasional sedia ada (reviewer)",
+    "perdagangan tradisional (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 1,
+    "samples": [
+     "ormal yang wujud seiring dengan kelayakan perdagangan tradisional. Dewan Perindustrian dan Perd"
+    ],
+    "risk": "context-free candidate: appears once, so the correction is total"
+   },
+   "why": "Improper fit",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "membuat pengajar",
+   "options": [
+    "menggerakkan tenaga pengajar (reviewer)",
+    "membuat pengajar (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Awkward wording",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "rasa tidak yakin",
+   "options": [
+    "mengakui kurang berkeyakinan (reviewer)",
+    "rasa tidak yakin (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Formal noun upgrade",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "bertanya pendapatnya",
+   "options": [
+    "meminta pandangannya (reviewer)",
+    "bertanya pendapatnya (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Colloquial expression",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "menghantar pautan",
+   "options": [
+    "berkongsi pautan (reviewer)",
+    "menghantar pautan (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Colloquial expression",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "mendapat permulaan yang ketara",
+   "options": [
+    "memperoleh kelebihan bersaing yang ketara (reviewer)",
+    "mendapat permulaan yang ketara (current)"
+   ],
+   "status": "UNRESOLVED",
+   "evidence": {
+    "occurrences": 0,
+    "samples": [],
+    "risk": "not present in corpus — nothing to enforce; record only"
+   },
+   "why": "Literal translation",
+   "source": "review-2026-08"
+  },
+  {
+   "en": "new",
+   "options": [
+    "re-enforce 'baharu' with context guard",
+    "keep advisory"
+   ],
+   "status": "PENDING-RULING (demoted 2026-08-28)",
+   "evidence": {
+    "why_demoted": "PRPM: 'baru' KD sense 1 = 'belum lama lagi' (recently) — the 'baru sahaja' sense the rule corrupts",
+    "was": {
+     "en": "new",
+     "canonical": "baharu",
+     "variants": [
+      "baru"
+     ],
+     "why": "reviewer flag; Indonesian form is 'baru'",
+     "source": "review-2026-08"
+    }
+   }
+  },
+  {
+   "en": "framework",
+   "options": [
+    "re-enforce 'kerangka' with context guard",
+    "keep advisory"
+   ],
+   "status": "PENDING-RULING (demoted 2026-08-28)",
+   "evidence": {
+    "why_demoted": "corpus: 'Rangka Kerja Kelayakan Eropah' is the official EQF name; global rule rewrites it",
+    "was": {
+     "en": "framework",
+     "canonical": "kerangka",
+     "variants": [
+      "rangka kerja"
+     ],
+     "why": "matches 'Kerangka Kelayakan Malaysia' and the diagram titles"
+    }
+   }
+  }
+ ]
+}

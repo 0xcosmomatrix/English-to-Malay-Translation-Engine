@@ -1,0 +1,1574 @@
+{
+ "uruguai": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; page returned no dictionary result",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "acaram": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'sl cincin bertunang, cincin tanda' (Kamus Dewan Ed. 4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "adon": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only Istilah MABBIM/corpus hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "aerodinamika": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only Istilah MABBIM hit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "aerodinamis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; page returned no dictionary result",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "akordeon": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; page returned no dictionary result",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "akrobatis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; page returned no dictionary result",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "aktifitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only MABBIM/majalah corpus hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "aktivitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only Istilah MABBIM (61) hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "akun": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only Istilah MABBIM (26) hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "akuntabilitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only Istilah MABBIM (17) hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "akuntan": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only Istilah MABBIM hit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "alamas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'ark intan' (Kamus Dewan Ed. 4, archaic sense)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "aldehida": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only MABBIM/Istilah hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "alferes": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan cross-reference '® alperes I' (variant entry)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "algoritme": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only Istilah MABBIM hit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "altitudo": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; page returned no dictionary result",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "altruistis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; page returned no dictionary result",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "mercon": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "Kamus Dewan: 'Definisi : Id mercun.'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "merubah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: 'menjadikan lain drpd yg asal, mengubah' (no Id label)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "militer": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "Kamus Dewan: '(militér) Id askar, tentera, ketenteraan'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "netral": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: '(nétral) neutral.' — cross-reference, no Id label",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "nomor": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "november": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: 'bulan ke-11 dlm tahun Masihi'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "nuklir": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "obesitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "objektivitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "obstetri": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' — no dictionary hits at all",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "obyek": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM/Buku hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ons": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "Kamus Dewan: 'Definisi : IB auns.' — IB (Indonesia-Belanda) label marks Indonesian usage",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "opsi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "oranye": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "oto": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "Kamus Dewan oto I: 'Id motokar' (oto II 'pakaian penutup dada' is unrelated garment sense)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ovula": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; page only suggests 'ovule, ovul, uvula'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "parasut": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pasar uang": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry for the phrase; only tesaurus for 'pasar'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "eugenika": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; only suggestion 'Adakah anda bermaksud: eugenik'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "fakultas": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "Kamus Dewan Edisi Keempat: 'Id fakulti'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "fantastis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah hit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "farji": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; only suggestion 'Adakah anda bermaksud: faraj, forge'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "fasilitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only MABBIM istilah hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "februari": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: 'bulan kedua dlm tahun Masihi'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "fisika kuantum": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; suggestion 'Adakah anda bermaksud: fizik kuantum'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "fleksibêl": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' for this circumflex spelling; standard form is fleksibel",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "fukaha": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; only suggestion 'Adakah anda bermaksud: fuqaha'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "gamis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: 'Ar kemeja' (Arabic-origin, standard sense, with bergamis)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "gana": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only Glosari Bahasa Sukuan hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "geleting": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: 'menggeleting berbunyi keleting (loceng dll)'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "gelimang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: 'bergelimang, bergelimangan berlumur dgn lumpur'; cross-ref gelumang",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "geosfer": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition and no suggestions shown at all",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "gerupis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; suggestion 'Adakah anda bermaksud: gerepes, geropes'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "gom": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only dialect glossaries (Johor, Melaka) and istilah",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "gorden": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "Kamus Dewan: 'IB tabir, tirai' — IB marks Indonesian-Dutch loan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "guliga": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; no suggestions",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "amatir": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ambiguitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "analekta": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "analisa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: 'Definisi : ® analisis' (cross-reference, no Id label)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "anestesi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "antarbangsa": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "apak": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "apotek": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "Kamus Dewan: '(apoték) IB rumah ubat' (IB = Indonesian-Dutch label)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "arti": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "arung": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: '(Bugis) gelaran, raja'; 'arungan ® harung I'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "asuransi": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "Kamus Dewan: 'IB insurans' (Indonesian-Dutch label)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "bahwa": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "baru": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: 'belum lama lagi; tidak ada sebelumnya'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "berantas": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "Kamus Dewan: 'Id; memberantas membanteras' (Id label)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "berbantuan ai": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; suggestion 'Adakah anda bermaksud: berbantukan ai'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "bicara": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: '1 pertimbangan fikiran; pendapat; 2 rundingan; mesyuarat'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "bolu": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "bombardemen": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "Kamus Dewan: '(bombardemén) IB pengeboman' (Indonesian-Dutch label)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "juru uang": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; page only suggests 'juru ang, juru aung'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kalender": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'mesin yg digunakan utk melicinkan kertas' (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kampanye": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'IB ®kempen' — Indonesian-Dutch label, cross-ref to kempen",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kanker": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'(Bio) sj penyakit kulat yg merosakkan kayu'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kantor": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'Id pejabat'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kapasitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kaper": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'Jk sj kupu-kupu'; also 'ikan ~ sj ikan' unlabelled",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kapilaritas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kapiler": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kardiolog": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; suggests 'kardiologi, cardiology'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "karena": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'Id kerana'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kartu kredit": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "No phrase entry; root kartu is 'Id 1. kad'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "karyah": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; suggests 'kiryah, kariah, karya'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kebijakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'perihal bijak, kecerdikan, kepintaran'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kecandan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan cross-ref '®kecindan'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "keik": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; suggests 'kek'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kelelap": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan cross-ref '®kelalap'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kelemur": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; suggests 'kelemut, kelebur'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "korps": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "korsase": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; only 'Adakah anda bermaksud: kor ase'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kosmis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; only 'Adakah anda bermaksud: kosmos'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kreativitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kredibilitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kriminalitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kualitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kuantitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kuarsa": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kuarsit": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kue": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; only dialect glossaries (Johor, Kedah)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kulah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'sl sj kopiah tinggi, ketopang' (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kuliner": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; only 'Adakah anda bermaksud: kulinari'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kungkang": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kuretase": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; only spelling suggestions (kuret ase)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kursi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'jawatan profesor di universiti'; sense 2 'Id kerusi'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kustar": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; only 'Adakah anda bermaksud: kusta, kastor'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kwasiorkor": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pasca menengah": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; page only suggests 'pasca- menengah'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pasca-menengah": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; only 'Adakah anda bermaksud' suggestions",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pelatih": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'orang yg melatih (mendidik, mengajar) supaya mahir'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pembelajar": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penadbiran": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; portal suggests 'pentadbiran'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penasaran": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penglihatan komputer": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry for the compound; only istilah/corpus hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pentaksiran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'perihal menaksir' (Kamus Dewan Edisi Keempat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "piawai": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'Mn 1. cekap, pandai, pintar'; also standard sense",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "piawaian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'asas (rujukan dsb) utk penentuan sesuatu'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pimpinan manusia": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry for compound; only tesaurus for 'pimpin'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "praktek": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' (Indonesian spelling)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pribumi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "produktivitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "propinsi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "publisitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; portal suggests 'publisiti'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "rangka kerja": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry for compound; tesaurus shows 'rangka' only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "realitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "lancia": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "lemari": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'bp almari' — colloquial (bp) cross-reference only, no standard sense",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "lenggundi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'sj tumbuhan (pokok), lebar, Vitex negundo' (Kamus Dewan Edisi Keempat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "lisensi": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'IB surat kebenaran, lesen' — IB (Indonesian-Dutch) label",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "loberci": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'Id jemeki; labuci' (Kamus Dewan Edisi Keempat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "lungkang": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only MABBIM term hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "magasin": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; page suggests 'Adakah anda bermaksud: magazin'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "managemen": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only MABBIM/corpus hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "margarin": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only one MABBIM hit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "marine": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Only Kamus Inggeris-Melayu Dewan entries (English headword); no Malay Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "masase": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; spelling suggestions only ('masse', 'masseuse')",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "masokhis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; suggestion 'mas ok his' only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "masokhisme": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; page suggests 'Adakah anda bermaksud: masokisme'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "mau": {
+  "verdict": "UNCLEAR",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' yet cluster lists Kamus Bahasa Melayu (7) hits; no definition shown",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "mayoritas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only MABBIM term hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "mempengaruhi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'berpengaruh atas, menggunakan pengaruh kpd, menguasai' (Kamus Dewan Keempat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "menghubungkan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'menjadikan berhubungan..., menyambungkan, merangkaikan' (Kamus Dewan Keempat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "menutup jurang": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry for the phrase; components tutup/jurang valid separately",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kelikat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: 'tabiat; ®khalikah'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kendala": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: '1. rintangan, halangan, gendala' (no Id label)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kendara": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' (dialect glossary hits only)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kendaraan": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; root 'kendara' also has none",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "keremot": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan: '(kerémot) ark ®keremut' (archaic cross-ref, not Id)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "keripik": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Only 'Adakah anda bermaksud: keritik, kerpik...' suggestions",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kerupuk": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kesehatan": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; root 'sehat' also absent from Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ketrampilan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Root 'trampil' in Kamus Dewan: '® terampil'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "keuangan": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; root 'uang' also absent from Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kimus": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' (Istilah hits only)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kolektivitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kompetensi dwi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Head word 'kompetensi' in Kamus Dewan: 'kecekapan: kursus ~ umum'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "konseling": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "konselor": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "konter": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Only 'Adakah anda bermaksud: kontur, kontet...' suggestions",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kontinuitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "koper": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "Kamus Dewan: 'IB sj beg kulit... kopor' (IB = Indonesian-Dutch label)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "handel": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "hanya manusia": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Phrase; no Kamus Dewan entry (carian tiada banner)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "hewan": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; only MABBIM/corpus and dialect glossary hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "hewani": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; root hewan also absent",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ibukota": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ijin": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; standard form is izin",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "incit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'sl nyah, pergi; mengincitkan mengenyahkan, menghalau'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "indik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'mengindik 1. menekan ke bawah, memijak, menindih'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "integritas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "intensitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "istri": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "izin": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'Ar persetujuan membenarkan (membolehkan), kebenaran'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "jadwal": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "jawaban": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'jawaban, jawapan 1. jawab, balas(an)'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "jembatan": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Carian kata tiada di dalam kamus terkini",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "jerukup": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Empty results page; no definition or corpus hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "jujah": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Empty results page; no definition or corpus hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "jura": {
+  "verdict": "VALID_MALAY",
+  "evidence": "Kamus Dewan cross-reference '® jurah' (variant of jurah)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "eropa": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "finlandia": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Only 'Adakah anda bermaksud' suggestions; no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "inggris": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kosta rika": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Only spelling suggestions; no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kroasia": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No definition, no tesaurus; no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kuba": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "lituania": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Only spelling suggestions; no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "maret": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'Id bulan ketiga dlm tahun Masihi, Mac'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "mèksiko": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ppb": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan entry; only Istilah Bahasa Melayu corpus hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "paraguai": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Only spelling suggestions; no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "peta tugasan-ai": {
+  "verdict": "NO_ENTRY",
+  "evidence": "Coined term; no Kamus Dewan entry for the phrase",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "registered training organisations (rto)": {
+  "verdict": "UNCLEAR",
+  "evidence": "PRPM returned empty reply for this query three times; English phrase, no dictionary entry expected",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "rumania": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "senin": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'1. bp Isnin; 2. Id hari Isnin' — bp/Id labels only, no standard sense",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "skotlandia": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "spanyol": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "task-ai map": {
+  "verdict": "NO_ENTRY",
+  "evidence": "English coined phrase; 'Tiada maklumat' — no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "tehnik": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only Istilah MABBIM/Buku corpus hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "uang": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only Istilah MABBIM and corpus hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "uang tunai": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition for the phrase; only tesaurus 'tunai'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ubub": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition or tesaurus information at all",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "universitas": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'Id universiti: U~ Indonesia' (Kamus Dewan Edisi Keempat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "utilitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only Istilah MABBIM hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "variansi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only one Istilah MABBIM hit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "verifikasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'pemeriksaan tentang kebenaran laporan' (Kamus Dewan Edisi Keempat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "veteriner": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only one Khidmat Nasihat hit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "volunter": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; only Istilah MABBIM hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "bugil": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini' — no Kamus Dewan entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "bulevar": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "diketuai manusia": {
+  "verdict": "VALID_MALAY",
+  "evidence": "root 'ketua' defined; 'mengetuai mengepalai (pertubuhan dll)' listed under it",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "dipimpin manusia": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'dipimpin' appears under Kamus Dewan entry 'pimpin' (memimpin)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "dus": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no headword; Kamus hits are substrings only (tandus, dengkis)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "dwi-kecekapan": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no Kamus Dewan entry for compound; only Kamus Sains (1) hit",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ekspor": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM istilah only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "elektris": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM istilah only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "elektrode": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM istilah only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "elektronika": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only Buku hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "empiris": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'(émpiris) IB berdasarkan... pemerhatian' — IB = Indonesia-Belanda label",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "endemis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; suggests 'endemik' instead",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "entitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "enyak": {
+  "verdict": "NO_ENTRY",
+  "evidence": "no entry; suggests 'enak, enjak, endak'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "eret": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; no root entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ergonomis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "erotis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; istilah/akhbar hits only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "etnis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM/akhbar/buku only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "selepa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'selepah sj kotak ... tempat menyimpan tembakau' (Kamus Dewan Ed.4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "seluler": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only Istilah MABBIM hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sensitivitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; only MABBIM term hits",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sentralistis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; only 'Adakah anda bermaksud' suggestions shown",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sersan": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'Id sarjan' (Kamus Dewan Edisi Keempat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sif": {
+  "verdict": "UNCLEAR",
+  "evidence": "No KD4 definition, but 'Kamus Dewan Perdana (8)' hits listed",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "silahkan": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; suggestion 'Adakah anda bermaksud: silakan'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sistim": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; corpus hits only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "skenario": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM/corpus hits only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "solidaritas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM/corpus hits only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sosis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM hits only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "spons": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; one MABBIM hit only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "standar": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM/corpus hits only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "standarisasi": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No entry; suggestion 'Adakah anda bermaksud: standardisasi'",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "stasiun": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'IB stesen' (Indonesian-Dutch label, Kamus Dewan Ed.4)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "statistika": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; MABBIM/book hits only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "statuta": {
+  "verdict": "NO_ENTRY",
+  "evidence": "'Carian kata tiada di dalam kamus terkini'; one MABBIM hit only",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "subyek": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'(subyék) Id subjek' (Kamus Dewan Edisi Keempat)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "rekor": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'(rékor) Id rekod' — Id label in Kamus Dewan",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "resiko": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition; page shows no entry",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "resmi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'sifat semula jadi, sifat khas' (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "riketsia": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'sj mikroorganisma parasit drpd genus Rickettsia' (Kamus Dewan)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ritme": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition for ritme",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ritmis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition for ritmis",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sabotase": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition for sabotase",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "salep": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition for salep",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sampo": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition for sampo",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sarkastis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition for sarkastis",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "saus": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "'IB kuah yg dimasak' — IB (Indonesian-Dutch) label",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "saus tomat": {
+  "verdict": "VERIFIED_INDONESIAN",
+  "evidence": "No compound entry; root 'saus' labelled IB (Indonesian)",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sekis": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition for sekis",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sekrup": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition for sekrup",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "seksualitas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition for seksualitas",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sekuritas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition for sekuritas",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "selebritas": {
+  "verdict": "NO_ENTRY",
+  "evidence": "No Kamus Dewan definition for selebritas",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "selentik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "'Jw; menyelentik mencubit dgn ibu jari' — defined, Javanese-origin label",
+  "date": "2026-08-28",
+  "source": "prpm.dbp.gov.my/Cari1"
+ }
+}

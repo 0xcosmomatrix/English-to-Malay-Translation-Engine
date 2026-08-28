@@ -1,0 +1,184 @@
+<title>Sieve & Ledger</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#F6F7F3; --ink:#1E2A26; --muted:#66716B; --rule:#D8DDD6;
+  --accent:#9E1B32; --accent-soft:#F3E4E7;
+  --pass:#2E7D4F; --pass-soft:#E3EFE7;
+  --warn:#B07C1F; --warn-soft:#F5ECDB;
+  --crit:#9E1B32; --crit-soft:#F3E4E7;
+  --card:#FCFCFA; --mono-bg:#EEF0EB;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#141917; --ink:#E7EAE5; --muted:#98A39C; --rule:#2C3530;
+    --accent:#E0798B; --accent-soft:#3A2228;
+    --pass:#6FBF8F; --pass-soft:#1E2F25;
+    --warn:#D9A94E; --warn-soft:#332A17;
+    --crit:#E0798B; --crit-soft:#3A2228;
+    --card:#1A201D; --mono-bg:#202723;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#141917; --ink:#E7EAE5; --muted:#98A39C; --rule:#2C3530;
+  --accent:#E0798B; --accent-soft:#3A2228;
+  --pass:#6FBF8F; --pass-soft:#1E2F25;
+  --warn:#D9A94E; --warn-soft:#332A17;
+  --crit:#E0798B; --crit-soft:#3A2228;
+  --card:#1A201D; --mono-bg:#202723;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:"Public Sans",system-ui,sans-serif;
+  font-size:16px;line-height:1.6;margin:0;padding:0 20px 80px}
+.wrap{max-width:760px;margin:0 auto}
+header{padding:56px 0 8px;border-bottom:3px double var(--accent)}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+h1{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:44px;line-height:1.05;
+  margin:0 0 10px;text-wrap:balance}
+.sub{color:var(--muted);font-size:16px;max-width:60ch;margin:0 0 26px}
+.stamps{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 34px}
+.stamp{background:var(--card);border:1px solid var(--rule);padding:10px 14px;min-width:118px}
+.stamp b{display:block;font-family:"IBM Plex Mono",monospace;font-size:20px;font-weight:500;
+  font-variant-numeric:tabular-nums}
+.stamp span{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h2{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:27px;margin:52px 0 6px;text-wrap:balance}
+h2 .sn{color:var(--accent);font-size:19px;vertical-align:2px;margin-right:8px;font-family:"IBM Plex Mono",monospace;font-weight:400}
+h3{font-size:16px;font-weight:700;margin:28px 0 8px}
+p{max-width:66ch;margin:10px 0}
+.lede{font-size:17.5px}
+.ledger{border-left:3px double var(--accent);padding:2px 0 2px 18px;margin:20px 0}
+.ledger p{margin:6px 0}
+table{border-collapse:collapse;width:100%;margin:16px 0;font-size:14.5px}
+th{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);
+  text-align:left;font-weight:600;padding:8px 12px 6px;border-bottom:2px solid var(--ink)}
+td{padding:9px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+td.num{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tblwrap{overflow-x:auto}
+code,.mono{font-family:"IBM Plex Mono",monospace;font-size:13.5px;background:var(--mono-bg);
+  padding:1px 5px;border-radius:2px}
+.chip{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:500;
+  letter-spacing:.06em;padding:2px 8px;border-radius:2px;text-transform:uppercase;white-space:nowrap}
+.c-crit{background:var(--crit-soft);color:var(--crit)}
+.c-warn{background:var(--warn-soft);color:var(--warn)}
+.c-pass{background:var(--pass-soft);color:var(--pass)}
+.c-mut{background:var(--mono-bg);color:var(--muted)}
+.phase{background:var(--card);border:1px solid var(--rule);border-top:3px solid var(--accent);
+  padding:16px 20px;margin:14px 0}
+.phase h3{margin:0 0 4px;font-family:"Newsreader",Georgia,serif;font-size:19px;font-weight:600}
+.phase .tag{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.08em}
+.phase p{margin:8px 0 0;font-size:14.5px;max-width:none}
+ul{padding-left:22px;max-width:68ch}li{margin:6px 0}
+.foot{margin-top:56px;padding-top:14px;border-top:1px solid var(--rule);
+  font-size:13px;color:var(--muted)}
+@media (max-width:560px){h1{font-size:33px}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
+<div class="wrap">
+<header>
+<p class="eyebrow">ms-MY localization program · adversarial build review · 2026-08-28</p>
+<h1>Sieve &amp; Ledger</h1>
+<p class="sub">Six independent reviewers attacked the Malay translation build — its pipeline, its enforcement tiers, its dictionary ledger, its numbers, and its survivability. This is what held, what fell, and the road to autonomous near-perfection.</p>
+</header>
+
+<div class="stamps">
+<div class="stamp"><b>4/4</b><span>claims reproduced</span></div>
+<div class="stamp"><b>13/13</b><span>ledger spot-checks</span></div>
+<div class="stamp"><b>193</b><span>verified enforce rules</span></div>
+<div class="stamp"><b>8 crit</b><span>found · 3 closed today</span></div>
+<div class="stamp"><b>7 maj</b><span>open findings</span></div>
+</div>
+
+<h2><span class="sn">§1</span>Verdict</h2>
+<p class="lede">The improvement is real and independently verified. The machinery that produced it is prototype-grade, and the review proved both halves of that sentence.</p>
+<div class="ledger">
+<p><strong>The data held.</strong> Every reported number reproduced exactly from disk. All 13 fresh dictionary lookups confirmed the PRPM ledger. All 193 enforce-tier entries carry complete provenance and pass the three-leg gate clean.</p>
+<p><strong>The machinery fell.</strong> Reviewers found 5 new correctness bugs in the pipeline code (2 critical), 5 ways to bypass the enforcement gate (3 critical), and — worst — that nearly everything except the rules directory lived in wipeable session storage, outside version control.</p>
+</div>
+
+<h2><span class="sn">§2</span>Measured improvement</h2>
+<div class="tblwrap"><table>
+<tr><th>measure</th><th>old pipeline</th><th>new architecture</th><th>verified by</th></tr>
+<tr><td>Reviewer-flag checks clean (ch. 1)</td><td class="num">4 / 13</td><td class="num">11 / 13</td><td>numbers-audit, from disk</td></tr>
+<tr><td>Reviewer flags not broken (all 43)</td><td class="num">51%</td><td class="num">74%</td><td>numbers-audit, from disk</td></tr>
+<tr><td>Facts lost vs English source</td><td class="num">1</td><td class="num">0</td><td>numbers-audit, from disk</td></tr>
+<tr><td>Untranslated English residue</td><td class="num">0</td><td class="num">0</td><td>numbers-audit, from disk</td></tr>
+<tr><td>Cost per 10-chapter book</td><td class="num">$4.14, non-converging</td><td class="num">~$0.16, converging</td><td>measured token usage</td></tr>
+<tr><td>Dictionary-verified enforce rules</td><td class="num">0</td><td class="num">193</td><td>contracts + prpm-recheck</td></tr>
+<tr><td>Known-bad rules removed</td><td class="num">—</td><td class="num">11</td><td>panel + PRPM oracle</td></tr>
+</table></div>
+<p>Two methodology findings matter as much as the numbers: the three-model panel alone would have poisoned the enforce tier with 28 bad rules (<code>kanker</code>, <code>kursi</code>, <code>jawaban</code> — all have obscure real Malay senses only the dictionary knew), and few-shot exemplars fixed <em>zero</em> unseen defects (arm-0 = arm-12). Models triage; oracles decide; prompts prevent only what they explicitly name.</p>
+
+<h2><span class="sn">§3</span>Findings</h2>
+<h3>Pipeline code (2 critical · 3 major)</h3>
+<div class="tblwrap"><table>
+<tr><th></th><th>finding</th><th>status</th></tr>
+<tr><td><span class="chip c-crit">critical</span></td><td><code>restore_comments</code> silently drops comment lines when a translation has fewer lines than its source — one <code>&lt;!-- /UPDATE --&gt;</code> already lost in a real output</td><td><span class="chip c-mut">open</span></td></tr>
+<tr><td><span class="chip c-crit">critical</span></td><td><code>regate.py</code> prints “realigning” on block-count mismatch, then gates every Malay block against the wrong English paragraph</td><td><span class="chip c-mut">open</span></td></tr>
+<tr><td><span class="chip c-warn">major</span></td><td>Gate v3 penalizes only <em>missing</em> facts — a rewrite that invents a number ships unpenalized</td><td><span class="chip c-mut">open</span></td></tr>
+<tr><td><span class="chip c-warn">major</span></td><td><code>check43</code> matches multi-word flags without boundaries — “rasa tidak yakin” matched inside correct “<u>be</u>rasa tidak yakin”, scoring good text as unfixed</td><td><span class="chip c-mut">open</span></td></tr>
+<tr><td><span class="chip c-warn">major</span></td><td><code>pipeline.py</code>’s own entrypoint still runs the buggy v1 gate the sibling scripts replaced — reverts are hash-seed nondeterministic</td><td><span class="chip c-mut">open</span></td></tr>
+</table></div>
+<h3>Enforcement integrity (3 critical · 2 major)</h3>
+<div class="tblwrap"><table>
+<tr><th></th><th>finding</th><th>status</th></tr>
+<tr><td><span class="chip c-crit">critical</span></td><td>Panel leg is self-attested: a hand-inserted entry with no panel field <em>defaults to passing</em>, then gets stamped “unanimous” on the next run</td><td><span class="chip c-mut">open</span></td></tr>
+<tr><td><span class="chip c-crit">critical</span></td><td>Corpus back-test fails <em>open</em>: a vanished registry path yields an empty corpus and every word passes leg 3 trivially</td><td><span class="chip c-mut">open</span></td></tr>
+<tr><td><span class="chip c-crit">critical</span></td><td>Direct JSON edits go live immediately; the gate has no scheduled caller</td><td><span class="chip c-mut">open</span></td></tr>
+<tr><td><span class="chip c-warn">major</span></td><td>The PRPM ledger is unsigned plain JSON — the oracle leg is forgeable</td><td><span class="chip c-mut">open</span></td></tr>
+<tr><td><span class="chip c-warn">major</span></td><td><code>--force</code> bypasses both oracle and context gates; “human ruling required” exists only as an error-message sentence</td><td><span class="chip c-mut">open</span></td></tr>
+</table></div>
+<h3>Durability (3 critical · 2 major)</h3>
+<div class="tblwrap"><table>
+<tr><th></th><th>finding</th><th>status</th></tr>
+<tr><td><span class="chip c-crit">critical</span></td><td>Entire pipeline, eval harnesses, test sets, and paid panel verdicts lived only in wipeable session storage</td><td><span class="chip c-pass">mitigated</span></td></tr>
+<tr><td><span class="chip c-crit">critical</span></td><td>Eval + audit artifacts (101&nbsp;KB test set, 224&nbsp;KB panel verdicts) unrecoverable on session end</td><td><span class="chip c-pass">mitigated</span></td></tr>
+<tr><td><span class="chip c-crit">critical</span></td><td>Corpus registry pointed its English leg into session storage</td><td><span class="chip c-pass">fixed</span></td></tr>
+<tr><td><span class="chip c-warn">major</span></td><td>The rules directory is not under version control and lives in ~/Downloads</td><td><span class="chip c-mut">open</span></td></tr>
+<tr><td><span class="chip c-warn">major</span></td><td>Everything quantitative rests on chapter 1 of one book; chapters 2–10 never ran</td><td><span class="chip c-mut">open</span></td></tr>
+</table></div>
+<p>Mitigation applied today: all working artifacts copied to <code>AIPlus-Book-Production/localization/ms-MY-lab/</code> (5.7&nbsp;MB, inside a git repo, not yet committed) and the registry repointed at the durable copy.</p>
+
+<h2><span class="sn">§4</span>What this does not establish</h2>
+<ul>
+<li><strong>Register is still the ceiling.</strong> ~28 of 43 reviewer flags are register calls no model reliably detects (best arbiter recall: 51%). Remediation with answers shown reaches ~50%; prevention from examples measured at zero.</li>
+<li><strong>No native speaker has read any of today’s output.</strong> Lexical claims are dictionary-verified; register claims are machine-plus-my-judgment only.</li>
+<li><strong>One chapter, one run, one book, one language pair.</strong> Differences of 1–2 checks between configs sit inside noise.</li>
+<li><strong>168 of 193 enforce rules rest on dictionary <em>absence</em></strong> plus panel unanimity — solid, but weaker than the 25 carrying the explicit “Id” label.</li>
+</ul>
+
+<h2><span class="sn">§5</span>Road to autonomous near-perfection</h2>
+<div class="phase"><span class="tag">phase 0 · durability — partially done today</span>
+<h3>Make the build survive its authors</h3>
+<p>Commit <code>ms-MY-lab/</code> and move <code>rules/</code> into the repo; fetch the full English bundle into the corpus registry. Until this lands, every other phase is building on sand.</p></div>
+<div class="phase"><span class="tag">phase 1 · correctness</span>
+<h3>One canonical pipeline, five bugs dead</h3>
+<p>Fix the five verified bugs; collapse <code>pipeline / regate / gate_v3</code> into a single module so fixes can’t strand in siblings; make the fact check bidirectional (inventions penalized, not just omissions); re-run chapter 1 and confirm the numbers survive the fixes.</p></div>
+<div class="phase"><span class="tag">phase 2 · enforcement integrity</span>
+<h3>Close the gate’s own gates</h3>
+<p>Fail-closed corpus leg (missing corpus = gate failure); panel provenance must reference the stored verdict files, never default; a checksum manifest over enforce tier + ledger, verified at <em>use</em> time so direct edits are caught when they matter; replace <code>--force</code> with a ruling file; run <code>enforce_gate --check</code> in the build pipeline beside EPUBCheck.</p></div>
+<div class="phase"><span class="tag">phase 3 · coverage</span>
+<h3>From one chapter to the whole shelf</h3>
+<p>Run all 10 chapters + workbook through the fixed pipeline with per-chapter reports — the first fully instrumented book, and the evidence base scaling from anecdote to statistics.</p></div>
+<div class="phase"><span class="tag">phase 4 · the register flywheel</span>
+<h3>Make every native hour multiply</h3>
+<p>Retrieval-matched exemplars (the untested middle between fixed few-shot and nothing); the 43 flags as a growing regression suite gating every pipeline change; sampled native audit — one chapter per book, corrections feeding rulebook and exemplar bank; the phraseology layer (collocations, English-idiom calque prevention, figurative licence check) built through the proven harvest → panel → oracle → tier pipeline.</p></div>
+<div class="phase"><span class="tag">phase 5 · the compounding loop</span>
+<h3>Every book makes the system stricter</h3>
+<p>Each shipped book joins the approved corpus, strengthening the context-free leg automatically; each correction becomes a permanent rule or exemplar; the eval suite means no change ships on faith. Checkability grows with output — the system scales like a test suite, not like a model.</p></div>
+
+<h2><span class="sn">§6</span>What “near-perfection” can honestly mean</h2>
+<div class="tblwrap"><table>
+<tr><th>error class</th><th>mechanism</th><th>autonomous ceiling</th></tr>
+<tr><td>Structure (headings, fences, counts)</td><td>deterministic, by construction</td><td><span class="chip c-pass">zero · provable</span></td></tr>
+<tr><td>Indonesian drift (verified list)</td><td>enforce tier, three-legged</td><td><span class="chip c-pass">zero · provable</span></td></tr>
+<tr><td>Facts (numbers, entities, negation)</td><td>bidirectional aligners + gates</td><td><span class="chip c-pass">zero · provable</span></td></tr>
+<tr><td>Untranslated residue</td><td>deterministic residue check</td><td><span class="chip c-pass">zero · provable</span></td></tr>
+<tr><td>Collocations &amp; calques</td><td>phraseology layer (phase 4)</td><td><span class="chip c-warn">most · measurable</span></td></tr>
+<tr><td>Register &amp; naturalness</td><td>draft quality + rewrite + sampled native audit</td><td><span class="chip c-warn">asymptotic · never provably zero</span></td></tr>
+</table></div>
+<p>Four error classes can reach provable zero with no human in the loop — three are effectively there now, pending the phase-1 and phase-2 hardening. The last two converge through the flywheel: measured, shrinking, never certified absent without a native ear. That distinction, held honestly, is the difference between a quality system and a quality claim.</p>
+
+<p class="foot">Review executed by six independent agents (contracts · prpm-recheck · code-review · numbers-audit · bypass-audit · gap-scan) against the artifacts on disk, 28 Aug 2026. Working copies preserved in <code>AIPlus-Book-Production/localization/ms-MY-lab/</code>; live rules in the T2-133 bundle’s <code>rules/</code> directory.</p>
+</div>

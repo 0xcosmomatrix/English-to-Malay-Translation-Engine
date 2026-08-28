@@ -1,0 +1,7 @@
+corpus/private/
+*.log
+*.bak
+*.bak2
+__pycache__/
+probe-*.html
+.env
