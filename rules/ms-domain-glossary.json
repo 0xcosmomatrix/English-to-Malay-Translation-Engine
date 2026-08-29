@@ -4,7 +4,8 @@
   "Injected per-batch at draft time (TERM NOTES) only where the EN term occurs —",
   "231 entries cannot ride the always-on TERMS block. status: istilah-decided",
   "entries instruct 'use X'; informs entries give the adjacent istilah and demand",
-  "a consistent choice; open entries are queued for native ruling."
+  "a consistent choice; open entries are queued for native ruling.",
+  "2026-08-29 catalogue-wide oracle pre-pass over 329 books: +628 entries (182 istilah-decided incl. 110 PRPM-unanimous mechanical, 446 verified house renderings)."
  ],
  "entries": [
   {
@@ -2085,6 +2086,5658 @@
    "evidence": "'condition monitoring | pengawasan keadaan | Kejuruteraan'",
    "domain": "maintenance",
    "books": 1
+  },
+  {
+   "en": "quality assurance",
+   "ms": "jaminan mutu",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "public sector",
+   "ms": "sektor awam",
+   "status": "istilah-decided",
+   "field": "Ekonomi/Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "project management",
+   "ms": "pengurusan projek",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "gap analysis",
+   "ms": "analisis jurang",
+   "status": "istilah-decided",
+   "field": "Ekonomi/Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "risk management",
+   "ms": "pengurusan risiko",
+   "status": "istilah-decided",
+   "field": "Pendidikan/Perubatan/Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "change management",
+   "ms": "pengurusan perubahan",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data collection",
+   "ms": "pengumpulan data",
+   "status": "istilah-decided",
+   "field": "Ekonomi/Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "mental health",
+   "ms": "kesihatan mental",
+   "status": "istilah-decided",
+   "field": "Pendidikan/Perubatan/Sosiologi",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "decision support",
+   "ms": "sokongan keputusan",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data privacy",
+   "ms": "kerahsiaan data",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data entry",
+   "ms": "masukan data",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "artificial intelligence",
+   "ms": "kecerdasan buatan",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "competitive intelligence",
+   "ms": "risikan saingan",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "annual report",
+   "ms": "laporan tahunan",
+   "status": "istilah-decided",
+   "field": "Pentadbiran Perniagaan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "performance management",
+   "ms": "pengurusan prestasi",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "resource allocation",
+   "ms": "peruntukan sumber",
+   "status": "istilah-decided",
+   "field": "Sains Politik/Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "intellectual property",
+   "ms": "hak milik intelektual",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "technical documentation",
+   "ms": "dokumentasi teknikal",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "local authority",
+   "ms": "autoriti tempatan",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "public health",
+   "ms": "kesihatan awam",
+   "status": "istilah-decided",
+   "field": "Perubatan/Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "early warning",
+   "ms": "amaran awal",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan Kapal Terbang",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "feedback loop",
+   "ms": "gelung maklum balas",
+   "status": "istilah-decided",
+   "field": "Veterinar",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "knowledge management",
+   "ms": "pengurusan pengetahuan",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "service delivery",
+   "ms": "penyerahan perkhidmatan",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "financial analysis",
+   "ms": "analisis kewangan",
+   "status": "istilah-decided",
+   "field": "Pentadbiran Perniagaan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "progress report",
+   "ms": "laporan kemajuan",
+   "status": "istilah-decided",
+   "field": "Pentadbiran Perniagaan/Perpustakaan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "risk analysis",
+   "ms": "analisis risiko",
+   "status": "istilah-decided",
+   "field": "Ekonomi/Sains Politik/Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "sample size",
+   "ms": "saiz sampel",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "informed consent",
+   "ms": "izin maklum",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "stakeholder management",
+   "ms": "pengurusan pemegang saham",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "career development",
+   "ms": "pembangunan kerjaya",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "local government",
+   "ms": "kerajaan tempatan",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "financial reporting",
+   "ms": "laporan kewangan",
+   "status": "istilah-decided",
+   "field": "Pentadbiran Perniagaan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "scenario planning",
+   "ms": "perancangan senario",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "false positive",
+   "ms": "positif palsu",
+   "status": "istilah-decided",
+   "field": "Perubatan/Veterinar",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "process improvement",
+   "ms": "pembaikan proses",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical assessment",
+   "ms": "penilaian klinikal",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "acceptance criteria",
+   "ms": "kriteria penerimaan",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "steering committee",
+   "ms": "jawatankuasa pandu",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data protection",
+   "ms": "perlindungan data",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "quantitative analysis",
+   "ms": "analisis kuantitatif",
+   "status": "istilah-decided",
+   "field": "Antropologi/Ekonomi/Pertanian",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "software development",
+   "ms": "pembangunan perisian",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "cash flow",
+   "ms": "alir tunai",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "access control",
+   "ms": "kawalan capaian",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data migration",
+   "ms": "penghijrahan data",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "active voice",
+   "ms": "ragam aktif",
+   "status": "istilah-decided",
+   "field": "Linguistik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "labour market",
+   "ms": "pasaran buruh",
+   "status": "istilah-decided",
+   "field": "Ekonomi/Pendidikan/Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "management information",
+   "ms": "maklumat pengurusan",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "internal audit",
+   "ms": "audit dalaman",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "occupational health",
+   "ms": "kesihatan pekerjaan",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "vocational education",
+   "ms": "pendidikan vokasional",
+   "status": "istilah-decided",
+   "field": "Pendidikan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "conversion rate",
+   "ms": "kadar penukaran",
+   "status": "istilah-decided",
+   "field": "Penternakan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "error message",
+   "ms": "mesej ralat",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "process control",
+   "ms": "kawalan proses",
+   "status": "istilah-decided",
+   "field": "Penternakan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "color palette",
+   "ms": "palet warna",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "exclusion criteria",
+   "ms": "kriteria singkir",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data model",
+   "ms": "model data",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "portfolio management",
+   "ms": "pengurusan portfolio",
+   "status": "istilah-decided",
+   "field": "Ekonomi/Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "source code",
+   "ms": "kod sumber",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "change control",
+   "ms": "kawalan perubahan",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "operations management",
+   "ms": "pengurusan operasi",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "blood pressure",
+   "ms": "tekanan darah",
+   "status": "istilah-decided",
+   "field": "Farmasi/Perubatan/Sukan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "control system",
+   "ms": "sistem kawalan",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "market share",
+   "ms": "bahagian pasaran",
+   "status": "istilah-decided",
+   "field": "Pentadbiran Perniagaan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "triage",
+   "ms": "triaj",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical trial",
+   "ms": "ujian klinikal",
+   "status": "istilah-decided",
+   "field": "Farmasi",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "civil engineering",
+   "ms": "kejuruteraan awam",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "drug interaction",
+   "ms": "interaksi ubat",
+   "status": "istilah-decided",
+   "field": "Farmasi",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "public interest",
+   "ms": "kepentingan awam",
+   "status": "istilah-decided",
+   "field": "Ekonomi/Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "curriculum design",
+   "ms": "reka bentuk kurikulum",
+   "status": "istilah-decided",
+   "field": "Pendidikan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "risk factor",
+   "ms": "faktor risiko",
+   "status": "istilah-decided",
+   "field": "Biologi/Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "product specification",
+   "ms": "spesifikasi keluaran",
+   "status": "istilah-decided",
+   "field": "Penternakan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "human rights",
+   "ms": "hak asasi manusia",
+   "status": "istilah-decided",
+   "field": "Sains Politik/Undang-undang",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "target population",
+   "ms": "penduduk sasaran",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "working paper",
+   "ms": "kertas kerja",
+   "status": "istilah-decided",
+   "field": "Komunikasi Massa",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "foreign service",
+   "ms": "perkhidmatan luar negeri",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "cognitive impairment",
+   "ms": "ketakmampuan kognitif",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "expert witness",
+   "ms": "saksi pakar",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data sheet",
+   "ms": "helaian data",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "balance sheet",
+   "ms": "kunci kira-kira",
+   "status": "istilah-decided",
+   "field": "Ekonomi",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "governing body",
+   "ms": "badan pentadbiran",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "site inspection",
+   "ms": "pemeriksaan tapak",
+   "status": "istilah-decided",
+   "field": "Pertanian",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "site assessment",
+   "ms": "taksir tapak",
+   "status": "istilah-decided",
+   "field": "Pertanian",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "social engineering",
+   "ms": "pengendalian sosial",
+   "status": "istilah-decided",
+   "field": "Sosiologi",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "demand forecast",
+   "ms": "ramalan permintaan",
+   "status": "istilah-decided",
+   "field": "Ekonomi/Kejuruteraan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "due process",
+   "ms": "proses hak",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "controlled trial",
+   "ms": "uji kaji terkawal",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "working capital",
+   "ms": "modal kerja",
+   "status": "istilah-decided",
+   "field": "Ekonomi/Pentadbiran Perniagaan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "export control",
+   "ms": "kawalan ekspor",
+   "status": "istilah-decided",
+   "field": "Ekonomi",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "occupational therapy",
+   "ms": "terapi kerja",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "confined space",
+   "ms": "ruangan terkurung",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "educational psychology",
+   "ms": "psikologi pendidikan",
+   "status": "istilah-decided",
+   "field": "Pendidikan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data dictionary",
+   "ms": "kamus data",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "cash flow statement",
+   "ms": "penyata aliran tunai",
+   "status": "istilah-decided",
+   "field": "Ekonomi",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "loss prevention",
+   "ms": "pencegahan kerugian",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "signal processing",
+   "ms": "pemprosesan isyarat",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "exposure assessment",
+   "ms": "penilaian pendedahan",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "hazardous materials",
+   "ms": "bahan merbahaya",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "freedom of information",
+   "ms": "kebebasan maklumat",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "chest x-ray",
+   "ms": "x-ray dada",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "public affairs",
+   "ms": "hal ehwal awam",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "character development",
+   "ms": "perkembangan watak",
+   "status": "istilah-decided",
+   "field": "Pendidikan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "rough cut",
+   "ms": "suntingan kasar",
+   "status": "istilah-decided",
+   "field": "Komunikasi Massa",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "intellectual freedom",
+   "ms": "kebebasan intelektual",
+   "status": "istilah-decided",
+   "field": "Pendidikan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "industrial engineering",
+   "ms": "kejuruteraan perindustrian",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "failure analysis",
+   "ms": "analisis kegagalan",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "site analysis",
+   "ms": "analisis tapak",
+   "status": "istilah-decided",
+   "field": "Pertanian",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "remote sensing",
+   "ms": "penderiaan jauh",
+   "status": "istilah-decided",
+   "field": "Aeroangkasa/Pertanian",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "relative risk",
+   "ms": "risiko relatif",
+   "status": "istilah-decided",
+   "field": "Biologi/Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "diabetic retinopathy",
+   "ms": "retinopati diabetes",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM istilah unanimous",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "primary source",
+   "ms": "sumber utama",
+   "status": "istilah-decided",
+   "field": "umum",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "quality control",
+   "ms": "kawalan mutu",
+   "status": "istilah-decided",
+   "field": "Ekonomi; Penternakan; Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "impact assessment",
+   "ms": "penilaian impak",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "decision tree",
+   "ms": "pohon keputusan",
+   "status": "istilah-decided",
+   "field": "Pentadbiran Perniagaan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "job description",
+   "ms": "deskripsi kerja",
+   "status": "istilah-decided",
+   "field": "Pentadbiran Perniagaan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "legal basis",
+   "ms": "asas undang-undang",
+   "status": "istilah-decided",
+   "field": "Undang-undang",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "error rate",
+   "ms": "kadar ralat",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "customer satisfaction",
+   "ms": "kepuasan pelanggan",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "quality management",
+   "ms": "pengurusan mutu",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "civil service",
+   "ms": "perkhidmatan awam",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "code generation",
+   "ms": "penjanaan kod",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "food safety",
+   "ms": "keselamatan makanan",
+   "status": "istilah-decided",
+   "field": "Penternakan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "service level",
+   "ms": "aras perkhidmatan",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "inventory management",
+   "ms": "pengurusan inventori",
+   "status": "istilah-decided",
+   "field": "umum",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "video conferencing",
+   "ms": "persidangan video",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "source text",
+   "ms": "teks sumber",
+   "status": "istilah-decided",
+   "field": "umum",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "side effect",
+   "ms": "kesan sampingan",
+   "status": "istilah-decided",
+   "field": "Farmasi",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "dispute resolution",
+   "ms": "penyelesaian pertikaian",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "batch processing",
+   "ms": "pemprosesan kelompok",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "secondary source",
+   "ms": "sumber sekunder",
+   "status": "istilah-decided",
+   "field": "Kesusasteraan; Sosiologi",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "system architecture",
+   "ms": "seni bina sistem",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "financial planning",
+   "ms": "perancangan kewangan",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "acceptable use policy",
+   "ms": "dasar guna boleh terima",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "lead time",
+   "ms": "tempoh pendahuluan",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "statistical significance",
+   "ms": "keertian statistik",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "financial statement",
+   "ms": "penyata kewangan",
+   "status": "istilah-decided",
+   "field": "Ekonomi",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "critical path",
+   "ms": "laluan kritikal",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "emergency response",
+   "ms": "respons kecemasan",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "pressure test",
+   "ms": "ujian tekanan",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "civil society",
+   "ms": "masyarakat sivil",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "value for money",
+   "ms": "nilai untuk wang",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "security policy",
+   "ms": "dasar keselamatan",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "national security",
+   "ms": "keselamatan negara",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "content analysis",
+   "ms": "analisis kandungan",
+   "status": "istilah-decided",
+   "field": "Penyelidikan (tiada bidang PRPM)",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "experimental design",
+   "ms": "reka bentuk eksperimen",
+   "status": "istilah-decided",
+   "field": "Sosiologi",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "case history",
+   "ms": "riwayat kes",
+   "status": "istilah-decided",
+   "field": "Veterinar",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "multiple choice",
+   "ms": "aneka pilihan",
+   "status": "istilah-decided",
+   "field": "Pendidikan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "classification scheme",
+   "ms": "skim klasifikasi",
+   "status": "istilah-decided",
+   "field": "Perpustakaan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "secondary data",
+   "ms": "data sekunder",
+   "status": "istilah-decided",
+   "field": "Antropologi",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data architecture",
+   "ms": "seni bina data",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "control measures",
+   "ms": "langkah kawalan",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "drug discovery",
+   "ms": "penemuan ubat",
+   "status": "istilah-decided",
+   "field": "Farmasi",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "confidence interval",
+   "ms": "selang keyakinan",
+   "status": "istilah-decided",
+   "field": "Pentadbiran Perniagaan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "criminal justice",
+   "ms": "keadilan jenayah",
+   "status": "istilah-decided",
+   "field": "Sosiologi",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "flow diagram",
+   "ms": "rajah alir",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "facial recognition",
+   "ms": "pengecaman wajah",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "environmental health",
+   "ms": "kesihatan persekitaran",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "chronic disease",
+   "ms": "penyakit kronik",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "noise reduction",
+   "ms": "pengurangan hingar",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "hazard analysis",
+   "ms": "analisis bahaya",
+   "status": "istilah-decided",
+   "field": "Penternakan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "environmental assessment",
+   "ms": "penilaian alam sekitar",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "process map",
+   "ms": "peta proses",
+   "status": "istilah-decided",
+   "field": "Sains Politik",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "bar chart",
+   "ms": "carta palang",
+   "status": "istilah-decided",
+   "field": "Matematik",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "trade agreement",
+   "ms": "perjanjian perdagangan",
+   "status": "istilah-decided",
+   "field": "Ekonomi",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "drug information",
+   "ms": "maklumat ubat",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "conservation area",
+   "ms": "kawasan pemuliharaan",
+   "status": "istilah-decided",
+   "field": "Perikanan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "cost-benefit analysis",
+   "ms": "analisis kos faedah",
+   "status": "istilah-decided",
+   "field": "Ekonomi",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "gross profit",
+   "ms": "untung kasar",
+   "status": "istilah-decided",
+   "field": "Ekonomi",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "profit and loss",
+   "ms": "untung rugi",
+   "status": "istilah-decided",
+   "field": "Ekonomi",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "renal function",
+   "ms": "fungsi ginjal",
+   "status": "istilah-decided",
+   "field": "Farmasi",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "controlled drug",
+   "ms": "ubat terkawal",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "base case",
+   "ms": "kes asas",
+   "status": "istilah-decided",
+   "field": "Perubatan",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "operating profit",
+   "ms": "untung kendalian",
+   "status": "istilah-decided",
+   "field": "Ekonomi",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "null hypothesis",
+   "ms": "hipotesis nol",
+   "status": "istilah-decided",
+   "field": "Matematik",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "colour correction",
+   "ms": "perasian warna",
+   "status": "istilah-decided",
+   "field": "Komunikasi Massa",
+   "evidence": "PRPM variants; register-selected",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "market research",
+   "ms": "penyelidikan pasaran",
+   "status": "istilah-decided",
+   "field": "",
+   "evidence": "Kamus Inggeris-Melayu Dewan",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "press release",
+   "ms": "siaran akhbar",
+   "status": "istilah-decided",
+   "field": "",
+   "evidence": "Kamus Inggeris-Melayu Dewan",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "managing director",
+   "ms": "pengarah urusan",
+   "status": "istilah-decided",
+   "field": "",
+   "evidence": "Kamus Inggeris-Melayu Dewan",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "private practice",
+   "ms": "klinik swasta",
+   "status": "istilah-decided",
+   "field": "",
+   "evidence": "Kamus Inggeris-Melayu Dewan",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "machine translation",
+   "ms": "penterjemahan mesin",
+   "status": "istilah-decided",
+   "field": "",
+   "evidence": "Kamus Inggeris-Melayu Dewan",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "covering letter",
+   "ms": "surat iringan",
+   "status": "istilah-decided",
+   "field": "",
+   "evidence": "Kamus Inggeris-Melayu Dewan",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "fire service",
+   "ms": "pasukan bomba",
+   "status": "istilah-decided",
+   "field": "",
+   "evidence": "Kamus Inggeris-Melayu Dewan",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "safety protocol",
+   "ms": "protokol keselamatan",
+   "status": "proposed",
+   "field": "occupational safety",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "supply chain",
+   "ms": "rantaian bekalan",
+   "status": "proposed",
+   "field": "supply chain management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "action plan",
+   "ms": "pelan tindakan",
+   "status": "proposed",
+   "field": "management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data processing agreement",
+   "ms": "perjanjian pemprosesan data",
+   "status": "proposed",
+   "field": "data protection",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data quality",
+   "ms": "kualiti data",
+   "status": "proposed",
+   "field": "data management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "cognitive load",
+   "ms": "beban kognitif",
+   "status": "proposed",
+   "field": "psychology",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "root cause",
+   "ms": "punca akar",
+   "status": "proposed",
+   "field": "quality assurance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "briefing note",
+   "ms": "nota taklimat",
+   "status": "proposed",
+   "field": "public administration",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "customer service",
+   "ms": "khidmat pelanggan",
+   "status": "proposed",
+   "field": "business",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "performance review",
+   "ms": "penilaian prestasi",
+   "status": "proposed",
+   "field": "human resources",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "large language model",
+   "ms": "model bahasa besar",
+   "status": "proposed",
+   "field": "artificial intelligence",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data retention",
+   "ms": "pengekalan data",
+   "status": "proposed",
+   "field": "data protection",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "action item",
+   "ms": "item tindakan",
+   "status": "proposed",
+   "field": "meetings",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data protection officer",
+   "ms": "pegawai perlindungan data",
+   "status": "proposed",
+   "field": "data protection",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "digital transformation",
+   "ms": "transformasi digital",
+   "status": "proposed",
+   "field": "management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "quality gate",
+   "ms": "quality gate",
+   "status": "proposed",
+   "field": "quality assurance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "training cutoff",
+   "ms": "tarikh tutup data latihan",
+   "status": "proposed",
+   "field": "artificial intelligence",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "literature review",
+   "ms": "sorotan literatur",
+   "status": "proposed",
+   "field": "research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "due diligence",
+   "ms": "usaha wajar",
+   "status": "proposed",
+   "field": "law and finance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "line manager",
+   "ms": "pengurus langsung",
+   "status": "proposed",
+   "field": "human resources",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "knowledge base",
+   "ms": "pangkalan pengetahuan",
+   "status": "proposed",
+   "field": "information management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "personally identifiable information",
+   "ms": "maklumat pengenalan peribadi",
+   "status": "proposed",
+   "field": "data protection",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "professional liability",
+   "ms": "liabiliti profesional",
+   "status": "proposed",
+   "field": "law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "value proposition",
+   "ms": "proposisi nilai",
+   "status": "proposed",
+   "field": "business",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "business development",
+   "ms": "pembangunan perniagaan",
+   "status": "proposed",
+   "field": "business",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "risk register",
+   "ms": "daftar risiko",
+   "status": "proposed",
+   "field": "risk management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "reputational risk",
+   "ms": "risiko reputasi",
+   "status": "proposed",
+   "field": "risk management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "evidence synthesis",
+   "ms": "sintesis bukti",
+   "status": "proposed",
+   "field": "policy research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "document review",
+   "ms": "semakan dokumen",
+   "status": "proposed",
+   "field": "law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "incident response",
+   "ms": "tindak balas insiden",
+   "status": "proposed",
+   "field": "cybersecurity",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "agentic workflow",
+   "ms": "aliran kerja agentik",
+   "status": "proposed",
+   "field": "artificial intelligence",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "employment law",
+   "ms": "undang-undang pekerjaan",
+   "status": "proposed",
+   "field": "law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data breach",
+   "ms": "pelanggaran data",
+   "status": "proposed",
+   "field": "data protection",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data governance",
+   "ms": "tadbir urus data",
+   "status": "proposed",
+   "field": "data management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "plain language",
+   "ms": "bahasa mudah",
+   "status": "proposed",
+   "field": "communication",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "research question",
+   "ms": "persoalan kajian",
+   "status": "proposed",
+   "field": "research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "meeting minutes",
+   "ms": "minit mesyuarat",
+   "status": "proposed",
+   "field": "administration",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "patient safety",
+   "ms": "keselamatan pesakit",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "peer review",
+   "ms": "penilaian rakan setara",
+   "status": "proposed",
+   "field": "research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "market intelligence",
+   "ms": "risikan pasaran",
+   "status": "proposed",
+   "field": "trade",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical judgment",
+   "ms": "pertimbangan klinikal",
+   "status": "proposed",
+   "field": "medicine",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "subject line",
+   "ms": "baris subjek",
+   "status": "proposed",
+   "field": "business communication",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "predictive analytics",
+   "ms": "analitik ramalan",
+   "status": "proposed",
+   "field": "data analytics",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "field notes",
+   "ms": "nota lapangan",
+   "status": "proposed",
+   "field": "ethnographic research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data visualization",
+   "ms": "visualisasi data",
+   "status": "proposed",
+   "field": "data science",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "anomaly detection",
+   "ms": "pengesanan anomali",
+   "status": "proposed",
+   "field": "auditing / data analytics",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "explicit consent",
+   "ms": "persetujuan nyata",
+   "status": "proposed",
+   "field": "data protection",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "executive summary",
+   "ms": "ringkasan eksekutif",
+   "status": "proposed",
+   "field": "business writing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "information governance",
+   "ms": "tadbir urus maklumat",
+   "status": "proposed",
+   "field": "records management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "literature search",
+   "ms": "carian literatur",
+   "status": "proposed",
+   "field": "academic research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "stakeholder engagement",
+   "ms": "libat urus pihak berkepentingan",
+   "status": "proposed",
+   "field": "management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "sensitive personal data",
+   "ms": "data peribadi sensitif",
+   "status": "proposed",
+   "field": "data protection",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data analytics",
+   "ms": "analitik data",
+   "status": "proposed",
+   "field": "data analysis",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "design brief",
+   "ms": "brif reka bentuk",
+   "status": "proposed",
+   "field": "design",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical documentation",
+   "ms": "dokumentasi klinikal",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "professional registration",
+   "ms": "pendaftaran profesional",
+   "status": "proposed",
+   "field": "regulated professions",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "lesson planning",
+   "ms": "perancangan pengajaran",
+   "status": "proposed",
+   "field": "education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "technical writing",
+   "ms": "penulisan teknikal",
+   "status": "proposed",
+   "field": "professional writing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "site visit",
+   "ms": "lawatan tapak",
+   "status": "proposed",
+   "field": "construction / placements",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "behaviour change",
+   "ms": "perubahan tingkah laku",
+   "status": "proposed",
+   "field": "public health",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "lawful basis",
+   "ms": "asas sah di sisi undang-undang",
+   "status": "proposed",
+   "field": "law/data protection",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "referral letter",
+   "ms": "surat rujukan",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "incident report",
+   "ms": "laporan insiden",
+   "status": "proposed",
+   "field": "public safety",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "grant application",
+   "ms": "permohonan geran",
+   "status": "proposed",
+   "field": "research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "risk appetite",
+   "ms": "selera risiko",
+   "status": "proposed",
+   "field": "risk management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data science",
+   "ms": "sains data",
+   "status": "proposed",
+   "field": "data analysis",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "customer experience",
+   "ms": "pengalaman pelanggan",
+   "status": "proposed",
+   "field": "marketing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "version control",
+   "ms": "kawalan versi",
+   "status": "proposed",
+   "field": "software engineering",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "compliance risk",
+   "ms": "risiko pematuhan",
+   "status": "proposed",
+   "field": "compliance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical governance",
+   "ms": "tadbir urus klinikal",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "case management",
+   "ms": "pengurusan kes",
+   "status": "proposed",
+   "field": "social work",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "status report",
+   "ms": "laporan status",
+   "status": "proposed",
+   "field": "project management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "community engagement",
+   "ms": "penglibatan komuniti",
+   "status": "proposed",
+   "field": "public service",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "problem statement",
+   "ms": "penyataan masalah",
+   "status": "proposed",
+   "field": "research / product management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "reflective practice",
+   "ms": "amalan reflektif",
+   "status": "proposed",
+   "field": "professional education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "competitive positioning",
+   "ms": "penentududukan kompetitif",
+   "status": "proposed",
+   "field": "marketing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical decision support",
+   "ms": "sokongan keputusan klinikal",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "anonymised data",
+   "ms": "data awanama",
+   "status": "proposed",
+   "field": "data protection",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "scenario analysis",
+   "ms": "analisis senario",
+   "status": "proposed",
+   "field": "financial analysis",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "demand forecasting",
+   "ms": "peramalan permintaan",
+   "status": "proposed",
+   "field": "supply chain",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "instructional design",
+   "ms": "reka bentuk pengajaran",
+   "status": "proposed",
+   "field": "education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data extraction",
+   "ms": "pengekstrakan data",
+   "status": "proposed",
+   "field": "research methods",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "case law",
+   "ms": "undang-undang kes",
+   "status": "proposed",
+   "field": "law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "contract review",
+   "ms": "semakan kontrak",
+   "status": "proposed",
+   "field": "law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "response rate",
+   "ms": "kadar maklum balas",
+   "status": "proposed",
+   "field": "survey research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "academic integrity",
+   "ms": "integriti akademik",
+   "status": "proposed",
+   "field": "education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "learning objective",
+   "ms": "objektif pembelajaran",
+   "status": "proposed",
+   "field": "education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "discharge summary",
+   "ms": "ringkasan discaj",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "research design",
+   "ms": "reka bentuk kajian",
+   "status": "proposed",
+   "field": "research methods",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "cover letter",
+   "ms": "surat iringan",
+   "status": "proposed",
+   "field": "careers",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical reasoning",
+   "ms": "penaakulan klinikal",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "digital literacy",
+   "ms": "literasi digital",
+   "status": "proposed",
+   "field": "education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "style guide",
+   "ms": "panduan gaya",
+   "status": "proposed",
+   "field": "publishing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "medical device",
+   "ms": "peranti perubatan",
+   "status": "proposed",
+   "field": "medical regulation",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "learning outcome",
+   "ms": "hasil pembelajaran",
+   "status": "proposed",
+   "field": "education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "client relationship management",
+   "ms": "pengurusan perhubungan klien",
+   "status": "proposed",
+   "field": "legal/business services",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "customer relationship management",
+   "ms": "pengurusan perhubungan pelanggan",
+   "status": "proposed",
+   "field": "legal practice / business",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "case notes",
+   "ms": "nota kes",
+   "status": "proposed",
+   "field": "social work",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "search strategy",
+   "ms": "strategi carian",
+   "status": "proposed",
+   "field": "systematic reviews",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "skills gap",
+   "ms": "jurang kemahiran",
+   "status": "proposed",
+   "field": "workforce development",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "thought leadership",
+   "ms": "kepimpinan pemikiran",
+   "status": "proposed",
+   "field": "marketing / public relations",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "complaint handling",
+   "ms": "pengendalian aduan",
+   "status": "proposed",
+   "field": "customer service",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "lived experience",
+   "ms": "pengalaman hidup",
+   "status": "proposed",
+   "field": "social policy/research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "management consulting",
+   "ms": "perundingan pengurusan",
+   "status": "proposed",
+   "field": "consulting",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "stakeholder map",
+   "ms": "peta pihak berkepentingan",
+   "status": "proposed",
+   "field": "management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical record",
+   "ms": "rekod klinikal",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "first principles",
+   "ms": "prinsip pertama",
+   "status": "proposed",
+   "field": "engineering/science",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "systematic literature review",
+   "ms": "tinjauan literatur sistematik",
+   "status": "proposed",
+   "field": "research methods",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "care plan",
+   "ms": "pelan penjagaan",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "management accounts",
+   "ms": "akaun pengurusan",
+   "status": "proposed",
+   "field": "accounting",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "qualitative research",
+   "ms": "penyelidikan kualitatif",
+   "status": "proposed",
+   "field": "research methods",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "design thinking",
+   "ms": "pemikiran reka bentuk",
+   "status": "proposed",
+   "field": "design / innovation",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "design rationale",
+   "ms": "rasional reka bentuk",
+   "status": "proposed",
+   "field": "engineering / architecture",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "practice management",
+   "ms": "pengurusan amalan",
+   "status": "proposed",
+   "field": "professional services",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "situational awareness",
+   "ms": "kesedaran situasi",
+   "status": "proposed",
+   "field": "emergency services",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "legal liability",
+   "ms": "liabiliti undang-undang",
+   "status": "proposed",
+   "field": "law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "personal data protection",
+   "ms": "perlindungan data peribadi",
+   "status": "proposed",
+   "field": "data privacy law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "emotional intelligence",
+   "ms": "kecerdasan emosi",
+   "status": "proposed",
+   "field": "psychology",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "sensitive personal information",
+   "ms": "maklumat peribadi sensitif",
+   "status": "proposed",
+   "field": "data protection",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "audit committee",
+   "ms": "jawatankuasa audit",
+   "status": "proposed",
+   "field": "corporate governance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "legal research",
+   "ms": "penyelidikan undang-undang",
+   "status": "proposed",
+   "field": "law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "patient education",
+   "ms": "pendidikan pesakit",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "support plan",
+   "ms": "pelan sokongan",
+   "status": "proposed",
+   "field": "early childhood education / special needs",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "case file",
+   "ms": "fail kes",
+   "status": "proposed",
+   "field": "law enforcement",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "advertising standards",
+   "ms": "piawaian pengiklanan",
+   "status": "proposed",
+   "field": "retail / advertising regulation",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "cold outreach",
+   "ms": "cold outreach",
+   "status": "proposed",
+   "field": "sales",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "grant writing",
+   "ms": "penulisan geran",
+   "status": "proposed",
+   "field": "nonprofit / research funding",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "confirmation bias",
+   "ms": "bias pengesahan",
+   "status": "proposed",
+   "field": "decision-making",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "tacit knowledge",
+   "ms": "pengetahuan tersirat",
+   "status": "proposed",
+   "field": "knowledge management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "allied health",
+   "ms": "kesihatan bersekutu",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data sovereignty",
+   "ms": "kedaulatan data",
+   "status": "proposed",
+   "field": "data governance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "enforcement action",
+   "ms": "tindakan penguatkuasaan",
+   "status": "proposed",
+   "field": "compliance/regulation",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "regulatory approval",
+   "ms": "kelulusan kawal selia",
+   "status": "proposed",
+   "field": "regulatory affairs",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "information classification",
+   "ms": "pengelasan maklumat",
+   "status": "proposed",
+   "field": "information security",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "operating model",
+   "ms": "model operasi",
+   "status": "proposed",
+   "field": "business strategy",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "real-time data",
+   "ms": "data masa nyata",
+   "status": "proposed",
+   "field": "finance / data",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "classified information",
+   "ms": "maklumat terperingkat",
+   "status": "proposed",
+   "field": "military/security",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data protection impact assessment",
+   "ms": "penilaian impak perlindungan data",
+   "status": "proposed",
+   "field": "data protection/policing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "retention policy",
+   "ms": "dasar penyimpanan",
+   "status": "proposed",
+   "field": "records management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "facilities management",
+   "ms": "pengurusan fasiliti",
+   "status": "proposed",
+   "field": "facilities management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "competency framework",
+   "ms": "kerangka kompetensi",
+   "status": "proposed",
+   "field": "human resources",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "adaptive learning",
+   "ms": "pembelajaran adaptif",
+   "status": "proposed",
+   "field": "education technology",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "lesson plan",
+   "ms": "rancangan pengajaran",
+   "status": "proposed",
+   "field": "education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical guideline",
+   "ms": "garis panduan klinikal",
+   "status": "proposed",
+   "field": "emergency medicine",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data confidentiality",
+   "ms": "kerahsiaan data",
+   "status": "proposed",
+   "field": "information security",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "process automation",
+   "ms": "automasi proses",
+   "status": "proposed",
+   "field": "business operations/IT",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "proactive disclosure",
+   "ms": "pendedahan proaktif",
+   "status": "proposed",
+   "field": "accounting / governance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "knowledge cutoff",
+   "ms": "knowledge cutoff",
+   "status": "proposed",
+   "field": "artificial intelligence",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "natural language processing",
+   "ms": "pemprosesan bahasa tabii",
+   "status": "proposed",
+   "field": "artificial intelligence/records management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "accessibility standards",
+   "ms": "piawaian kebolehcapaian",
+   "status": "proposed",
+   "field": "design",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "prompt engineering",
+   "ms": "kejuruteraan prompt",
+   "status": "proposed",
+   "field": "artificial intelligence",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "medical history",
+   "ms": "sejarah perubatan",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "test plan",
+   "ms": "pelan ujian",
+   "status": "proposed",
+   "field": "engineering",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "briefing paper",
+   "ms": "kertas taklimat",
+   "status": "proposed",
+   "field": "public administration / policy",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "talent acquisition",
+   "ms": "pemerolehan bakat",
+   "status": "proposed",
+   "field": "human resources",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "media monitoring",
+   "ms": "pemantauan media",
+   "status": "proposed",
+   "field": "public relations",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "algorithmic bias",
+   "ms": "bias algoritma",
+   "status": "proposed",
+   "field": "AI ethics",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "brand strategy",
+   "ms": "strategi jenama",
+   "status": "proposed",
+   "field": "marketing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "financial projection",
+   "ms": "unjuran kewangan",
+   "status": "proposed",
+   "field": "finance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "idea generation",
+   "ms": "penjanaan idea",
+   "status": "proposed",
+   "field": "creative work",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "parental consent",
+   "ms": "kebenaran ibu bapa",
+   "status": "proposed",
+   "field": "education/library services",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "copyright protection",
+   "ms": "perlindungan hak cipta",
+   "status": "proposed",
+   "field": "intellectual property/photography",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "summative assessment",
+   "ms": "pentaksiran sumatif",
+   "status": "proposed",
+   "field": "education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "continuing professional development",
+   "ms": "pembangunan profesional berterusan",
+   "status": "proposed",
+   "field": "professional development",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "onboarding",
+   "ms": "onboarding",
+   "status": "proposed",
+   "field": "human resources",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "context window",
+   "ms": "tetingkap konteks",
+   "status": "proposed",
+   "field": "artificial intelligence",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "product roadmap",
+   "ms": "pelan hala tuju produk",
+   "status": "proposed",
+   "field": "product management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "research integrity",
+   "ms": "integriti penyelidikan",
+   "status": "proposed",
+   "field": "research/science",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "scope statement",
+   "ms": "pernyataan skop",
+   "status": "proposed",
+   "field": "project management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "voice cloning",
+   "ms": "pengklonan suara",
+   "status": "proposed",
+   "field": "audio/AI technology",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "biometric data",
+   "ms": "data biometrik",
+   "status": "proposed",
+   "field": "data governance/sports science",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "payback period",
+   "ms": "tempoh bayar balik",
+   "status": "proposed",
+   "field": "finance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "leading indicator",
+   "ms": "penunjuk pendahulu",
+   "status": "proposed",
+   "field": "risk management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "continuing professional development (cpd) portfolio",
+   "ms": "portfolio pembangunan profesional berterusan (cpd)",
+   "status": "proposed",
+   "field": "healthcare/professional development",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "proprietary data",
+   "ms": "data proprietari",
+   "status": "proposed",
+   "field": "data governance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "early intervention",
+   "ms": "intervensi awal",
+   "status": "proposed",
+   "field": "education / health",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "patient consent",
+   "ms": "keizinan pesakit",
+   "status": "proposed",
+   "field": "medicine",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "disclosure obligation",
+   "ms": "kewajipan pendedahan",
+   "status": "proposed",
+   "field": "law / law enforcement",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical findings",
+   "ms": "penemuan klinikal",
+   "status": "proposed",
+   "field": "medicine",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "competency assessment",
+   "ms": "penilaian kompetensi",
+   "status": "proposed",
+   "field": "vocational education and training",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "quality management system",
+   "ms": "sistem pengurusan kualiti",
+   "status": "proposed",
+   "field": "quality assurance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "impact analysis",
+   "ms": "analisis impak",
+   "status": "proposed",
+   "field": "change management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "project lifecycle",
+   "ms": "kitar hayat projek",
+   "status": "proposed",
+   "field": "project management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "legal opinion",
+   "ms": "pendapat undang-undang",
+   "status": "proposed",
+   "field": "law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "business intelligence",
+   "ms": "business intelligence",
+   "status": "proposed",
+   "field": "business analysis",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "environmental monitoring",
+   "ms": "pemantauan alam sekitar",
+   "status": "proposed",
+   "field": "environmental science",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "electrical installation",
+   "ms": "pemasangan elektrik",
+   "status": "proposed",
+   "field": "electrical trades",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "support ticket",
+   "ms": "tiket sokongan",
+   "status": "proposed",
+   "field": "IT / product management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data ethics",
+   "ms": "etika data",
+   "status": "proposed",
+   "field": "research ethics",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "inclusion and exclusion criteria",
+   "ms": "kriteria kemasukan dan penyingkiran",
+   "status": "proposed",
+   "field": "research methodology/systematic reviews",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "personalized learning",
+   "ms": "pembelajaran diperibadikan",
+   "status": "proposed",
+   "field": "education/learning and development",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "risk modelling",
+   "ms": "pemodelan risiko",
+   "status": "proposed",
+   "field": "risk management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "billable hours",
+   "ms": "billable hours",
+   "status": "proposed",
+   "field": "legal practice",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "desk research",
+   "ms": "kajian meja",
+   "status": "proposed",
+   "field": "market research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "retrieval practice",
+   "ms": "latihan ingat kembali",
+   "status": "proposed",
+   "field": "education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "prompt library",
+   "ms": "pustaka prompt",
+   "status": "proposed",
+   "field": "artificial intelligence",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "foundation model",
+   "ms": "model asas",
+   "status": "proposed",
+   "field": "artificial intelligence",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "cloud infrastructure",
+   "ms": "infrastruktur awan",
+   "status": "proposed",
+   "field": "information technology",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical significance",
+   "ms": "kepentingan klinikal",
+   "status": "proposed",
+   "field": "healthcare / statistics",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "intelligence analysis",
+   "ms": "analisis risikan",
+   "status": "proposed",
+   "field": "policing/security",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "therapeutic relationship",
+   "ms": "hubungan terapeutik",
+   "status": "proposed",
+   "field": "healthcare/therapy",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "synthetic data",
+   "ms": "data sintetik",
+   "status": "proposed",
+   "field": "data science",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical audit",
+   "ms": "audit klinikal",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "post-incident review",
+   "ms": "semakan selepas insiden",
+   "status": "proposed",
+   "field": "operations/safety",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "brand identity",
+   "ms": "identiti jenama",
+   "status": "proposed",
+   "field": "design/marketing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "pico question",
+   "ms": "soalan pico",
+   "status": "proposed",
+   "field": "clinical research / evidence-based practice",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "brand positioning",
+   "ms": "penentududukan jenama",
+   "status": "proposed",
+   "field": "marketing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "user research",
+   "ms": "penyelidikan pengguna",
+   "status": "proposed",
+   "field": "product management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "risk stratification",
+   "ms": "stratifikasi risiko",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "credit risk",
+   "ms": "risiko kredit",
+   "status": "proposed",
+   "field": "banking",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "health literacy",
+   "ms": "literasi kesihatan",
+   "status": "proposed",
+   "field": "public health",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "missing values",
+   "ms": "nilai hilang",
+   "status": "proposed",
+   "field": "data analysis",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "market entry",
+   "ms": "kemasukan pasaran",
+   "status": "proposed",
+   "field": "trade / commerce",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "document management system",
+   "ms": "sistem pengurusan dokumen",
+   "status": "proposed",
+   "field": "records management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "marking criteria",
+   "ms": "kriteria pemarkahan",
+   "status": "proposed",
+   "field": "education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "psychological safety",
+   "ms": "keselamatan psikologi",
+   "status": "proposed",
+   "field": "organizational management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "progress monitoring",
+   "ms": "pemantauan kemajuan",
+   "status": "proposed",
+   "field": "special education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "retention period",
+   "ms": "tempoh simpanan",
+   "status": "proposed",
+   "field": "records management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "supply chain management",
+   "ms": "pengurusan rantaian bekalan",
+   "status": "proposed",
+   "field": "logistics/supply chain",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "satellite imagery",
+   "ms": "imej satelit",
+   "status": "proposed",
+   "field": "environmental science",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "consent form",
+   "ms": "borang keizinan",
+   "status": "proposed",
+   "field": "research ethics",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "risk rating",
+   "ms": "penarafan risiko",
+   "status": "proposed",
+   "field": "auditing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "investor relations",
+   "ms": "perhubungan pelabur",
+   "status": "proposed",
+   "field": "finance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "route optimisation",
+   "ms": "pengoptimuman laluan",
+   "status": "proposed",
+   "field": "logistics",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "learning pathway",
+   "ms": "laluan pembelajaran",
+   "status": "proposed",
+   "field": "learning and development",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "planned maintenance",
+   "ms": "penyenggaraan terancang",
+   "status": "proposed",
+   "field": "maintenance engineering",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "alt text",
+   "ms": "teks alternatif",
+   "status": "proposed",
+   "field": "accessibility/digital content",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "care planning",
+   "ms": "perancangan penjagaan",
+   "status": "proposed",
+   "field": "nursing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "escalation protocol",
+   "ms": "protokol eskalasi",
+   "status": "proposed",
+   "field": "crisis management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "service desk",
+   "ms": "meja perkhidmatan",
+   "status": "proposed",
+   "field": "IT service management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "academic register",
+   "ms": "laras akademik",
+   "status": "proposed",
+   "field": "academic writing / linguistics",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "passive construction",
+   "ms": "binaan pasif",
+   "status": "proposed",
+   "field": "linguistics / discourse analysis",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "complaint resolution",
+   "ms": "penyelesaian aduan",
+   "status": "proposed",
+   "field": "customer service",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "cognitive demand",
+   "ms": "tuntutan kognitif",
+   "status": "proposed",
+   "field": "education/instructional design",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "risk communication",
+   "ms": "komunikasi risiko",
+   "status": "proposed",
+   "field": "risk management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "visual identity",
+   "ms": "identiti visual",
+   "status": "proposed",
+   "field": "design",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "board minutes",
+   "ms": "minit mesyuarat lembaga",
+   "status": "proposed",
+   "field": "records management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "intelligence product",
+   "ms": "produk risikan",
+   "status": "proposed",
+   "field": "law enforcement",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "environmental compliance",
+   "ms": "pematuhan alam sekitar",
+   "status": "proposed",
+   "field": "utilities/environment",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "incident investigation",
+   "ms": "penyiasatan insiden",
+   "status": "proposed",
+   "field": "oil and gas/safety",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "incident management",
+   "ms": "pengurusan insiden",
+   "status": "proposed",
+   "field": "IT service management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "theoretical framework",
+   "ms": "kerangka teori",
+   "status": "proposed",
+   "field": "research methodology",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "background removal",
+   "ms": "pembuangan latar belakang",
+   "status": "proposed",
+   "field": "photography",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "selection bias",
+   "ms": "bias pemilihan",
+   "status": "proposed",
+   "field": "statistics/research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical outcome",
+   "ms": "hasil klinikal",
+   "status": "proposed",
+   "field": "medicine",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "change log",
+   "ms": "log perubahan",
+   "status": "proposed",
+   "field": "software/documentation",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "climate change",
+   "ms": "perubahan iklim",
+   "status": "proposed",
+   "field": "environment/planning",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "unit test",
+   "ms": "ujian unit",
+   "status": "proposed",
+   "field": "software engineering",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "credit scoring",
+   "ms": "penskoran kredit",
+   "status": "proposed",
+   "field": "finance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "identity verification",
+   "ms": "pengesahan identiti",
+   "status": "proposed",
+   "field": "security/customer service",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "manual handling",
+   "ms": "pengendalian manual",
+   "status": "proposed",
+   "field": "occupational safety",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "audit risk",
+   "ms": "risiko audit",
+   "status": "proposed",
+   "field": "auditing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "tender document",
+   "ms": "dokumen tender",
+   "status": "proposed",
+   "field": "procurement",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "employment contract",
+   "ms": "kontrak pekerjaan",
+   "status": "proposed",
+   "field": "employment law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "statutory guidance",
+   "ms": "garis panduan statutori",
+   "status": "proposed",
+   "field": "law / social work",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "thematic coding",
+   "ms": "pengekodan tematik",
+   "status": "proposed",
+   "field": "qualitative research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "formative feedback",
+   "ms": "maklum balas formatif",
+   "status": "proposed",
+   "field": "education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "sprint review",
+   "ms": "semakan sprint",
+   "status": "proposed",
+   "field": "agile software development",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "environmental impact assessment",
+   "ms": "penilaian kesan alam sekitar",
+   "status": "proposed",
+   "field": "environmental planning",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "community health worker",
+   "ms": "pekerja kesihatan komuniti",
+   "status": "proposed",
+   "field": "public health",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "confidence score",
+   "ms": "skor keyakinan",
+   "status": "proposed",
+   "field": "artificial intelligence / records",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "safety management",
+   "ms": "pengurusan keselamatan",
+   "status": "proposed",
+   "field": "occupational safety",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "external auditor",
+   "ms": "juruaudit luar",
+   "status": "proposed",
+   "field": "auditing / finance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical examination",
+   "ms": "pemeriksaan klinikal",
+   "status": "proposed",
+   "field": "medicine",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "ethics committee",
+   "ms": "jawatankuasa etika",
+   "status": "proposed",
+   "field": "research ethics",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "narrative synthesis",
+   "ms": "sintesis naratif",
+   "status": "proposed",
+   "field": "systematic literature reviews",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "fire safety",
+   "ms": "keselamatan kebakaran",
+   "status": "proposed",
+   "field": "fire and rescue",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "discharge planning",
+   "ms": "perancangan discaj",
+   "status": "proposed",
+   "field": "nursing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "adverse event",
+   "ms": "kejadian advers",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "mood board",
+   "ms": "mood board",
+   "status": "proposed",
+   "field": "design",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "regulatory intelligence",
+   "ms": "risikan regulatori",
+   "status": "proposed",
+   "field": "regulatory affairs",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "image generator",
+   "ms": "penjana imej",
+   "status": "proposed",
+   "field": "artificial intelligence",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "problem framing",
+   "ms": "pembingkaian masalah",
+   "status": "proposed",
+   "field": "product management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "happy path",
+   "ms": "happy path",
+   "status": "proposed",
+   "field": "software testing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "stakeholder analysis",
+   "ms": "analisis pihak berkepentingan",
+   "status": "proposed",
+   "field": "policy research/management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "dynamic pricing",
+   "ms": "penetapan harga dinamik",
+   "status": "proposed",
+   "field": "retail",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "press statement",
+   "ms": "kenyataan akhbar",
+   "status": "proposed",
+   "field": "public relations/crisis communication",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "monitoring and evaluation",
+   "ms": "pemantauan dan penilaian",
+   "status": "proposed",
+   "field": "public policy/development",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "summary statistics",
+   "ms": "statistik ringkasan",
+   "status": "proposed",
+   "field": "statistics",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "signal detection",
+   "ms": "pengesanan isyarat",
+   "status": "proposed",
+   "field": "pharmacovigilance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "false positive rate",
+   "ms": "kadar positif palsu",
+   "status": "proposed",
+   "field": "statistics/diagnostics",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "vital signs",
+   "ms": "tanda vital",
+   "status": "proposed",
+   "field": "medicine",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data provenance",
+   "ms": "provenans data",
+   "status": "proposed",
+   "field": "data governance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data literacy",
+   "ms": "literasi data",
+   "status": "proposed",
+   "field": "education/data",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "witness statement",
+   "ms": "pernyataan saksi",
+   "status": "proposed",
+   "field": "law/emergency services",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "body copy",
+   "ms": "body copy",
+   "status": "proposed",
+   "field": "advertising",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "ground conditions",
+   "ms": "keadaan tanah",
+   "status": "proposed",
+   "field": "geotechnical engineering",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "supply chain risk",
+   "ms": "risiko rantaian bekalan",
+   "status": "proposed",
+   "field": "supply chain management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "public procurement",
+   "ms": "perolehan kerajaan",
+   "status": "proposed",
+   "field": "procurement",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "release notes",
+   "ms": "nota keluaran",
+   "status": "proposed",
+   "field": "software development",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "discharge letter",
+   "ms": "surat discaj",
+   "status": "proposed",
+   "field": "midwifery / clinical care",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "service user",
+   "ms": "pengguna perkhidmatan",
+   "status": "proposed",
+   "field": "social care / grant writing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "reference letter",
+   "ms": "surat sokongan",
+   "status": "proposed",
+   "field": "higher education / HR",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "test suite",
+   "ms": "set ujian",
+   "status": "proposed",
+   "field": "software engineering",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "controlled vocabulary",
+   "ms": "kosa kata terkawal",
+   "status": "proposed",
+   "field": "library and information science",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "quantitative research",
+   "ms": "penyelidikan kuantitatif",
+   "status": "proposed",
+   "field": "research methods",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "abstract screening",
+   "ms": "saringan abstrak",
+   "status": "proposed",
+   "field": "systematic literature reviews",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "user story",
+   "ms": "user story",
+   "status": "proposed",
+   "field": "agile software development",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "special education",
+   "ms": "pendidikan khas",
+   "status": "proposed",
+   "field": "education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "exception report",
+   "ms": "laporan pengecualian",
+   "status": "proposed",
+   "field": "supply chain management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "boolean search",
+   "ms": "carian boolean",
+   "status": "proposed",
+   "field": "recruitment/information retrieval",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "finding aid",
+   "ms": "alat bantu carian",
+   "status": "proposed",
+   "field": "archives",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "product management",
+   "ms": "pengurusan produk",
+   "status": "proposed",
+   "field": "technology/business",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "thematic synthesis",
+   "ms": "sintesis tematik",
+   "status": "proposed",
+   "field": "research methods",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "critical infrastructure",
+   "ms": "infrastruktur kritikal",
+   "status": "proposed",
+   "field": "homeland security",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "inter-rater reliability",
+   "ms": "kebolehpercayaan antara penilai",
+   "status": "proposed",
+   "field": "assessment/research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "acceptance criterion",
+   "ms": "kriteria penerimaan",
+   "status": "proposed",
+   "field": "software QA",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "test coverage",
+   "ms": "liputan ujian",
+   "status": "proposed",
+   "field": "software QA",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "objection handling",
+   "ms": "pengendalian bantahan",
+   "status": "proposed",
+   "field": "sales",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "clinical supervision",
+   "ms": "penyeliaan klinikal",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "customer acquisition",
+   "ms": "pemerolehan pelanggan",
+   "status": "proposed",
+   "field": "marketing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "line chart",
+   "ms": "carta garis",
+   "status": "proposed",
+   "field": "data visualisation",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "heart rate",
+   "ms": "kadar denyutan jantung",
+   "status": "proposed",
+   "field": "sports science",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "developmental stage",
+   "ms": "peringkat perkembangan",
+   "status": "proposed",
+   "field": "early childhood education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "workforce management",
+   "ms": "pengurusan tenaga kerja",
+   "status": "proposed",
+   "field": "operations",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "sustainability report",
+   "ms": "laporan kemampanan",
+   "status": "proposed",
+   "field": "ESG reporting",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "digital preservation",
+   "ms": "pemeliharaan digital",
+   "status": "proposed",
+   "field": "archives / library science",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "quality inspection",
+   "ms": "pemeriksaan kualiti",
+   "status": "proposed",
+   "field": "engineering",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "change request",
+   "ms": "permintaan perubahan",
+   "status": "proposed",
+   "field": "project management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "quality appraisal",
+   "ms": "penilaian kualiti",
+   "status": "proposed",
+   "field": "systematic literature reviews",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "safety stock",
+   "ms": "stok keselamatan",
+   "status": "proposed",
+   "field": "supply chain/inventory management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "soap note",
+   "ms": "nota soap",
+   "status": "proposed",
+   "field": "veterinary/clinical documentation",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "intelligence cycle",
+   "ms": "kitaran perisikan",
+   "status": "proposed",
+   "field": "intelligence analysis",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "facilitator guide",
+   "ms": "panduan fasilitator",
+   "status": "proposed",
+   "field": "learning and development",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "placement agreement",
+   "ms": "perjanjian penempatan",
+   "status": "proposed",
+   "field": "industry placement coordination",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "semantic search",
+   "ms": "carian semantik",
+   "status": "proposed",
+   "field": "information management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "colour grading",
+   "ms": "penggredan warna",
+   "status": "proposed",
+   "field": "photography/film",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "sensitivity and specificity",
+   "ms": "sensitiviti dan spesifisiti",
+   "status": "proposed",
+   "field": "medicine/diagnostics",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "risk matrix",
+   "ms": "matriks risiko",
+   "status": "proposed",
+   "field": "risk management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "mark scheme",
+   "ms": "skema pemarkahan",
+   "status": "proposed",
+   "field": "education/assessment",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "source protection",
+   "ms": "perlindungan sumber",
+   "status": "proposed",
+   "field": "journalism",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "employer brand",
+   "ms": "jenama majikan",
+   "status": "proposed",
+   "field": "human resources",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "sales cycle",
+   "ms": "kitaran jualan",
+   "status": "proposed",
+   "field": "sales",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "stock photography",
+   "ms": "fotografi stok",
+   "status": "proposed",
+   "field": "photography",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "peer support",
+   "ms": "sokongan rakan sebaya",
+   "status": "proposed",
+   "field": "healthcare/mental health",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "remote monitoring",
+   "ms": "pemantauan jarak jauh",
+   "status": "proposed",
+   "field": "healthcare",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "esg disclosure",
+   "ms": "pendedahan esg",
+   "status": "proposed",
+   "field": "ESG/sustainability reporting",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "framework agreement",
+   "ms": "perjanjian kerangka",
+   "status": "proposed",
+   "field": "procurement / contract law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "confidential source",
+   "ms": "sumber rahsia",
+   "status": "proposed",
+   "field": "journalism",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "horizon scanning",
+   "ms": "pengimbasan horizon",
+   "status": "proposed",
+   "field": "risk management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "authority file",
+   "ms": "fail autoriti",
+   "status": "proposed",
+   "field": "cataloguing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "primary outcome",
+   "ms": "hasil utama",
+   "status": "proposed",
+   "field": "clinical research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "performance marketing",
+   "ms": "pemasaran berasaskan prestasi",
+   "status": "proposed",
+   "field": "marketing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "spatial analysis",
+   "ms": "analisis reruang",
+   "status": "proposed",
+   "field": "urban planning / GIS",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "esg data",
+   "ms": "data esg",
+   "status": "proposed",
+   "field": "sustainability reporting",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "information literacy",
+   "ms": "literasi maklumat",
+   "status": "proposed",
+   "field": "library science",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "retention schedule",
+   "ms": "jadual pengekalan rekod",
+   "status": "proposed",
+   "field": "records management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "threat intelligence",
+   "ms": "risikan ancaman",
+   "status": "proposed",
+   "field": "cybersecurity",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "system prompt",
+   "ms": "prompt sistem",
+   "status": "proposed",
+   "field": "artificial intelligence",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "synthetic media",
+   "ms": "media sintetik",
+   "status": "proposed",
+   "field": "security/media",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "people analytics",
+   "ms": "analitik sumber manusia",
+   "status": "proposed",
+   "field": "human resources",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "red team",
+   "ms": "pasukan merah",
+   "status": "proposed",
+   "field": "security/proposal review",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "synthesis matrix",
+   "ms": "matriks sintesis",
+   "status": "proposed",
+   "field": "policy research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "medical imaging",
+   "ms": "pengimejan perubatan",
+   "status": "proposed",
+   "field": "healthcare/radiography",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "medication review",
+   "ms": "semakan ubat-ubatan",
+   "status": "proposed",
+   "field": "pharmacy",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "situation report",
+   "ms": "laporan situasi",
+   "status": "proposed",
+   "field": "emergency management/public health",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "prompt injection",
+   "ms": "suntikan prompt",
+   "status": "proposed",
+   "field": "cybersecurity",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "sound design",
+   "ms": "reka bentuk bunyi",
+   "status": "proposed",
+   "field": "music / media production",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "cultural intelligence",
+   "ms": "kecerdasan budaya",
+   "status": "proposed",
+   "field": "cross-cultural communication",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "materials science",
+   "ms": "sains bahan",
+   "status": "proposed",
+   "field": "engineering",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "governing law",
+   "ms": "undang-undang yang mentadbir",
+   "status": "proposed",
+   "field": "law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "external counsel",
+   "ms": "peguam luar",
+   "status": "proposed",
+   "field": "legal practice",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "fiduciary duty",
+   "ms": "kewajipan fidusiari",
+   "status": "proposed",
+   "field": "financial advisory",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "discrimination law",
+   "ms": "undang-undang diskriminasi",
+   "status": "proposed",
+   "field": "insurance / law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "net zero",
+   "ms": "sifar bersih",
+   "status": "proposed",
+   "field": "sustainability",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "analytical review",
+   "ms": "semakan analitik",
+   "status": "proposed",
+   "field": "audit",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "demand sensing",
+   "ms": "penderiaan permintaan",
+   "status": "proposed",
+   "field": "supply chain",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "churn prediction",
+   "ms": "ramalan kehilangan pelanggan",
+   "status": "proposed",
+   "field": "data science",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "exploratory data analysis",
+   "ms": "analisis data penerokaan",
+   "status": "proposed",
+   "field": "data analysis",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "automation bias",
+   "ms": "bias automasi",
+   "status": "proposed",
+   "field": "human factors / AI",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "medication management",
+   "ms": "pengurusan ubat-ubatan",
+   "status": "proposed",
+   "field": "nursing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "base rate",
+   "ms": "kadar asas",
+   "status": "proposed",
+   "field": "risk management / statistics",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "personal branding",
+   "ms": "penjenamaan peribadi",
+   "status": "proposed",
+   "field": "careers",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "personal brand",
+   "ms": "jenama peribadi",
+   "status": "proposed",
+   "field": "career development / marketing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "local plan",
+   "ms": "rancangan tempatan",
+   "status": "proposed",
+   "field": "urban/transport planning",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "authority control",
+   "ms": "kawalan autoriti",
+   "status": "proposed",
+   "field": "library cataloguing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "digital inclusion",
+   "ms": "keterangkuman digital",
+   "status": "proposed",
+   "field": "library/ICT policy",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "brand safety",
+   "ms": "keselamatan jenama",
+   "status": "proposed",
+   "field": "marketing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "competency unit",
+   "ms": "unit kompetensi",
+   "status": "proposed",
+   "field": "TVET/education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "collection development",
+   "ms": "pembangunan koleksi",
+   "status": "proposed",
+   "field": "librarianship",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "process simulation",
+   "ms": "simulasi proses",
+   "status": "proposed",
+   "field": "chemical engineering",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "equality impact assessment",
+   "ms": "penilaian impak kesaksamaan",
+   "status": "proposed",
+   "field": "public administration",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "permanent secretary",
+   "ms": "setiausaha tetap",
+   "status": "proposed",
+   "field": "public administration",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "local planning authority",
+   "ms": "pihak berkuasa perancang tempatan",
+   "status": "proposed",
+   "field": "urban planning",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "spatial data",
+   "ms": "data reruang",
+   "status": "proposed",
+   "field": "transportation planning",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "journal entry",
+   "ms": "catatan jurnal",
+   "status": "proposed",
+   "field": "accounting / audit",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "financial literacy",
+   "ms": "literasi kewangan",
+   "status": "proposed",
+   "field": "finance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "credit committee",
+   "ms": "jawatankuasa kredit",
+   "status": "proposed",
+   "field": "banking",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "sanctions screening",
+   "ms": "saringan sekatan",
+   "status": "proposed",
+   "field": "supply chain / compliance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "test set",
+   "ms": "set ujian",
+   "status": "proposed",
+   "field": "machine learning",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "physical security",
+   "ms": "keselamatan fizikal",
+   "status": "proposed",
+   "field": "security",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "pivot table",
+   "ms": "jadual pangsi",
+   "status": "proposed",
+   "field": "spreadsheets",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "journal club",
+   "ms": "kelab jurnal",
+   "status": "proposed",
+   "field": "medical education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "population health",
+   "ms": "kesihatan populasi",
+   "status": "proposed",
+   "field": "public health",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "intervention plan",
+   "ms": "pelan intervensi",
+   "status": "proposed",
+   "field": "occupational therapy",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "backward design",
+   "ms": "reka bentuk berundur",
+   "status": "proposed",
+   "field": "instructional design",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "scoring rubric",
+   "ms": "rubrik pemarkahan",
+   "status": "proposed",
+   "field": "assessment design",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "social story",
+   "ms": "cerita sosial",
+   "status": "proposed",
+   "field": "special education / primary teaching",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "digital footprint",
+   "ms": "jejak digital",
+   "status": "proposed",
+   "field": "personal branding / digital literacy",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "investigative journalism",
+   "ms": "kewartawanan penyiasatan",
+   "status": "proposed",
+   "field": "journalism",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "final account",
+   "ms": "akaun muktamad",
+   "status": "proposed",
+   "field": "quantity surveying",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "rehabilitation nursing",
+   "ms": "kejururawatan pemulihan",
+   "status": "proposed",
+   "field": "nursing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "transport planning",
+   "ms": "perancangan pengangkutan",
+   "status": "proposed",
+   "field": "urban/transport planning",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "materiality assessment",
+   "ms": "penilaian materialiti",
+   "status": "proposed",
+   "field": "ESG/sustainability reporting",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "outside counsel",
+   "ms": "peguam luar",
+   "status": "proposed",
+   "field": "law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "patron privacy",
+   "ms": "privasi pengguna perpustakaan",
+   "status": "proposed",
+   "field": "library science",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "bilateral relationship",
+   "ms": "hubungan dua hala",
+   "status": "proposed",
+   "field": "diplomacy",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "trade compliance",
+   "ms": "pematuhan perdagangan",
+   "status": "proposed",
+   "field": "supply chain/customs",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "digital evidence",
+   "ms": "bukti digital",
+   "status": "proposed",
+   "field": "law enforcement",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "descriptive cataloguing",
+   "ms": "pengkatalogan deskriptif",
+   "status": "proposed",
+   "field": "library cataloguing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "linked data",
+   "ms": "data terpaut",
+   "status": "proposed",
+   "field": "library cataloguing",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "secondary research",
+   "ms": "penyelidikan sekunder",
+   "status": "proposed",
+   "field": "market research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "process safety",
+   "ms": "keselamatan proses",
+   "status": "proposed",
+   "field": "chemical engineering",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "topology optimization",
+   "ms": "pengoptimuman topologi",
+   "status": "proposed",
+   "field": "mechanical engineering",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "reliability analysis",
+   "ms": "analisis kebolehpercayaan",
+   "status": "proposed",
+   "field": "industrial maintenance",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "hazard register",
+   "ms": "daftar hazard",
+   "status": "proposed",
+   "field": "occupational safety",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "incident commander",
+   "ms": "komander insiden",
+   "status": "proposed",
+   "field": "fire and rescue",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "settlement agreement",
+   "ms": "perjanjian penyelesaian",
+   "status": "proposed",
+   "field": "contract law",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "defined terms",
+   "ms": "terma tertakrif",
+   "status": "proposed",
+   "field": "contract drafting",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "grid connection",
+   "ms": "sambungan grid",
+   "status": "proposed",
+   "field": "renewable energy",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "accounts payable",
+   "ms": "akaun belum bayar",
+   "status": "proposed",
+   "field": "accounting / audit",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "transaction monitoring",
+   "ms": "pemantauan transaksi",
+   "status": "proposed",
+   "field": "banking / AML",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "inside information",
+   "ms": "maklumat dalaman",
+   "status": "proposed",
+   "field": "energy trading / market conduct",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "energy trading",
+   "ms": "perdagangan tenaga",
+   "status": "proposed",
+   "field": "energy",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "commercial invoice",
+   "ms": "invois komersial",
+   "status": "proposed",
+   "field": "logistics / trade",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "revenue management",
+   "ms": "pengurusan hasil",
+   "status": "proposed",
+   "field": "hospitality",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "flash sale",
+   "ms": "jualan kilat",
+   "status": "proposed",
+   "field": "e-commerce",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "lead scoring",
+   "ms": "lead scoring",
+   "status": "proposed",
+   "field": "sales",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "key account",
+   "ms": "akaun utama",
+   "status": "proposed",
+   "field": "account management",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "stack trace",
+   "ms": "stack trace",
+   "status": "proposed",
+   "field": "software engineering",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "commit message",
+   "ms": "commit message",
+   "status": "proposed",
+   "field": "software engineering",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "power analysis",
+   "ms": "analisis kuasa",
+   "status": "proposed",
+   "field": "statistics / experimental design",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "ethnographic fieldwork",
+   "ms": "kerja lapangan etnografi",
+   "status": "proposed",
+   "field": "ethnography",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "open coding",
+   "ms": "pengekodan terbuka",
+   "status": "proposed",
+   "field": "qualitative research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "analytic memo",
+   "ms": "memo analitik",
+   "status": "proposed",
+   "field": "qualitative research",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "discharge instructions",
+   "ms": "arahan discaj",
+   "status": "proposed",
+   "field": "veterinary / clinical care",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "safety plan",
+   "ms": "pelan keselamatan",
+   "status": "proposed",
+   "field": "mental health",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "behaviour support",
+   "ms": "sokongan tingkah laku",
+   "status": "proposed",
+   "field": "special education",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "spaced practice",
+   "ms": "latihan berjarak",
+   "status": "proposed",
+   "field": "instructional design",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "branching scenario",
+   "ms": "senario bercabang",
+   "status": "proposed",
+   "field": "e-learning design",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "asynchronous communication",
+   "ms": "komunikasi tak segerak",
+   "status": "proposed",
+   "field": "remote work",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "backlog refinement",
+   "ms": "backlog refinement",
+   "status": "proposed",
+   "field": "agile",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "media relations",
+   "ms": "perhubungan media",
+   "status": "proposed",
+   "field": "crisis communication / PR",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "virtual staging",
+   "ms": "virtual staging",
+   "status": "proposed",
+   "field": "real estate",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "contract administration",
+   "ms": "pentadbiran kontrak",
+   "status": "proposed",
+   "field": "quantity surveying / construction",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
+  },
+  {
+   "en": "data room",
+   "ms": "data room",
+   "status": "proposed",
+   "field": "finance / due diligence",
+   "evidence": "house rendering; verified 2-lens, no official istilah",
+   "domain": "catalogue-wide",
+   "books": []
   }
  ]
 }

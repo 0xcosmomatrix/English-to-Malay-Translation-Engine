@@ -396,6 +396,9 @@ def glossary_notes(chunk):
             g = _GLOSS_MAP[en]
             if g["status"] == "istilah-decided":
                 notes.append(f'(block {j+1}) "{g["en"]}" -> use the official istilah "{g["ms"]}" ({g["field"][:30]})')
+            elif g["status"] == "proposed":
+                notes.append(f'(block {j+1}) "{g["en"]}" -> use "{g["ms"]}" (house rendering; no official istilah). '
+                             f'Keep it consistent.')
             else:
                 notes.append(f'(block {j+1}) "{g["en"]}": no exact istilah — adjacent: "{g["ms"]}". '
                              f'Choose a natural Malaysian rendering and keep it CONSISTENT across the book.')

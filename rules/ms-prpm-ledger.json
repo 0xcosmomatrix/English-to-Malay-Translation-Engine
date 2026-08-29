@@ -8980,5 +8980,1163 @@
   "evidence": "istilah: condition monitoring / condition-based maintenance | Kejuruteraan; Aeroangkasa",
   "date": "2026-08-29",
   "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "barang-barang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'consumables'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kad": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'job card'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "mod": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'failure mode'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "dan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'failure mode'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pam": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'heat pump'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sektor": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'public sector'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "awam": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'public sector'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pengurusan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'project management'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "projek": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'project management'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "perubahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'change management'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pengumpulan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'data collection'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kesihatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'mental health'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "mental": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'mental health'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "keputusan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'decision support'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kerahsiaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'data privacy'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "masukan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'data entry'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "buatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'artificial intelligence'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "risikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'competitive intelligence'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "saingan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'competitive intelligence'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "tahunan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'annual report'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "peruntukan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'resource allocation'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sumber": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'resource allocation'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "hak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'intellectual property'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "milik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'intellectual property'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "autoriti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'local authority'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "tempatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'local authority'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "amaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'early warning'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "awal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'early warning'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "maklum": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'feedback loop'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "balas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'feedback loop'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penyerahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'service delivery'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kewangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'financial analysis'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "saiz": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'sample size'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pemegang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'stakeholder management'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "saham": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'stakeholder management'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pembangunan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'career development'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kerjaya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'career development'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kerajaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'local government'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "palsu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'false positive'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pembaikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'process improvement'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "klinikal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'clinical assessment'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penerimaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'acceptance criteria'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "jawatankuasa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'steering committee'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pandu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'steering committee'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kuantitatif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'quantitative analysis'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "alir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'cash flow'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "tunai": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'cash flow'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "capaian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'access control'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penghijrahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'data migration'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "aktif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'active voice'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "maklumat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'management information'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "dalaman": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'internal audit'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pekerjaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'occupational health'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penukaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'conversion rate'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "mesej": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'error message'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "palet": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'color palette'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "warna": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'color palette'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "singkir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'exclusion criteria'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "model": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'data model'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kod": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'source code'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "tekanan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'blood pressure'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "darah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'blood pressure'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "bahagian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'market share'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "triaj": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'triage'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kejuruteraan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'civil engineering'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "interaksi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'drug interaction'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ubat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'drug interaction'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kepentingan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'public interest'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "reka": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'curriculum design'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "bentuk": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'curriculum design'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "spesifikasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'product specification'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "keluaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'product specification'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "asasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'human rights'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "manusia": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'human rights'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penduduk": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'target population'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sasaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'target population'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kertas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'working paper'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "negeri": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'foreign service'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ketakmampuan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'cognitive impairment'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kognitif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'cognitive impairment'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kira-kira": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'balance sheet'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "badan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'governing body'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pentadbiran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'governing body'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pemeriksaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'site inspection'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "tapak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'site inspection'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "taksir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'site assessment'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sosial": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'social engineering'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ramalan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'demand forecast'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "permintaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'demand forecast'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "uji": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'controlled trial'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kaji": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'controlled trial'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "terkawal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'controlled trial'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "modal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'working capital'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "terapi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'occupational therapy'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ruangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'confined space'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "psikologi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'educational psychology'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kamus": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'data dictionary'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kerugian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'loss prevention'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "isyarat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'signal processing'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "merbahaya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'hazardous materials'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kebebasan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'freedom of information'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "x-ray": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'chest x-ray'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "dada": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'chest x-ray'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "hal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'public affairs'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "perkembangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'character development'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "watak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'character development'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "suntingan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'rough cut'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kasar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'rough cut'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penderiaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'remote sensing'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "jauh": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'remote sensing'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "relatif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'relative risk'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "retinopati": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'diabetic retinopathy'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "diabetes": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'diabetic retinopathy'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "utama": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'primary source'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pohon": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'decision tree'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "asas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'legal basis'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "undang-undang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'legal basis'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kepuasan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'customer satisfaction'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pelanggan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'customer satisfaction'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "makanan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'food safety'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "inventori": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'inventory management'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "persidangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'video conferencing'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "video": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'video conferencing'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "teks": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'source text'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kesan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'side effect'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sampingan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'side effect'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penyelesaian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'dispute resolution'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pertikaian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'dispute resolution'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kelompok": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'batch processing'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "seni": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'system architecture'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "bina": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'system architecture'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "boleh": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'acceptable use policy'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "terima": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'acceptable use policy'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "tempoh": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'lead time'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pendahuluan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'lead time'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "keertian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'statistical significance'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "statistik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'statistical significance'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kritikal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'critical path'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kecemasan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'emergency response'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "masyarakat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'civil society'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "sivil": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'civil society'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "nilai": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'value for money'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "untuk": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'value for money'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "wang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'value for money'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "negara": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'national security'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kandungan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'content analysis'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "riwayat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'case history'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kes": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'case history'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "aneka": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'multiple choice'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pilihan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'multiple choice'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "skim": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'classification scheme'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "klasifikasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'classification scheme'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penemuan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'drug discovery'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "selang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'confidence interval'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "keyakinan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'confidence interval'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "keadilan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'criminal justice'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "jenayah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'criminal justice'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "rajah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'flow diagram'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pengecaman": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'facial recognition'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "wajah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'facial recognition'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "persekitaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'environmental health'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penyakit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'chronic disease'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kronik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'chronic disease'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pengurangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'noise reduction'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "hingar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'noise reduction'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "bahaya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'hazard analysis'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "peta": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'process map'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "carta": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'bar chart'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "palang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'bar chart'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "perjanjian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'trade agreement'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kawasan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'conservation area'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pemuliharaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'conservation area'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kos": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'cost-benefit analysis'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "untung": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'gross profit'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "rugi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'profit and loss'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "fungsi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'renal function'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "ginjal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'renal function'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "kendalian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'operating profit'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "nol": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'null hypothesis'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "perasian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'colour correction'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penyelidikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'market research'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "siaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'press release'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "akhbar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'press release'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pengarah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'managing director'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "urusan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'managing director'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "klinik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'private practice'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "swasta": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'private practice'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "penterjemahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'machine translation'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "mesin": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'machine translation'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "surat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'covering letter'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "iringan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'covering letter'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "pasukan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'fire service'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
+ },
+ "bomba": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah-vouched: appears in PRPM rendering of 'fire service'",
+  "date": "2026-08-29",
+  "source": "prpm.dbp.gov.my/Cari1"
  }
 }

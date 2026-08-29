@@ -945,6 +945,125 @@
    "status": "UNRESOLVED",
    "why": "multi-book TVET term (3 books); 'safeguard | skirt lindung; kawal selamat' only; child-protection sense absent",
    "source": "tvet-wave-istilah-2026-08-29"
+  },
+  {
+   "en": "primary source",
+   "current": "sumber utama",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "PRPM offers 'sumber utama' vs 'sumber asas' (Sosiologi); picked 'sumber utama' as the common research rendering, but reviewer may prefer 'sumber primer' for symmetry with the decided 'sumber sekunder'.",
+   "status": "open"
+  },
+  {
+   "en": "impact assessment",
+   "current": "penilaian impak",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "PRPM Malaysia column splits 'penilaian kesan' (Sains Politik) vs 'penilaian impak' (Perubatan/Pertanian); chose 'impak' as the current Malaysian policy register (penilaian impak sosial/alam sekitar), but the Sains Politik row uses 'kesan'.",
+   "status": "open"
+  },
+  {
+   "en": "job description",
+   "current": "deskripsi kerja",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "Three PRPM variants; picked the Pentadbiran Perniagaan match, but JPA/public-sector materials use 'deskripsi tugas' and corporate HR often uses 'huraian kerja/tugas'.",
+   "status": "open"
+  },
+  {
+   "en": "quality management",
+   "current": "pengurusan mutu",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "Chose 'mutu' for family consistency with decided 'jaminan mutu'/'kawalan mutu' and MABBIM 'sistem pengurusan mutu', but Malaysian ISO/SIRIM register widely uses 'pengurusan kualiti' (Sistem Pengurusan Kualiti).",
+   "status": "open"
+  },
+  {
+   "en": "service level",
+   "current": "aras perkhidmatan",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "PRPM SLA row gives 'aras khidmat'; expanded to 'aras perkhidmatan' per Malaysian government usage (Perjanjian Aras Perkhidmatan), though some registers use 'tahap perkhidmatan'.",
+   "status": "open"
+  },
+  {
+   "en": "lead time",
+   "current": "tempoh pendahuluan",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "Only concrete PRPM Malaysia rendering comes from Perubatan; the Pentadbiran Perniagaan row is empty (Tiada). Supply-chain register should be ratified by a native reviewer (forms like 'masa pendahuluan' also circulate).",
+   "status": "open"
+  },
+  {
+   "en": "critical path",
+   "current": "laluan kritikal",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "PRPM fields conflict: Kejuruteraan prefers 'laluan genting', Teknologi Maklumat 'laluan kritikal'. Catalogue use is project management, where 'laluan kritikal' dominates, but both are attested.",
+   "status": "open"
+  },
+  {
+   "en": "emergency response",
+   "current": "respons kecemasan",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "Extracted from the CERT row (pasukan respons kecemasan). Malaysian OSH/public-safety prose also commonly uses 'tindak balas kecemasan'; reviewer should ratify for the safety register.",
+   "status": "open"
+  },
+  {
+   "en": "civil society",
+   "current": "masyarakat sivil",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "'masyarakat madani' (Sosiologi) is equally attested but now carries Malaysia MADANI government-branding connotations; 'masyarakat sivil' is the neutral policy/policing term. Native ratification advisable.",
+   "status": "open"
+  },
+  {
+   "en": "case history",
+   "current": "riwayat kes",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "PRPM rows conflict: Perubatan gives 'kisah kes', Veterinar gives 'riwayat kes'. 'riwayat kes' is the customary clinical form in Malaysian healthcare prose, but the field mismatch warrants native ratification.",
+   "status": "open"
+  },
+  {
+   "en": "drug discovery",
+   "current": "penemuan ubat",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "PRPM variant 'penemuan obat' is the Indonesian form ('obat' is blocklisted); adapted to Malaysian 'ubat' per the auto-decided 'drug interaction = interaksi ubat'. Reviewer should confirm vs. borrowed 'drug' usage in Farmasi.",
+   "status": "open"
+  },
+  {
+   "en": "confidence interval",
+   "current": "selang keyakinan",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "'interval keyakinan' (Perubatan) is equally attested as a Malaysian form; 'selang keyakinan' is the standard statistics/business-textbook term. Both common — native reviewer should ratify.",
+   "status": "open"
+  },
+  {
+   "en": "environmental assessment",
+   "current": "penilaian alam sekitar",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "PRPM rows only cover 'environmental impact assessment' and split three ways (penilaian kesan alam sekitar / penaksiran impak alam sekitar / penilaian impak persekitaran); generic pick drops 'impak' and follows DOE-style usage — reviewer should ratify head noun and modifier.",
+   "status": "open"
+  },
+  {
+   "en": "renal function",
+   "current": "fungsi ginjal",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "PRPM lists both fungsi renal and fungsi ginjal; ginjal chosen for general readability, but the catalogue's medical-imaging books may warrant the clinical register 'fungsi renal' — native reviewer should ratify.",
+   "status": "open"
+  },
+  {
+   "en": "base case",
+   "current": "kes asas",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "PRPM's only near-match was 'case-base study' (kes-kajian asas), a different concept; 'kes asas' is a compositional rendering common in Malaysian financial modelling prose but not PRPM-attested for this sense.",
+   "status": "open"
+  },
+  {
+   "en": "null hypothesis",
+   "current": "hipotesis nol",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "PRPM splits evenly between hipotesis nol (Biologi/Matematik) and hipotesis nul (Matematik/Perubatan); both circulate in Malaysian statistics teaching, and 'nol' coincides with the Indonesian form — reviewer should ratify.",
+   "status": "open"
+  },
+  {
+   "en": "colour correction",
+   "current": "perasian warna",
+   "batch": "catalogue-wave-2026-08-29",
+   "question": "PRPM Komunikasi Massa sanctions 'perasian warna' (2 rows) over 'koreksi warna' (koreksi reads Indonesian), but perasian is opaque to lay readers; reviewer may prefer the common 'pembetulan warna' for a training catalogue.",
+   "status": "open"
   }
  ]
 }

@@ -28,7 +28,7 @@
  ],
  "_counts": {
   "enforce": 193,
-  "flag": 884
+  "flag": 987
  },
  "flag": [
   {
@@ -4450,6 +4450,624 @@
    "en": "zone",
    "ms": "zon",
    "avoid_id": "zona"
+  },
+  {
+   "en": "quality assurance",
+   "ms": "jaminan mutu",
+   "avoid_id": "jaminan kualitas",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "public sector",
+   "ms": "sektor awam",
+   "avoid_id": "sektor publik",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "project management",
+   "ms": "pengurusan projek",
+   "avoid_id": "manajemen proyek",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "gap analysis",
+   "ms": "analisis jurang",
+   "avoid_id": "analisis kesenjangan",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "risk management",
+   "ms": "pengurusan risiko",
+   "avoid_id": "manajemen risiko",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "risk management",
+   "ms": "pengurusan risiko",
+   "avoid_id": "penatalaksanaan risiko",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "change management",
+   "ms": "pengurusan perubahan",
+   "avoid_id": "manajemen perubahan",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "quality control",
+   "ms": "kawalan mutu",
+   "avoid_id": "pengendalian mutu",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "quality control",
+   "ms": "kawalan mutu",
+   "avoid_id": "kendali kualitas",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "quality control",
+   "ms": "kawalan mutu",
+   "avoid_id": "kendali mutu",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "data collection",
+   "ms": "pengumpulan data",
+   "avoid_id": "koleksi data",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "mental health",
+   "ms": "kesihatan mental",
+   "avoid_id": "kesehatan jiwa",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "mental health",
+   "ms": "kesihatan mental",
+   "avoid_id": "kesehatan mental",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "decision support",
+   "ms": "sokongan keputusan",
+   "avoid_id": "pendukung keputusan",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "data privacy",
+   "ms": "kerahsiaan data",
+   "avoid_id": "kerahasian data",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "data entry",
+   "ms": "masukan data",
+   "avoid_id": "entri data",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "annual report",
+   "ms": "laporan tahunan",
+   "avoid_id": "laporan berkala",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "performance management",
+   "ms": "pengurusan prestasi",
+   "avoid_id": "manajemen kinerja",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "resource allocation",
+   "ms": "peruntukan sumber",
+   "avoid_id": "alokasi sumber daya",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "resource allocation",
+   "ms": "peruntukan sumber",
+   "avoid_id": "alokasi sumber",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "intellectual property",
+   "ms": "hak milik intelektual",
+   "avoid_id": "hak atas kekayaan intelektual (haki)",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "local authority",
+   "ms": "autoriti tempatan",
+   "avoid_id": "otorita lokal",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "public health",
+   "ms": "kesihatan awam",
+   "avoid_id": "kesehatan publik",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "public health",
+   "ms": "kesihatan awam",
+   "avoid_id": "kesehatan masyarakat",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "early warning",
+   "ms": "amaran awal",
+   "avoid_id": "peringatan dini",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "job description",
+   "ms": "deskripsi kerja",
+   "avoid_id": "uraian kerja",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "job description",
+   "ms": "huraian tugas",
+   "avoid_id": "uraian tugas",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "job description",
+   "ms": "deskripsi tugas",
+   "avoid_id": "deskripsi/gambaran tugas",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "feedback loop",
+   "ms": "gelung maklum balas",
+   "avoid_id": "lingkaran umpan balik",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "knowledge management",
+   "ms": "pengurusan pengetahuan",
+   "avoid_id": "manajemen pengetahuan",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "service delivery",
+   "ms": "penyerahan perkhidmatan",
+   "avoid_id": "pengiriman/pelaksanaan pelayanan",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "risk analysis",
+   "ms": "analisis risiko",
+   "avoid_id": "analisa resiko",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "sample size",
+   "ms": "saiz sampel",
+   "avoid_id": "ukuran sampel",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "customer satisfaction",
+   "ms": "kepuasan pelanggan",
+   "avoid_id": "kepuasan konsumen",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "informed consent",
+   "ms": "izin maklum",
+   "avoid_id": "surat sepakat",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "stakeholder management",
+   "ms": "pengurusan pemegang saham",
+   "avoid_id": "manajemen stakeholder/manajemen pemegang saham",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "career development",
+   "ms": "pembangunan kerjaya",
+   "avoid_id": "pengembangan karier",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "local government",
+   "ms": "kerajaan tempatan",
+   "avoid_id": "pemerintahan lokal",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "financial reporting",
+   "ms": "laporan kewangan",
+   "avoid_id": "pelaporan keuangan",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "scenario planning",
+   "ms": "perancangan senario",
+   "avoid_id": "perencanaan skenario",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "process improvement",
+   "ms": "pembaikan proses",
+   "avoid_id": "kemajuan proses",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "steering committee",
+   "ms": "jawatankuasa pandu",
+   "avoid_id": "komite pengarah",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "data protection",
+   "ms": "perlindungan data",
+   "avoid_id": "proteksi data",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "software development",
+   "ms": "pembangunan perisian",
+   "avoid_id": "pengembangan perisian",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "cash flow",
+   "ms": "alir tunai",
+   "avoid_id": "aliran dana",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "access control",
+   "ms": "kawalan capaian",
+   "avoid_id": "kendali/kontrol akses",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "data migration",
+   "ms": "penghijrahan data",
+   "avoid_id": "migrasi data",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "active voice",
+   "ms": "ragam aktif",
+   "avoid_id": "diatesis aktif",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "labour market",
+   "ms": "pasaran buruh",
+   "avoid_id": "pasar kerja",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "labour market",
+   "ms": "pasaran buruh",
+   "avoid_id": "pasar buruh",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "management information",
+   "ms": "maklumat pengurusan",
+   "avoid_id": "informasi manajemen",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "side effect",
+   "ms": "kesan samping",
+   "avoid_id": "efek samping",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "batch processing",
+   "ms": "pemprosesan berkelompok",
+   "avoid_id": "pemprosesan tumpak",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "batch processing",
+   "ms": "pemprosesan kelompok",
+   "avoid_id": "pemrosesan tampak",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "internal audit",
+   "ms": "audit dalaman",
+   "avoid_id": "audit internal",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "occupational health",
+   "ms": "kesihatan pekerjaan",
+   "avoid_id": "kesehatan kerja",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "vocational education",
+   "ms": "pendidikan vokasional",
+   "avoid_id": "pendidikan kejuruan",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "conversion rate",
+   "ms": "kadar penukaran",
+   "avoid_id": "laju konversi",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "error message",
+   "ms": "mesej ralat",
+   "avoid_id": "pesan galat",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "process control",
+   "ms": "kawalan proses",
+   "avoid_id": "kendali proses",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "portfolio management",
+   "ms": "pengurusan portfolio",
+   "avoid_id": "manajemen portepel",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "portfolio management",
+   "ms": "pengurusan portfolio",
+   "avoid_id": "managemen portofolio",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "lead time",
+   "ms": "tiada",
+   "avoid_id": "waktu garap",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "source code",
+   "ms": "kod sumber",
+   "avoid_id": "kode sumber",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "change control",
+   "ms": "kawalan perubahan",
+   "avoid_id": "kontrol ubah",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "operations management",
+   "ms": "pengurusan operasi",
+   "avoid_id": "manajemen operasi",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "control system",
+   "ms": "sistem kawalan",
+   "avoid_id": "sistem kontrol",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "market share",
+   "ms": "bahagian pasaran",
+   "avoid_id": "pengurusan pasar",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "triage",
+   "ms": "triaj",
+   "avoid_id": "triase",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "clinical trial",
+   "ms": "ujian klinikal",
+   "avoid_id": "uji klinik",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "civil engineering",
+   "ms": "kejuruteraan awam",
+   "avoid_id": "teknik sipil",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "drug interaction",
+   "ms": "interaksi ubat",
+   "avoid_id": "interaksi obat",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "civil society",
+   "ms": "masyarakat sivil",
+   "avoid_id": "masyarakat sipil",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "public interest",
+   "ms": "kepentingan awam",
+   "avoid_id": "kepentingan umum",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "public interest",
+   "ms": "kepentingan awam",
+   "avoid_id": "kepentingan publik",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "curriculum design",
+   "ms": "reka bentuk kurikulum",
+   "avoid_id": "rancangan kurikulum",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "experimental design",
+   "ms": "rekabentuk eksperimen",
+   "avoid_id": "rekabentuk/rencana eksperimen",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "experimental design",
+   "ms": "rekabentuk eksperimental",
+   "avoid_id": "desain eksperimental",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "product specification",
+   "ms": "spesifikasi keluaran",
+   "avoid_id": "spesifikasi produk",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "target population",
+   "ms": "penduduk sasaran",
+   "avoid_id": "populasi target/sasaran",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "working paper",
+   "ms": "kertas kerja",
+   "avoid_id": "kertas kerja, makalah",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "foreign service",
+   "ms": "perkhidmatan luar negeri",
+   "avoid_id": "dinas luar negeri",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "confidence interval",
+   "ms": "interval keyakinan",
+   "avoid_id": "interval kepercayaan",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "data sheet",
+   "ms": "helaian data",
+   "avoid_id": "lembar data",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "balance sheet",
+   "ms": "kunci kira-kira",
+   "avoid_id": "daftar neraca",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "governing body",
+   "ms": "badan pentadbiran",
+   "avoid_id": "badan memerintah",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "due process",
+   "ms": "proses hak",
+   "avoid_id": "proses pengadilan jujur; proses pengadilan terbuka",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "export control",
+   "ms": "kawalan ekspor",
+   "avoid_id": "pengendalian ekspor",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "bar chart",
+   "ms": "carta palang; carta turus",
+   "avoid_id": "grafik/diagram batang",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "confined space",
+   "ms": "ruangan terkurung",
+   "avoid_id": "ruang terkurung",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "cash flow statement",
+   "ms": "penyata aliran tunai",
+   "avoid_id": "penyataan arus kas",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "signal processing",
+   "ms": "pemprosesan isyarat",
+   "avoid_id": "pemrosesan sinyal",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "exposure assessment",
+   "ms": "penilaian pendedahan",
+   "avoid_id": "penilaian pajanan",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "hazardous materials",
+   "ms": "bahan merbahaya",
+   "avoid_id": "kondisi berbahaya",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "conservation area",
+   "ms": "kawasan pemuliharan",
+   "avoid_id": "daerah konservasi/ kawasan konservasi",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "cost-benefit analysis",
+   "ms": "analisis kos faedah",
+   "avoid_id": "analisis biaya faedah",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "cost-benefit analysis",
+   "ms": "analisis faedah kos",
+   "avoid_id": "analisis biaya/keuntungan",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "chest x-ray",
+   "ms": "x-ray dada",
+   "avoid_id": "foto toraks",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "renal function",
+   "ms": "fungsi renal/fungsi ginjal",
+   "avoid_id": "fungsi ginjal/fungsi renal",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "rough cut",
+   "ms": "suntingan kasar",
+   "avoid_id": "potongan kasar, suntingan kasar",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "industrial engineering",
+   "ms": "kejuruteraan perindustrian",
+   "avoid_id": "teknik industri",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "remote sensing",
+   "ms": "penderiaan jauh",
+   "avoid_id": "penginderaan jauh; inderaja",
+   "provenance": "mabbim-column"
+  },
+  {
+   "en": "remote sensing",
+   "ms": "penderiaan jauh",
+   "avoid_id": "penginderaan jauh",
+   "provenance": "mabbim-column"
   }
  ],
  "enforce": [
