@@ -410,7 +410,9 @@ def idiom_notes(chunk):
     for j, c in enumerate(chunk):
         for ph in sorted(_IDIOM_WS.present(c.lower())):
             it = _IDIOM_MAP[ph]
-            notes.append(f'(block {j+1}) "{it["phrase"]}" is an idiom ({it["gloss"]}). {it["ms_guidance"]}')
+            g = it.get("gloss")
+            notes.append(f'(block {j+1}) "{it["phrase"]}" is an idiom'
+                         + (f" ({g})" if g else "") + f'. {it["ms_guidance"]}')
     if not notes:
         return ""
     return ("\n\nIDIOM NOTES — render the meaning, never the words; do not echo these notes:\n"

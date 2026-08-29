@@ -283,6 +283,10 @@ except RuntimeError:
 P.CMT=_orig_cmt
 ok("restore_comments loss alarm fires", _fired)
 
+# gloss-less idiom entries (catalogue harvest) must not crash idiom_notes
+_gl_ph = next(p for p, e in P._IDIOM_MAP.items() if "gloss" not in e)
+ok("idiom note works without gloss", _gl_ph in P.idiom_notes([f"we {_gl_ph} today"]).lower())
+
 # domain glossary: fires only where a term occurs, silent otherwise
 gn=P.glossary_notes(["We schedule preventive maintenance weekly."])
 ok("glossary note fires on istilah term", "penyenggaraan" in gn, gn[:120])

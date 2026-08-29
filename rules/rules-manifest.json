@@ -1,8 +1,8 @@
 {
  "corpus-registry.json": "e492b4eb215600de13dc5effcc03878987427f6d88fde18febfba6b06e80652d",
- "en-idioms.json": "f54e900f0c409e04b84f77df848bac815fa9209e28a3f4b37601396f3ad17de1",
+ "en-idioms.json": "e849d92eb163ab9677b853ed0595fa17e63dbe03c4ea8bd9addf85b8d2f05abb",
  "ms-collocations.json": "454b160324b0c147406b0acd4e86f8fb0b57e94741647f650918cee6badcbda0",
- "ms-dnt.json": "9cd9e2d64f14354c1632e458108a86055d5096180756127062b99a0537ae89de",
+ "ms-dnt.json": "ee5116cac41f1288086e51c532d7f04140310d0f8b2b5f8814166e239626958c",
  "ms-domain-glossary.json": "0421c824e4b851455be612dfd900ea1e5dd52189ba260b29c5468d2cb09a86ed",
  "ms-figurative.json": "d79c0810543ae0db2df50fdc1b0d33a1dd24aec1807dac851493b5c1bbe3bac9",
  "ms-indonesian-blocklist.json": "78f4fe9ba5f40f001cff08d7c5e2d323e7ca49c89054d0864d17521cf3a88c97",
