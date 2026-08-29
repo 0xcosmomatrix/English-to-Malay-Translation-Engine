@@ -373,8 +373,19 @@ def scrub_notes(text):
 
 _IDIOM_WS = M.WordSet([it["phrase"] for it in IDIOMS])
 _IDIOM_MAP = {it["phrase"].lower(): it for it in IDIOMS}
-_GLOSS_WS = M.WordSet([g["en"] for g in GLOSSARY if g["status"] != "open"])
-_GLOSS_MAP = {g["en"].lower(): g for g in GLOSSARY}
+def _gloss_aliases(en):
+    """Matchable aliases: strip parentheticals, split slashed variants.
+    'preventive maintenance (PM)' must match 'preventive maintenance' in prose."""
+    base = re.sub(r"\s*\([^)]*\)", "", en)
+    return [a.strip().lower() for a in base.split("/") if len(a.strip()) > 3]
+
+_GLOSS_MAP = {}
+for _g in GLOSSARY:
+    if _g["status"] == "open":
+        continue
+    for _a in _gloss_aliases(_g["en"]):
+        _GLOSS_MAP.setdefault(_a, _g)
+_GLOSS_WS = M.WordSet(list(_GLOSS_MAP))
 
 def glossary_notes(chunk):
     """Domain-term guidance, same shape as idiom notes: fires only where a term
