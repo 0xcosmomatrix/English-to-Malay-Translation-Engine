@@ -905,6 +905,46 @@
    },
    "why": "Recurring pattern of adding unsource explanatory modifiers/phrases; must be stripped for fidelity.",
    "source": "checkpoint"
+  },
+  {
+   "en": "reasonable adjustment",
+   "options": [
+    "penyesuaian, pelarasan (adjacent istilah)",
+    "retain English term"
+   ],
+   "status": "UNRESOLVED",
+   "why": "multi-book TVET term (4 books); 'adjustment | penyesuaian; pelarasan'; no 'reasonable adjustment' row",
+   "source": "tvet-wave-istilah-2026-08-29"
+  },
+  {
+   "en": "COSHH assessment",
+   "options": [
+    "penyekatan bahan berbahaya, bahan pencemar berbahaya (adjacent istilah)",
+    "retain English term"
+   ],
+   "status": "UNRESOLVED",
+   "why": "multi-book TVET term (3 books); No COSHH; only adjacent 'hazardous substance' istilah rows",
+   "source": "tvet-wave-istilah-2026-08-29"
+  },
+  {
+   "en": "awarding body",
+   "options": [
+    "(no istilah — editorial decision)",
+    "retain English term"
+   ],
+   "status": "UNRESOLVED",
+   "why": "multi-book TVET term (3 books); No istilah table for 'awarding body' or 'accreditation body'",
+   "source": "tvet-wave-istilah-2026-08-29"
+  },
+  {
+   "en": "safeguarding",
+   "options": [
+    "perlindungan (adjacent istilah)",
+    "retain English term"
+   ],
+   "status": "UNRESOLVED",
+   "why": "multi-book TVET term (3 books); 'safeguard | skirt lindung; kawal selamat' only; child-protection sense absent",
+   "source": "tvet-wave-istilah-2026-08-29"
   }
  ]
 }

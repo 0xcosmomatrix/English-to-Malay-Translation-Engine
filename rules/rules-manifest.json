@@ -1,11 +1,12 @@
 {
  "corpus-registry.json": "e492b4eb215600de13dc5effcc03878987427f6d88fde18febfba6b06e80652d",
- "en-idioms.json": "f32f84f0c68c689027870f269b660faf0f2afbece4e105fb6bb17d802564c5e1",
+ "en-idioms.json": "f54e900f0c409e04b84f77df848bac815fa9209e28a3f4b37601396f3ad17de1",
  "ms-collocations.json": "454b160324b0c147406b0acd4e86f8fb0b57e94741647f650918cee6badcbda0",
- "ms-dnt.json": "c9b48f2e0ebc7730a506b640e93578c8400406624079ffc1217b24b5dd79281c",
+ "ms-dnt.json": "9cd9e2d64f14354c1632e458108a86055d5096180756127062b99a0537ae89de",
+ "ms-domain-glossary.json": "0421c824e4b851455be612dfd900ea1e5dd52189ba260b29c5468d2cb09a86ed",
  "ms-figurative.json": "d79c0810543ae0db2df50fdc1b0d33a1dd24aec1807dac851493b5c1bbe3bac9",
  "ms-indonesian-blocklist.json": "78f4fe9ba5f40f001cff08d7c5e2d323e7ca49c89054d0864d17521cf3a88c97",
- "ms-prpm-ledger.json": "07c8d22778489be1144b5198f6ed8f904d69d5d9b3e7f3608cc2e6c2230ecab3",
- "ms-terms.json": "7a12ebf732c870431c2423247be365517cd0593a7cd67038c4a610d90cadf3ab",
+ "ms-prpm-ledger.json": "7f228d4be27d3c405fe22ce9ebfa0e8e6b43d7b5af2bc6999df754c8b515f35a",
+ "ms-terms.json": "dc97b074938eb97e629e7aeb4f3a7c7459ab3860982379c4f81fc7a3a1b2ad5d",
  "ms-wiktionary-lemmas.json": "c9db45b37631c8fe313921113e1fb1264d948c1ae5682821ba523c19331b590d"
 }

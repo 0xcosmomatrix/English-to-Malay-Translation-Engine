@@ -4,7 +4,8 @@
   "rendered word-for-word. Consumed by the drafting pipeline: blocks containing a phrase",
   "get a per-batch IDIOM NOTE with the ms_guidance. Guidance says how to render the",
   "MEANING in natural formal Malay; it never invents proverbs. Grown per book by the",
-  "same harvest pass; entries are corpus-grounded, not a bulk idiom dictionary."
+  "same harvest pass; entries are corpus-grounded, not a bulk idiom dictionary.",
+  "2026-08-29: +273 idioms harvested from the 19-book TVET wave (518k words)."
  ],
  "idioms": [
   {
@@ -540,6 +541,1371 @@
    "chapter": "140",
    "gloss": "mentally rehearse the plan",
    "ms_guidance": "Gunakan \"mengulang susunan sesi itu dalam fikirannya\"; \"dalam kepalanya\" kurang sesuai untuk laras rasmi."
+  },
+  {
+   "phrase": "the knowledge walked out of the building",
+   "gloss": "expertise lost forever when staff leave",
+   "ms_guidance": "Parafrasa: 'pengetahuan itu hilang bersama pemergian pekerja pada penghujung setiap syif'. Jangan terjemah literal 'berjalan keluar dari bangunan'; imej boleh dikekalkan hanya jika disusun semula secara semula jadi ('pengetahuan itu turut pergi bersama mereka')."
+  },
+  {
+   "phrase": "the wrench still matters",
+   "gloss": "hands-on repair work remains essential",
+   "ms_guidance": "Metonimi: sepana mewakili kerja amali. Boleh kekalkan imej dengan konteks ('sepana tetap penting — kerja tangan tetap milik anda') atau parafrasa 'kemahiran amali tetap penting'. Jangan biarkan 'sepana' berdiri tanpa penjelasan makna kiasannya."
+  },
+  {
+   "phrase": "connect the dots",
+   "gloss": "link scattered facts into one insight",
+   "ms_guidance": "Guna 'menghubung kait maklumat itu' atau 'melihat kaitan antara kejadian-kejadian itu'. Jangan sekali-kali terjemah 'menyambung titik-titik'."
+  },
+  {
+   "phrase": "the quality layer",
+   "gloss": "the human check that ensures accuracy",
+   "ms_guidance": "Frasa berulang ('you are the quality layer'). Parafrasa: 'andalah lapisan semakan kualiti' atau 'anda yang memastikan ketepatan output'. Elakkan calque kaku 'lapisan kualiti' tanpa kata 'semakan/kawalan'."
+  },
+  {
+   "phrase": "quick wins",
+   "gloss": "easy tasks with fast visible payoff",
+   "ms_guidance": "Guna 'hasil cepat' atau 'pencapaian mudah dan pantas'. Jangan terjemah 'kemenangan cepat/pantas' yang janggal dalam laras formal."
+  },
+  {
+   "phrase": "the tunnelling effect",
+   "gloss": "fixating too long on one theory",
+   "ms_guidance": "Parafrasa: 'terperangkap mengejar satu teori terlalu lama'. Jangan calque 'kesan terowong'; jika istilah diperlukan, jelaskan maksudnya ('kecenderungan menjurus pada satu hipotesis')."
+  },
+  {
+   "phrase": "the faults that drive you mad",
+   "gloss": "maddeningly elusive intermittent faults",
+   "ms_guidance": "Guna 'kerosakan yang memeningkan kepala' atau 'yang menguji kesabaran'. Jangan terjemah literal 'membuatkan anda gila'."
+  },
+  {
+   "phrase": "nothing falls through the gap",
+   "gloss": "nothing gets missed or overlooked",
+   "ms_guidance": "Guna 'tiada perkara yang tercicir' atau 'tidak ada maklumat yang terlepas pandang'. Jangan terjemah 'jatuh melalui celah'."
+  },
+  {
+   "phrase": "gut feel",
+   "gloss": "instinct without supporting data",
+   "ms_guidance": "Guna 'naluri' atau 'tanggapan semata-mata' (contoh: 'keputusan berdasarkan naluri berbanding keputusan berasaskan data'). Jangan sekali-kali terjemah komponen 'perut'."
+  },
+  {
+   "phrase": "nothing but trouble",
+   "gloss": "constantly causing problems",
+   "ms_guidance": "Guna 'asyik menimbulkan masalah' atau 'tidak putus-putus bermasalah'. Jangan terjemah literal 'tiada apa selain masalah'."
+  },
+  {
+   "phrase": "a goldmine of reliability intelligence",
+   "gloss": "an extremely valuable untapped data source",
+   "ms_guidance": "Parafrasa: 'sumber maklumat kebolehpercayaan yang sangat bernilai tetapi belum diterokai'. 'Lombong emas' boleh diterima dalam nada tidak rasmi, tetapi parafrasa lebih selamat untuk laras buku."
+  },
+  {
+   "phrase": "closes the loop",
+   "gloss": "completes the cycle back to the start",
+   "ms_guidance": "Guna 'melengkapkan kitaran' (contoh: 'peringkat yang melengkapkan kitaran UPTIME'). Jangan terjemah 'menutup gelung' secara literal."
+  },
+  {
+   "phrase": "time sink",
+   "gloss": "task that consumes disproportionate time",
+   "ms_guidance": "Parafrasa: 'tugas yang paling banyak memakan masa' atau 'penelan masa terbesar dalam kerja harian'. Jangan calque 'sinki masa'."
+  },
+  {
+   "phrase": "seeing signal or noise",
+   "gloss": "a real pattern versus random coincidence",
+   "ms_guidance": "Konteks corak kegagalan: parafrasa 'sama ada anda melihat corak sebenar atau sekadar kebetulan'. Jangan terjemah literal 'isyarat atau bunyi bising' dalam binaan kiasan ini."
+  },
+  {
+   "phrase": "look right on paper",
+   "gloss": "seem correct by specification alone",
+   "ms_guidance": "'Di atas kertas' agak mantap dalam BM ('kelihatan sesuai di atas kertas'), tetapi untuk kejelasan teknikal parafrasa 'sepadan dari segi spesifikasi sahaja, tetapi tidak semestinya sesuai untuk aplikasi anda' lebih selamat."
+  },
+  {
+   "phrase": "a textbook case",
+   "gloss": "a perfect, classic example",
+   "ms_guidance": "Guna 'contoh klasik' atau 'contoh yang sangat jelas'. Jangan terjemah 'kes buku teks'."
+  },
+  {
+   "phrase": "hard-won lessons",
+   "gloss": "lessons gained through long, difficult experience",
+   "ms_guidance": "Parafrasa: 'pengajaran yang diperoleh melalui pengalaman bertahun-tahun' atau 'iktibar daripada pengalaman pahit'. Jangan terjemah komponen 'won' sebagai 'dimenangi'."
+  },
+  {
+   "phrase": "where the pain is",
+   "gloss": "where the biggest problem lies",
+   "ms_guidance": "Konteks: 'the profession is telling you where the pain is'. Parafrasa: 'menunjukkan di mana masalah paling ketara dirasai'. Jangan terjemah literal 'di mana kesakitan berada'."
+  },
+  {
+   "phrase": "don't evangelise",
+   "gloss": "don't push or preach adoption aggressively",
+   "ms_guidance": "Parafrasa: 'jangan memaksa atau berkempen secara berlebihan'. Elakkan 'berdakwah' yang berkonotasi keagamaan dalam BM Malaysia."
+  },
+  {
+   "phrase": "know exactly what they're walking into",
+   "gloss": "understand the situation awaiting them",
+   "ms_guidance": "Guna 'tahu dengan tepat situasi yang bakal dihadapi'. Jangan terjemah literal 'berjalan masuk ke dalam'."
+  },
+  {
+   "phrase": "sitting on a goldmine",
+   "gloss": "unknowingly holding something highly valuable",
+   "ms_guidance": "Parafrasa: 'memegang longgokan maklumat sensitif yang sangat bernilai tanpa disedari'. Jangan terjemah literal 'duduk di atas lombong emas'."
+  },
+  {
+   "phrase": "in the right ballpark",
+   "gloss": "approximately correct, plausible range",
+   "ms_guidance": "Guna 'dalam lingkungan yang munasabah' atau 'hampir tepat anggarannya'. Jangan sekali-kali calque imej padang besbol."
+  },
+  {
+   "phrase": "a fresh pair of eyes",
+   "gloss": "a new outside perspective on a problem",
+   "ms_guidance": "Parafrasa: 'perspektif baharu' atau 'pandangan segar daripada pihak luar'. Jangan literal 'sepasang mata baharu'."
+  },
+  {
+   "phrase": "they all check out",
+   "gloss": "all tested and found to be fine",
+   "ms_guidance": "Konteks diagnostik: 'semuanya didapati normal/berfungsi dengan baik selepas diuji'. Jangan terjemah 'check out' sebagai 'mendaftar keluar'."
+  },
+  {
+   "phrase": "gives you your evenings back",
+   "gloss": "frees up your evening time again",
+   "ms_guidance": "Parafrasa: 'mengembalikan masa lapang waktu malam anda' atau 'membolehkan anda menikmati semula waktu malam'. Jangan literal 'memberi malam anda kembali'."
+  },
+  {
+   "phrase": "eat your evenings and weekends",
+   "gloss": "consume your free evening and weekend time",
+   "ms_guidance": "Guna 'menelan masa malam dan hujung minggu anda' atau 'menghakis masa rehat anda'. Metafora 'menelan masa' semula jadi dalam BM; elakkan 'memakan' yang janggal dalam laras formal."
+  },
+  {
+   "phrase": "word of mouth",
+   "gloss": "customer referrals through informal recommendation",
+   "ms_guidance": "Guna padanan lazim 'dari mulut ke mulut' (contoh: 'promosi dari mulut ke mulut') — ungkapan ini mantap dalam bahasa Melayu."
+  },
+  {
+   "phrase": "keep the door open",
+   "gloss": "leave the possibility open for later",
+   "ms_guidance": "Parafrasa: 'terus membuka ruang untuk pelanggan kembali' atau 'mengekalkan peluang itu terbuka'. Elakkan literal 'biarkan pintu terbuka'."
+  },
+  {
+   "phrase": "stands behind the work",
+   "gloss": "takes full responsibility for and guarantees the work",
+   "ms_guidance": "Guna 'menjamin hasil kerjanya' atau 'bertanggungjawab sepenuhnya terhadap kerja yang dilakukan'. Jangan calque 'berdiri di belakang kerja'."
+  },
+  {
+   "phrase": "sorting signal from noise",
+   "gloss": "distinguishing what matters from distraction",
+   "ms_guidance": "Parafrasa: 'membezakan perkara yang benar-benar penting daripada gembar-gembur'. Jangan terjemah literal 'isyarat' dan 'hingar' sebagai frasa teknikal."
+  },
+  {
+   "phrase": "which are hype",
+   "gloss": "overblown claims without real substance",
+   "ms_guidance": "Guna 'yang mana sekadar gembar-gembur' — padanan lazim dalam BM. Elakkan mengekalkan 'hype' tanpa terjemahan dalam laras formal."
+  },
+  {
+   "phrase": "early-mover advantage",
+   "gloss": "advantage from adopting before others",
+   "ms_guidance": "Guna istilah lazim 'kelebihan penggerak awal' atau parafrasa 'kelebihan kerana bertindak lebih awal daripada orang lain'."
+  },
+  {
+   "phrase": "a significant time dividend",
+   "gloss": "a large payoff in saved time",
+   "ms_guidance": "Parafrasa: 'penjimatan masa yang besar menanti anda'. Elakkan istilah kewangan 'dividen masa' yang janggal dalam BM."
+  },
+  {
+   "phrase": "it isn't going anywhere",
+   "gloss": "it will remain; it will not disappear",
+   "ms_guidance": "Konteks: kepakaran yang kekal. Guna ungkapan lazim 'tidak akan ke mana-mana' ('kepakaran itu takkan lari ke mana') atau parafrasa 'kepakaran itu kekal relevan'."
+  },
+  {
+   "phrase": "keeps your diary full",
+   "gloss": "keeps you fully booked with work",
+   "ms_guidance": "Parafrasa: 'memastikan jadual kerja anda sentiasa penuh'. Jangan terjemah 'diary' sebagai 'diari' — maksudnya jadual tempahan kerja."
+  },
+  {
+   "phrase": "off-the-shelf",
+   "gloss": "standard ready-made product, not custom-built",
+   "ms_guidance": "Guna 'sedia ada di pasaran' atau 'langganan biasa tanpa penyesuaian'. Jangan calque 'luar rak' atau 'atas rak'."
+  },
+  {
+   "phrase": "the novelty wore off",
+   "gloss": "the initial excitement faded",
+   "ms_guidance": "Parafrasa: 'keterujaan awal mula luntur' atau 'rasa kelainan itu semakin pudar'. Jangan literal 'kebaruan itu haus'."
+  },
+  {
+   "phrase": "consistency compounds",
+   "gloss": "steady habits multiply their effect over time",
+   "ms_guidance": "Parafrasa: 'konsistensi memberi kesan yang semakin berganda dari semasa ke semasa'. Elakkan istilah faedah kompaun kecuali gaya membenarkan."
+  },
+  {
+   "phrase": "chasing invoices",
+   "gloss": "following up on unpaid invoices",
+   "ms_guidance": "Guna 'menyusuli bayaran invois yang tertunggak' atau 'menuntut bayaran tertunggak'. Jangan literal 'mengejar invois'."
+  },
+  {
+   "phrase": "winning work",
+   "gloss": "successfully securing jobs or contracts",
+   "ms_guidance": "Guna 'memperoleh tempahan kerja' atau 'memenangi kontrak' (untuk tender). Elakkan 'memenangi kerja' secara bersendirian yang berbau terjemahan."
+  },
+  {
+   "phrase": "push back",
+   "gloss": "challenge or question the AI's answer",
+   "ms_guidance": "Konteks: menyoal balik output AI. Guna 'menyoal balik' atau 'mencabar jawapan itu'. Jangan terjemah literal 'menolak ke belakang'."
+  },
+  {
+   "phrase": "the phone and the office, not the van",
+   "gloss": "admin and sales work, not field work",
+   "ms_guidance": "Metonimi: 'van' mewakili kerja teknikal di lapangan. Nyatakan maksud: 'tertumpu pada urusan panggilan dan pentadbiran pejabat, bukan kerja teknikal di lapangan'. Jangan biarkan 'telefon dan pejabat, bukan van' berdiri tanpa konteks."
+  },
+  {
+   "phrase": "eats into your wrench time",
+   "gloss": "consumes your hands-on productive working time",
+   "ms_guidance": "'Wrench time' ialah metonimi untuk masa kerja amali yang boleh dibilkan. Parafrasa: 'menghakis masa kerja amali anda' atau 'mengurangkan masa anda benar-benar membaiki kenderaan'. Jangan sekali-kali terjemah 'masa sepana'. Untuk 'non-wrench work/time' yang berulang dalam buku ini, guna 'kerja bukan amali' atau 'masa di luar kerja pembaikan'."
+  },
+  {
+   "phrase": "gets bounced",
+   "gloss": "gets rejected and sent back",
+   "ms_guidance": "Konteks: tuntutan waranti 'gets bounced'. Guna 'ditolak' atau 'dikembalikan kerana tidak lengkap'. Jangan terjemah 'melantun'."
+  },
+  {
+   "phrase": "tick the right boxes",
+   "gloss": "satisfy the required criteria",
+   "ms_guidance": "Parafrasa: 'memenuhi semua kriteria yang ditetapkan' atau 'menepati syarat penilai'. Jangan terjemah literal 'menanda kotak yang betul'."
+  },
+  {
+   "phrase": "more time under bonnets",
+   "gloss": "more time doing hands-on vehicle work",
+   "ms_guidance": "Metonimi bonet = kerja amali pada kenderaan. Parafrasa: 'lebih banyak masa membaiki kenderaan, kurang masa di skrin'. Jangan literal 'di bawah bonet' sebagai frasa tersendiri tanpa konteks kerja."
+  },
+  {
+   "phrase": "testing the waters",
+   "gloss": "cautiously trying something before committing",
+   "ms_guidance": "Guna 'mencuba secara berhati-hati' atau 'meninjau-ninjau dahulu sebelum melabur sepenuhnya'. Jangan terjemah 'menguji air'."
+  },
+  {
+   "phrase": "wait and see",
+   "gloss": "deliberately delaying a decision to observe first",
+   "ms_guidance": "Guna padanan lazim 'pendekatan tunggu dan lihat' — ungkapan ini sudah mantap dalam bahasa Melayu."
+  },
+  {
+   "phrase": "here to stay",
+   "gloss": "permanent, not a passing phenomenon",
+   "ms_guidance": "Parafrasa: 'akan kekal' atau 'bukan fenomena sementara'. Jangan terjemah 'di sini untuk tinggal'."
+  },
+  {
+   "phrase": "level the playing field",
+   "gloss": "make competition fair for everyone",
+   "ms_guidance": "Parafrasa: 'mewujudkan persaingan yang lebih adil' atau 'menyamakan kedudukan antara bengkel bebas dengan rangkaian pengedar'. Elakkan calque 'meratakan padang permainan'."
+  },
+  {
+   "phrase": "the headline category",
+   "gloss": "the most prominent, attention-grabbing category",
+   "ms_guidance": "Parafrasa: 'kategori yang paling menonjol' atau 'kategori utama yang paling mendapat perhatian'. Jangan terjemah 'kategori tajuk berita' secara kaku."
+  },
+  {
+   "phrase": "the jobs that nobody else can crack",
+   "gloss": "the faults nobody else can solve",
+   "ms_guidance": "'Crack' bermaksud menyelesaikan masalah sukar. Guna 'kerja yang tidak mampu diselesaikan orang lain' atau 'kes yang gagal dirungkai juruteknik lain'. Jangan terjemah 'memecahkan' secara literal."
+  },
+  {
+   "phrase": "plan of attack",
+   "gloss": "an organised approach to tackling the task",
+   "ms_guidance": "Guna 'pelan tindakan' atau 'strategi kerja yang tersusun'. Elakkan 'pelan serangan' yang berkonotasi ketenteraan."
+  },
+  {
+   "phrase": "this is where you earn your money",
+   "gloss": "this is where your professional skill truly matters",
+   "ms_guidance": "Parafrasa: 'di sinilah nilai profesional anda terserlah' atau 'di sinilah kepakaran anda benar-benar dibayar'. Jangan literal 'di sinilah anda memperoleh wang anda'."
+  },
+  {
+   "phrase": "condemning a £300+ part",
+   "gloss": "declaring a part unusable and needing replacement",
+   "ms_guidance": "'Condemn' ialah laras bengkel bermaksud memutuskan komponen tidak boleh dipakai lagi. Guna 'mengesahkan komponen perlu diganti' atau 'menolak komponen sebagai rosak'. Jangan terjemah 'menghukum'."
+  },
+  {
+   "phrase": "genuinely stumped you",
+   "gloss": "left you completely unable to solve it",
+   "ms_guidance": "Guna 'benar-benar membuntukan anda' atau 'kerosakan yang membuatkan anda buntu'. 'Buntu' ialah padanan semula jadi."
+  },
+  {
+   "phrase": "where you would draw the line",
+   "gloss": "where you set the boundary or limit",
+   "ms_guidance": "Guna 'di mana anda menetapkan batas' — padanan lazim; elakkan 'melukis garisan'."
+  },
+  {
+   "phrase": "leave money on the table",
+   "gloss": "miss revenue you could have earned",
+   "ms_guidance": "Parafrasa: 'melepaskan hasil yang sepatutnya diperoleh' atau 'kehilangan pendapatan yang boleh dituntut'. Jangan sekali-kali terjemah literal 'meninggalkan wang di atas meja'."
+  },
+  {
+   "phrase": "scare tactics",
+   "gloss": "frightening the customer to force agreement",
+   "ms_guidance": "Guna 'taktik menakut-nakutkan' — binaan ini semula jadi dalam bahasa Melayu (contoh: 'jujur, tanpa menakut-nakutkan pelanggan')."
+  },
+  {
+   "phrase": "ai tips the balance",
+   "gloss": "AI shifts the outcome decisively in one direction",
+   "ms_guidance": "Parafrasa: 'AI mengubah keseimbangan itu' atau 'AI memihakkan semula keadaan kepada kedua-duanya (kelajuan dan ketepatan)'. Elakkan 'menyendengkan penimbang' yang janggal."
+  },
+  {
+   "phrase": "a paper trail",
+   "gloss": "documented evidence of what was done",
+   "ms_guidance": "Guna 'jejak dokumentasi' atau 'rekod bertulis yang boleh dijejak'. Jangan calque 'jejak kertas'."
+  },
+  {
+   "phrase": "stands up to assessor scrutiny",
+   "gloss": "survives detailed critical examination",
+   "ms_guidance": "Parafrasa: 'tahan diteliti oleh penilai waranti' atau 'mampu bertahan apabila disemak dengan teliti'. Jangan literal 'berdiri kepada penelitian'. Sama untuk 'holds up to warranty scrutiny'."
+  },
+  {
+   "phrase": "the part number ecosystem is a maze",
+   "gloss": "part numbering is confusing and hard to navigate",
+   "ms_guidance": "Metafora boleh diparafrasa: 'sistem nombor alat ganti sangat berselirat' atau 'seperti selirat yang mengelirukan'. 'Ekosistem' boleh digugurkan jika janggal."
+  },
+  {
+   "phrase": "sitting on stock that is not moving",
+   "gloss": "holding unsold, unused inventory",
+   "ms_guidance": "Guna istilah lazim 'menyimpan stok yang tidak bergerak' — 'stok tidak bergerak' memang mantap dalam laras perniagaan Melayu. Jangan terjemah 'duduk di atas stok'."
+  },
+  {
+   "phrase": "when a new tsb drops",
+   "gloss": "when a new bulletin is released",
+   "ms_guidance": "'Drops' di sini bermaksud diterbitkan/dikeluarkan. Guna 'apabila TSB baharu dikeluarkan'. Jangan sekali-kali 'jatuh'."
+  },
+  {
+   "phrase": "hard to keep pace",
+   "gloss": "difficult to stay up to date with change",
+   "ms_guidance": "Guna 'sukar untuk seiring dengan perkembangan' atau 'sukar mengejar perubahan teknologi'. Elakkan 'mengekalkan langkah'."
+  },
+  {
+   "phrase": "the system that tripped you up",
+   "gloss": "the system that caused you to fail",
+   "ms_guidance": "Parafrasa: 'sistem yang mengelirukan anda' atau 'yang menyebabkan anda tersilap'. Jangan literal 'menjatuhkan anda' tanpa konteks."
+  },
+  {
+   "phrase": "a bright line",
+   "gloss": "an absolute, unambiguous boundary",
+   "ms_guidance": "Istilah perundangan Inggeris. Guna 'garis sempadan yang mutlak dan jelas' atau 'batas yang tidak boleh dilanggar sama sekali'. Jangan terjemah 'garisan terang'."
+  },
+  {
+   "phrase": "read this book cover to cover",
+   "gloss": "read the entire book thoroughly",
+   "ms_guidance": "Guna 'membaca buku ini dari kulit ke kulit' — padanan ini lazim dalam bahasa Melayu."
+  },
+  {
+   "phrase": "the vehicle on your ramp",
+   "gloss": "the actual vehicle you are working on now",
+   "ms_guidance": "Metonimi berulang dalam buku ini. Guna 'kenderaan di atas lif bengkel anda' atau parafrasa 'kenderaan yang sedang anda baiki'. Pastikan padanan 'ramp' (lif/pelantar bengkel) konsisten di seluruh buku."
+  },
+  {
+   "phrase": "chasing part numbers",
+   "gloss": "laboriously tracking down the right part numbers",
+   "ms_guidance": "'Chase' bermaksud menyusul atau memburu maklumat. Guna 'memburu nombor alat ganti' atau 'menyusul pesanan alat ganti' (untuk 'chasing a back-ordered part'). Jangan terjemah 'mengejar' secara kaku dalam semua konteks."
+  },
+  {
+   "phrase": "continue stacking your skills",
+   "gloss": "keep adding complementary skills on top of each other",
+   "ms_guidance": "Tajuk bahagian siri. Guna 'terus membina himpunan kemahiran anda' atau 'menambah lapisan kemahiran'. Elakkan 'menyusun/menimbun kemahiran' yang janggal; pastikan konsisten dengan buku lain dalam siri untuk 'skill stack' ('himpunan kemahiran')."
+  },
+  {
+   "phrase": "follows you home",
+   "gloss": "work intrudes into personal time at home",
+   "ms_guidance": "Konteks: 'the paperwork is the part that follows you home'. Parafrasa: 'kerja kertas yang terbawa-bawa hingga ke rumah' atau 'membebani masa peribadi anda di rumah'. Jangan terjemah literal 'mengikut anda pulang' tanpa penyesuaian ayat."
+  },
+  {
+   "phrase": "eats your evenings",
+   "gloss": "consumes your free evenings entirely",
+   "ms_guidance": "Guna 'memakan masa malam anda' — 'memakan masa' memang ungkapan lazim BM. Elakkan binaan janggal seperti 'memakan petang-petang anda'."
+  },
+  {
+   "phrase": "half four",
+   "gloss": "British colloquial for half past four (4:30)",
+   "ms_guidance": "AMARAN salah faham: 'half four' bermaksud 4:30, bukan 3:30. Terjemah sebagai 'pukul empat setengah petang' atau '4:30 petang'."
+  },
+  {
+   "phrase": "grunt work",
+   "gloss": "tedious, repetitive low-skill labour",
+   "ms_guidance": "Parafrasa: 'kerja rutin yang membosankan' atau 'kerja leceh berulang-ulang'. Jangan terjemah literal komponen 'grunt'."
+  },
+  {
+   "phrase": "does the heavy lifting",
+   "gloss": "performs most of the hard work",
+   "ms_guidance": "Parafrasa: 'melakukan bahagian kerja yang paling berat'. Jangan calque imej 'angkat berat' secara literal."
+  },
+  {
+   "phrase": "muscle memory",
+   "gloss": "an automatic, ingrained habit",
+   "ms_guidance": "Konteks: 'build the pause into your muscle memory'. Parafrasa: 'jadikan jeda itu tabiat automatik yang sebati'. Jangan terjemah 'ingatan otot'."
+  },
+  {
+   "phrase": "trust has additional teeth",
+   "gloss": "the review is applied with stronger force",
+   "ms_guidance": "Parafrasa: 'semakan TRUST dijalankan dengan lebih ketat dan tegas untuk sijil'. Jangan sekali-kali terjemah 'mempunyai gigi tambahan'."
+  },
+  {
+   "phrase": "cobbled together",
+   "gloss": "assembled crudely from mismatched parts",
+   "ms_guidance": "Guna 'hasil tampal sulam daripada pelbagai sumber' — 'tampal sulam' ialah ungkapan mantap BM. Elakkan literal 'dicantum seperti tukang kasut'."
+  },
+  {
+   "phrase": "diagnostic tunnel vision",
+   "gloss": "overly narrow focus on one suspected cause",
+   "ms_guidance": "Parafrasa: 'tumpuan diagnostik yang terlalu sempit pada satu punca sahaja'. Jangan calque 'penglihatan terowong'."
+  },
+  {
+   "phrase": "latch onto the first plausible cause",
+   "gloss": "fixate prematurely on one explanation",
+   "ms_guidance": "Guna 'terpaku pada punca pertama yang kelihatan munasabah'. Jangan terjemah 'latch' sebagai 'berpaut/mengunci' secara literal."
+  },
+  {
+   "phrase": "take stock",
+   "gloss": "pause to assess progress so far",
+   "ms_guidance": "Guna 'nilai semula kemajuan anda' atau 'buat penilaian ringkas'. Jangan terjemah 'mengambil stok'."
+  },
+  {
+   "phrase": "blank-page paralysis",
+   "gloss": "inability to start writing from nothing",
+   "ms_guidance": "Parafrasa: 'kebuntuan apabila berdepan halaman kosong' atau 'tidak tahu bagaimana hendak bermula'. Jangan terjemah 'lumpuh halaman kosong'."
+  },
+  {
+   "phrase": "your cash flow will thank you",
+   "gloss": "your cash flow will improve",
+   "ms_guidance": "Personifikasi Inggeris; parafrasa maksud: 'aliran tunai anda akan bertambah baik'. Jangan biarkan 'aliran tunai berterima kasih'."
+  },
+  {
+   "phrase": "catches himself",
+   "gloss": "suddenly stops, realizing his mistake",
+   "ms_guidance": "Konteks: 'Mark catches himself'. Guna 'dia tersedar lalu tertahan seketika'. Jangan terjemah 'menangkap dirinya'."
+  },
+  {
+   "phrase": "it bears repeating",
+   "gloss": "important enough to state again",
+   "ms_guidance": "Guna 'perkara ini wajar diulang' atau 'penting untuk ditegaskan sekali lagi'. Jangan literal 'menanggung pengulangan'."
+  },
+  {
+   "phrase": "where the evenings go",
+   "gloss": "what consumes the free evenings",
+   "ms_guidance": "Konteks: 'the write-up is where the evenings go'. Parafrasa: 'di situlah masa malam anda habis'. Jangan terjemah 'ke mana petang pergi' secara kaku."
+  },
+  {
+   "phrase": "the job pipeline is full",
+   "gloss": "steady stream of booked work ahead",
+   "ms_guidance": "Parafrasa: 'tempahan kerja sudah penuh untuk beberapa minggu akan datang'. Selaras dengan entri 'pipeline' sedia ada: jangan sekali-kali 'saluran paip'."
+  },
+  {
+   "phrase": "my biggest time drains",
+   "gloss": "tasks that consume the most time",
+   "ms_guidance": "Guna 'tugas yang paling banyak menelan masa'. Jangan calque 'saliran/longkang masa'."
+  },
+  {
+   "phrase": "headline-grabbing",
+   "gloss": "sensational, attention-seeking",
+   "ms_guidance": "Konteks: 'headline-grabbing smart building narratives'. Parafrasa: 'naratif yang hangat diperkatakan dalam media' atau 'yang mengejar tumpuan berita'. Jangan 'merampas tajuk berita'."
+  },
+  {
+   "phrase": "green-light zone",
+   "gloss": "approved, safe-to-proceed category",
+   "ms_guidance": "Guna 'zon lampu hijau' — padanan 'lampu hijau' memang mantap dalam BM, dan rangka kerja sumbernya memang metafora lampu isyarat (stoplight); kekalkan konsistensi hijau/kuning/merah."
+  },
+  {
+   "phrase": "cannot face typing up",
+   "gloss": "lacks the will to do it",
+   "ms_guidance": "Guna 'tidak sanggup' atau 'tidak terdaya lagi untuk menaip'. Jangan terjemah 'tidak dapat menghadapi' secara kaku."
+  },
+  {
+   "phrase": "in the time it takes to make a cup of tea",
+   "gloss": "extremely quickly, almost effortlessly",
+   "ms_guidance": "Parafrasa: 'dalam masa beberapa minit sahaja'. Jangan terjemah literal tentang membancuh teh; jika mahu kekalkan imej harian, 'sekejap sahaja' memadai untuk nada buku ini."
+  },
+  {
+   "phrase": "you make the call",
+   "gloss": "the decision is yours",
+   "ms_guidance": "'Call' di sini bermaksud keputusan, bukan panggilan. Guna 'keputusan tetap di tangan anda' atau 'andalah yang membuat keputusan'. Jangan sekali-kali 'membuat panggilan'."
+  },
+  {
+   "phrase": "ai prepares the ground",
+   "gloss": "AI does the preparatory work",
+   "ms_guidance": "Parafrasa: 'AI menyediakan asas/persediaan awal'. Jangan terjemah literal 'menyediakan tanah'."
+  },
+  {
+   "phrase": "table stakes",
+   "gloss": "the minimum baseline expected of everyone",
+   "ms_guidance": "Metafora poker. Parafrasa: 'keperluan asas yang dijangka ada pada setiap platform'. Jangan sekali-kali terjemah sebagai 'taruhan meja'."
+  },
+  {
+   "phrase": "pain point",
+   "gloss": "the most troublesome recurring problem area",
+   "ms_guidance": "Guna 'punca tekanan utama' atau 'masalah paling ketara dalam kerja anda'. Jangan calque 'titik sakit'."
+  },
+  {
+   "phrase": "keeps you up at night",
+   "gloss": "worries you most persistently",
+   "ms_guidance": "Konteks: memilih peringkat UNITE yang paling merunsingkan. Guna 'yang paling merunsingkan anda'. Jangan literal 'membuatkan anda berjaga malam' kecuali gaya membenarkan; parafrasa lebih selamat."
+  },
+  {
+   "phrase": "last-minute scrambles",
+   "gloss": "frantic rushed effort at the deadline",
+   "ms_guidance": "Guna 'kelam-kabut saat akhir' — padanan figuratif yang semula jadi. Sama untuk 'deadline-driven scramble' dan 'panicked scramble': 'kekalutan yang didorong tarikh akhir'."
+  },
+  {
+   "phrase": "compliance deadlines keep ambushing you",
+   "gloss": "deadlines repeatedly catch you unprepared",
+   "ms_guidance": "Parafrasa: 'tarikh akhir pematuhan sering mengejut anda tanpa persediaan'. Elakkan 'serang hendap' yang berkonotasi ketenteraan."
+  },
+  {
+   "phrase": "drowning in compliance documentation",
+   "gloss": "overwhelmed by the sheer volume",
+   "ms_guidance": "Guna 'ditenggelami dokumentasi pematuhan' atau 'terbeban sepenuhnya oleh'. 'Lemas dalam' terlalu basahan untuk laras buku ini."
+  },
+  {
+   "phrase": "the sinking feeling",
+   "gloss": "dawning dread at bad news",
+   "ms_guidance": "Parafrasa: 'perasaan kecut hati' atau 'rasa cemas yang menusuk apabila menyedari sesuatu sudah terlambat'. Jangan terjemah 'perasaan tenggelam'."
+  },
+  {
+   "phrase": "the gut feeling",
+   "gloss": "professional intuition",
+   "ms_guidance": "Guna padanan mantap 'gerak hati' (contoh: 'gerak hati anda tentang sama ada perantis ini benar-benar maju'). Jangan rujuk 'perut'."
+  },
+  {
+   "phrase": "conducted on the fly",
+   "gloss": "improvised without preparation",
+   "ms_guidance": "Parafrasa: 'dijalankan secara spontan tanpa persediaan'. Jangan sebarang rujukan literal kepada 'terbang'."
+  },
+  {
+   "phrase": "show the working, not just the answer",
+   "gloss": "display the reasoning behind the recommendation",
+   "ms_guidance": "Idiom matematik sekolah. Guna 'tunjukkan langkah pertimbangan, bukan jawapan semata-mata' atau 'paparkan asas analisis'."
+  },
+  {
+   "phrase": "create problems down the line",
+   "gloss": "cause trouble later on",
+   "ms_guidance": "Guna 'menimbulkan masalah pada kemudian hari' atau 'di masa hadapan'. Jangan calque 'di hujung barisan/talian'."
+  },
+  {
+   "phrase": "the documentation cascade",
+   "gloss": "the chain of paperwork every decision triggers",
+   "ms_guidance": "Metafora berulang dalam buku ini ('cascade of documentation/administrative tasks'). Parafrasa: 'rentetan dokumentasi yang menyusul setiap keputusan'. Jangan guna 'lata' atau 'air terjun'."
+  },
+  {
+   "phrase": "the front of the adoption curve",
+   "gloss": "among the earliest adopters",
+   "ms_guidance": "Parafrasa: 'antara golongan terawal menerima pakai teknologi ini'. Sama untuk 'ahead of the regulatory curve': 'lebih awal daripada perkembangan peraturan'. Jangan kekalkan imej 'lengkung' secara literal."
+  },
+  {
+   "phrase": "a doing gap",
+   "gloss": "gap between knowing and actually doing",
+   "ms_guidance": "Kontras dengan 'knowledge gap'. Guna 'jurang pelaksanaan' berlawanan 'jurang pengetahuan' — kekalkan struktur kontras ayat asal."
+  },
+  {
+   "phrase": "go deep before you go wide",
+   "gloss": "master one area before expanding",
+   "ms_guidance": "Parafrasa: 'dalami satu peringkat dahulu sebelum meluaskan skop'. Jangan terjemah literal 'pergi dalam sebelum pergi lebar'."
+  },
+  {
+   "phrase": "the plan doesn't work on the shelf",
+   "gloss": "a plan is useless if left unused",
+   "ms_guidance": "Parafrasa: 'rancangan ini tidak berguna jika hanya disimpan — ia berkesan apabila anda memulakannya'. Jangan kekalkan imej 'rak' secara kaku."
+  },
+  {
+   "phrase": "full stop.",
+   "gloss": "absolutely, with no exceptions",
+   "ms_guidance": "Konteks: 'never enter an AI tool. Full stop.' Guna 'Tanpa sebarang pengecualian.' atau 'Muktamad.' Jangan terjemah sebagai tanda baca 'noktah' semata-mata; jika mahu ringkas, 'Titik.' tidak membawa makna yang sama dalam BM formal."
+  },
+  {
+   "phrase": "would have a quiet word",
+   "gloss": "would privately reprimand you",
+   "ms_guidance": "Eufemisme British. Parafrasa: 'akan menegur anda secara peribadi' — dan kekalkan kontras ayat susulan 'badan kawal selia pula akan bertindak lebih keras'. Jangan literal 'perkataan senyap'."
+  },
+  {
+   "phrase": "accepted at face value",
+   "gloss": "accepted without scrutiny",
+   "ms_guidance": "Guna padanan lazim 'diterima bulat-bulat'. Jangan calque 'nilai muka'."
+  },
+  {
+   "phrase": "blind spot",
+   "gloss": "an unnoticed weakness or omission",
+   "ms_guidance": "'Titik buta' sudah agak mantap dalam BM Malaysia dan boleh dikekalkan; alternatif lebih jelas: 'kelemahan yang tidak disedari'."
+  },
+  {
+   "phrase": "reading like a form letter",
+   "gloss": "sounding like an impersonal mass template",
+   "ms_guidance": "Parafrasa: 'terasa seperti surat templat yang dihantar beramai-ramai'. Sama untuk 'mail merge': 'cantuman mel automatik yang tidak peribadi'."
+  },
+  {
+   "phrase": "the quiet withdrawals that nobody saw coming",
+   "gloss": "unnoticed gradual dropouts",
+   "ms_guidance": "Parafrasa: 'perantis yang berhenti secara senyap tanpa disedari sesiapa'. Jangan terjemah 'saw coming' secara literal."
+  },
+  {
+   "phrase": "which employer needs a nudge",
+   "gloss": "needs a gentle prompt or reminder",
+   "ms_guidance": "Guna 'dorongan halus' atau 'peringatan ringkas' ('majikan mana yang cukup dengan peringatan ringkas dan mana yang memerlukan perbualan'). Jangan 'tolakan'."
+  },
+  {
+   "phrase": "you've done your homework",
+   "gloss": "you are thoroughly prepared",
+   "ms_guidance": "Guna 'sudah membuat persediaan rapi' atau 'sudah membuat kajian awal'. Elakkan 'kerja rumah' dalam laras formal walaupun lazim dalam pertuturan."
+  },
+  {
+   "phrase": "keep apprentices on track",
+   "gloss": "keep them progressing as planned",
+   "ms_guidance": "Guna padanan lazim 'kekal di landasan' ('memastikan perantis kekal di landasan yang betul'). Jangan calque 'di atas trek'."
+  },
+  {
+   "phrase": "a compliance calendar that never stops ticking",
+   "gloss": "relentless, continuous compliance deadlines",
+   "ms_guidance": "Parafrasa: 'kalendar pematuhan dengan tarikh akhir yang datang tanpa henti'. Jangan kekalkan imej jam 'berdetik' secara kaku."
+  },
+  {
+   "phrase": "the documentation stops here",
+   "gloss": "the documentation burden ends with this book",
+   "ms_guidance": "Tajuk kulit belakang; kiasan kepada 'the buck stops here'. Parafrasa berkesan: 'Beban Dokumentasi Berakhir Di Sini'. Jangan terjemah literal 'berhenti di sini' tanpa makna beban."
+  },
+  {
+   "phrase": "the funding rules start clipping at unspent programme days",
+   "gloss": "funding penalties begin eroding unused programme time",
+   "ms_guidance": "Metafora 'clipping' jangan dicalque. Parafrasa: 'peraturan pembiayaan mula menjejaskan hari program yang belum digunakan'."
+  },
+  {
+   "phrase": "never mass-produced and fired off",
+   "gloss": "never sent hastily in bulk",
+   "ms_guidance": "Parafrasa: 'jangan dihasilkan secara borong dan dihantar sekali gus tanpa semakan'. Jangan terjemah 'fired' dengan makna tembak."
+  },
+  {
+   "phrase": "the elephant in the room",
+   "gloss": "the obvious issue everyone avoids naming",
+   "ms_guidance": "Parafrasa: 'isu besar yang semua orang sedia maklum tetapi enggan membincangkannya'. Jangan sekali-kali terjemah literal tentang gajah dalam bilik."
+  },
+  {
+   "phrase": "a quiet revolution is underway",
+   "gloss": "major change happening gradually and unnoticed",
+   "ms_guidance": "Parafrasa: 'perubahan besar sedang berlaku secara senyap'. 'Revolusi senyap' boleh diterima; elakkan binaan literal 'sedang di bawah jalan' untuk 'underway'."
+  },
+  {
+   "phrase": "sits at an inflection point",
+   "gloss": "at a decisive turning moment",
+   "ms_guidance": "Guna 'berada di titik perubahan penting' atau 'di ambang perubahan besar'. Jangan calque istilah matematik 'titik lengkok balas'."
+  },
+  {
+   "phrase": "addresses the integrity challenge head-on",
+   "gloss": "confronts the issue directly",
+   "ms_guidance": "Guna 'menangani cabaran integriti itu secara langsung/berdepan'. Jangan terjemah 'head-on' dengan sebarang rujukan kepada kepala atau perlanggaran."
+  },
+  {
+   "phrase": "grappling with the same question",
+   "gloss": "struggling to resolve the same issue",
+   "ms_guidance": "Guna 'bergelut dengan persoalan yang sama' — 'bergelut' ialah padanan figuratif yang lazim dan semula jadi."
+  },
+  {
+   "phrase": "eats into your evenings and weekends",
+   "gloss": "consumes your personal time",
+   "ms_guidance": "Parafrasa: 'menghakis masa malam dan hujung minggu anda' atau 'meragut masa peribadi anda'. Elakkan 'memakan' dalam binaan yang janggal."
+  },
+  {
+   "phrase": "you know cba inside out",
+   "gloss": "you know it thoroughly and completely",
+   "ms_guidance": "Guna padanan lazim 'anda tahu selok-belok CBA' atau 'arif sepenuhnya tentang CBA'. Jangan terjemah komponen 'dalam' dan 'luar'."
+  },
+  {
+   "phrase": "gaming the system",
+   "gloss": "exploiting rules for unfair advantage",
+   "ms_guidance": "Konteks: 'understanding what EQAs look for is not about gaming the system'. Guna 'mengakali sistem' atau 'memperdaya sistem'. Jangan kaitkan dengan 'permainan' secara literal."
+  },
+  {
+   "phrase": "not just ticked off",
+   "gloss": "not merely marked complete superficially",
+   "ms_guidance": "Parafrasa: 'bukan sekadar ditanda selesai'. AMARAN: 'ticked off' di sini bukan bermaksud dimarahi."
+  },
+  {
+   "phrase": "understanding runs deep or stays on the surface",
+   "gloss": "understanding is genuine or merely superficial",
+   "ms_guidance": "Guna pasangan kontras 'kefahaman yang benar-benar mendalam atau sekadar di permukaan/cetek'. Jangan terjemah 'runs' sebagai berlari."
+  },
+  {
+   "phrase": "the skills compound",
+   "gloss": "skills accumulate and multiply each other",
+   "ms_guidance": "Parafrasa: 'kemahiran ini saling melengkapi dan kesannya berganda'. Elakkan istilah kewangan 'kompaun' kecuali gaya membenarkan."
+  },
+  {
+   "phrase": "common stall points",
+   "gloss": "typical places where progress halts",
+   "ms_guidance": "Parafrasa: 'punca kemajuan biasanya terhenti' atau 'titik tersekat yang lazim'. Jangan calque imej enjin terpadam."
+  },
+  {
+   "phrase": "continuous readiness rather than cramming",
+   "gloss": "steady preparation, not last-minute rush",
+   "ms_guidance": "Guna 'kesiapsiagaan berterusan, bukan persediaan saat akhir'. Jangan terjemah 'cramming' sebagai menyumbat."
+  },
+  {
+   "phrase": "a pass wrapped around a fail",
+   "gloss": "token praise disguising a failing verdict",
+   "ms_guidance": "Konteks maklum balas rujukan semula. Parafrasa: 'pujian tipis yang sekadar membalut keputusan belum kompeten'. Susun semula ayat supaya maksudnya jelas; jangan literal 'lulus dibalut gagal'."
+  },
+  {
+   "phrase": "before the material goes off",
+   "gloss": "before the plaster sets and hardens",
+   "ms_guidance": "AMARAN bahasa basahan bidang binaan: 'goes off' bermaksud mengeras/set, bukan meletup atau rosak. Guna 'sebelum bahan mengeras'."
+  },
+  {
+   "phrase": "reading the checklist cold",
+   "gloss": "reading it without any prior briefing",
+   "ms_guidance": "Parafrasa: 'membaca senarai semak itu tanpa sebarang penerangan awal'. Jangan terjemah 'cold' sebagai sejuk."
+  },
+  {
+   "phrase": "does it land without leading",
+   "gloss": "is it understood without giving answers away",
+   "ms_guidance": "'Land' di sini bermaksud difahami/berkesan: parafrasa 'adakah penjelasan itu sampai kepada pelajar tanpa memberikan jawapan'. Jangan guna 'mendarat'. Sama juga untuk 'would this tone genuinely land better'."
+  },
+  {
+   "phrase": "keep learners on track",
+   "gloss": "keep learners progressing as planned",
+   "ms_guidance": "Guna padanan lazim 'memastikan pelajar kekal berada di landasan yang betul' atau 'mengikut perancangan pembelajaran'."
+  },
+  {
+   "phrase": "confirmations rather than scrambles",
+   "gloss": "calm verification, not last-minute panic",
+   "ms_guidance": "Parafrasa: 'lawatan EQA menjadi pengesahan, bukan kelam-kabut saat akhir'. 'Kelam-kabut' ialah padanan semula jadi untuk 'scramble'."
+  },
+  {
+   "phrase": "a blank-page exercise",
+   "gloss": "writing task starting from nothing",
+   "ms_guidance": "Parafrasa: 'kerja yang bermula daripada kosong'. Jangan literal 'latihan halaman kosong'."
+  },
+  {
+   "phrase": "earns its place in your workflow",
+   "gloss": "proves it is worth keeping in your routine",
+   "ms_guidance": "Parafrasa: 'benar-benar membuktikan kegunaannya dalam aliran kerja anda'. Elakkan calque 'memperoleh tempatnya'."
+  },
+  {
+   "phrase": "the single factor that tipped it",
+   "gloss": "the one deciding factor",
+   "ms_guidance": "Guna 'faktor penentu yang memberatkan keputusan itu'. Imej dacing boleh dikekalkan ('menjadi pemberat timbangan') jika gaya membenarkan. Sama juga untuk 'what tipped it toward competent'."
+  },
+  {
+   "phrase": "cover to cover",
+   "gloss": "read entirely from start to finish",
+   "ms_guidance": "Guna padanan mantap 'membaca dari kulit ke kulit' — ungkapan ini memang lazim dalam bahasa Melayu."
+  },
+  {
+   "phrase": "smoothing them into false consensus",
+   "gloss": "hiding real disagreement behind fake agreement",
+   "ms_guidance": "Parafrasa: 'jangan melicinkan perbezaan pendapat sehingga kelihatan seperti kata sepakat yang palsu'."
+  },
+  {
+   "phrase": "back to back",
+   "gloss": "consecutively, one immediately after another",
+   "ms_guidance": "Guna 'berturut-turut' atau 'secara bersambung'. Jangan terjemah 'belakang ke belakang'."
+  },
+  {
+   "phrase": "doesn't hold up under questioning",
+   "gloss": "fails when probed more deeply",
+   "ms_guidance": "Parafrasa: 'tidak dapat dipertahankan apabila disoal dengan lebih mendalam'. Jangan literal 'tidak berdiri'."
+  },
+  {
+   "phrase": "tells a coherent story of ongoing readiness",
+   "gloss": "presents a consistent overall picture",
+   "ms_guidance": "Parafrasa: 'menggambarkan kesiapsiagaan berterusan secara konsisten dan menyeluruh'. Metafora 'cerita' boleh digugurkan dalam laras rasmi."
+  },
+  {
+   "phrase": "a felt sense",
+   "gloss": "intuitive understanding gained through experience",
+   "ms_guidance": "Parafrasa: 'kefahaman yang dihayati melalui pengalaman sendiri' atau 'gambaran naluriah'. Jangan literal 'rasa yang dirasai'."
+  },
+  {
+   "phrase": "the documentation avalanche",
+   "gloss": "an overwhelming flood of paperwork",
+   "ms_guidance": "Parafrasa: 'lambakan dokumentasi yang melampau' atau 'banjir kerja dokumentasi'. Jangan calque 'runtuhan salji dokumentasi'."
+  },
+  {
+   "phrase": "eats a week",
+   "gloss": "consumes an entire week of time",
+   "ms_guidance": "Guna 'memakan masa seminggu' — ungkapan 'memakan masa' memang lazim dan semula jadi dalam BM."
+  },
+  {
+   "phrase": "crowding out the thinking",
+   "gloss": "displacing the more important strategic work",
+   "ms_guidance": "Parafrasa: 'menghimpit ruang untuk berfikir' atau 'menyisihkan kerja pemikiran strategik'. Sama untuk 'crowds them out' / 'crowding them out'. Elakkan binaan literal 'menyesak keluar'."
+  },
+  {
+   "phrase": "the shop floor",
+   "gloss": "the hands-on factory or workshop environment",
+   "ms_guidance": "Guna 'lantai kilang' (lazim untuk konteks pembuatan) atau parafrasa 'di tapak kerja/bengkel'. Jangan sekali-kali 'lantai kedai'."
+  },
+  {
+   "phrase": "the better part of her day",
+   "gloss": "most of the day",
+   "ms_guidance": "Guna 'hampir sepanjang harinya'. Jangan terjemah literal 'bahagian yang lebih baik daripada harinya'."
+  },
+  {
+   "phrase": "a classroom accessory",
+   "gloss": "a minor add-on teaching gadget",
+   "ms_guidance": "Parafrasa: 'sekadar alat sampingan bilik darjah'. Elakkan 'aksesori' yang berkonotasi barang fesyen; kontras dengan 'alat perisikan strategik' perlu kekal."
+  },
+  {
+   "phrase": "the leadership corridor",
+   "gloss": "senior management circles",
+   "ms_guidance": "Metonimi. Parafrasa: 'kalangan pengurusan tertinggi' atau 'peringkat kepimpinan'. Jangan literal 'koridor kepimpinan'."
+  },
+  {
+   "phrase": "carries your name",
+   "gloss": "bears your personal professional accountability",
+   "ms_guidance": "Konteks: 'before it carries your name'. Parafrasa: 'diterbitkan atas nama anda' atau 'anda yang menanggung akauntabilitinya'. Elakkan 'membawa nama anda' yang boleh disalah erti sebagai mengharumkan nama."
+  },
+  {
+   "phrase": "polished away the difficult truths",
+   "gloss": "smoothed over the unpleasant facts",
+   "ms_guidance": "Parafrasa: 'dilicinkan sehingga hakikat yang sukar hilang' atau 'menyembunyikan kebenaran yang tidak selesa di sebalik ayat yang kemas'. Jangan literal 'menggilap'."
+  },
+  {
+   "phrase": "drift out of alignment",
+   "gloss": "gradually become mismatched with demand",
+   "ms_guidance": "Guna 'semakin lari daripada keperluan industri' atau 'kian tidak selari'. Sama untuk 'skills alignment drift': 'keciciran keselarian kemahiran secara beransur'. Elakkan 'hanyut' tanpa konteks."
+  },
+  {
+   "phrase": "the partnership is the operating system",
+   "gloss": "partnerships underpin everything the institution does",
+   "ms_guidance": "Metafora IT boleh dikekalkan ('perkongsian itulah sistem operasinya') kerana mudah difahami; jika ragu, parafrasa 'perkongsian industri ialah tunjang seluruh operasi kolej'."
+  },
+  {
+   "phrase": "falls through the cracks",
+   "gloss": "gets overlooked between systems or people",
+   "ms_guidance": "Parafrasa: 'terlepas pandang' atau 'tercicir antara sistem'. Jangan literal 'jatuh melalui rekahan'."
+  },
+  {
+   "phrase": "quick win",
+   "gloss": "a fast, visible early success",
+   "ms_guidance": "Istilah strategi yang sangat kerap dalam buku ini — tetapkan satu padanan dan kekalkan konsisten: 'kemenangan awal' atau 'pencapaian pantas'. Elakkan 'kemenangan cepat' yang janggal dan jangan biarkan tidak diterjemah."
+  },
+  {
+   "phrase": "meets instructors where they are",
+   "gloss": "adapts to their current level and context",
+   "ms_guidance": "Parafrasa: 'mendekati tenaga pengajar mengikut tahap dan keadaan semasa mereka'. Sama untuk 'meeting instructors where they are'. Jangan literal 'bertemu di tempat mereka berada'."
+  },
+  {
+   "phrase": "the front office",
+   "gloss": "central management, as opposed to teaching staff",
+   "ms_guidance": "Metonimi. Parafrasa: 'pihak pentadbiran' atau 'pejabat pengurusan'. Jangan 'pejabat hadapan' (itu istilah hotel/kaunter)."
+  },
+  {
+   "phrase": "it is seeding interest",
+   "gloss": "quietly planting early interest",
+   "ms_guidance": "Guna 'menyemai minat' — metafora benih memang lazim dan semula jadi dalam BM."
+  },
+  {
+   "phrase": "had landed well",
+   "gloss": "was well received by the audience",
+   "ms_guidance": "Parafrasa: 'mendapat sambutan baik' atau 'kena pada sasarannya'. Jangan 'mendarat dengan baik'."
+  },
+  {
+   "phrase": "practising what we publish",
+   "gloss": "applying our own advice ourselves",
+   "ms_guidance": "Permainan kata 'practise what you preach'. Parafrasa formal: 'kami sendiri mengamalkan apa yang kami terbitkan'. Elakkan peribahasa santai seperti 'cakap serupa bikin' untuk laras buku."
+  },
+  {
+   "phrase": "the systems are the systems",
+   "gloss": "the constraints are fixed and unchangeable",
+   "ms_guidance": "Retorik pengulangan tidak berfungsi secara literal dalam BM. Parafrasa: 'sistem sedia ada memang begitu dan tidak dapat diubah'."
+  },
+  {
+   "phrase": "a compliant-on-paper one",
+   "gloss": "meets requirements only formally, not in substance",
+   "ms_guidance": "Guna 'program yang patuh di atas kertas sahaja' — ungkapan 'di atas kertas' lazim dalam BM; kekalkan kontras dengan 'program yang diurus dengan baik'."
+  },
+  {
+   "phrase": "work-ready graduates",
+   "gloss": "graduates prepared for immediate employment",
+   "ms_guidance": "Guna 'graduan sedia kerja'; untuk 'industry-ready graduates' guna 'graduan sedia industri' — padanan ringkas yang semakin mantap. Elakkan binaan meleret 'bersedia untuk memasuki industri' dalam tajuk atau slogan berulang."
+  },
+  {
+   "phrase": "thought partner",
+   "gloss": "a collaborator in thinking, not a mere tool",
+   "ms_guidance": "Istilah kerangka siri AI+ yang berulang ('AI as Thought Partner'). Tetapkan 'rakan pemikir' dan guna secara konsisten; jangan 'pasangan fikiran' atau terjemahan berubah-ubah."
+  },
+  {
+   "phrase": "garbage in, thin report out",
+   "gloss": "poor input data produces a weak report",
+   "ms_guidance": "Permainan pada 'garbage in, garbage out'. Parafrasa: 'jika data yang dimasukkan lemah, laporan yang terhasil juga tipis dan lemah'. Jangan terjemah literal 'sampah masuk'."
+  },
+  {
+   "phrase": "walk before you run",
+   "gloss": "master basics before attempting advanced use",
+   "ms_guidance": "Parafrasa: 'kuasai langkah asas dahulu sebelum mara lebih jauh' atau 'mulakan secara berperingkat'. Jangan calque mentah 'berjalan sebelum berlari' tanpa olahan ayat yang semula jadi."
+  },
+  {
+   "phrase": "you can't chatgpt a rams",
+   "gloss": "brand name used as a verb; cannot shortcut",
+   "ms_guidance": "Jenama dijadikan kata kerja — tidak boleh dikekalkan dalam BM. Parafrasa: 'RAMS tidak boleh dihasilkan sekadar dengan ChatGPT'. Kekalkan nada dialog lisan watak."
+  },
+  {
+   "phrase": "this is not a rubber stamp",
+   "gloss": "not a mere approval formality",
+   "ms_guidance": "'Cap getah' memang lazim secara figuratif dalam BM Malaysia dan boleh digunakan ('ini bukan sekadar cap getah'); jika mahu lebih formal, parafrasa 'bukan pengesahan tanpa semakan sebenar'."
+  },
+  {
+   "phrase": "you are working without a net",
+   "gloss": "operating with no policy or protection backing you",
+   "ms_guidance": "Metafora sarkas (jaring keselamatan). Parafrasa: 'anda bekerja tanpa sebarang jaringan perlindungan — tanggungjawab sepenuhnya di bahu anda'. Jangan literal 'tanpa jaring' tanpa konteks."
+  },
+  {
+   "phrase": "a living asset, not a filing exercise",
+   "gloss": "document kept actively updated, not just archived",
+   "ms_guidance": "Untuk 'living document/asset', guna 'dokumen yang sentiasa dikemas kini' atau 'dokumen dinamik'; 'dokumen hidup' boleh jika digunakan secara konsisten. Untuk 'filing exercise', guna 'sekadar urusan memfailkan' (selari dengan 'compliance exercise')."
+  },
+  {
+   "phrase": "filed and forgotten",
+   "gloss": "archived and never looked at again",
+   "ms_guidance": "Parafrasa: 'disimpan lalu dilupakan begitu sahaja'. Aliterasi asal boleh digugurkan; kejelasan makna lebih penting."
+  },
+  {
+   "phrase": "existed in parallel silos",
+   "gloss": "kept separately with no connection between them",
+   "ms_guidance": "'Silo' kini lazim dalam BM profesional ('bekerja secara silo'); 'wujud dalam silo yang berasingan' boleh diterima, atau parafrasa 'wujud secara berasingan tanpa sebarang perhubungan'. Jangan terjemah 'silo' sebagai jelapang."
+  },
+  {
+   "phrase": "close the loop",
+   "gloss": "complete the cycle from incident to prevention",
+   "ms_guidance": "Parafrasa: 'melengkapkan kitaran' (contoh: 'melengkapkan kitaran daripada insiden kepada pencegahan'). Jangan literal 'menutup gelung'."
+  },
+  {
+   "phrase": "a data archaeology project",
+   "gloss": "tediously digging up scattered old records",
+   "ms_guidance": "Parafrasa: 'kerja menggali semula data lama yang berselerak'. Jangan kekalkan 'arkeologi data' tanpa penjelasan — imejnya janggal dalam BM."
+  },
+  {
+   "phrase": "the administrative spine",
+   "gloss": "the structural backbone of the admin workload",
+   "ms_guidance": "Guna padanan figuratif lazim 'tulang belakang pentadbiran' — imej ini semula jadi dalam BM."
+  },
+  {
+   "phrase": "the connective tissue",
+   "gloss": "what holds the relationships together",
+   "ms_guidance": "Konteks: 'communication is the connective tissue of placement coordination'. Parafrasa: 'komunikasi ialah penghubung utama' atau 'nadi yang mengikat hubungan tiga hala'. Jangan literal 'tisu penghubung'."
+  },
+  {
+   "phrase": "the hours data chase",
+   "gloss": "repeatedly pursuing people for missing records",
+   "ms_guidance": "'Chase/chasing' bermaksud menuntut/mengejar dokumen daripada orang. Guna 'kerja mengejar data jam daripada pelbagai pihak' atau 'menuntut rekod yang tertunggak'. Jangan biarkan 'memburu' yang berkonotasi ganas."
+  },
+  {
+   "phrase": "buried under a documentation load",
+   "gloss": "overwhelmed by paperwork volume",
+   "ms_guidance": "Imej figuratif boleh dikekalkan: 'dibebani timbunan dokumentasi' atau 'tenggelam dalam lambakan dokumen'. Elakkan 'ditanam/dikebumikan'."
+  },
+  {
+   "phrase": "you are spent",
+   "gloss": "completely exhausted",
+   "ms_guidance": "Guna 'anda benar-benar kehabisan tenaga' atau 'keletihan sepenuhnya'. Jangan terjemah 'spent' sebagai 'dibelanjakan'."
+  },
+  {
+   "phrase": "weak signals",
+   "gloss": "faint early indicators of a developing problem",
+   "ms_guidance": "Guna 'petanda awal yang samar' atau 'isyarat awal yang halus'. 'Isyarat lemah' berbau teknikal radio; pastikan makna petanda risiko jelas."
+  },
+  {
+   "phrase": "workers who have heard it all before",
+   "gloss": "audience numbed by repetition",
+   "ms_guidance": "Guna 'pekerja yang sudah lali mendengarnya' — 'lali' ialah padanan semula jadi untuk kelesuan akibat ulangan."
+  },
+  {
+   "phrase": "a time sink",
+   "gloss": "an activity that consumes disproportionate time",
+   "ms_guidance": "Parafrasa: 'kerja yang menelan terlalu banyak masa' atau 'pembazir masa'. Jangan literal 'sinki masa'."
+  },
+  {
+   "phrase": "feel seen rather than processed",
+   "gloss": "treated as an individual, not a case number",
+   "ms_guidance": "Parafrasa: 'berasa dihargai sebagai individu, bukan sekadar diproses seperti nombor kes'. Jangan literal 'berasa dilihat'."
+  },
+  {
+   "phrase": "documentation drift",
+   "gloss": "documents slowly falling out of date unnoticed",
+   "ms_guidance": "Seperti entri 'drifting' sedia ada: elakkan 'hanyut' literal. Guna 'dokumentasi yang semakin tersasar daripada keadaan sebenar' atau 'semakin ketinggalan tanpa disedari'. Untuk 'prevent the drift': 'mencegah keadaan ini daripada berlarutan'."
+  },
+  {
+   "phrase": "uncharted professional territory",
+   "gloss": "an area with no existing guidance",
+   "ms_guidance": "Guna padanan lazim 'wilayah yang belum diterokai' atau parafrasa 'situasi tanpa panduan profesional sedia ada'."
+  },
+  {
+   "phrase": "where many ai-generated rams fall down",
+   "gloss": "where they most commonly fail",
+   "ms_guidance": "Guna 'di sinilah kelemahan paling ketara' atau 'di sinilah dokumen sering tergendala'. Jangan terjemah 'fall down' sebagai 'jatuh'."
+  },
+  {
+   "phrase": "pay dividends",
+   "gloss": "yield worthwhile returns later",
+   "ms_guidance": "Guna 'membuahkan hasil' — padanan figuratif yang mantap. Elakkan istilah kewangan literal 'membayar dividen' kecuali konteks kewangan sebenar."
+  },
+  {
+   "phrase": "on the ground",
+   "gloss": "in actual site conditions, in reality",
+   "ms_guidance": "Konteks: 'consistent with what's actually happening on the ground'. Guna 'di lapangan' atau 'keadaan sebenar di tapak'. Jangan sekali-kali 'di atas tanah'."
+  },
+  {
+   "phrase": "institutional memory",
+   "gloss": "accumulated organisational knowledge held informally",
+   "ms_guidance": "'Memori institusi' boleh diterima dalam laras akademik; alternatif lebih jelas: 'khazanah pengetahuan tidak formal organisasi' atau 'ingatan kolektif institusi'."
+  },
+  {
+   "phrase": "drowning in desk work",
+   "gloss": "overwhelmed by administrative paperwork",
+   "ms_guidance": "Parafrasa: 'dibebani kerja pentadbiran yang menimbun' atau 'ditenggelami kerja meja'. Jangan terjemah 'lemas' secara literal tanpa konteks beban kerja yang jelas."
+  },
+  {
+   "phrase": "the documentation overhead is what's breaking him",
+   "gloss": "the admin burden is wearing him down",
+   "ms_guidance": "Guna 'itulah yang menghimpitnya' atau 'beban dokumentasi itulah yang meletihkannya'. Jangan terjemah 'breaking' sebagai 'mematahkan/memecahkan'."
+  },
+  {
+   "phrase": "demonstrations that land",
+   "gloss": "demonstrations that actually succeed with learners",
+   "ms_guidance": "'Land' bermaksud berkesan/mengena. Guna 'demonstrasi yang benar-benar berkesan' atau 'yang mengena kepada pelajar'. Jangan sekali-kali 'mendarat'. Sama untuk 'a demonstration didn't land as well': 'tidak seberkesan yang dirancang'."
+  },
+  {
+   "phrase": "knows the procedure cold",
+   "gloss": "knows the procedure perfectly",
+   "ms_guidance": "Guna 'menguasai prosedur itu sepenuhnya' atau 'hafal di luar kepala'. Jangan terjemah 'cold' sebagai 'sejuk'."
+  },
+  {
+   "phrase": "carries the session in their head",
+   "gloss": "holds the full session plan mentally",
+   "ms_guidance": "Parafrasa: 'sesi itu sudah tergambar sepenuhnya dalam fikiran mereka'. Elakkan 'membawa sesi di dalam kepala'."
+  },
+  {
+   "phrase": "the structural bones are consistent",
+   "gloss": "the underlying structure stays the same",
+   "ms_guidance": "Guna 'kerangka asasnya tetap sama' atau 'struktur dasarnya konsisten'. Jangan terjemah 'bones' sebagai 'tulang'."
+  },
+  {
+   "phrase": "learners are tracking comfortably",
+   "gloss": "learners are following along without difficulty",
+   "ms_guidance": "'Tracking' bermaksud mengikuti perjalanan pengajaran, bukan menjejak. Guna 'pelajar dapat mengikuti dengan selesa'."
+  },
+  {
+   "phrase": "differentiate on the fly",
+   "gloss": "improvise adaptations in the moment",
+   "ms_guidance": "Guna 'membuat pembezaan secara spontan semasa sesi berlangsung' atau 'secara serta-merta'. Jangan terjemah imej 'terbang'."
+  },
+  {
+   "phrase": "bolted on as an afterthought",
+   "gloss": "added late instead of designed in",
+   "ms_guidance": "Parafrasa: 'ditokok tambah kemudian, bukan dirancang dari awal'. Elakkan imej 'bolt/skru'. Kontraskan dengan 'integrated': 'disepadukan dari awal'."
+  },
+  {
+   "phrase": "lowering the bar",
+   "gloss": "reducing the required standard",
+   "ms_guidance": "Guna 'menurunkan piawaian' atau 'merendahkan tahap yang dituntut'. Jangan 'menurunkan palang'."
+  },
+  {
+   "phrase": "visibly single the learner out",
+   "gloss": "make the learner conspicuously different",
+   "ms_guidance": "Parafrasa: 'menonjolkan atau mengasingkan pelajar itu secara ketara di mata rakan-rakan'. Jangan terjemah 'single out' secara literal komponen demi komponen."
+  },
+  {
+   "phrase": "freezes when observed",
+   "gloss": "becomes unable to act from anxiety",
+   "ms_guidance": "Guna 'terpaku' atau 'menjadi kaku apabila diperhatikan'. Jangan terjemah 'freeze' sebagai 'membeku'."
+  },
+  {
+   "phrase": "he raids another workshop",
+   "gloss": "hastily borrows supplies from elsewhere",
+   "ms_guidance": "Parafrasa: 'terpaksa meminjam kelengkapan dari bengkel lain secara tergesa-gesa'. Jangan guna 'menyerbu/menggeledah' yang berkonotasi jenayah."
+  },
+  {
+   "phrase": "the weakest paper trails",
+   "gloss": "the least documented evidence records",
+   "ms_guidance": "'Paper trail' = rekod dokumentasi. Guna 'rekod dokumentasi yang paling lemah'. Jangan calque 'jejak kertas'."
+  },
+  {
+   "phrase": "bureaucratic box-ticking",
+   "gloss": "compliance formality without real value",
+   "ms_guidance": "Parafrasa: 'formaliti birokrasi semata-mata' atau 'sekadar memenuhi syarat'. 'Menanda kotak' boleh difahami tetapi parafrasa lebih selamat untuk laras formal."
+  },
+  {
+   "phrase": "a theoretical line you'd talk yourself past under pressure",
+   "gloss": "a limit you rationalize ignoring when stressed",
+   "ms_guidance": "Parafrasa: 'garis yang akhirnya anda cari alasan untuk melangkauinya apabila terdesak'. Jangan terjemah 'talk yourself past' kata demi kata."
+  },
+  {
+   "phrase": "dog-eared the risk assessment chapter",
+   "gloss": "folded page corners from frequent use",
+   "ms_guidance": "Parafrasa: 'melipat penjuru halaman bab penilaian risiko (tanda kerap dirujuk)'. Jangan sekali-kali merujuk 'telinga anjing'."
+  },
+  {
+   "phrase": "noor had that covered",
+   "gloss": "she already had that mastered",
+   "ms_guidance": "'Covered' = sudah dikuasai/diuruskan. Parafrasa: 'perkara itu sudah dikuasainya'. Jangan terjemah sebagai 'menutup/meliputi'. (Frasa sama berulang dengan Kwame dalam buku kerja T2-133W.)"
+  },
+  {
+   "phrase": "taught as organisational training straight off the page",
+   "gloss": "usable directly as written, no adaptation",
+   "ms_guidance": "Parafrasa: 'boleh diajar terus daripada buku tanpa ubah suai'. Jangan terjemah 'off the page' secara literal."
+  },
+  {
+   "phrase": "the author's own trade-blindness",
+   "gloss": "blind spots caused by one's own expertise",
+   "ms_guidance": "Parafrasa: 'titik buta akibat terlalu sebati dengan bidang sendiri'. Jangan cipta kata majmuk literal seperti 'kebutaan bidang'."
+  },
+  {
+   "phrase": "a second pair of eyes",
+   "gloss": "an independent reviewer",
+   "ms_guidance": "Parafrasa: 'semakan oleh orang kedua' atau 'pandangan pihak kedua'. Elakkan 'sepasang mata kedua' dalam laras formal."
+  },
+  {
+   "phrase": "has ai smoothed over something important",
+   "gloss": "glossed over or hidden real problems",
+   "ms_guidance": "Guna 'mengaburkan' atau 'melicinkan hingga menghilangkan butiran penting'. Jangan terjemah 'smooth over' sebagai 'melicinkan' semata-mata tanpa makna menyembunyikan."
+  },
+  {
+   "phrase": "quiet wins",
+   "gloss": "small successes that go unnoticed",
+   "ms_guidance": "Parafrasa: 'kejayaan kecil yang tidak disedari' atau 'pencapaian senyap yang jarang direkodkan'. Elakkan 'kemenangan senyap' berdiri sendiri tanpa konteks."
+  },
+  {
+   "phrase": "your planning headspace",
+   "gloss": "mental capacity reserved for planning",
+   "ms_guidance": "Parafrasa: 'ruang fikiran untuk merancang' atau 'tumpuan mental anda'. Jangan calque 'ruang kepala'."
+  },
+  {
+   "phrase": "plans in the margins",
+   "gloss": "plans in scraps of spare time",
+   "ms_guidance": "Parafrasa: 'merancang dalam celah-celah masa yang sempit'. Jangan terjemah sebagai 'di tepi halaman'."
+  },
+  {
+   "phrase": "you have what this takes",
+   "gloss": "you are fully capable of this",
+   "ms_guidance": "Ayat penutup berulang dalam kedua-dua buku kerja. Guna 'anda mampu melakukannya' atau 'anda ada segala yang diperlukan untuk berjaya'. Jangan terjemah struktur 'what it takes' secara literal."
+  },
+  {
+   "phrase": "pairs well with",
+   "gloss": "complements these other titles",
+   "ms_guidance": "Tajuk seksyen berulang (Skill Declaration). Guna 'sesuai digandingkan dengan'. Elakkan metafora makanan/wain seperti 'berpadu rasa'."
+  },
+  {
+   "phrase": "a seeded technical error",
+   "gloss": "an error deliberately planted for practice",
+   "ms_guidance": "'Seeded' = sengaja diselitkan (latihan kalibrasi). Guna 'kesilapan yang sengaja diselitkan'. Jangan guna imej 'benih/menyemai'."
+  },
+  {
+   "phrase": "no risk assessment goes live",
+   "gloss": "put into active official use",
+   "ms_guidance": "'Goes live' = mula berkuat kuasa/digunakan. Guna 'tidak boleh mula digunakan' atau 'tidak berkuat kuasa selagi belum disahkan'. Jangan terjemah 'live' sebagai 'hidup'."
+  },
+  {
+   "phrase": "the heavy lifting",
+   "gloss": "the hardest, most laborious part of the work",
+   "ms_guidance": "Parafrasa: 'AI menggalas bahagian kerja yang paling berat' atau 'melakukan kerja-kerja paling memakan masa'. Jangan terjemah 'angkat berat' secara literal."
+  },
+  {
+   "phrase": "productivity quietly bleeds out",
+   "gloss": "productivity is steadily, invisibly lost",
+   "ms_guidance": "Parafrasa: 'produktiviti terhakis sedikit demi sedikit tanpa disedari'. Jangan sekali-kali guna imej 'berdarah'."
+  },
+  {
+   "phrase": "fielding questions",
+   "gloss": "handling a stream of incoming questions",
+   "ms_guidance": "Guna 'melayan pelbagai soalan yang datang' atau 'menjawab soalan bertubi-tubi'. Elakkan sebarang calque daripada 'field'."
+  },
+  {
+   "phrase": "the gold standard",
+   "gloss": "the best, most trusted benchmark method",
+   "ms_guidance": "Guna 'penanda aras unggul' atau 'kaedah rujukan terbaik'. 'Standard emas' agak lazim dalam laras teknikal/perubatan tetapi parafrasa lebih selamat untuk nada umum."
+  },
+  {
+   "phrase": "blind spots",
+   "gloss": "inherent weaknesses a method cannot see",
+   "ms_guidance": "Konteks kaedah pentaksiran: guna 'kelemahan yang tidak disedari' atau 'titik buta' — kiasan 'titik buta' sudah mantap dalam BM, tetapi pastikan konteks jelas bukan automotif."
+  },
+  {
+   "phrase": "spread too thin",
+   "gloss": "resources stretched across too many priorities",
+   "ms_guidance": "Parafrasa: 'bajet latihan dipecahkan kepada terlalu banyak keutamaan sehingga tidak berkesan'. Jangan terjemah imej 'disapu nipis'."
+  },
+  {
+   "phrase": "gut feeling",
+   "gloss": "intuition rather than evidence",
+   "ms_guidance": "Guna padanan lazim 'gerak hati' atau 'naluri'. Jangan terjemah literal 'perasaan perut'."
+  },
+  {
+   "phrase": "when everything is a priority, nothing is",
+   "gloss": "prioritising everything means prioritising nothing",
+   "ms_guidance": "Terjemah maksud secara langsung: 'apabila semuanya menjadi keutamaan, tiada satu pun yang benar-benar diutamakan'. Kekalkan struktur aforisme yang ringkas."
+  },
+  {
+   "phrase": "a wish list",
+   "gloss": "unsupported aspirations, not evidence",
+   "ms_guidance": "Konteks: gap register lawan 'wish list'. Guna 'sekadar senarai hasrat' atau padanan lazim 'senarai hajat'; pastikan kontras dengan 'daftar berasaskan bukti' kekal jelas."
+  },
+  {
+   "phrase": "cosmetic",
+   "gloss": "superficial, low-impact (of gaps/fixes)",
+   "ms_guidance": "Konteks 'two of her top 10 were cosmetic': guna 'jurang remeh/permukaan sahaja'. 'Kosmetik' secara kiasan boleh diterima ('perubahan kosmetik') tetapi 'remeh' lebih jelas."
+  },
+  {
+   "phrase": "the stretch investment",
+   "gloss": "ambitious optional investment beyond core needs",
+   "ms_guidance": "Parafrasa: 'pelaburan tambahan untuk pembangunan jangka panjang'. Jangan calque 'regangan'."
+  },
+  {
+   "phrase": "off the tools",
+   "gloss": "away from hands-on trade work",
+   "ms_guidance": "Konteks 'when will they be off the tools for training': parafrasa 'terpaksa meninggalkan kerja amali untuk latihan'. Jangan literal 'turun daripada alat'. (Bandingkan entri sedia ada 'on-the-tools practice'.)"
+  },
+  {
+   "phrase": "an academic exercise",
+   "gloss": "theoretically correct but practically ignored effort",
+   "ms_guidance": "Parafrasa: 'sekadar latihan teori yang tidak memberi kesan operasi'. 'Latihan akademik' secara literal mengelirukan dalam konteks TVET."
+  },
+  {
+   "phrase": "will feel ambushed",
+   "gloss": "blindsided, surprised without warning",
+   "ms_guidance": "Guna 'berasa diperangkap' atau 'terkejut tanpa sebarang persediaan'. Elakkan 'serang hendap' yang berkonotasi ketenteraan."
+  },
+  {
+   "phrase": "ahead of this curve",
+   "gloss": "adopting earlier than most others",
+   "ms_guidance": "Guna 'mendahului arus perubahan' atau 'lebih awal daripada kebanyakan orang'. Jangan terjemah 'lengkung' secara literal."
+  },
+  {
+   "phrase": "nice to have",
+   "gloss": "optional extra, as opposed to essential",
+   "ms_guidance": "Konteks 'from nice to have to expected': parafrasa 'daripada sekadar nilai tambah kepada keperluan asas'. Jangan 'bagus untuk dimiliki'."
+  },
+  {
+   "phrase": "evidence graveyard",
+   "gloss": "pile of uploaded but unnavigable evidence",
+   "ms_guidance": "Metafora buku ini (bersama 'evidence dump' dan 'evidence desert'). Cadangan: 'longgokan bukti yang tidak terurus'; jika metafora dikekalkan, letakkan dalam tanda petik dan pastikan ketiga-tiga istilah trio itu konsisten seluruh buku."
+  },
+  {
+   "phrase": "evidence dump",
+   "gloss": "indiscriminate uploading of everything",
+   "ms_guidance": "Bahagian trio dengan 'graveyard'/'desert'. Parafrasa: 'lambakan bukti tanpa pemilihan'. Pastikan rendering trio selari dan boleh dibezakan."
+  },
+  {
+   "phrase": "evidence desert",
+   "gloss": "almost nothing captured despite real work",
+   "ms_guidance": "Bahagian trio. Parafrasa: 'kekosongan bukti' atau 'ketandusan bukti'. Pastikan konsisten dengan dua istilah trio yang lain."
+  },
+  {
+   "phrase": "evidence-light",
+   "gloss": "lacking sufficient documented evidence",
+   "ms_guidance": "Konteks unit yang 'evidence-light': guna 'kekurangan bukti' atau 'bukti tidak mencukupi'. Jangan cipta binaan seperti 'ringan bukti'."
+  },
+  {
+   "phrase": "the bread-and-butter of your daily work",
+   "gloss": "the routine core of the job",
+   "ms_guidance": "Guna 'kerja asas harian anda' atau 'tugas rutin utama'. Jangan sekali-kali 'roti dan mentega'."
+  },
+  {
+   "phrase": "trying to catch you out",
+   "gloss": "trying to trick you into failing",
+   "ms_guidance": "Guna 'cuba memerangkap anda' atau 'mencari-cari kesilapan anda'."
+  },
+  {
+   "phrase": "think on your feet",
+   "gloss": "respond quickly and adaptively in real time",
+   "ms_guidance": "Parafrasa: 'berfikir pantas secara spontan' atau 'bertindak balas serta-merta'. Jangan 'berfikir di atas kaki'."
+  },
+  {
+   "phrase": "caught you off guard",
+   "gloss": "surprised you when unprepared",
+   "ms_guidance": "Guna 'soalan yang tidak dijangka' atau 'membuatkan anda terpinga-pinga seketika'. Elakkan calque 'lengah kawalan'."
+  },
+  {
+   "phrase": "buy thinking time",
+   "gloss": "pause deliberately to gather thoughts",
+   "ms_guidance": "Guna 'mengulur masa untuk berfikir' atau 'mendapatkan ruang berfikir seketika'. 'Membeli masa' agak lazim tetapi berkonotasi menangguh; 'mengulur' lebih tepat di sini."
+  },
+  {
+   "phrase": "loses her thread",
+   "gloss": "loses her train of thought mid-speech",
+   "ms_guidance": "Guna 'hilang punca' atau 'terputus urutan bicara'. Jangan terjemah 'benang' secara literal."
+  },
+  {
+   "phrase": "undersells herself",
+   "gloss": "presents herself below her true ability",
+   "ms_guidance": "Parafrasa: 'tidak menonjolkan kebolehan sebenar' atau 'merendahkan pencapaian sendiri'. Jangan guna imej 'menjual murah'."
+  },
+  {
+   "phrase": "a grey area",
+   "gloss": "an ambiguous, unregulated zone",
+   "ms_guidance": "Konteks 'this isn't a grey area — it's fraud': 'kawasan kelabu' sudah mantap dalam BM dan boleh digunakan; pastikan kontras dengan 'penipuan' kekal tajam."
+  },
+  {
+   "phrase": "the last line of defence",
+   "gloss": "the final safeguard before failure",
+   "ms_guidance": "Guna padanan mantap 'benteng pertahanan terakhir' — semula jadi dalam BM."
+  },
+  {
+   "phrase": "don't sugarcoat",
+   "gloss": "don't soften an unpleasant truth",
+   "ms_guidance": "Guna 'nyatakan seadanya, jangan diperindah' atau 'jangan dimanis-maniskan'. Jangan sekali-kali 'salut gula'."
+  },
+  {
+   "phrase": "doesn't derail your apprenticeship",
+   "gloss": "doesn't knock the programme off course",
+   "ms_guidance": "Guna 'tidak menjejaskan perjalanan perantisan anda'; 'tergelincir daripada landasan' boleh jika gaya membenarkan, tetapi 'menjejaskan/menggagalkan' lebih bersih."
+  },
+  {
+   "phrase": "ai is training wheels",
+   "gloss": "temporary support while learning, later removed",
+   "ms_guidance": "Parafrasa dengan penjelasan: 'AI ialah sokongan sementara semasa anda belajar — seperti roda bantu basikal — bukan pengganti kekal kemahiran itu'. Jangan 'roda latihan' tanpa konteks."
+  },
+  {
+   "phrase": "the fabrication firewall",
+   "gloss": "the safeguard preventing invented evidence",
+   "ms_guidance": "Parafrasa: 'benteng yang menghalang fabrikasi bukti'. Jangan guna 'tembok api' (istilah IT) dalam konteks ini."
+  },
+  {
+   "phrase": "a panicked scramble",
+   "gloss": "frantic, disorganised last-minute rush",
+   "ms_guidance": "Guna 'kelam-kabut saat akhir' — padanan semula jadi dalam BM. Sama untuk 'last-minute scrambles'."
+  },
+  {
+   "phrase": "almost there",
+   "gloss": "nearly complete, frustratingly vague",
+   "ms_guidance": "Konteks maklum balas pentaksir: 'hampir siap' / 'hampir sampai' — kekalkan sifat kabur frasa ini kerana teks sengaja mengkritik kekaburannya."
+  },
+  {
+   "phrase": "break the streak",
+   "gloss": "end an unbroken daily run",
+   "ms_guidance": "Parafrasa: 'memutuskan rentetan hari berturut-turut'. Jangan terjemah 'streak' sebagai 'coreng/jalur'."
+  },
+  {
+   "phrase": "front-loads",
+   "gloss": "concentrates the work early in the period",
+   "ms_guidance": "Parafrasa: 'menumpukan kerja pada awal tempoh'. Jangan calque 'memuat di hadapan'."
+  },
+  {
+   "phrase": "serve double duty",
+   "gloss": "one item fulfilling two purposes at once",
+   "ms_guidance": "Guna 'memenuhi dua tujuan serentak' atau 'berfungsi dua peranan sekali gus'. Jangan 'tugas berganda' yang membawa maksud beban kerja."
+  },
+  {
+   "phrase": "in the moment",
+   "gloss": "at the very time the work happens",
+   "ms_guidance": "Frasa teras Bab 4 T3-109: guna 'serta-merta semasa kerja dilakukan' atau 'seketika itu juga'. Jangan 'dalam momen'. Pastikan rendering konsisten kerana frasa ini berulang sebagai konsep."
+  },
+  {
+   "phrase": "train your eye",
+   "gloss": "develop your judgement through practice",
+   "ms_guidance": "Parafrasa: 'mengasah kepekaan penilaian anda'. Jangan 'melatih mata' secara literal."
+  },
+  {
+   "phrase": "smoothed over",
+   "gloss": "glossed over an important detail",
+   "ms_guidance": "Konteks semakan terjemahan AI: 'mengaburkan atau meringkaskan sehingga hilang butiran penting'. Jangan 'melicinkan'."
+  },
+  {
+   "phrase": "the provider side of the table",
+   "gloss": "the provider's side of the relationship",
+   "ms_guidance": "Parafrasa: 'di pihak penyedia latihan' (lawan 'di pihak perantis'). Jangan terjemah imej 'sebelah meja'."
+  },
+  {
+   "phrase": "blank-page anxiety",
+   "gloss": "paralysis when starting from nothing",
+   "ms_guidance": "Parafrasa: 'kebuntuan berdepan halaman kosong' atau 'tidak tahu bagaimana hendak bermula'. (Bandingkan entri sedia ada 'staring at a blank page'.)"
+  },
+  {
+   "phrase": "like-for-like comparison",
+   "gloss": "direct comparison under identical conditions",
+   "ms_guidance": "Guna 'perbandingan setara' atau 'perbandingan seumpama dengan seumpama'. Jangan binaan literal 'suka-untuk-suka'."
   }
  ]
 }

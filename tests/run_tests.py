@@ -283,4 +283,9 @@ except RuntimeError:
 P.CMT=_orig_cmt
 ok("restore_comments loss alarm fires", _fired)
 
+# domain glossary: fires only where a term occurs, silent otherwise
+gn=P.glossary_notes(["We schedule preventive maintenance weekly."])
+ok("glossary note fires on istilah term", "penyenggaraan" in gn, gn[:120])
+ok("glossary silent on plain prose", P.glossary_notes(["Selamat pagi semua."])=="")
+
 print(f"\nall {N[0]} regression checks pass")

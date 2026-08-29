@@ -1,0 +1,2090 @@
+{
+ "_about": [
+  "TVET-domain glossary from the pre-wave istilah pass (PRPM, 2026-08-29).",
+  "Injected per-batch at draft time (TERM NOTES) only where the EN term occurs —",
+  "231 entries cannot ride the always-on TERMS block. status: istilah-decided",
+  "entries instruct 'use X'; informs entries give the adjacent istilah and demand",
+  "a consistent choice; open entries are queued for native ruling."
+ ],
+ "entries": [
+  {
+   "en": "site induction / induction pack",
+   "ms": "latihan pengenalan, kursus latihan perlayakan",
+   "status": "informs",
+   "field": "Pentadbiran",
+   "evidence": "'induction training | latihan pengenalan | Pentadbiran'; no site-induction entry",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "residual risk",
+   "ms": "risiko sisa, risiko residu",
+   "status": "informs",
+   "field": "Pentadbiran Perniagaan; Ekonomi; insurans",
+   "evidence": "'residual risk policy | polisi risiko sisa'; bare term absent",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "substance register",
+   "ms": "daftar",
+   "status": "informs",
+   "field": "Kependudukan; Geografi",
+   "evidence": "only generic 'register | daftar' compounds; no substance register",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "suitable and sufficient",
+   "ms": "mencukupi",
+   "status": "informs",
+   "field": "Undang-undang",
+   "evidence": "'sufficient (knowledge) | mencukupi | Undang-undang'; statutory phrase absent",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "work-integrated learning (WIL)",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "no WIL/WBL entry; only 'Integrated Learning System (ILS)'",
+   "domain": "placement",
+   "books": 1
+  },
+  {
+   "en": "placement host / placement employer",
+   "ms": "penempatan",
+   "status": "informs",
+   "field": "Pendidikan; Pentadbiran",
+   "evidence": "'placement | penempatan | Pendidikan'; no host/employer compound",
+   "domain": "placement",
+   "books": 1
+  },
+  {
+   "en": "hours verification / hours tracking",
+   "ms": "penentusahan, penjejakan",
+   "status": "informs",
+   "field": "Pendidikan; Kejuruteraan",
+   "evidence": "'verification | penentusahan', 'tracking | penjejakan'; no hours compound",
+   "domain": "placement",
+   "books": 1
+  },
+  {
+   "en": "at-risk identification / at-risk flag",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "no 'at-risk' entry; only generic risiko compounds",
+   "domain": "placement",
+   "books": 1
+  },
+  {
+   "en": "competency sign-off",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "'sign-off | rakam keluar | Komputer' is logout sense only",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "practice assessor",
+   "ms": "jurutaksir, pengapit, penaksir",
+   "status": "informs",
+   "field": "Undang-undang; Ekonomi; Kejuruteraan",
+   "evidence": "'assessor | jurutaksir; pengapit'; valuation/legal senses, not competence assessor",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "risk assessment",
+   "ms": "penilaian risiko, taksiran risiko",
+   "status": "istilah-decided",
+   "field": "Teknologi Hijau; Kejuruteraan; Ekonomi",
+   "evidence": "'penilaian risiko: pengenalpastian bahaya...dianalisis dan dinilai' matches OSH sense",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "RAMS (risk assessment and method statement)",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "'method statement' returns no Istilah Bahasa Melayu rows",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "safe system of work / method statement",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "no entry; only 'safe de-pressurization system' (Sains Nuklear)",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "control measure",
+   "ms": "langkah kawalan",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan; Makanan dan Pemakanan",
+   "evidence": "'control measure | langkah kawalan | Kejuruteraan'",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "torque verification / under-torquing",
+   "ms": "tork",
+   "status": "istilah-decided",
+   "field": "Fizik; Kejuruteraan; Perubatan",
+   "evidence": "'torque | tork | Fizik'; spelling fixed, no verification compound",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "consumables",
+   "ms": "guna habis, barang-barang guna habis, perabis",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan; Geografi",
+   "evidence": "'consumable | guna habis; perabis | Kejuruteraan'",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "session plan / practical session arc",
+   "ms": "rancangan mengajar",
+   "status": "informs",
+   "field": "Pendidikan",
+   "evidence": "only 'lesson plan | rancangan mengajar'; no session plan entry",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "demonstration",
+   "ms": "demonstrasi, kaedah demonstrasi",
+   "status": "istilah-decided",
+   "field": "Pendidikan",
+   "evidence": "'demonstration | demonstrasi | Pendidikan'; also 'kaedah demonstrasi'",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "debrief",
+   "ms": "ulasan",
+   "status": "informs",
+   "field": "Pendidikan; Pentadbiran Perniagaan",
+   "evidence": "'debriefing | ulasan | Pendidikan'; ambiguous for session phase",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "scaffolding",
+   "ms": "sokongan, perancah pengajaran, perancah",
+   "status": "informs",
+   "field": "Pendidikan; Kejuruteraan",
+   "evidence": "Pendidikan splits: 'sokongan' vs 'instructional scaffolding | perancah pengajaran'",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "differentiation",
+   "ms": "pembezaan",
+   "status": "informs",
+   "field": "Matematik; Fizik; Pendidikan",
+   "evidence": "'pembezaan' listed, but no differentiated-instruction sense in Pendidikan",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "visual job aid / step card",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "'job aid' returns no Istilah Bahasa Melayu rows",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "competency outcome / competency standard",
+   "ms": "kecekapan, kelayakan, pembelajaran berasaskan kompetensi",
+   "status": "informs",
+   "field": "Kejuruteraan; Pendidikan; Teknologi Maklumat",
+   "evidence": "'competency | kelayakan; kecekapan; kebolehan'; kompetensi only in IT entry",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "pass/refer decision",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "'refer | rujuk' is ordinary sense; no assessment 'refer'",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "internal/external quality assurance (IQA/EQA, external verifier)",
+   "ms": "jaminan mutu, jaminan kualiti, pegawai pengesah",
+   "status": "informs",
+   "field": "Kejuruteraan; Herba; Pentadbiran",
+   "evidence": "'quality assurance | jaminan mutu'; 'verifier | pegawai pengesah'; no IQA/EQA roles",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "work placement / industry placement",
+   "ms": "latihan industri",
+   "status": "istilah-decided",
+   "field": "Pendidikan",
+   "evidence": "'industrial training | latihan industri | Pendidikan'",
+   "domain": "placement",
+   "books": 1
+  },
+  {
+   "en": "lockout (boiler locking out)",
+   "ms": "sekat masuk; kunci keluar, sekat masuk kerja",
+   "status": "informs",
+   "field": "Kejuruteraan; Pentadbiran",
+   "evidence": "lockout | sekat masuk; kunci keluar | Kejuruteraan (telephony sense only)",
+   "domain": "plumbing-hvac",
+   "books": 1
+  },
+  {
+   "en": "gas rate (measured vs rated)",
+   "ms": "kadar aliran gas",
+   "status": "informs",
+   "field": "Kejuruteraan",
+   "evidence": "gas flow rate | kadar aliran gas | Kejuruteraan; no appliance-rating sense",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "unvented hot water system / cylinder",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "no 'unvented' istilah; only vented extruder | penyemperit bolong",
+   "domain": "plumbing-hvac",
+   "books": 1
+  },
+  {
+   "en": "Gas Safety Record (CP12/LGSR)",
+   "ms": "perakuan keselamatan",
+   "status": "informs",
+   "field": "Undang-undang",
+   "evidence": "safety certificate | perakuan keselamatan | Undang-undang; no gas-record genre",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "F-Gas log",
+   "ms": "buku log, buku catatan kerja",
+   "status": "informs",
+   "field": "Kejuruteraan; Komunikasi",
+   "evidence": "log book | buku log | Kejuruteraan; F-Gas label absent",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "completion certificate / completion record",
+   "ms": "perakuan tak siap, sijil, perakuan",
+   "status": "informs",
+   "field": "Kesenian; Pentadbiran",
+   "evidence": "certification of non-completion | perakuan tak siap; no completion certificate",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "emergency call-out",
+   "ms": "panggilan; lawatan",
+   "status": "informs",
+   "field": "Pentadbiran Perniagaan; Kejuruteraan",
+   "evidence": "call | panggilan; lawatan; no trade call-out istilah found",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "sole trader",
+   "ms": "peniaga perseorangan, pedagang perseorangan",
+   "status": "istilah-decided",
+   "field": "Ekonomi",
+   "evidence": "sole trader | peniaga perseorangan/ pedagang perseorangan | Ekonomi",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "quote vs estimate",
+   "ms": "sebut harga, anggaran; anggar",
+   "status": "istilah-decided",
+   "field": "Ekonomi; Kejuruteraan; Pentadbiran",
+   "evidence": "quotation | sebut harga | Ekonomi; estimate | anggaran; anggar",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "field-service management (FSM) software",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "'field service' and 'field service management' return no istilah",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "predictive maintenance",
+   "ms": "penyenggaraan jangkaan",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "predictive maintenance | penyenggaraan jangkaan | Kejuruteraan",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "portfolio evidence (apprentice)",
+   "ms": "portfolio",
+   "status": "informs",
+   "field": "Pentadbiran Perniagaan",
+   "evidence": "finance-only portfolio compounds; no TVET evidence-portfolio sense",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "certification scope / registration (Gas Safe registered)",
+   "ms": "perakuan; pensijilan, perakuan pendaftaran",
+   "status": "informs",
+   "field": "Pendidikan; Undang-undang; Sukan",
+   "evidence": "certification | perakuan; pensijilan; no scope/register compound",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "three-source verification rule",
+   "ms": "penentusahan",
+   "status": "informs",
+   "field": "Fizik; Komputer; Matematik",
+   "evidence": "verification | penentusahan (many fields); rule phrase needs composition",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "safety-critical",
+   "ms": "genting",
+   "status": "informs",
+   "field": "Fizik",
+   "evidence": "critical | genting compounds only; no safety-critical entry",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "job card",
+   "ms": "kad kerja",
+   "status": "istilah-decided",
+   "field": "Pentadbiran",
+   "evidence": "job card | kad kerja | Pentadbiran",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "warranty claim narrative",
+   "ms": "jaminan, waranti, huraian",
+   "status": "informs",
+   "field": "Pentadbiran; Penilaian Harta Tanah; Komputer",
+   "evidence": "warranty | jaminan/waranti; narrative only literary (kisah) or huraian",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "MOT / MOT advisory",
+   "ms": "layak jalan",
+   "status": "informs",
+   "field": "Undang-undang",
+   "evidence": "roadworthiness | layak jalan | Undang-undang; MOT proper noun absent",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "fault code / diagnostic trouble code (DTC)",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "fault | sesar; gagal; rosak; kesalahan; no code compound",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "differential diagnosis",
+   "ms": "diagnosis pembezaan",
+   "status": "istilah-decided",
+   "field": "Perubatan; Veterinar",
+   "evidence": "differential diagnosis | diagnosis pembezaan | Perubatan",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "torque-to-yield / stretch bolt (single-use fastener)",
+   "ms": "tork, bolt",
+   "status": "informs",
+   "field": "Fizik; Mekanik; Kejuruteraan Automotif",
+   "evidence": "torque | tork; bolt | bolt; no torque-to-yield compound",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "technical service bulletin (TSB)",
+   "ms": "buletin",
+   "status": "informs",
+   "field": "Komunikasi; Pentadbiran",
+   "evidence": "bulletin | buletin; no technical service bulletin entry",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "part supersession / supersession chain",
+   "ms": "kos mengganti",
+   "status": "informs",
+   "field": "Ekonomi",
+   "evidence": "only supersession cost | kos mengganti | Ekonomi",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "part number cross-referencing",
+   "ms": "rujukan silang, rujuk silang",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan; Perpustakaan",
+   "evidence": "cross-reference | rujukan silang | Kejuruteraan",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "pattern failure",
+   "ms": "corak kegagalan",
+   "status": "informs",
+   "field": "Kejuruteraan",
+   "evidence": "failure pattern | corak kegagalan | Kejuruteraan; reversed concept only",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "vehicle parc",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "'vehicle parc' and 'parc' return no relevant istilah",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "CPD (continuing professional development)",
+   "ms": "latihan profesional, pertumbuhan profesional, pendidikan profesional",
+   "status": "informs",
+   "field": "Pendidikan",
+   "evidence": "No 'professional development' row; only adjacent 'professional growth/training' entries.",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "self-evaluation report (SAR/SEF)",
+   "ms": "penilaian kendiri, soalan swanilai",
+   "status": "informs",
+   "field": "Pendidikan; Pentadbiran",
+   "evidence": "self-evaluation | penilaian kendiri | Pendidikan; report genre absent.",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "gateway",
+   "ms": "get laluan, pintu masuk, pintu laluan",
+   "status": "informs",
+   "field": "Kejuruteraan; Komputer; Teknologi Maklumat",
+   "evidence": "gateway | get laluan — networking sense only, not decision-point.",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "reflective account",
+   "ms": "reflektif (pemikiran reflektif, kajian reflektif, tindakan reflektif)",
+   "status": "informs",
+   "field": "Pendidikan",
+   "evidence": "'reflektif' established in Pendidikan compounds; no 'reflective account' row.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "observation record / structured observation",
+   "ms": "pemerhatian, kaedah pemerhatian, pemerhatian bilik darjah, pencerapan",
+   "status": "informs",
+   "field": "Pendidikan; Kependudukan; Geografi",
+   "evidence": "kaedah pemerhatian | Kependudukan; classroom observation | pemerhatian bilik darjah.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "work product",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "No 'work product' row; only generic product = keluaran; hasil.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "off-the-job training",
+   "ms": "latihan luar kerja",
+   "status": "istilah-decided",
+   "field": "Pentadbiran",
+   "evidence": "off-the-job training | latihan luar kerja | Pentadbiran.",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "on-the-job training (OJT)",
+   "ms": "latihan dalam kerja",
+   "status": "istilah-decided",
+   "field": "Geografi; Kependudukan",
+   "evidence": "on-the-job training | latihan dalam kerja; pairs with latihan luar kerja.",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "assessor",
+   "ms": "jurutaksir, pengapit, penaksir",
+   "status": "informs",
+   "field": "Ekonomi; Undang-undang; Pentadbiran Perniagaan",
+   "evidence": "jurutaksir; pengapit — valuation/legal senses; no TVET 'pentaksir' row.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "competency criteria / performance criteria",
+   "ms": "kriteria prestasi",
+   "status": "istilah-decided",
+   "field": "Pendidikan; Kejuruteraan",
+   "evidence": "performance criteria | kriteria prestasi | Pendidikan.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "cross-referencing (evidence)",
+   "ms": "rujukan silang",
+   "status": "istilah-decided",
+   "field": "Pentadbiran Perniagaan",
+   "evidence": "cross-referencing | rujukan silang | Pentadbiran Perniagaan.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "sufficiency of evidence (and the VACS adjective set: valid, authentic, current, sufficient)",
+   "ms": "kecukupan, bukti, keterangan",
+   "status": "informs",
+   "field": "Ekonomi; Undang-undang; Matematik",
+   "evidence": "sufficiency | kecukupan | Ekonomi; VACS adjective set absent.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "evidence triangulation",
+   "ms": "penyegitigaan",
+   "status": "informs",
+   "field": "Fizik; Geografi; Matematik; Kejuruteraan",
+   "evidence": "triangulation | penyegitigaan — surveying/math only; research sense absent.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "assessor calibration",
+   "ms": "penentuukuran, tentu ukuran",
+   "status": "informs",
+   "field": "Kimia; Kejuruteraan; Sains Sukan",
+   "evidence": "calibration | penentuukuran — metrology only; people-calibration sense absent.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "malpractice",
+   "ms": "amalan salah, amalan seleweng, malamalan",
+   "status": "informs",
+   "field": "Pentadbiran; Undang-undang; Perubatan",
+   "evidence": "malpractice | malamalan; amalan seleweng; amalan salah — three official variants.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "gap register",
+   "ms": "jurang, sela, celah, daftar",
+   "status": "informs",
+   "field": "Fizik; Geografi; Kependudukan",
+   "evidence": "gap synonyms include jurang; no 'skills gap' or 'gap register' row.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "training needs analysis (TNA)",
+   "ms": "analisis keperluan latihan",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "training needs analysis | analisis keperluan latihan | Kejuruteraan.",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "job aid",
+   "ms": "alat bantu",
+   "status": "informs",
+   "field": "Fizik; Pendidikan; Perubatan",
+   "evidence": "aid | alat bantu; 'job aid' compound absent.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "competency map / competency matrix",
+   "ms": "matriks, kecekapan, kompetensi",
+   "status": "informs",
+   "field": "Fizik; Kejuruteraan; Pendidikan",
+   "evidence": "matrix | matriks; competency | kecekapan; no map/matrix compound.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "business case",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "No istilah section returned for 'business case'; no relevant row.",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "confined-space entry / confined-space certification",
+   "ms": "terkurung (akuifer terkurung, air terkurung)",
+   "status": "informs",
+   "field": "Geografi; Kejuruteraan; Geologi",
+   "evidence": "'terkurung' pattern in PRPM supports DOSH 'ruang terkurung'; no direct row.",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "consumer unit",
+   "ms": "unit kawalan pengguna, unit watt pengguna",
+   "status": "informs",
+   "field": "Kejuruteraan; Teknik (Elektrik)",
+   "evidence": "Only 'consumer control unit | unit kawalan pengguna'; no consumer-unit row.",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "probing questions",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "probing | penguaran (Biologi), pemproban (Perubatan) — irrelevant senses only.",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "freeze-frame data",
+   "ms": "bingkai beku, pegun gambar",
+   "status": "informs",
+   "field": "Komunikasi; Pendidikan",
+   "evidence": "'freeze frame | bingkai beku | Komunikasi'; no automotive scan-tool sense",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "roadworthiness / roadworthy",
+   "ms": "layak jalan",
+   "status": "istilah-decided",
+   "field": "Undang-undang",
+   "evidence": "'roadworthiness | layak jalan | Undang-undang'",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "high-voltage isolation / live-dead-live verification",
+   "ms": "voltan tinggi, pemencilan, pengasingan, pemencil",
+   "status": "informs",
+   "field": "Fizik; Kejuruteraan",
+   "evidence": "parts found ('voltan tinggi', 'pemencil'); no EV safety procedure istilah",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "ADAS calibration",
+   "ms": "penentuukuran, tentu ukuran",
+   "status": "informs",
+   "field": "Kejuruteraan; Kimia; Matematik; Farmasi",
+   "evidence": "'calibration | penentuukuran' many fields; ADAS absent (only herb 'adas')",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "predictive maintenance / adaptive maintenance",
+   "ms": "penyenggaraan jangkaan, penyenggaraan/penyelenggaraan",
+   "status": "informs",
+   "field": "Kejuruteraan",
+   "evidence": "'predictive maintenance | penyenggaraan jangkaan'; adaptive maintenance absent",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "OEM vs aftermarket",
+   "ms": "pascapasaran, OEM (pengeluar peralatan asli), pengilang peralatan asal",
+   "status": "istilah-decided",
+   "field": "Perniagaan; Teknologi Maklumat",
+   "evidence": "'aftermarket | pascapasaran | Perniagaan'; OEM kept with Malay gloss",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "diagnostic trail",
+   "ms": "diagnosis",
+   "status": "informs",
+   "field": "Matematik; Komputer; Pendidikan",
+   "evidence": "'diagnostic | diagnosis' compounds only; no 'trail' istilah",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "comeback (returned repair)",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "no istilah table for 'comeback'; trade sense absent",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "declined work",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "'declined' returns no Istilah Bahasa Melayu rows",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "reorder point / dead stock",
+   "ms": "titik pesanan semula",
+   "status": "informs",
+   "field": "Matematik; Pentadbiran; Kejuruteraan",
+   "evidence": "'reorder point | titik pesanan semula' confirmed; dead stock absent",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "recall / safety campaign",
+   "ms": "panggil balik",
+   "status": "informs",
+   "field": "Kejuruteraan; Pendidikan; Perpustakaan",
+   "evidence": "'recall | panggil balik' general; no vehicle-recall or safety-campaign entry",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "HV qualification (e.g. IMI Level 3/4)",
+   "ms": "kelayakan, kelulusan profesional",
+   "status": "informs",
+   "field": "Pentadbiran; Undang-undang; Pendidikan",
+   "evidence": "generic 'qualification | kelayakan'; no certification-scheme istilah",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "scan tool",
+   "ms": "pengimbas",
+   "status": "informs",
+   "field": "Komputer; Kejuruteraan; Fizik",
+   "evidence": "'scan tool' absent; 'scanner | pengimbas' across fields",
+   "domain": "automotive",
+   "books": 1
+  },
+  {
+   "en": "consumer unit / distribution board",
+   "ms": "papan agihan, papan fius agihan (P.F.A.)",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan; Teknik",
+   "evidence": "'distribution board | papan agihan | Kejuruteraan'; consumer unit itself absent",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "earthing arrangement (TN-C-S etc.)",
+   "ms": "pembumian, sistem pembumian, konduktor pembumian",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan; Fizik",
+   "evidence": "'earthing | pembumian | Kejuruteraan'; confirms MY 'pembumian'",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "protective bonding (main / supplementary)",
+   "ms": "pengikatan, pengikatan sarung kabel",
+   "status": "informs",
+   "field": "Kejuruteraan; Fizik",
+   "evidence": "'bonding | pengikatan'; protective/main/supplementary bonding not listed",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "departure (from the wiring regulations)",
+   "ms": "menyimpang (dari)",
+   "status": "informs",
+   "field": "Komunikasi Massa",
+   "evidence": "'departure (from) | menyimpang (dari)'; other rows mean travel departure",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "observation (certificate/EICR observation)",
+   "ms": "pencerapan, cerapan, pemerhatian",
+   "status": "informs",
+   "field": "Geografi; Geologi; Kependudukan",
+   "evidence": "general senses only; no inspection-finding genre sense",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "condition code (C1/C2/C3/FI)",
+   "ms": "kod syarat",
+   "status": "informs",
+   "field": "Kejuruteraan; Komputer",
+   "evidence": "'condition code | kod syarat' is computing sense, not EICR grading",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "electrical installation condition report (EICR)",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "only 'electrical installation cost | kos pemasangan elektrik' found",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "electrical installation certificate (EIC) / minor works certificate",
+   "ms": "sijil, perakuan",
+   "status": "informs",
+   "field": "Pentadbiran; Pentadbiran Perniagaan",
+   "evidence": "generic sijil/perakuan certificate pattern; no electrical certificate entry",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "limitation statement",
+   "ms": "pengehadan",
+   "status": "informs",
+   "field": "Undang-undang; Fizik; Ekonomi",
+   "evidence": "'limitation | pengehadan | Undang-undang'; no certificate sub-genre term",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "wiring regulations (edition / amendment)",
+   "ms": "pendawaian, sistem pendawaian, pemasangan pendawaian",
+   "status": "informs",
+   "field": "Kejuruteraan; Fizik",
+   "evidence": "'wiring | pendawaian' solid; 'wiring regulations' itself absent",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "notifiable work / Building Regulations notification",
+   "ms": "wajib lapor",
+   "status": "informs",
+   "field": "Perubatan; Veterinar; Kependudukan",
+   "evidence": "'notifiable disease | penyakit wajib lapor' only; no construction sense",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "competent person / competent persons scheme",
+   "ms": "orang yang layak",
+   "status": "informs",
+   "field": "Kejuruteraan",
+   "evidence": "'competent person | orang yang layak | Kejuruteraan'; differs from ST 'orang kompeten'",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "RAMS pack",
+   "ms": "taksiran risiko, penilaian risiko, anggaran risiko",
+   "status": "informs",
+   "field": "Kejuruteraan; Pentadbiran Perniagaan; Teknologi Maklumat",
+   "evidence": "'risk assessment | taksiran risiko'; 'method statement' returns nothing",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "lockout/tagout (LOTO)",
+   "ms": "sekat masuk; kunci keluar, sekat masuk kerja",
+   "status": "informs",
+   "field": "Kejuruteraan; Pentadbiran",
+   "evidence": "lockout rows exist but telephony/labor senses; no OSH LOTO, no tagout",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "hazardous energy control",
+   "ms": "berbahaya, tenaga kawalan",
+   "status": "informs",
+   "field": "Kejuruteraan; Perubatan",
+   "evidence": "only 'hazardous | berbahaya' and 'control energy | tenaga kawalan' found",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "isolation (electrical/energy isolation)",
+   "ms": "pengasingan, pemencilan, pencilan",
+   "status": "informs",
+   "field": "Komunikasi; Veterinar; Kejuruteraan (compounds)",
+   "evidence": "'isolation | pengasingan; pemencilan; pencilan' — no electrical-safety bidang row",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "energised equipment / live work",
+   "ms": "dawai hidup, molekul bertenaga",
+   "status": "informs",
+   "field": "Kejuruteraan; Kimia",
+   "evidence": "'live wire | dawai hidup | Kejuruteraan'; no energised-equipment or live-work row",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "root cause analysis (RCA) / 5 Whys",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "no istilah rows for root cause, cause analysis, or 5 Whys",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "failure mode",
+   "ms": "ragam kegagalan, analisis mod dan akibat kegagalan (FMEA)",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan; Sains Nuklear",
+   "evidence": "'failure mode | ragam kegagalan | Kejuruteraan'; FMEA row uses 'mod'",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "fault diagnosis / troubleshooting",
+   "ms": "mengesan kerosakan, pencarisilapan, diagnosis",
+   "status": "informs",
+   "field": "Perkakas elektrik domestik; Kejuruteraan; Perubatan",
+   "evidence": "'troubleshooting | mengesan kerosakan'; no fault-diagnosis row; diagnosis stays 'diagnosis'",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "unplanned downtime",
+   "ms": "masa henti, masa mati, waktu rosak",
+   "status": "informs",
+   "field": "Kejuruteraan; Komputer; Teknologi Maklumat",
+   "evidence": "'downtime | masa henti | Kejuruteraan'; 'unplanned' modifier absent",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "shift handover",
+   "ms": "serah",
+   "status": "informs",
+   "field": "Kejuruteraan",
+   "evidence": "'handover | serah | Kejuruteraan' only; no shift-handover row",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "mechanical seal / bearing / shaft sleeve",
+   "ms": "kedap mekanik, galas bebola, sarung, bearing sarung",
+   "status": "informs",
+   "field": "Kejuruteraan; Kejuruteraan Automotif",
+   "evidence": "'mechanical seal | kedap mekanik'; galas vs bearing split; shaft sleeve absent",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "vibration analysis / vibration signature",
+   "ms": "getaran, spektrum getaran",
+   "status": "informs",
+   "field": "Fizik; Kejuruteraan",
+   "evidence": "'vibration | getaran' pervasive; no analysis/signature compound row",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "MTBF / MTTR (mean time between failures / to repair)",
+   "ms": "min masa antara kerosakan",
+   "status": "informs",
+   "field": "Kejuruteraan",
+   "evidence": "'mean time between failure | min masa antara kerosakan'; MTTR row absent",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "OEM (original equipment manufacturer) / OEM part number",
+   "ms": "pengilang",
+   "status": "informs",
+   "field": "Kejuruteraan; Ekonomi; Pentadbiran Perniagaan",
+   "evidence": "'manufacturer | pengilang' only; OEM expansion not in tables",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "parts cross-reference",
+   "ms": "rujukan silang",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan; Perpustakaan",
+   "evidence": "'cross-reference | rujukan silang | Kejuruteraan' — engineering bidang attested",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "critical spares / MRO inventory",
+   "ms": "alat ganti, barang ganti",
+   "status": "informs",
+   "field": "Kejuruteraan; Ekonomi",
+   "evidence": "'spare part | alat ganti | Kejuruteraan'; no critical-spares or MRO row",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "method statement / permit to work",
+   "ms": "perakuan kebenaran bekerja, permit kerja, permit kerja panas",
+   "status": "informs",
+   "field": "Kejuruteraan; Pentadbiran",
+   "evidence": "'permit to work certificate | perakuan kebenaran bekerja'; method statement absent",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "reliability / reliability engineer",
+   "ms": "kebolehpercayaan",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan; Fizik; Matematik; Pendidikan",
+   "evidence": "'reliability | kebolehpercayaan' across many bidang; engineer title compose",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "knowledge capture / tribal knowledge",
+   "ms": "pengetahuan tersirat",
+   "status": "informs",
+   "field": "Pengurusan; Pentadbiran",
+   "evidence": "'tacit knowledge | pengetahuan tersirat'; tribal knowledge and capture absent",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "standard operating procedure (SOP)",
+   "ms": "prosedur operasi standard, tatacara pengendalian piawai",
+   "status": "istilah-decided",
+   "field": "Umum; Pentadbiran; Pengurusan",
+   "evidence": "'standard operating procedure (SOP) | prosedur operasi standard | Umum'",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "the trades / trades professional / tradesperson",
+   "ms": "tukang, tukang mahir",
+   "status": "informs",
+   "field": "Kejuruteraan; Alam Bina; Kesenian",
+   "evidence": "'tradesman | tukang mahir | Alam Bina'; 'the trades' as field absent",
+   "domain": "plumbing-hvac",
+   "books": 1
+  },
+  {
+   "en": "combi boiler / combination boiler",
+   "ms": "dandang",
+   "status": "informs",
+   "field": "Kejuruteraan; Fizik",
+   "evidence": "'boiler | dandang' many rows; combination/combi boiler absent",
+   "domain": "plumbing-hvac",
+   "books": 1
+  },
+  {
+   "en": "heat pump",
+   "ms": "pam haba",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan; Fizik; Kimia",
+   "evidence": "'heat pump | pam haba | Kejuruteraan' — consistent across bidang",
+   "domain": "plumbing-hvac",
+   "books": 1
+  },
+  {
+   "en": "refrigerant charge",
+   "ms": "bahan penyejuk",
+   "status": "informs",
+   "field": "Kejuruteraan; Fizik; Kimia",
+   "evidence": "'refrigerant | bahan penyejuk' pervasive; 'refrigerant charge' row absent",
+   "domain": "plumbing-hvac",
+   "books": 1
+  },
+  {
+   "en": "flue / flue gas analyser",
+   "ms": "serombong, gas serombong",
+   "status": "informs",
+   "field": "Kejuruteraan",
+   "evidence": "'flue | serombong', 'flue gas | gas serombong'; analyser compound absent",
+   "domain": "plumbing-hvac",
+   "books": 1
+  },
+  {
+   "en": "commissioning (commissioning report/certificate)",
+   "ms": "pentauliahan, penjayaan",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "'commissioning | pentauliahan; penjayaan | Kejuruteraan' — engineering bidang row",
+   "domain": "plumbing-hvac",
+   "books": 1
+  },
+  {
+   "en": "fault code",
+   "ms": "kod ralat, sesar; gagal; rosak; kesalahan",
+   "status": "informs",
+   "field": "Komputer; Fizik",
+   "evidence": "no fault-code row; 'error code | kod ralat | Komputer' adjacent",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "occupational standards",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "No 'occupational standard' row; only 'occupational X = pekerjaan' compounds",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "self-assessment report",
+   "ms": "penilaian kendiri, pentaksiran kendiri, swataksir",
+   "status": "informs",
+   "field": "Psikologi; Pendidikan; Pentadbiran Perniagaan",
+   "evidence": "'self-assessment | penilaian kendiri | Psikologi'; report compound absent",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "quality improvement plan",
+   "ms": "jaminan kualiti, jaminan mutu, perbaikan",
+   "status": "informs",
+   "field": "Herba; Kejuruteraan; Pentadbiran",
+   "evidence": "Only 'quality assurance | jaminan kualiti' and 'improvement | perbaikan' found",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "accreditation / accreditation body",
+   "ms": "akreditasi, pihak berkuasa akreditasi, swaakreditasi",
+   "status": "istilah-decided",
+   "field": "Pendidikan; Teknologi Maklumat",
+   "evidence": "'accreditation | akreditasi | Pendidikan'; body form via pihak berkuasa akreditasi",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "workplace learning",
+   "ms": "tempat kerja",
+   "status": "informs",
+   "field": "Geografi; Pentadbiran",
+   "evidence": "'workplace | tempat kerja' only; no workplace/work-based learning entry",
+   "domain": "placement",
+   "books": 1
+  },
+  {
+   "en": "(work) placement",
+   "ms": "penempatan, ujian penempatan, pakar runding penempatan",
+   "status": "informs",
+   "field": "Pendidikan; Pentadbiran; Sosiologi",
+   "evidence": "'placement | penempatan | Pendidikan'; industrial-training sense not distinguished",
+   "domain": "placement",
+   "books": 1
+  },
+  {
+   "en": "employability",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "No Istilah Bahasa Melayu section for employability or employability skills",
+   "domain": "placement",
+   "books": 1
+  },
+  {
+   "en": "graduate destination tracking / destination data",
+   "ms": "kajian penyurih",
+   "status": "informs",
+   "field": "Geografi; Kimia; Kejuruteraan",
+   "evidence": "'tracer study | kajian penyurih' exists but in science bidang, not graduates",
+   "domain": "placement",
+   "books": 1
+  },
+  {
+   "en": "governing board",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "No governing board/board of governors row; governor entries are mechanical/colonial",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "principal / deputy principal (academic) / head of department / registrar",
+   "ms": "ketua jabatan, pendaftar",
+   "status": "informs",
+   "field": "Pentadbiran; Pentadbiran Awam; Kependudukan",
+   "evidence": "'head of department | ketua jabatan'; 'registrar | pendaftar'; principal only 'utama'",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "labour market intelligence",
+   "ms": "pasaran buruh, analisis pasaran buruh, pemerhatian pasaran pekerja",
+   "status": "informs",
+   "field": "Pentadbiran; Ekonomi; Kependudukan",
+   "evidence": "'labour market analysis | analisis pasaran buruh'; intelligence compound absent",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "skills gap analysis",
+   "ms": "jurang",
+   "status": "informs",
+   "field": "Fizik; Pentadbiran",
+   "evidence": "'gap | ...jurang...' generic only; no skill(s) gap entry",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "at-risk learners",
+   "ms": "risiko",
+   "status": "informs",
+   "field": "Matematik; insurans",
+   "evidence": "Generic risk rows only; no at-risk student/learner entry",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "pastoral care / pastoral ownership",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "'pastoral' rows are literary/agrarian (Kesusasteraan, Geografi); no care sense",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "trade / trade practitioner",
+   "ms": "perdagangan; pertukangan",
+   "status": "informs",
+   "field": "Geografi",
+   "evidence": "'trade | perdagangan; pertukangan'; practitioner form absent, sense choice needed",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "apprenticeship / dual apprenticeship system",
+   "ms": "perantisan, latihan perantisan, perantis, latihan perantis",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan; Pentadbiran; Pendidikan",
+   "evidence": "'apprenticeship | perantisan'; 'apprentice | pelatih; perantis'; dual system absent",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "risk assessment / health and safety",
+   "ms": "penilaian risiko, taksiran risiko, anggaran risiko",
+   "status": "istilah-decided",
+   "field": "Teknologi Maklumat; Teknologi Hijau; Kejuruteraan; Ekonomi",
+   "evidence": "'risk assessment | penilaian risiko | Teknologi Hijau'; variants taksiran/anggaran exist",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "distribution board (wiring a distribution board)",
+   "ms": "papan agihan, papan fius agihan (P.F.A.)",
+   "status": "istilah-decided",
+   "field": "Teknik (Elektrik); Kejuruteraan",
+   "evidence": "'distribution board | papan agihan | Teknik | Elektrik'",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "RAMS (risk assessment method statement)",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "No istilah for method statement or RAMS; only risk assessment covered",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "safety data sheet (SDS)",
+   "ms": "lembaran data, helaian data",
+   "status": "informs",
+   "field": "Komunikasi Massa; Komputer; Pendidikan",
+   "evidence": "'data sheet | lembaran data/helaian data'; safety compound absent (DOSH uses Helaian)",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "permit to work",
+   "ms": "perakuan kebenaran bekerja, permit kerja, permit kerja panas",
+   "status": "informs",
+   "field": "Kejuruteraan; Pentadbiran",
+   "evidence": "'permit to work certificate | perakuan kebenaran bekerja'; 'hot work permit | permit kerja panas'",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "hierarchy of controls (eliminate, substitute, engineer, administrate, PPE)",
+   "ms": "hierarki kawalan",
+   "status": "istilah-decided",
+   "field": "Pentadbiran (Pentadbiran Awam)",
+   "evidence": "'hierarchy of control | hierarki kawalan | Pentadbiran Awam'; level names uncovered",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "near-miss",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "No istilah section for near miss / near-miss / near accident",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "workplace exposure limit (WEL) / TWA / STEL",
+   "ms": "pendedahan; dedahan, pendedahan risiko",
+   "status": "informs",
+   "field": "Fizik; Kependudukan",
+   "evidence": "'exposure | pendedahan; dedahan'; no exposure-limit/TLV istilah found",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "health surveillance",
+   "ms": "pengawasan",
+   "status": "informs",
+   "field": "Kesihatan Awam; Kejuruteraan",
+   "evidence": "'surveillance | pengawasan | Kesihatan Awam'; health compound absent",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "hold point",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "'hold' rows are shipping/computing senses; no hold-point QA term",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "professional discussion / witness testimony",
+   "ms": "saksi",
+   "status": "informs",
+   "field": "Undang-undang, Pentadbiran",
+   "evidence": "witness | saksi | Undang-undang; no professional-discussion entry",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "audit finding / management response",
+   "ms": "audit",
+   "status": "informs",
+   "field": "Ekonomi, Pentadbiran, Kejuruteraan",
+   "evidence": "audit | audit | Ekonomi; no finding/management-response rows",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "assessor (vocational/workplace assessor)",
+   "ms": "jurutaksir, pengapit, penaksir risiko",
+   "status": "informs",
+   "field": "Ekonomi, Undang-undang, Kejuruteraan",
+   "evidence": "assessor | jurutaksir; pengapit — no vocational pentaksir sense",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "internal quality assurance / internal quality assurer (IQA)",
+   "ms": "jaminan mutu, kawalan kualiti",
+   "status": "informs",
+   "field": "Pentadbiran Perniagaan, Kejuruteraan, Perubatan",
+   "evidence": "quality assurance | jaminan mutu; no internal QA entry",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "external quality assurance / external quality assurer (EQA)",
+   "ms": "jaminan mutu, kawalan kualiti",
+   "status": "informs",
+   "field": "Pentadbiran Perniagaan, Kejuruteraan, Perubatan",
+   "evidence": "only generic quality assurance | jaminan mutu found",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "performance criterion",
+   "ms": "kriteria prestasi",
+   "status": "istilah-decided",
+   "field": "Pendidikan, Kejuruteraan",
+   "evidence": "performance criteria | kriteria prestasi | Pendidikan (asas mentaksir pencapaian)",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "qualification unit / unit standard",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "only irrelevant hits (hertz, kos unit piawai); no qualification-unit istilah",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "competent / not yet competent",
+   "ms": "kompeten, orang yang layak",
+   "status": "informs",
+   "field": "Undang-undang, Kejuruteraan",
+   "evidence": "competent | kompeten | Undang-undang; no belum-kompeten pair",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "referral / referred (assessment decision)",
+   "ms": "rujukan",
+   "status": "informs",
+   "field": "Perubatan, Perpustakaan",
+   "evidence": "referral | rujukan | Perubatan — reference sense only, not verdict",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "valid / authentic / current / sufficient (evidence quality criteria)",
+   "ms": "sah, tulen, mencukupi",
+   "status": "informs",
+   "field": "Pendidikan, Kesusasteraan, Undang-undang",
+   "evidence": "valid|sah, authentic|tulen, sufficient|mencukupi; current absent",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "observation checklist / observation record",
+   "ms": "senarai semakan, senarai semak, kaedah pemerhatian, pencerapan",
+   "status": "informs",
+   "field": "Pentadbiran, Perubatan, Kependudukan",
+   "evidence": "checklist | senarai semakan; compound with observation absent",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "holistic rubric",
+   "ms": "rubrik, rubrik pemarkahan, holistik, penilaian holistik",
+   "status": "informs",
+   "field": "Pendidikan, Pentadbiran",
+   "evidence": "rubric | rubrik | Pendidikan; holistic | holistik — compound absent",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "range statement / scope descriptor",
+   "ms": "",
+   "status": "open",
+   "field": "Fizik, Geografi",
+   "evidence": "range only as julat (mathematical); no scope-descriptor sense",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "evidence clustering",
+   "ms": "pengelompokan, penggugusan, bukti",
+   "status": "informs",
+   "field": "Geografi, Perubatan, Veterinar",
+   "evidence": "clustering | pengelompokan; evidence | bukti — compose pengelompokan bukti",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "standardisation (assessor standardisation)",
+   "ms": "pemiawaian, penstandardan",
+   "status": "informs",
+   "field": "Komunikasi Massa, Linguistik, Kependudukan",
+   "evidence": "standardization | pemiawaian; penstandardan — assessor-consistency sense absent",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "risk-based sampling / sampling plan",
+   "ms": "pensampelan, persampelan, teknik pensampelan",
+   "status": "informs",
+   "field": "Fizik, Geografi",
+   "evidence": "sampling | pensampelan; teknik persampelan — no risk-based compound",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "triangulation (of evidence)",
+   "ms": "penyegitigaan",
+   "status": "informs",
+   "field": "Fizik, Geografi, Matematik, Kejuruteraan",
+   "evidence": "triangulation | penyegitigaan — surveying sense only, not evidence",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "recognition of prior learning",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "'prior learning' returned zero Istilah Bahasa Melayu rows",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "direct claims status",
+   "ms": "tuntutan",
+   "status": "open",
+   "field": "Ekonomi, Undang-undang",
+   "evidence": "claim | tuntutan only; no direct-claims compliance sense",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "end-point assessment",
+   "ms": "taksiran, penaksiran",
+   "status": "informs",
+   "field": "Pendidikan, Pentadbiran, Ekonomi",
+   "evidence": "assessment | taksiran; penaksiran — mostly tax/valuation senses",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "apprenticeship / apprentice",
+   "ms": "perantis, pelatih, perantisan, latihan perantisan",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan, Pendidikan, Pentadbiran",
+   "evidence": "apprentice | pelatih; perantis; apprenticeship | perantisan",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "safety-critical task / stop criteria",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "'safety critical' had no Istilah Bahasa Melayu section",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "TVET (technical and vocational education and training)",
+   "ms": "pendidikan vokasional",
+   "status": "informs",
+   "field": "Pendidikan, Sosiologi",
+   "evidence": "vocational education | pendidikan vokasional; full TVET expansion absent",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "assessment integrity",
+   "ms": "integriti, keutuhan, taksiran, penaksiran",
+   "status": "informs",
+   "field": "Pendidikan, Pentadbiran",
+   "evidence": "integrity | integriti | Pendidikan; compound with assessment absent",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "competency evidence / evidence portfolio",
+   "ms": "bukti, keterangan",
+   "status": "informs",
+   "field": "Pentadbiran, Undang-undang, Perubatan",
+   "evidence": "evidence | bukti; keterangan — portfolio entries all financial",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "assessment decision: competent / not yet competent",
+   "ms": "kompeten, taksiran, penaksiran",
+   "status": "informs",
+   "field": "Undang-undang, Pendidikan",
+   "evidence": "kompeten official (Undang-undang); belum-kompeten verdict pair absent",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "permit-to-work",
+   "ms": "permit kerja, perakuan kebenaran bekerja, permit kerja panas",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan, Pentadbiran, Kependudukan",
+   "evidence": "permit to work certificate | perakuan kebenaran bekerja | Kejuruteraan",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "quotation vs estimate",
+   "ms": "sebut harga, anggaran",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan, Ekonomi, Pentadbiran",
+   "evidence": "quotation | sebut harga | Kejuruteraan; estimate | anggaran | Kejuruteraan",
+   "domain": "leadership",
+   "books": 1
+  },
+  {
+   "en": "making good",
+   "ms": "membaiki kecacatan",
+   "status": "informs",
+   "field": "Alam Bina",
+   "evidence": "making good defect | membaiki kecacatan | Alam Bina; only compound found",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "first fix",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "no istilah rows for 'first fix'; staging term absent",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "takeoff (estimating)",
+   "ms": "senarai kuantiti, jadual bahan",
+   "status": "informs",
+   "field": "Alam Bina, Kejuruteraan",
+   "evidence": "bill of quantities | senarai kuantiti; takeoff rows only aviation/economics",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "remedial work",
+   "ms": "pemulihan, penyenggaraan pemulihan",
+   "status": "informs",
+   "field": "Komputer, Pendidikan",
+   "evidence": "remedial maintenance | penyenggaraan pemulihan; no 'remedial work' row",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "fault investigation report",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "no rows for 'fault investigation' or 'investigation report'",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "earth fault loop impedance and test-value vocabulary (Ze, Zs, insulation resistance, RCD trip time)",
+   "ms": "galangan gelung kerosakan bumi, rintangan penebatan, arus baki, pemutus litar arus sisa",
+   "status": "istilah-decided",
+   "field": "Teknik, Kejuruteraan",
+   "evidence": "earth fault loop impedance | galangan gelung kerosakan bumi | Teknik",
+   "domain": "electrical",
+   "books": 1
+  },
+  {
+   "en": "apprentice training log",
+   "ms": "latihan perantis, buku log, buku catatan kerja",
+   "status": "informs",
+   "field": "Pentadbiran, Kejuruteraan, Komunikasi",
+   "evidence": "apprentice training | latihan perantis; log book | buku log; compose needed",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "off-the-job training (OTJ)",
+   "ms": "latihan luar kerja",
+   "status": "istilah-decided",
+   "field": "Pentadbiran",
+   "evidence": "off-the-job training | latihan luar kerja; pairs with latihan dalam kerja",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "gateway / gateway readiness",
+   "ms": "",
+   "status": "open",
+   "field": "Kejuruteraan, Teknologi Maklumat",
+   "evidence": "only IT/network senses: gateway | get laluan; assessment sense absent",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "tripartite relationship / tripartite review",
+   "ms": "tiga pihak, tripihak",
+   "status": "istilah-decided",
+   "field": "Sains Politik, Undang-undang, Kependudukan",
+   "evidence": "tripartite consultations | perundingan tiga pihak | Kependudukan",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "placement",
+   "ms": "penempatan",
+   "status": "istilah-decided",
+   "field": "Pendidikan, Pentadbiran, Sosiologi",
+   "evidence": "placement | penempatan | Pendidikan; ujian penempatan attested",
+   "domain": "placement",
+   "books": 1
+  },
+  {
+   "en": "placement matching",
+   "ms": "pemadanan, kriteria pemadanan",
+   "status": "istilah-decided",
+   "field": "Kependudukan",
+   "evidence": "matching criteria | kriteria pemadanan | Kependudukan",
+   "domain": "placement",
+   "books": 1
+  },
+  {
+   "en": "progress review",
+   "ms": "laporan kemajuan",
+   "status": "informs",
+   "field": "Pentadbiran, Perpustakaan",
+   "evidence": "progress report | laporan kemajuan; no 'progress review' row",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "funding claim / funding body",
+   "ms": "pendanaan",
+   "status": "informs",
+   "field": "Pentadbiran, Ekonomi",
+   "evidence": "funding | pendanaan | Pentadbiran; no funding body/claim rows",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "break in learning",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "no istilah rows for 'break in learning'",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "commitment statement",
+   "ms": "komitmen, iltizam, keterikatan",
+   "status": "informs",
+   "field": "Pentadbiran, Pendidikan, Ekonomi",
+   "evidence": "commitment | keterikatan; komitmen/iltizam; no document-title compound",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "evidence pack (rolling / audit-ready)",
+   "ms": "bukti, keterangan",
+   "status": "informs",
+   "field": "Pentadbiran, Undang-undang",
+   "evidence": "evidence | bukti; tanda; keterangan sah; no 'pack' compound",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "safeguarding (referral, concern record, disclosure)",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "'safeguarding' empty; safeguard rows only mechanical/nuclear senses",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "designated safeguarding lead (DSL)",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "no rows; role title needs editorial coinage",
+   "domain": "safety",
+   "books": 1
+  },
+  {
+   "en": "pastoral support",
+   "ms": "",
+   "status": "open",
+   "field": "Kesusasteraan, Geografi",
+   "evidence": "pastoral | pastoral only literary/herding senses; welfare sense absent",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "at-risk (apprentice / identification / flag)",
+   "ms": "risiko, pendedahan risiko",
+   "status": "informs",
+   "field": "Matematik, Kependudukan",
+   "evidence": "risk | risiko; no 'at risk' entry; berisiko needs composition",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "workplace mentor",
+   "ms": "mentor, penasihat",
+   "status": "informs",
+   "field": "Pendidikan, Pentadbiran",
+   "evidence": "mentor | mentor | Pendidikan; workplace compound absent",
+   "domain": "placement",
+   "books": 1
+  },
+  {
+   "en": "knowledge, skills and behaviours (KSB)",
+   "ms": "pengetahuan-kemahiran-kebolehan, tingkah laku",
+   "status": "informs",
+   "field": "Pendidikan",
+   "evidence": "knowledge-skill-ability | pengetahuan-kemahiran-kebolehan; triad has ability not behaviour",
+   "domain": "assessment",
+   "books": 1
+  },
+  {
+   "en": "apprenticeship levy / levy recovery",
+   "ms": "levi",
+   "status": "informs",
+   "field": "Pentadbiran, Ekonomi",
+   "evidence": "levy | levi | Pentadbiran; levy recovery absent",
+   "domain": "apprenticeship",
+   "books": 1
+  },
+  {
+   "en": "reasonable adjustment",
+   "ms": "penyesuaian, pelarasan",
+   "status": "informs",
+   "field": "Fizik; Kejuruteraan; Pendidikan",
+   "evidence": "'adjustment | penyesuaian; pelarasan'; no 'reasonable adjustment' row",
+   "domain": "safety",
+   "books": 4
+  },
+  {
+   "en": "competent person",
+   "ms": "orang yang layak",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "'competent person | orang yang layak | Kejuruteraan'",
+   "domain": "safety",
+   "books": 3
+  },
+  {
+   "en": "COSHH assessment",
+   "ms": "penyekatan bahan berbahaya, bahan pencemar berbahaya",
+   "status": "informs",
+   "field": "Teknologi Hijau; Undang-undang",
+   "evidence": "No COSHH; only adjacent 'hazardous substance' istilah rows",
+   "domain": "safety",
+   "books": 3
+  },
+  {
+   "en": "awarding body",
+   "ms": "",
+   "status": "open",
+   "field": "",
+   "evidence": "No istilah table for 'awarding body' or 'accreditation body'",
+   "domain": "assessment",
+   "books": 3
+  },
+  {
+   "en": "safeguarding",
+   "ms": "perlindungan",
+   "status": "informs",
+   "field": "Kimia; Sains Politik",
+   "evidence": "'safeguard | skirt lindung; kawal selamat' only; child-protection sense absent",
+   "domain": "safety",
+   "books": 3
+  },
+  {
+   "en": "torque specification",
+   "ms": "tork",
+   "status": "informs",
+   "field": "Fizik; Matematik; Geologi",
+   "evidence": "'torque | tork'; no 'torque specification' compound row",
+   "domain": "maintenance",
+   "books": 2
+  },
+  {
+   "en": "confined space entry",
+   "ms": "terkurung",
+   "status": "informs",
+   "field": "Kejuruteraan; Geografi",
+   "evidence": "'confined water | air terkurung'; no 'confined space' istilah row",
+   "domain": "safety",
+   "books": 2
+  },
+  {
+   "en": "method statement",
+   "ms": "penyata, kenyataan",
+   "status": "informs",
+   "field": "Kejuruteraan; Fizik",
+   "evidence": "'statement | penyata; kenyataan' only; genre term absent",
+   "domain": "safety",
+   "books": 2
+  },
+  {
+   "en": "safe isolation",
+   "ms": "pengasingan, pemencilan",
+   "status": "informs",
+   "field": "Komunikasi; Veterinar",
+   "evidence": "'isolation | pengasingan; pemencilan'; no 'safe isolation' row",
+   "domain": "safety",
+   "books": 2
+  },
+  {
+   "en": "end-point assessment (EPA)",
+   "ms": "pentaksiran sumatif",
+   "status": "informs",
+   "field": "Pendidikan",
+   "evidence": "'summative assessment | pentaksiran sumatif'; EPA itself absent",
+   "domain": "assessment",
+   "books": 2
+  },
+  {
+   "en": "apprenticeship standard / qualification standard",
+   "ms": "perantisan, latihan perantisan",
+   "status": "informs",
+   "field": "Kejuruteraan; Pentadbiran",
+   "evidence": "'apprenticeship | perantisan'; standard compound absent",
+   "domain": "apprenticeship",
+   "books": 2
+  },
+  {
+   "en": "training provider",
+   "ms": "penyedia perkhidmatan, pembekal",
+   "status": "informs",
+   "field": "Pentadbiran; Teknologi Maklumat",
+   "evidence": "'service provider | penyedia perkhidmatan'; 'training provider' absent",
+   "domain": "apprenticeship",
+   "books": 2
+  },
+  {
+   "en": "placement breakdown",
+   "ms": "penempatan",
+   "status": "informs",
+   "field": "Pendidikan; Pentadbiran",
+   "evidence": "'placement | penempatan'; breakdown compound absent",
+   "domain": "placement",
+   "books": 2
+  },
+  {
+   "en": "caseload",
+   "ms": "beban kerja",
+   "status": "informs",
+   "field": "Pentadbiran",
+   "evidence": "'workload | beban kerja'; caseload itself absent",
+   "domain": "apprenticeship",
+   "books": 2
+  },
+  {
+   "en": "employer engagement",
+   "ms": "keterlibatan, sesi keterlibatan",
+   "status": "informs",
+   "field": "Pengurusan; Kesusasteraan",
+   "evidence": "'engagement session | sesi keterlibatan'; employer compound absent",
+   "domain": "leadership",
+   "books": 2
+  },
+  {
+   "en": "competency-based assessment",
+   "ms": "pendidikan berasaskan kecekapan, pembelajaran berasaskan kompetensi, pentaksiran sumatif, taksiran",
+   "status": "informs",
+   "field": "Pendidikan; Teknologi Maklumat",
+   "evidence": "'competency based education | pendidikan berasaskan kecekapan'; assessment compound absent",
+   "domain": "assessment",
+   "books": 2
+  },
+  {
+   "en": "professional discussion",
+   "ms": "perbincangan",
+   "status": "informs",
+   "field": "Pendidikan; Komunikasi",
+   "evidence": "'discussion group | kumpulan perbincangan'; term of art absent",
+   "domain": "assessment",
+   "books": 2
+  },
+  {
+   "en": "witness testimony",
+   "ms": "testimoni, bukti",
+   "status": "informs",
+   "field": "Undang-undang; Sejarah",
+   "evidence": "'testimony | testimoni; bukti | Undang-undang' — legal register only",
+   "domain": "assessment",
+   "books": 2
+  },
+  {
+   "en": "industry advisory board",
+   "ms": "lembaga penasihat",
+   "status": "istilah-decided",
+   "field": "Pentadbiran; Pentadbiran Perniagaan; Undang-undang",
+   "evidence": "'advisory board | lembaga penasihat'; pattern 'Lembaga Penasihat Tarif'",
+   "domain": "leadership",
+   "books": 2
+  },
+  {
+   "en": "toolbox talk",
+   "ms": "taklimat keselamatan",
+   "status": "istilah-decided",
+   "field": "Pengurusan",
+   "evidence": "'toolbox meeting | taklimat keselamatan | Pengurusan'",
+   "domain": "safety",
+   "books": 2
+  },
+  {
+   "en": "evidence portfolio",
+   "ms": "portfolio",
+   "status": "informs",
+   "field": "Pentadbiran Perniagaan",
+   "evidence": "'portfolio' retained as loan across rows; evidence compound absent",
+   "domain": "assessment",
+   "books": 2
+  },
+  {
+   "en": "work order",
+   "ms": "arahan kerja, perintah kerja",
+   "status": "istilah-decided",
+   "field": "Pentadbiran",
+   "evidence": "'work order | arahan kerja/perintah kerja | Pentadbiran'",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "CMMS (computerised maintenance management system)",
+   "ms": "sistem penyenggaraan",
+   "status": "informs",
+   "field": "Penilaian Harta Tanah",
+   "evidence": "'maintenance system | sistem penyenggaraan'; CMMS/computerised compound absent",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "preventive maintenance (PM)",
+   "ms": "penyenggaraan cegahan, penyenggaraan pencegahan",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan; Komputer; Pentadbiran; Penilaian Harta Tanah",
+   "evidence": "'preventive maintenance | penyenggaraan cegahan | Kejuruteraan'",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "predictive maintenance (PdM)",
+   "ms": "penyenggaraan jangkaan",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan",
+   "evidence": "'predictive maintenance | penyenggaraan jangkaan | Kejuruteraan'",
+   "domain": "maintenance",
+   "books": 1
+  },
+  {
+   "en": "condition monitoring / condition-based maintenance",
+   "ms": "pengawasan keadaan, penyenggaraan pemantauan keadaan",
+   "status": "istilah-decided",
+   "field": "Kejuruteraan; Aeroangkasa",
+   "evidence": "'condition monitoring | pengawasan keadaan | Kejuruteraan'",
+   "domain": "maintenance",
+   "books": 1
+  }
+ ]
+}

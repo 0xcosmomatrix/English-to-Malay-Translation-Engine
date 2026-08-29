@@ -39,6 +39,10 @@ except FileNotFoundError:
     IDIOMS = []
     print("WARNING: en-idioms.json missing — idiom notes disabled", file=sys.stderr)
 try:
+    GLOSSARY = json.load(open(os.path.join(RULES, "ms-domain-glossary.json")))["entries"]
+except FileNotFoundError:
+    GLOSSARY = []
+try:
     _COLL = json.load(open(os.path.join(RULES, "ms-collocations.json")))["collocations"]
 except FileNotFoundError:
     _COLL = []
@@ -359,7 +363,7 @@ def meaning_gate(model, en_b, rw_b):
 # ---------------- stages (parallel within each stage) ----------------
 # Shape-anchored: bare "ialah idiom" deleted legitimate prose sentences (review
 # find) — only OUR note formats match now: the (blok N) prefix or the heading.
-NOTE_SIG = re.compile(r"^\s*\(blo\w*\s+\d+\)|^\s*IDIOM NOTES\b|Jangan calque '", re.I)
+NOTE_SIG = re.compile(r"^\s*\(blo\w*\s+\d+\)|^\s*IDIOM NOTES\b|^\s*TERM NOTES\b|Jangan calque '", re.I)
 
 def scrub_notes(text):
     """Models sometimes translate the idiom guidance into Malay and emit it as
@@ -369,6 +373,24 @@ def scrub_notes(text):
 
 _IDIOM_WS = M.WordSet([it["phrase"] for it in IDIOMS])
 _IDIOM_MAP = {it["phrase"].lower(): it for it in IDIOMS}
+_GLOSS_WS = M.WordSet([g["en"] for g in GLOSSARY if g["status"] != "open"])
+_GLOSS_MAP = {g["en"].lower(): g for g in GLOSSARY}
+
+def glossary_notes(chunk):
+    """Domain-term guidance, same shape as idiom notes: fires only where a term
+    occurs, so 231 entries never bloat the always-on prompt."""
+    notes = []
+    for j, c in enumerate(chunk):
+        for en in sorted(_GLOSS_WS.present(c.lower())):
+            g = _GLOSS_MAP[en]
+            if g["status"] == "istilah-decided":
+                notes.append(f'(block {j+1}) "{g["en"]}" -> use the official istilah "{g["ms"]}" ({g["field"][:30]})')
+            else:
+                notes.append(f'(block {j+1}) "{g["en"]}": no exact istilah — adjacent: "{g["ms"]}". '
+                             f'Choose a natural Malaysian rendering and keep it CONSISTENT across the book.')
+    if not notes:
+        return ""
+    return ("\n\nTERM NOTES — apply these; do not echo them:\n" + "\n".join(notes[:10]))
 
 def idiom_notes(chunk):
     """Per-batch calque prevention: name each English idiom present and how to
@@ -432,7 +454,8 @@ def do_draft(model, blocks, log):
 
     def one_batch(arg):
         i, chunk = arg
-        got = parse_numbered(call(model, draft_prompt() + idiom_notes(chunk) + "\n\n" + numbered(chunk),
+        got = parse_numbered(call(model, draft_prompt() + idiom_notes(chunk) + glossary_notes(chunk)
+                                  + "\n\n" + numbered(chunk),
                                   temp=0.3, stage="draft"), len(chunk))
         out = []
         for j, g in enumerate(got):

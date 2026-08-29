@@ -7324,5 +7324,1661 @@
   "evidence": "mempunyai lagak yg sesuai utk drama",
   "date": "2026-08-28",
   "source": "prpm.dbp.gov.my (shipped-corpus audit)"
+ },
+ "pengenalan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: site induction / induction pack | Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "perlayakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: site induction / induction pack | Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "risiko": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: residual risk | Pentadbiran Perniagaan; Ekonom",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "sisa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: residual risk | Pentadbiran Perniagaan; Ekonom",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "residu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: residual risk | Pentadbiran Perniagaan; Ekonom",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "daftar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: substance register | Kependudukan; Geografi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "mencukupi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: suitable and sufficient | Undang-undang",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penempatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: placement host / placement employer | Pendidikan; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penentusahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: hours verification / hours tracking | Pendidikan; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penjejakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: hours verification / hours tracking | Pendidikan; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "jurutaksir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: practice assessor | Undang-undang; Ekonomi; Kejuru",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pengapit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: practice assessor | Undang-undang; Ekonomi; Kejuru",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penaksir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: practice assessor | Undang-undang; Ekonomi; Kejuru",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penilaian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: risk assessment | Teknologi Hijau; Kejuruteraan;",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "taksiran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: risk assessment | Teknologi Hijau; Kejuruteraan;",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "langkah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: control measure | Kejuruteraan; Makanan dan Pema",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kawalan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: control measure | Kejuruteraan; Makanan dan Pema",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "tork": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: torque verification / under-torquing | Fizik; Kejuruteraan; Perubatan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "guna": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: consumables | Kejuruteraan; Geografi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "habis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: consumables | Kejuruteraan; Geografi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "barang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: consumables | Kejuruteraan; Geografi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "perabis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: consumables | Kejuruteraan; Geografi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "mengajar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: session plan / practical session arc | Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kaedah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: demonstration | Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "ulasan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: debrief | Pendidikan; Pentadbiran Pernia",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "sokongan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: scaffolding | Pendidikan; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "perancah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: scaffolding | Pendidikan; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pengajaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: scaffolding | Pendidikan; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pembezaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: differentiation | Matematik; Fizik; Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kelayakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: competency outcome / competency standard | Kejuruteraan; Pendidikan; Tekn",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pembelajaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: competency outcome / competency standard | Kejuruteraan; Pendidikan; Tekn",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "berasaskan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: competency outcome / competency standard | Kejuruteraan; Pendidikan; Tekn",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "jaminan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: internal/external quality assurance (IQA/EQA, exte | Kejuruteraan; Herba; Pentadbir",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "mutu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: internal/external quality assurance (IQA/EQA, exte | Kejuruteraan; Herba; Pentadbir",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kualiti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: internal/external quality assurance (IQA/EQA, exte | Kejuruteraan; Herba; Pentadbir",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pegawai": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: internal/external quality assurance (IQA/EQA, exte | Kejuruteraan; Herba; Pentadbir",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "sekat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: lockout (boiler locking out) | Kejuruteraan; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "masuk": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: lockout (boiler locking out) | Kejuruteraan; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kunci": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: lockout (boiler locking out) | Kejuruteraan; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "keluar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: lockout (boiler locking out) | Kejuruteraan; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kerja": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: lockout (boiler locking out) | Kejuruteraan; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kadar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: gas rate (measured vs rated) | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "aliran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: gas rate (measured vs rated) | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "perakuan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: Gas Safety Record (CP12/LGSR) | Undang-undang",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "keselamatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: Gas Safety Record (CP12/LGSR) | Undang-undang",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "buku": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: F-Gas log | Kejuruteraan; Komunikasi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "catatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: F-Gas log | Kejuruteraan; Komunikasi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "siap": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: completion certificate / completion record | Kesenian; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "panggilan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: emergency call-out | Pentadbiran Perniagaan; Kejuru",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "peniaga": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: sole trader | Ekonomi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "perseorangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: sole trader | Ekonomi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pedagang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: sole trader | Ekonomi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "sebut": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: quote vs estimate | Ekonomi; Kejuruteraan; Pentadb",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "harga": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: quote vs estimate | Ekonomi; Kejuruteraan; Pentadb",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "anggar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: quote vs estimate | Ekonomi; Kejuruteraan; Pentadb",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penyenggaraan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: predictive maintenance | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "jangkaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: predictive maintenance | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "portfolio": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: portfolio evidence (apprentice) | Pentadbiran Perniagaan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pendaftaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: certification scope / registration (Gas Safe regis | Pendidikan; Undang-undang; Suk",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "genting": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: safety-critical | Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "huraian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: warranty claim narrative | Pentadbiran; Penilaian Harta T",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "layak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: MOT / MOT advisory | Undang-undang",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "jalan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: MOT / MOT advisory | Undang-undang",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "diagnosis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: differential diagnosis | Perubatan; Veterinar",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "bolt": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: torque-to-yield / stretch bolt (single-use fastene | Fizik; Mekanik; Kejuruteraan A",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "buletin": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: technical service bulletin (TSB) | Komunikasi; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "mengganti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: part supersession / supersession chain | Ekonomi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "rujukan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: part number cross-referencing | Kejuruteraan; Perpustakaan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "rujuk": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: part number cross-referencing | Kejuruteraan; Perpustakaan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kegagalan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: pattern failure | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pertumbuhan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: CPD (continuing professional development) | Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pendidikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: CPD (continuing professional development) | Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "soalan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: self-evaluation report (SAR/SEF) | Pendidikan; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "swanilai": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: self-evaluation report (SAR/SEF) | Pendidikan; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "laluan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: gateway | Kejuruteraan; Komputer; Teknol",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pintu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: gateway | Kejuruteraan; Komputer; Teknol",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pemikiran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: reflective account | Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kajian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: reflective account | Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "tindakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: reflective account | Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pemerhatian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: observation record / structured observation | Pendidikan; Kependudukan; Geog",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "bilik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: observation record / structured observation | Pendidikan; Kependudukan; Geog",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "darjah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: observation record / structured observation | Pendidikan; Kependudukan; Geog",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pencerapan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: observation record / structured observation | Pendidikan; Kependudukan; Geog",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "luar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: off-the-job training | Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "dalam": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: on-the-job training (OJT) | Geografi; Kependudukan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "prestasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: competency criteria / performance criteria | Pendidikan; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kecukupan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: sufficiency of evidence (and the VACS adjective se | Ekonomi; Undang-undang; Matema",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "keterangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: sufficiency of evidence (and the VACS adjective se | Ekonomi; Undang-undang; Matema",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penyegitigaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: evidence triangulation | Fizik; Geografi; Matematik; Ke",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penentuukuran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: assessor calibration | Kimia; Kejuruteraan; Sains Suk",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "tentu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: assessor calibration | Kimia; Kejuruteraan; Sains Suk",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "ukuran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: assessor calibration | Kimia; Kejuruteraan; Sains Suk",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "salah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: malpractice | Pentadbiran; Undang-undang; Pe",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "seleweng": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: malpractice | Pentadbiran; Undang-undang; Pe",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "malamalan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: malpractice | Pentadbiran; Undang-undang; Pe",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "sela": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: gap register | Fizik; Geografi; Kependudukan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "celah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: gap register | Fizik; Geografi; Kependudukan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "analisis": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: training needs analysis (TNA) | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "keperluan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: training needs analysis (TNA) | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "alat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: job aid | Fizik; Pendidikan; Perubatan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "terkurung": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: confined-space entry / confined-space certificatio | Geografi; Kejuruteraan; Geolog",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "akuifer": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: confined-space entry / confined-space certificatio | Geografi; Kejuruteraan; Geolog",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "unit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: consumer unit | Kejuruteraan; Teknik (Elektrik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pengguna": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: consumer unit | Kejuruteraan; Teknik (Elektrik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "watt": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: consumer unit | Kejuruteraan; Teknik (Elektrik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "beku": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: freeze-frame data | Komunikasi; Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "gambar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: freeze-frame data | Komunikasi; Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "voltan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: high-voltage isolation / live-dead-live verificati | Fizik; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "tinggi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: high-voltage isolation / live-dead-live verificati | Fizik; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pemencilan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: high-voltage isolation / live-dead-live verificati | Fizik; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pengasingan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: high-voltage isolation / live-dead-live verificati | Fizik; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pemencil": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: high-voltage isolation / live-dead-live verificati | Fizik; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pascapasaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: OEM vs aftermarket | Perniagaan; Teknologi Maklumat",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pengeluar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: OEM vs aftermarket | Perniagaan; Teknologi Maklumat",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "peralatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: OEM vs aftermarket | Perniagaan; Teknologi Maklumat",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "asli": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: OEM vs aftermarket | Perniagaan; Teknologi Maklumat",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pengilang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: OEM vs aftermarket | Perniagaan; Teknologi Maklumat",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "asal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: OEM vs aftermarket | Perniagaan; Teknologi Maklumat",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "titik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: reorder point / dead stock | Matematik; Pentadbiran; Kejuru",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pesanan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: reorder point / dead stock | Matematik; Pentadbiran; Kejuru",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "semula": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: reorder point / dead stock | Matematik; Pentadbiran; Kejuru",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "panggil": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: recall / safety campaign | Kejuruteraan; Pendidikan; Perp",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "balik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: recall / safety campaign | Kejuruteraan; Pendidikan; Perp",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pengimbas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: scan tool | Komputer; Kejuruteraan; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "papan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: consumer unit / distribution board | Kejuruteraan; Teknik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "agihan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: consumer unit / distribution board | Kejuruteraan; Teknik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "fius": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: consumer unit / distribution board | Kejuruteraan; Teknik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pembumian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: earthing arrangement (TN-C-S etc.) | Kejuruteraan; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "sistem": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: earthing arrangement (TN-C-S etc.) | Kejuruteraan; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "konduktor": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: earthing arrangement (TN-C-S etc.) | Kejuruteraan; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pengikatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: protective bonding (main / supplementary) | Kejuruteraan; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "sarung": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: protective bonding (main / supplementary) | Kejuruteraan; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kabel": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: protective bonding (main / supplementary) | Kejuruteraan; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "menyimpang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: departure (from the wiring regulations) | Komunikasi Massa",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "dari": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: departure (from the wiring regulations) | Komunikasi Massa",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "cerapan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: observation (certificate/EICR observation) | Geografi; Geologi; Kependuduka",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pengehadan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: limitation statement | Undang-undang; Fizik; Ekonomi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pemasangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: wiring regulations (edition / amendment) | Kejuruteraan; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "wajib": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: notifiable work / Building Regulations notificatio | Perubatan; Veterinar; Kependud",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "lapor": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: notifiable work / Building Regulations notificatio | Perubatan; Veterinar; Kependud",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "orang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: competent person / competent persons scheme | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "yang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: competent person / competent persons scheme | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "berbahaya": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: hazardous energy control | Kejuruteraan; Perubatan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "tenaga": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: hazardous energy control | Kejuruteraan; Perubatan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pencilan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: isolation (electrical/energy isolation) | Komunikasi; Veterinar; Kejurut",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "dawai": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: energised equipment / live work | Kejuruteraan; Kimia",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "hidup": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: energised equipment / live work | Kejuruteraan; Kimia",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "molekul": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: energised equipment / live work | Kejuruteraan; Kimia",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "bertenaga": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: energised equipment / live work | Kejuruteraan; Kimia",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "ragam": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: failure mode | Kejuruteraan; Sains Nuklear",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "akibat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: failure mode | Kejuruteraan; Sains Nuklear",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "fmea": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: failure mode | Kejuruteraan; Sains Nuklear",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "mengesan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: fault diagnosis / troubleshooting | Perkakas elektrik domestik; Ke",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kerosakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: fault diagnosis / troubleshooting | Perkakas elektrik domestik; Ke",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pencarisilapan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: fault diagnosis / troubleshooting | Perkakas elektrik domestik; Ke",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "masa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: unplanned downtime | Kejuruteraan; Komputer; Teknol",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "henti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: unplanned downtime | Kejuruteraan; Komputer; Teknol",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "mati": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: unplanned downtime | Kejuruteraan; Komputer; Teknol",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "waktu": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: unplanned downtime | Kejuruteraan; Komputer; Teknol",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "rosak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: unplanned downtime | Kejuruteraan; Komputer; Teknol",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "serah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: shift handover | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kedap": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: mechanical seal / bearing / shaft sleeve | Kejuruteraan; Kejuruteraan Aut",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "mekanik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: mechanical seal / bearing / shaft sleeve | Kejuruteraan; Kejuruteraan Aut",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "galas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: mechanical seal / bearing / shaft sleeve | Kejuruteraan; Kejuruteraan Aut",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "bebola": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: mechanical seal / bearing / shaft sleeve | Kejuruteraan; Kejuruteraan Aut",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "bearing": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: mechanical seal / bearing / shaft sleeve | Kejuruteraan; Kejuruteraan Aut",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "getaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: vibration analysis / vibration signature | Fizik; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "antara": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: MTBF / MTTR (mean time between failures / to repai | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kebenaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: method statement / permit to work | Kejuruteraan; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "bekerja": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: method statement / permit to work | Kejuruteraan; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "permit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: method statement / permit to work | Kejuruteraan; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "panas": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: method statement / permit to work | Kejuruteraan; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kebolehpercayaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: reliability / reliability engineer | Kejuruteraan; Fizik; Matematik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pengetahuan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: knowledge capture / tribal knowledge | Pengurusan; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "operasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: standard operating procedure (SOP) | Umum; Pentadbiran; Pengurusan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "standard": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: standard operating procedure (SOP) | Umum; Pentadbiran; Pengurusan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "tatacara": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: standard operating procedure (SOP) | Umum; Pentadbiran; Pengurusan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "tukang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: the trades / trades professional / tradesperson | Kejuruteraan; Alam Bina; Kesen",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "dandang": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: combi boiler / combination boiler | Kejuruteraan; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "haba": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: heat pump | Kejuruteraan; Fizik; Kimia",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "bahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: refrigerant charge | Kejuruteraan; Fizik; Kimia",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penyejuk": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: refrigerant charge | Kejuruteraan; Fizik; Kimia",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "serombong": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: flue / flue gas analyser | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pentauliahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: commissioning (commissioning report/certificate) | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penjayaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: commissioning (commissioning report/certificate) | Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "ralat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: fault code | Komputer; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "sesar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: fault code | Komputer; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "gagal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: fault code | Komputer; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kesalahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: fault code | Komputer; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "swataksir": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: self-assessment report | Psikologi; Pendidikan; Pentadb",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "perbaikan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: quality improvement plan | Herba; Kejuruteraan; Pentadbir",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pihak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: accreditation / accreditation body | Pendidikan; Teknologi Maklumat",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "berkuasa": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: accreditation / accreditation body | Pendidikan; Teknologi Maklumat",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "swaakreditasi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: accreditation / accreditation body | Pendidikan; Teknologi Maklumat",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "tempat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: workplace learning | Geografi; Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "ujian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: (work) placement | Pendidikan; Pentadbiran; Sosio",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pakar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: (work) placement | Pendidikan; Pentadbiran; Sosio",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "runding": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: (work) placement | Pendidikan; Pentadbiran; Sosio",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penyurih": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: graduate destination tracking / destination data | Geografi; Kimia; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "ketua": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: principal / deputy principal (academic) / head of  | Pentadbiran; Pentadbiran Awam;",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "jabatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: principal / deputy principal (academic) / head of  | Pentadbiran; Pentadbiran Awam;",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pendaftar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: principal / deputy principal (academic) / head of  | Pentadbiran; Pentadbiran Awam;",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pasaran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: labour market intelligence | Pentadbiran; Ekonomi; Kependud",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pekerja": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: labour market intelligence | Pentadbiran; Ekonomi; Kependud",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pertukangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: trade / trade practitioner | Geografi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "perantisan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: apprenticeship / dual apprenticeship system | Kejuruteraan; Pentadbiran; Pen",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "data": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: safety data sheet (SDS) | Komunikasi Massa; Komputer; Pe",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "helaian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: safety data sheet (SDS) | Komunikasi Massa; Komputer; Pe",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "hierarki": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: hierarchy of controls (eliminate, substitute, engi | Pentadbiran (Pentadbiran Awam)",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pendedahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: workplace exposure limit (WEL) / TWA / STEL | Fizik; Kependudukan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "dedahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: workplace exposure limit (WEL) / TWA / STEL | Fizik; Kependudukan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pengawasan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: health surveillance | Kesihatan Awam; Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "saksi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: professional discussion / witness testimony | Undang-undang, Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "audit": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: audit finding / management response | Ekonomi, Pentadbiran, Kejurute",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "tulen": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: valid / authentic / current / sufficient (evidence | Pendidikan, Kesusasteraan, Und",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "senarai": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: observation checklist / observation record | Pentadbiran, Perubatan, Kepend",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "semakan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: observation checklist / observation record | Pentadbiran, Perubatan, Kepend",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "semak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: observation checklist / observation record | Pentadbiran, Perubatan, Kepend",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "holistik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: holistic rubric | Pendidikan, Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pengelompokan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: evidence clustering | Geografi, Perubatan, Veterinar",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penggugusan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: evidence clustering | Geografi, Perubatan, Veterinar",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pemiawaian": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: standardisation (assessor standardisation) | Komunikasi Massa, Linguistik, ",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penstandardan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: standardisation (assessor standardisation) | Komunikasi Massa, Linguistik, ",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pensampelan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: risk-based sampling / sampling plan | Fizik, Geografi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "persampelan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: risk-based sampling / sampling plan | Fizik, Geografi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "teknik": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: risk-based sampling / sampling plan | Fizik, Geografi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penaksiran": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: end-point assessment | Pendidikan, Pentadbiran, Ekono",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "integriti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: assessment integrity | Pendidikan, Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "keutuhan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: assessment integrity | Pendidikan, Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "membaiki": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: making good | Alam Bina",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kecacatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: making good | Alam Bina",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kuantiti": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: takeoff (estimating) | Alam Bina, Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "jadual": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: takeoff (estimating) | Alam Bina, Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pemulihan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: remedial work | Komputer, Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "galangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: earth fault loop impedance and test-value vocabula | Teknik, Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "gelung": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: earth fault loop impedance and test-value vocabula | Teknik, Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "bumi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: earth fault loop impedance and test-value vocabula | Teknik, Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "rintangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: earth fault loop impedance and test-value vocabula | Teknik, Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penebatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: earth fault loop impedance and test-value vocabula | Teknik, Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "arus": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: earth fault loop impedance and test-value vocabula | Teknik, Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pemutus": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: earth fault loop impedance and test-value vocabula | Teknik, Kejuruteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "tiga": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: tripartite relationship / tripartite review | Sains Politik, Undang-undang, ",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "tripihak": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: tripartite relationship / tripartite review | Sains Politik, Undang-undang, ",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pemadanan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: placement matching | Kependudukan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "laporan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: progress review | Pentadbiran, Perpustakaan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kemajuan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: progress review | Pentadbiran, Perpustakaan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pendanaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: funding claim / funding body | Pentadbiran, Ekonomi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "iltizam": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: commitment statement | Pentadbiran, Pendidikan, Ekono",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "keterikatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: commitment statement | Pentadbiran, Pendidikan, Ekono",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "mentor": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: workplace mentor | Pendidikan, Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penasihat": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: workplace mentor | Pendidikan, Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kebolehan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: knowledge, skills and behaviours (KSB) | Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "tingkah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: knowledge, skills and behaviours (KSB) | Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "laku": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: knowledge, skills and behaviours (KSB) | Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "levi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: apprenticeship levy / levy recovery | Pentadbiran, Ekonomi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pelarasan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: reasonable adjustment | Fizik; Kejuruteraan; Pendidika",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penyekatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: COSHH assessment | Teknologi Hijau; Undang-undang",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pencemar": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: COSHH assessment | Teknologi Hijau; Undang-undang",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "perlindungan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: safeguarding | Kimia; Sains Politik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penyata": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: method statement | Kejuruteraan; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "kenyataan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: method statement | Kejuruteraan; Fizik",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "sumatif": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: end-point assessment (EPA) | Pendidikan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "penyedia": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: training provider | Pentadbiran; Teknologi Makluma",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "perkhidmatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: training provider | Pentadbiran; Teknologi Makluma",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pembekal": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: training provider | Pentadbiran; Teknologi Makluma",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "beban": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: caseload | Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "keterlibatan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: employer engagement | Pengurusan; Kesusasteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "sesi": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: employer engagement | Pengurusan; Kesusasteraan",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "perbincangan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: professional discussion | Pendidikan; Komunikasi",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "testimoni": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: witness testimony | Undang-undang; Sejarah",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "arahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: work order | Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "perintah": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: work order | Pentadbiran",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "cegahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: preventive maintenance (PM) | Kejuruteraan; Komputer; Pentad",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pencegahan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: preventive maintenance (PM) | Kejuruteraan; Komputer; Pentad",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "keadaan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: condition monitoring / condition-based maintenance | Kejuruteraan; Aeroangkasa",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
+ },
+ "pemantauan": {
+  "verdict": "VALID_MALAY",
+  "evidence": "istilah: condition monitoring / condition-based maintenance | Kejuruteraan; Aeroangkasa",
+  "date": "2026-08-29",
+  "source": "prpm istilah (tvet wave pre-pass)"
  }
 }
