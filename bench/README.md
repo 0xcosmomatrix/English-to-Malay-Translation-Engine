@@ -41,3 +41,24 @@ heading and comment (sonnet dropped 3 headings, left ~30 EN stopwords per 10k
 untranslated). Engine's residual banned-vocab (dwi/rubrik/moderasi) tracks
 provisional rulings awaiting the native session, not drift. Engine cost:
 $0.29/book. Adequacy parity separately established on FLORES (see above).
+
+# Rival bake-off + judge calibration (2026-08-31)
+
+Leg C (`judge_calibration.py`): 24 clean segments seeded with one deterministic
+defect each (number swap, negation flip, clause drop, Indonesian lexeme);
+judges vote clean-vs-corrupt blind, both orders. Result: glm-5.3 48/48,
+gpt-5-mini 47/48, deepseek-v4 40/48 (perfect on meaning, 5/12 on the
+Indonesian-register axis — discount its register-only votes). Judges are
+reasoning-mandatory models: gpt-5-mini takes reasoning effort (no temperature),
+glm temperature only.
+
+Head-to-head vs EigenformAI/translation-engine (as-shipped, qwen-plus drafter,
+gemini-flash QC, haiku arbiter, sonnet malay-guard; no per-book terms file, no
+malaya venv): its run ended `blocked` (31/39 converged, 8 dead-lettered incl.
+ch01/ch05/ch06/ch09), ~$4-5 and ~4.5h serial vs our $0.29/35min. Mechanical:
+DNT 66 vs 8, istilah adherence 61.8% vs 96.4%, facts lost+phantom 23 vs 11,
+headings/comments lost 6/23 vs 0/0; contamination par (22.3 vs 21.6 per 10k).
+Calibrated blind panel (`panel_head_to_head.py`, 49 EN-anchored segments, all
+10 chapters, dead-letter text included): segment majority engine 40, rival 0,
+tie 9. Caveats: one book; drafters are cousins (qwen-plus vs qwen3.5); their
+engine judged partly on text its own rules refused to ship.
