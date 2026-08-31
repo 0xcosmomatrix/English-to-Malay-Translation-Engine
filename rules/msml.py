@@ -40,7 +40,7 @@ def nums(s):
     without this, a correct translation earns BOTH a phantom missing fact and a
     phantom invented one, and cosmetics can decide gate selection."""
     s = re.sub(r"(?<=\d),(?=\d{3}(?:\D|$))", "", s)
-    s = re.sub(r"\b(\d{1,2}):(\d{2})\b", r"\1.\2", s)
+    s = re.sub(r"\b(\d{1,2}):(\d{2})(?!\d)", r"\1.\2", s)   # also 3:30pm — 'pm' defeats \b
     return sorted(re.sub(r"[.,]+$", "", m) for m in NUM.findall(s))
 
 # 0-9 may be spelled out per the ms-MY style rule

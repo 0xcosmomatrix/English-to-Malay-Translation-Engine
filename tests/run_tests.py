@@ -302,4 +302,13 @@ _b0 = P.det_reasons(_en, _bad); _b1 = P.det_reasons(_en, _good)
 ok("dnt-loss detected on bad candidate", any("DNT lost" in x for x in _b0), _b0)
 ok("clean candidate clears dnt reasons", not any("DNT lost" in x for x in _b1), _b1)
 
+
+# number-check false positives fixed on the T2-134..137 wave
+ok("Q2 -> suku kedua excused", P.missing_facts("As of Q2 2026, tools shifted.", "Setakat suku kedua 2026, alat berubah.") == [])
+ok("3:30pm time normalizes vs 3.30 petang",
+   P.missing_facts("He finishes at 3:30pm and 4:45pm.", "Beliau siap pada pukul 3.30 petang dan 4.45 petang.") == [])
+
+ok("Hari Pertama spells Day 1", P.missing_facts("Day 1 reflection", "Refleksi Hari Pertama") == [])
+ok("lapan peratus spells 8%", P.missing_facts("only 8% adopted it", "hanya lapan peratus menerimanya") == [])
+
 print(f"\nall {N[0]} regression checks pass")

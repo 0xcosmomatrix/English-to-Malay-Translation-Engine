@@ -81,7 +81,10 @@ _VAR_RX = [(re.compile(M.word_pat(v), re.I),
             v)
            for v, c in VARIANTS]
 _ENNUM_WS = M.WordSet(list(M.EN_NUM))
-_MW_RX = {n: re.compile(M.word_pat(w), re.I) for n, w in M.MW.items()}
+# spelled digit OR its ke- ordinal (Q2 2026 -> "suku kedua 2026")
+_MW_RX = {n: re.compile(M.word_pat(w) + "|" + M.word_pat("ke" + w)
+                        + ("|" + M.word_pat("pertama") if n == "1" else ""), re.I)
+          for n, w in M.MW.items()}   # "Hari Pertama" spells Day 1
 # Context-free human rulings applied mechanically BEFORE gating (sieve tier 3):
 # data-driven from the termbase's autofix flag — never a hardcoded list.
 AUTOFIX = sorted(((v, t["canonical"]) for t in TERMS["terms"] if t.get("autofix")
@@ -293,7 +296,8 @@ def missing_facts(en_b, t, _ne=None, _nt=None):
             if spelled_used[n] < len(_MW_RX[n].findall(t)):
                 spelled_used[n] += 1
                 continue
-        if n.endswith("%") and re.search(rf"(?<![\d.,]){re.escape(n[:-1])}\s*(?:%|peratus\b)", t, re.I):
+        if n.endswith("%") and (re.search(rf"(?<![\d.,]){re.escape(n[:-1])}\s*(?:%|peratus\b)", t, re.I)
+                                or (n[:-1] in MW and re.search(M.word_pat(MW[n[:-1]]) + r"\s*peratus", t, re.I))):
             # left digit boundary: '15 peratus' must not excuse a dropped '5%'
             continue
         if re.fullmatch(r"\d+\.5", n) and has_word(t, "setengah"):

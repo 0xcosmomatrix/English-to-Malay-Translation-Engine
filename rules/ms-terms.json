@@ -1064,6 +1064,14 @@
    "batch": "catalogue-wave-2026-08-29",
    "question": "PRPM Komunikasi Massa sanctions 'perasian warna' (2 rows) over 'koreksi warna' (koreksi reads Indonesian), but perasian is opaque to lay readers; reviewer may prefer the common 'pembetulan warna' for a training catalogue.",
    "status": "open"
+  },
+  {
+   "en": "assessment (education register)",
+   "current": "pentaksiran",
+   "batch": "wave-t2-134-137",
+   "status": "open",
+   "question": "T2-135 uses 'pentaksiran' where the termbase prefers another variant; ruled forms elsewhere use 'penilaian'/'taksiran'. Which is house standard for competency assessment?",
+   "context": "<!-- UPDATE type=\"regulation\" trigger=\"quarterly\" verified=\"2026-06\" -->\nPenilaian perantisan — yang sebelum ini dikenali sebagai penilaian titik akhir (*end-point assessment* atau EPA), dan kini dina"
   }
  ]
 }
