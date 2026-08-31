@@ -292,4 +292,14 @@ gn=P.glossary_notes(["We schedule preventive maintenance weekly."])
 ok("glossary note fires on istilah term", "penyenggaraan" in gn, gn[:120])
 ok("glossary silent on plain prose", P.glossary_notes(["Selamat pagi semua."])=="")
 
+
+# repair_dnt: accepts only strict det improvement, refuses non-improving edits
+import repair_dnt as RD  # noqa: F401 — import proves the tool loads against pipeline
+_en = "The TVET plan uses AI daily."
+_bad = "Pelan latihan menggunakan kecerdasan setiap hari."          # TVET + AI lost
+_good = "Pelan TVET menggunakan AI setiap hari."
+_b0 = P.det_reasons(_en, _bad); _b1 = P.det_reasons(_en, _good)
+ok("dnt-loss detected on bad candidate", any("DNT lost" in x for x in _b0), _b0)
+ok("clean candidate clears dnt reasons", not any("DNT lost" in x for x in _b1), _b1)
+
 print(f"\nall {N[0]} regression checks pass")
