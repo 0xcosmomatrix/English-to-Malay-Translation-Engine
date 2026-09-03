@@ -261,6 +261,98 @@
    "autofix": true,
    "why": "KD4 labels 'kompeten' IB ('cekap, layak'). Applied as a v3 repair 2026-08-28 but never promoted — v4 regression proved the gap. 'kompetensi' (noun) is untouched: separate word, standard in TVET.",
    "source": "corpus-audit+PRPM, promoted 2026-08-29"
+  },
+  {
+   "en": "AI-assisted",
+   "ms": "berbantu AI",
+   "avoid": [
+    "berbantukan AI"
+   ],
+   "autofix": true,
+   "why": "R1 image review 2026-09-03, operator-ratified (R1-weighted): house voice is 'berbantu AI' everywhere"
+  },
+  {
+   "en": "workflow",
+   "ms": "aliran kerja",
+   "avoid": [
+    "alur kerja"
+   ],
+   "autofix": true,
+   "why": "R1: T2-133 standard; new books drifted to 'alur kerja'"
+  },
+  {
+   "en": "electrician",
+   "ms": "juruelektrik",
+   "avoid": [
+    "tukang elektrik",
+    "ahli elektrik"
+   ],
+   "autofix": true,
+   "why": "R1: occupational title, matches book prose"
+  },
+  {
+   "en": "skill stack",
+   "ms": "tindanan kemahiran",
+   "avoid": [
+    "timbunan kemahiran"
+   ],
+   "autofix": true,
+   "why": "R1+bench question resolved: Tindanan per T2-133"
+  },
+  {
+   "en": "engagement/involvement",
+   "ms": "penglibatan",
+   "avoid": [
+    "keterlibatan"
+   ],
+   "autofix": true,
+   "why": "R1+R2 agree; keterlibatan leans Indonesian"
+  },
+  {
+   "en": "agent (AI)",
+   "ms": "ejen",
+   "avoid": [
+    "agen"
+   ],
+   "autofix": true,
+   "why": "R1: Kamus Dewan spelling"
+  },
+  {
+   "en": "peer",
+   "ms": "rakan setara",
+   "avoid": [
+    "rakan sebaya"
+   ],
+   "autofix": true,
+   "why": "R1: sebaya = same age; setara = professional peer"
+  },
+  {
+   "en": "quick win",
+   "ms": "kejayaan pantas",
+   "avoid": [
+    "hasil cepat",
+    "kemenangan awal"
+   ],
+   "autofix": true,
+   "why": "R1: standardized rendering"
+  },
+  {
+   "en": "review (noun, checking)",
+   "ms": "semakan",
+   "avoid": [
+    "ulasan (in review-cycle sense)"
+   ],
+   "autofix": false,
+   "why": "R1: ulasan = commentary; semakan = review/check. Context-dependent, no autofix"
+  },
+  {
+   "en": "trend",
+   "ms": "trend",
+   "avoid": [
+    "tren"
+   ],
+   "autofix": true,
+   "why": "AUTHORITY HOLD vs R1: dictionary + catalogue verification + R2; 'tren' rejected as Indonesian spelling"
   }
  ],
  "distinct": [
@@ -1072,6 +1164,27 @@
    "status": "open",
    "question": "T2-135 uses 'pentaksiran' where the termbase prefers another variant; ruled forms elsewhere use 'penilaian'/'taksiran'. Which is house standard for competency assessment?",
    "context": "<!-- UPDATE type=\"regulation\" trigger=\"quarterly\" verified=\"2026-06\" -->\nPenilaian perantisan — yang sebelum ini dikenali sebagai penilaian titik akhir (*end-point assessment* atau EPA), dan kini dina"
+  },
+  {
+   "en": "alignment (with standards)",
+   "current": "keselarasan / penjajaran (split)",
+   "batch": "image-cycle-2026-09-03",
+   "status": "open",
+   "question": "R2 (cycle 1) had penjajaran->keselarasan in T2-133; R1 (cycle 2) asks keselarasan->penjajaran in T2-137. One catalogue-wide form needed."
+  },
+  {
+   "en": "standard(s)",
+   "current": "standard / piawaian / piawai (split)",
+   "batch": "image-cycle-2026-09-03",
+   "status": "open",
+   "question": "R1 uses all three across diagrams; pick one default and allowed exceptions."
+  },
+  {
+   "en": "quality (family: jaminan/kawalan/peningkatan mutu vs kualiti)",
+   "current": "jaminan mutu (PRPM istilah) vs pengurusan kualiti (ratified)",
+   "batch": "image-cycle-2026-09-03",
+   "status": "open",
+   "question": "Panel ratified 'pengurusan kualiti'; R1 wants full kualiti family; PRPM istilah says 'jaminan mutu'/'kawalan mutu'. Decide whole family once."
   }
  ]
 }
