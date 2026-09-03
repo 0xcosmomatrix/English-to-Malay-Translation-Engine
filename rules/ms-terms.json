@@ -264,95 +264,95 @@
   },
   {
    "en": "AI-assisted",
-   "ms": "berbantu AI",
-   "avoid": [
-    "berbantukan AI"
-   ],
    "autofix": true,
-   "why": "R1 image review 2026-09-03, operator-ratified (R1-weighted): house voice is 'berbantu AI' everywhere"
+   "why": "R1 image review 2026-09-03, operator-ratified (R1-weighted): house voice is 'berbantu AI' everywhere",
+   "canonical": "berbantu AI",
+   "variants": [
+    "berbantukan AI"
+   ]
   },
   {
    "en": "workflow",
-   "ms": "aliran kerja",
-   "avoid": [
-    "alur kerja"
-   ],
    "autofix": true,
-   "why": "R1: T2-133 standard; new books drifted to 'alur kerja'"
+   "why": "R1: T2-133 standard; new books drifted to 'alur kerja'",
+   "canonical": "aliran kerja",
+   "variants": [
+    "alur kerja"
+   ]
   },
   {
    "en": "electrician",
-   "ms": "juruelektrik",
-   "avoid": [
+   "autofix": true,
+   "why": "R1: occupational title, matches book prose",
+   "canonical": "juruelektrik",
+   "variants": [
     "tukang elektrik",
     "ahli elektrik"
-   ],
-   "autofix": true,
-   "why": "R1: occupational title, matches book prose"
+   ]
   },
   {
    "en": "skill stack",
-   "ms": "tindanan kemahiran",
-   "avoid": [
-    "timbunan kemahiran"
-   ],
    "autofix": true,
-   "why": "R1+bench question resolved: Tindanan per T2-133"
+   "why": "R1+bench question resolved: Tindanan per T2-133",
+   "canonical": "tindanan kemahiran",
+   "variants": [
+    "timbunan kemahiran"
+   ]
   },
   {
    "en": "engagement/involvement",
-   "ms": "penglibatan",
-   "avoid": [
-    "keterlibatan"
-   ],
    "autofix": true,
-   "why": "R1+R2 agree; keterlibatan leans Indonesian"
+   "why": "R1+R2 agree; keterlibatan leans Indonesian",
+   "canonical": "penglibatan",
+   "variants": [
+    "keterlibatan"
+   ]
   },
   {
    "en": "agent (AI)",
-   "ms": "ejen",
-   "avoid": [
-    "agen"
-   ],
    "autofix": true,
-   "why": "R1: Kamus Dewan spelling"
+   "why": "R1: Kamus Dewan spelling",
+   "canonical": "ejen",
+   "variants": [
+    "agen"
+   ]
   },
   {
    "en": "peer",
-   "ms": "rakan setara",
-   "avoid": [
-    "rakan sebaya"
-   ],
    "autofix": true,
-   "why": "R1: sebaya = same age; setara = professional peer"
+   "why": "R1: sebaya = same age; setara = professional peer",
+   "canonical": "rakan setara",
+   "variants": [
+    "rakan sebaya"
+   ]
   },
   {
    "en": "quick win",
-   "ms": "kejayaan pantas",
-   "avoid": [
+   "autofix": true,
+   "why": "R1: standardized rendering",
+   "canonical": "kejayaan pantas",
+   "variants": [
     "hasil cepat",
     "kemenangan awal"
-   ],
-   "autofix": true,
-   "why": "R1: standardized rendering"
+   ]
   },
   {
    "en": "review (noun, checking)",
-   "ms": "semakan",
-   "avoid": [
-    "ulasan (in review-cycle sense)"
-   ],
    "autofix": false,
-   "why": "R1: ulasan = commentary; semakan = review/check. Context-dependent, no autofix"
+   "why": "R1: ulasan = commentary; semakan = review/check. Context-dependent, no autofix",
+   "canonical": "semakan",
+   "variants": [
+    "ulasan (in review-cycle sense)"
+   ]
   },
   {
    "en": "trend",
-   "ms": "trend",
-   "avoid": [
-    "tren"
-   ],
    "autofix": true,
-   "why": "AUTHORITY HOLD vs R1: dictionary + catalogue verification + R2; 'tren' rejected as Indonesian spelling"
+   "why": "AUTHORITY HOLD vs R1: dictionary + catalogue verification + R2; 'tren' rejected as Indonesian spelling",
+   "canonical": "trend",
+   "variants": [
+    "tren"
+   ]
   }
  ],
  "distinct": [
