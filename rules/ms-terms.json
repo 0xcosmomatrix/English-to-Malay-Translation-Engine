@@ -358,11 +358,21 @@
    "en": "college leader",
    "canonical": "pemimpin kolej",
    "variants": [
-    "peneraju kolej",
-    "ketua kolej"
+    "peneraju kolej"
    ],
    "why": "T2-134's own title is 'AI+ Pemimpin Kolej TVET' (cover, spec, title page); the body drifted across pemimpin/peneraju/ketua (16/8/3). 'ketua' may be a literal head-of-college in context, so flag only.",
    "note": "2026-09-07 title-chain consistency"
+  },
+  {
+   "en": "principal (college head)",
+   "canonical": "pengetua",
+   "variants": [
+    "prinsipal",
+    "ketua kolej"
+   ],
+   "autofix": true,
+   "why": "Operator ruling 2026-09-07. T2-134 had rendered 'principal' three ways (pengetua ×10, prinsipal ×12, ketua kolej ×2); pengetua is the DBP head-of-institution term.",
+   "note": "ketua kolej moved here from the 'college leader' rule — it means the principal, not leadership generally"
   }
  ],
  "distinct": [
