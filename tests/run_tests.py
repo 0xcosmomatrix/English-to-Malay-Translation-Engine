@@ -311,4 +311,11 @@ ok("3:30pm time normalizes vs 3.30 petang",
 ok("Hari Pertama spells Day 1", P.missing_facts("Day 1 reflection", "Refleksi Hari Pertama") == [])
 ok("lapan peratus spells 8%", P.missing_facts("only 8% adopted it", "hanya lapan peratus menerimanya") == [])
 
+# framework letter expansions keep the English keyword (mnemonic guard, 2026-09-07)
+en_m = "**H — Hazard and workshop data.** Does this AI use involve safety-critical content?"
+ok("mnemonic keyword lost is flagged", any("mnemonic keyword lost" in r for r in P.det_reasons(en_m, "**H — Bahaya dan data bengkel.** Adakah penggunaan AI ini melibatkan kandungan kritikal keselamatan?")))
+ok("mnemonic keyword kept with gloss is clean", not any("mnemonic" in r for r in P.det_reasons(en_m, "**H — Hazard and workshop data (Bahaya dan data bengkel).** Adakah penggunaan AI ini melibatkan kandungan kritikal keselamatan?")))
+ok("heading form: ## Q — Quality and Accreditation Readiness", any("mnemonic" in r for r in P.det_reasons("## Q — Quality and Accreditation Readiness", "## Q — Kesediaan Kualiti dan Akreditasi")))
+ok("prose dash is not a mnemonic", not any("mnemonic" in r for r in P.det_reasons("A — the first option — is cheaper.", "A — pilihan pertama — lebih murah.")))
+
 print(f"\nall {N[0]} regression checks pass")

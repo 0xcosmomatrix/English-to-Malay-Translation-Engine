@@ -314,6 +314,23 @@ def invented_facts(en_b, t, _ne=None, _nt=None):
     tv = set(_nt if _nt is not None else nums(t))
     return [n for n in tv if n not in en_vals and n.rstrip("%") not in en_vals]
 
+# Framework letter expansions — "H — Hazard and workshop data" — are the one place a
+# translation must keep an English word: the letter tile is meaningless otherwise.
+# The rewrite prompt has asked for "English word (Malay gloss)" since 2026-08-29 and
+# three books still shipped Malay-only expansions; an instruction without a gate
+# does not hold. Line-initial "X — Words" in the English is treated as a mnemonic
+# expansion by construction; the words must survive verbatim in the candidate.
+_MNEMO_RX = re.compile(r"^(?:#{1,4} |\*\*|- \*\*|\d+\. \*\*|- )?([A-Z]) — ([A-Z][A-Za-z][^\n(:.*—]{1,60}?)\s*(?:[(:.*]|$)", re.M)
+
+def mnemonic_lost(en_b, cand):
+    out = []
+    for m in _MNEMO_RX.finditer(en_b):
+        exp = m.group(2).strip()
+        if len(exp.split()) > 8 or exp.lower() not in cand.lower():
+            if len(exp.split()) <= 8:
+                out.append(f"{m.group(1)} — {exp}")
+    return out
+
 def det_reasons(en_b, cand):
     """Rule violations of one candidate measured against the ENGLISH + the verified
     rules layer. Never measured against a sibling draft.
@@ -343,6 +360,8 @@ def det_reasons(en_b, cand):
         if n > 0:
             tv.append(v)
     if tv: reasons.append(f"term variant: {tv[:3]}")
+    ml = mnemonic_lost(en_b, cand)
+    if ml: reasons.append(f"mnemonic keyword lost: {ml[:3]}")
     return reasons
 
 def meaning_gate(model, en_b, rw_b):
