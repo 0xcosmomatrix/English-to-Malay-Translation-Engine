@@ -88,6 +88,10 @@ Production-shaped and instrumented, human-in-the-loop by design:
 python3 pipeline/pipeline.py run chapter.md --out out/ --config budget
 python3 pipeline/run_book.py corpus/private/en --out out/ --jobs 3
 
+# bilingual prompt bodies (ruling 2026-09-07): Malay first, English original beneath;
+# the Malay body passes the full sieve, fail-toward-source keeps English as a single fence
+python3 pipeline/bilingual_prompts.py <bundle-dir>
+
 # apply context-free rulings to residual sites (verified, rollback-on-non-improvement)
 python3 pipeline/repair.py out/
 
