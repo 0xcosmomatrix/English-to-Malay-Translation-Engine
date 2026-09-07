@@ -11,7 +11,8 @@
   "2026-08-29 catalogue-wide: +64 corpus-attested framework mnemonics from the 329-book harvest (each with a quoted letter-by-letter expansion; includes established professional mnemonics SOAP/PICO/GRADE/SMART which must equally stay verbatim).",
   "2026-09-03: +ENGAGE/HONE/NAVIGATE/HANDS — BENCH/HANDS framework card names, letter-mapped, must stay verbatim (missed by the corpus-attestation harvest).",
   "2026-09-04: removed 'AI+ Series'/'AI+ Community'/'AI+ Editorial Team' — descriptive entity names that legitimately reorder in Malay (shipped precedent: 'Siri AI+', 'Komuniti AI+'). True catalogue titles stay verbatim.",
-  "2026-09-07: publisher entity names — 'Straits Institute for Applied AI', 'Straits AI Group' — stay verbatim (back covers were rendering them as 'Institut AI Gunaan Selat' / 'Institut Straits untuk AI Gunaan', two different names for one publisher)."
+  "2026-09-07: publisher entity names — 'Straits Institute for Applied AI', 'Straits AI Group' — stay verbatim (back covers were rendering them as 'Institut AI Gunaan Selat' / 'Institut Straits untuk AI Gunaan', two different names for one publisher).",
+  "2026-09-07: 'AI+ Library'/'AI+ Certified'/'AI+ Learning App' removed — descriptive product names that reorder in Malay like 'Siri AI+' (shipped T2-133 precedent renders 'AI+ Learning App' as 'Aplikasi Pembelajaran AI+'). Catalogue book titles stay verbatim."
  ],
  "tokens": [
   "ADAPT",
@@ -168,7 +169,6 @@
   "AI+ Case Management",
   "AI+ Cataloguing & Metadata",
   "AI+ Cataloguing & Metadata Workbook",
-  "AI+ Certified",
   "AI+ Change Management",
   "AI+ Chemical & Process Engineers",
   "AI+ Civil Engineers",
@@ -296,14 +296,12 @@
   "AI+ Lawyers Workbook",
   "AI+ Leadership",
   "AI+ Leadership Workbook",
-  "AI+ Learning App",
   "AI+ Legal Practice Leaders",
   "AI+ Lesson Planning",
   "AI+ Lesson Planning Workbook",
   "AI+ Librarians",
   "AI+ Librarians (South Africa)",
   "AI+ Librarians Workbook",
-  "AI+ Library",
   "AI+ Logistics Professionals",
   "AI+ Luxury Retailers",
   "AI+ Management Consultants",
