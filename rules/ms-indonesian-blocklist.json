@@ -5068,6 +5068,11 @@
    "ms": "penderiaan jauh",
    "avoid_id": "penginderaan jauh",
    "provenance": "mabbim-column"
+  },
+  {
+   "en": "intelligence (information gathered)",
+   "ms": "maklumat / risikan",
+   "avoid_id": "intelijen"
   }
  ],
  "enforce": [
