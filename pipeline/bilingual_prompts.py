@@ -30,7 +30,12 @@ FENCE = re.compile(r"```prompt\n(.*?)```", re.S)
 
 def process(md, cfg, log):
     fences = list(FENCE.finditer(md))
-    todo = [m for m in fences if not md[max(0, m.start() - 60):m.start()].rstrip().endswith(LABEL)]
+    # idempotent: a fence preceded by the label is the English original; a fence FOLLOWED by
+    # the label is an already-translated Malay body — neither is a source (a trial run once
+    # re-translated a Malay body into a second Malay body)
+    todo = [m for m in fences
+            if not md[max(0, m.start() - 60):m.start()].rstrip().endswith(LABEL)
+            and not md[m.end():m.end() + 40].lstrip().startswith(LABEL)]
     if not todo:
         return md, 0, []
     bodies = [m.group(1).rstrip("\n") for m in todo]
