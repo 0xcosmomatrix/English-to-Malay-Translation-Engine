@@ -353,6 +353,16 @@
    "variants": [
     "tren"
    ]
+  },
+  {
+   "en": "college leader",
+   "canonical": "pemimpin kolej",
+   "variants": [
+    "peneraju kolej",
+    "ketua kolej"
+   ],
+   "why": "T2-134's own title is 'AI+ Pemimpin Kolej TVET' (cover, spec, title page); the body drifted across pemimpin/peneraju/ketua (16/8/3). 'ketua' may be a literal head-of-college in context, so flag only.",
+   "note": "2026-09-07 title-chain consistency"
   }
  ],
  "distinct": [
