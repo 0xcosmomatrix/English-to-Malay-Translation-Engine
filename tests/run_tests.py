@@ -317,5 +317,9 @@ ok("mnemonic keyword lost is flagged", any("mnemonic keyword lost" in r for r in
 ok("mnemonic keyword kept with gloss is clean", not any("mnemonic" in r for r in P.det_reasons(en_m, "**H — Hazard and workshop data (Bahaya dan data bengkel).** Adakah penggunaan AI ini melibatkan kandungan kritikal keselamatan?")))
 ok("heading form: ## Q — Quality and Accreditation Readiness", any("mnemonic" in r for r in P.det_reasons("## Q — Quality and Accreditation Readiness", "## Q — Kesediaan Kualiti dan Akreditasi")))
 ok("prose dash is not a mnemonic", not any("mnemonic" in r for r in P.det_reasons("A — the first option — is cheaper.", "A — pilihan pertama — lebih murah.")))
+ok("keyword inside an INDEX comment does not satisfy the guard", any("mnemonic" in r for r in P.det_reasons("- **R — <!-- INDEX: PRISM > Request component -->Request.** What are you asking?", "- **R — <!-- INDEX: PRISM > Request component -->Permintaan.** Apakah yang anda minta?")))
+ok("keyword kept beside the INDEX comment is clean", not any("mnemonic" in r for r in P.det_reasons("- **R — <!-- INDEX: PRISM > Request component -->Request.** What are you asking?", "- **R — <!-- INDEX: PRISM > Request component -->Request (Permintaan).** Apakah yang anda minta?")))
+ok("bold-initial keyword translated away is flagged", any("mnemonic" in r for r in P.det_reasons("**P**ersona, **R**equest, **I**ntent", "**P**ersona, **R**emohonan, **I**ntent")))
+ok("bold-initial keyword kept with gloss is clean", not any("mnemonic" in r for r in P.det_reasons("**P**ersona, **R**equest, **I**ntent", "**P**ersona, **R**equest (Permintaan), **I**ntent (Niat)")))
 
 print(f"\nall {N[0]} regression checks pass")

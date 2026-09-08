@@ -322,13 +322,24 @@ def invented_facts(en_b, t, _ne=None, _nt=None):
 # expansion by construction; the words must survive verbatim in the candidate.
 _MNEMO_RX = re.compile(r"^(?:#{1,4} |\*\*|- \*\*|\d+\. \*\*|- )?([A-Z]) — ([A-Z][A-Za-z][^\n(:.*—]{1,60}?)\s*(?:[(:.*]|$)", re.M)
 
+_BOLD_LETTER_RX = re.compile(r"\*\*([A-Z])\*\*([a-z]{2,})")
+_COMMENT_RX = re.compile(r"<!--.*?-->", re.S)
+
 def mnemonic_lost(en_b, cand):
+    # Compare against the candidate with HTML comments removed: an INDEX mark such as
+    # <!-- INDEX: PRISM > Request component --> carries the English keyword and would
+    # otherwise satisfy the check while the visible label had been translated away.
+    cand_vis = _COMMENT_RX.sub("", cand).lower()
     out = []
     for m in _MNEMO_RX.finditer(en_b):
         exp = m.group(2).strip()
-        if len(exp.split()) > 8 or exp.lower() not in cand.lower():
-            if len(exp.split()) <= 8:
-                out.append(f"{m.group(1)} — {exp}")
+        if len(exp.split()) <= 8 and exp.lower() not in cand_vis:
+            out.append(f"{m.group(1)} — {exp}")
+    # Bold-initial form: **P**ersona, **R**equest — the keyword must survive as written.
+    for m in _BOLD_LETTER_RX.finditer(en_b):
+        kw = m.group(0)
+        if kw not in cand:
+            out.append(f"{m.group(1)}{m.group(2)}")
     return out
 
 def det_reasons(en_b, cand):

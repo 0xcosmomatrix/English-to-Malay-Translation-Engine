@@ -373,6 +373,81 @@
    "autofix": true,
    "why": "Operator ruling 2026-09-07. T2-134 had rendered 'principal' three ways (pengetua ×10, prinsipal ×12, ketua kolej ×2); pengetua is the DBP head-of-institution term.",
    "note": "ketua kolej moved here from the 'college leader' rule — it means the principal, not leadership generally"
+  },
+  {
+   "en": "patron (library user)",
+   "canonical": "pengguna",
+   "variants": [
+    "pelanggan",
+    "penaung",
+    "patron"
+   ],
+   "autofix": false,
+   "why": "T2-66 (Librarians) rendered 'patron' four ways (pengguna ×94, pengguna perpustakaan ×83, pelanggan ×45, penaung ×7). Perpustakaan Negara Malaysia usage is 'pengguna perpustakaan'; PRPM: penaung = protector/sponsor (wrong sense), pelanggan = paying customer.",
+   "note": "Not autofixed: 'pelanggan' is correct where the English says customer/client. Apply block-aligned (English block contains 'patron', no customer/client). 'pengguna perpustakaan' on first mention is fine."
+  },
+  {
+   "en": "weeding (collection)",
+   "canonical": "penyiangan",
+   "variants": [
+    "penyingkiran",
+    "weeding",
+    "pelupusan"
+   ],
+   "autofix": false,
+   "why": "T2-66 mixed penyingkiran ×8 with untranslated 'weeding' ×5. PRPM istilah (Perpustakaan) lists penyiangan for collection weeding; penyingkiran is generic removal.",
+   "note": "Not autofixed: penyingkiran is right for 'removal' elsewhere. Apply block-aligned where the English block contains 'weed'."
+  },
+  {
+   "en": "subject heading",
+   "canonical": "tajuk perkara",
+   "variants": [
+    "tajuk subjek"
+   ],
+   "autofix": true,
+   "why": "DBP/PNM cataloguing istilah is 'tajuk perkara' (e.g. Library of Congress Subject Headings = Tajuk Perkara Library of Congress); the engine produced 'tajuk subjek' ×21 in T2-66. Context-free: 'tajuk subjek' has no other reading.",
+   "note": "2026-09-08 house ruling pending operator confirmation (see open_questions)."
+  },
+  {
+   "en": "cataloguing",
+   "canonical": "pengkatalogan",
+   "variants": [
+    "pematalogan",
+    "pengkatalogkan"
+   ],
+   "autofix": true,
+   "why": "PRPM Kamus Dewan: pengkatalogan. 'pematalogan' is a malformed draft form seen in T2-66 ch02."
+  },
+  {
+   "en": "hallucination (AI)",
+   "canonical": "halusinasi",
+   "variants": [
+    "hallucination",
+    "hallucinations"
+   ],
+   "autofix": true,
+   "why": "PRPM Kamus Dewan: halusinasi. T2-66 left 'hallucination' untranslated twice; 'rekaan' remains acceptable where the English says fabricated/made-up."
+  },
+  {
+   "en": "smart / smarter (title and cover sense)",
+   "canonical": "pintar",
+   "variants": [
+    "cerdas"
+   ],
+   "autofix": false,
+   "why": "Catalogue consistency: T2-136/T2-137 subtitles already carry 'Lebih Pintar' for 'Smarter'; T2-66's title page came out 'Lebih Cerdas'. 'bijak' (wise) stays where the English means judicious.",
+   "note": "Applied to the title chain (010 title page, spec, books.csv, 020) only; body prose not rewritten. Operator confirmation requested 2026-09-08."
+  },
+  {
+   "en": "Curate–Discover–Serve cycle (T2-66 framework name)",
+   "canonical": "Kurasi–Penemuan–Perkhidmatan",
+   "variants": [
+    "Kurasi–Temui–Hidmat",
+    "Kurasi–Terokai–Layani"
+   ],
+   "autofix": false,
+   "why": "The book's organising cycle; the engine rendered it Kurasi–Penemuan–Perkhidmatan ×8 and Kurasi–Temui–Hidmat ×1 and left it English ×4. One form, matching the title page verbs (Mengkurasi, Menemui, Memberi Perkhidmatan).",
+   "note": "Applied block-aligned in T2-66; the English form stays only inside INDEX/DIAGRAM comments until the index pass replaces them."
   }
  ],
  "distinct": [
@@ -1205,6 +1280,12 @@
    "batch": "image-cycle-2026-09-03",
    "status": "open",
    "question": "Panel ratified 'pengurusan kualiti'; R1 wants full kualiti family; PRPM istilah says 'jaminan mutu'/'kawalan mutu'. Decide whole family once."
+  },
+  {
+   "term": "subject heading / smarter (T2-66)",
+   "status": "open",
+   "asked": "2026-09-08",
+   "question": "Confirm 'tajuk perkara' (DBP/PNM) over the engine's 'tajuk subjek', and 'pintar' over 'cerdas' for 'smarter' in the T2-66 title chain."
   }
  ]
 }
