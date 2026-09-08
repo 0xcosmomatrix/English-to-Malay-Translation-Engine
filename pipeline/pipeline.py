@@ -371,6 +371,11 @@ def det_reasons(en_b, cand):
         if n > 0:
             tv.append(v)
     if tv: reasons.append(f"term variant: {tv[:3]}")
+    # Index sub-entries ("head > sub") must keep their separator: the models tend to
+    # flatten "diversity audit > collection" into one phrase, which the index builder
+    # then files as a new top-level heading.
+    if en_b.count(" > ") and cand.count(" > ") != en_b.count(" > "):
+        reasons.append(f"index sub-entry separator lost: {en_b.count(' > ')} '>' in source, {cand.count(' > ')} in candidate")
     ml = mnemonic_lost(en_b, cand)
     if ml: reasons.append(f"mnemonic keyword lost: {ml[:3]}")
     return reasons

@@ -158,12 +158,14 @@
    "canonical": "prom",
    "variants": [
     "prompt",
-    "gesaan"
+    "gesaan",
+    "gerak isyarat",
+    "Gerak Isyarat"
    ],
    "why": "DBP istilah; requested by native reviewer (flag #14), ruled by operator 2026-08-28. Panel judges split on it (2 read 'prom' as typo, 1 cited DBP guidelines) — ruling is authority-based, not preference-based.",
    "source": "operator-ruling-2026-08-28",
    "autofix": true,
-   "note": "2026-09-08: 'gesaan' added — T2-66 back cover drafted it ×12."
+   "note": "2026-09-08: 'gesaan' added — T2-66 back cover drafted it ×12. 'gerak isyarat' (gesture) is what the draft models produce for 'prompt' inside DIAGRAM descriptions (T2-66 10-01/10-02)."
   },
   {
    "en": "natural language",

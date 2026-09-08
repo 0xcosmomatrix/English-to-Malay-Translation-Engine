@@ -321,5 +321,8 @@ ok("keyword inside an INDEX comment does not satisfy the guard", any("mnemonic" 
 ok("keyword kept beside the INDEX comment is clean", not any("mnemonic" in r for r in P.det_reasons("- **R — <!-- INDEX: PRISM > Request component -->Request.** What are you asking?", "- **R — <!-- INDEX: PRISM > Request component -->Request (Permintaan).** Apakah yang anda minta?")))
 ok("bold-initial keyword translated away is flagged", any("mnemonic" in r for r in P.det_reasons("**P**ersona, **R**equest, **I**ntent", "**P**ersona, **R**emohonan, **I**ntent")))
 ok("bold-initial keyword kept with gloss is clean", not any("mnemonic" in r for r in P.det_reasons("**P**ersona, **R**equest, **I**ntent", "**P**ersona, **R**equest (Permintaan), **I**ntent (Niat)")))
+ok("index sub-entry separator lost is flagged", any("sub-entry" in r for r in P.det_reasons("diversity audit > collection", "audit kepelbagaian koleksi")))
+ok("index sub-entry separator kept is clean", not any("sub-entry" in r for r in P.det_reasons("diversity audit > collection", "audit kepelbagaian > koleksi")))
+ok("autofix: gerak isyarat → prom", P.apply_autofix("Tulis gerak isyarat anda") == "Tulis prom anda")
 
 print(f"\nall {N[0]} regression checks pass")
