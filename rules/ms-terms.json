@@ -157,11 +157,13 @@
    "en": "prompt",
    "canonical": "prom",
    "variants": [
-    "prompt"
+    "prompt",
+    "gesaan"
    ],
    "why": "DBP istilah; requested by native reviewer (flag #14), ruled by operator 2026-08-28. Panel judges split on it (2 read 'prom' as typo, 1 cited DBP guidelines) — ruling is authority-based, not preference-based.",
    "source": "operator-ruling-2026-08-28",
-   "autofix": true
+   "autofix": true,
+   "note": "2026-09-08: 'gesaan' added — T2-66 back cover drafted it ×12."
   },
   {
    "en": "natural language",
